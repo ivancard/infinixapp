@@ -24,6 +24,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Black</string>
+		<string>Montserrat-Medium</string>
+		<string>Monserrat-Regular</string>
+		<string>Montserrat-Bold</string>
 	</array>
 </dict>
 </plist>
