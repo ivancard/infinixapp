@@ -12,6 +12,9 @@
 		FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06F28C8F96400A66B78 /* Montserrat-Medium.ttf */; };
 		FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07128C8FC4E00A66B78 /* Montserrat-Regular.ttf */; };
 		FC58B07428C9037000A66B78 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */; };
+		FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07628C91C1E00A66B78 /* StyleFunctions.swift */; };
+		FC58B07A28C91FF800A66B78 /* registerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07828C91FF800A66B78 /* registerView.swift */; };
+		FC58B07B28C91FF800A66B78 /* registerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07928C91FF800A66B78 /* registerView.xib */; };
 		FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60702C28C7D3F000424A33 /* AppDelegate.swift */; };
 		FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60702E28C7D3F000424A33 /* SceneDelegate.swift */; };
 		FC60703128C7D3F000424A33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60703028C7D3F000424A33 /* ViewController.swift */; };
@@ -29,6 +32,9 @@
 		FC58B06F28C8F96400A66B78 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../assets/fonts/Montserrat/static/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		FC58B07128C8FC4E00A66B78 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../assets/fonts/Montserrat/static/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		FC58B07628C91C1E00A66B78 /* StyleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleFunctions.swift; sourceTree = "<group>"; };
+		FC58B07828C91FF800A66B78 /* registerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerView.swift; sourceTree = "<group>"; };
+		FC58B07928C91FF800A66B78 /* registerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = registerView.xib; sourceTree = "<group>"; };
 		FC60702928C7D3F000424A33 /* artppl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = artppl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC60702C28C7D3F000424A33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC60702E28C7D3F000424A33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC58B07528C91BCC00A66B78 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC58B07628C91C1E00A66B78 /* StyleFunctions.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		FC60702028C7D3F000424A33 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +88,7 @@
 			children = (
 				FC60704528C7E87500424A33 /* fonts */,
 				FC60704028C7E01300424A33 /* view */,
+				FC58B07528C91BCC00A66B78 /* controller */,
 				FC60702C28C7D3F000424A33 /* AppDelegate.swift */,
 				FC60702E28C7D3F000424A33 /* SceneDelegate.swift */,
 				FC60703028C7D3F000424A33 /* ViewController.swift */,
@@ -92,6 +107,8 @@
 				FC60704228C7E09200424A33 /* welcomeSliderView.xib */,
 				FC58B06B28C8F5E100A66B78 /* loginView.swift */,
 				FC58B06C28C8F5E100A66B78 /* loginView.xib */,
+				FC58B07828C91FF800A66B78 /* registerView.swift */,
+				FC58B07928C91FF800A66B78 /* registerView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -166,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
+				FC58B07B28C91FF800A66B78 /* registerView.xib in Resources */,
 				FC58B06E28C8F5E100A66B78 /* loginView.xib in Resources */,
 				FC60704428C7E09200424A33 /* welcomeSliderView.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
@@ -187,7 +205,9 @@
 				FC60704328C7E09200424A33 /* welcomeSliderView.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* loginView.swift in Sources */,
+				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
+				FC58B07A28C91FF800A66B78 /* registerView.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
