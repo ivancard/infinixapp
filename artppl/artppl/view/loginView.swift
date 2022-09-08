@@ -35,7 +35,7 @@ class loginView: UIViewController,UITextFieldDelegate{
 
 }
 
-extension loginView: UITextViewDelegate{
+extension loginView{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return textFieldEmail.resignFirstResponder()
