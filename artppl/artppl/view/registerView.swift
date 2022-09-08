@@ -7,12 +7,19 @@
 
 import UIKit
 
-class registerView: UIViewController {
+class registerView: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var itsAButton: UIButton!
+    
+    //TextFields
+    @IBOutlet weak var textFieldFullName: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.textFieldFullName.delegate = self
         
         StyleFunctions.setGradientToAButton(button: itsAButton)
 
@@ -29,4 +36,15 @@ class registerView: UIViewController {
     }
     */
 
+}
+
+//Remueve el teclado en pantalla
+extension registerView{
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textFieldFullName.resignFirstResponder()
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }

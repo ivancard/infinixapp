@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -23,6 +22,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="loginView" customModule="artppl" customModuleProvider="target">
             <connections>
                 <outlet property="loginButton" destination="0KV-Bb-xy1" id="JEK-Ua-9TG"/>
+                <outlet property="textFieldEmail" destination="wIv-Z0-oOY" id="2va-vz-xks"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -31,12 +31,14 @@
             <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo86x113" translatesAutoresizingMaskIntoConstraints="NO" id="vf2-Or-6yK">
-                    <rect key="frame" x="164" y="113" width="86" height="113"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo86x113" translatesAutoresizingMaskIntoConstraints="NO" id="vf2-Or-6yK">
+                    <rect key="frame" x="152" y="74" width="86" height="113"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="vf2-Or-6yK" secondAttribute="height" multiplier="86:113" id="FhL-EW-X2p"/>
+                    </constraints>
                 </imageView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="QSE-lr-ecJ">
-                    <rect key="frame" x="47.666666666666657" y="365.33333333333331" width="295" height="41.666666666666686"/>
+                    <rect key="frame" x="47.666666666666657" y="341.33333333333331" width="295" height="41.666666666666686"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u16-Fs-HBR">
                             <rect key="frame" x="0.0" y="0.0" width="295" height="12.333333333333334"/>
@@ -56,7 +58,7 @@
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="weR-7x-So0">
                             <rect key="frame" x="0.0" y="39.666666666666686" width="295" height="2"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="2" id="wfj-yX-NBE"/>
                             </constraints>
@@ -64,7 +66,7 @@
                     </subviews>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="i8k-Kf-aU2">
-                    <rect key="frame" x="47.666666666666657" y="437" width="295" height="54.666666666666686"/>
+                    <rect key="frame" x="47.666666666666657" y="413" width="295" height="54.666666666666686"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fm-fW-INh">
                             <rect key="frame" x="0.0" y="0.0" width="295" height="12.333333333333334"/>
@@ -84,7 +86,7 @@
                         </textField>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ytw-bZ-tzk">
                             <rect key="frame" x="0.0" y="39.666666666666686" width="295" height="2"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="2" id="qnI-5k-7UI"/>
                             </constraints>
@@ -98,7 +100,7 @@
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KV-Bb-xy1">
-                    <rect key="frame" x="48" y="541.66666666666663" width="294" height="39"/>
+                    <rect key="frame" x="48" y="517.66666666666663" width="294" height="39"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="294" id="Rps-2d-Lxe"/>
                         <constraint firstAttribute="height" constant="39" id="cNc-TN-3cl"/>
@@ -116,7 +118,7 @@
                     </userDefinedRuntimeAttributes>
                 </button>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2gU-4J-PxW">
-                    <rect key="frame" x="48" y="605.66666666666663" width="294" height="151"/>
+                    <rect key="frame" x="48" y="581.66666666666663" width="294" height="151"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- O -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tuc-wZ-lch">
                             <rect key="frame" x="0.0" y="0.0" width="294" height="10"/>
@@ -190,9 +192,11 @@
                 <constraint firstItem="i8k-Kf-aU2" firstAttribute="top" secondItem="QSE-lr-ecJ" secondAttribute="bottom" constant="30" id="4lJ-eb-o6r"/>
                 <constraint firstItem="QSE-lr-ecJ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8Ed-AD-hUC"/>
                 <constraint firstItem="0KV-Bb-xy1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ICn-sw-dMD"/>
+                <constraint firstItem="vf2-Or-6yK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="K0d-8x-iba"/>
                 <constraint firstItem="2gU-4J-PxW" firstAttribute="top" secondItem="0KV-Bb-xy1" secondAttribute="bottom" constant="25" id="NQj-jp-zIb"/>
                 <constraint firstItem="0KV-Bb-xy1" firstAttribute="top" secondItem="i8k-Kf-aU2" secondAttribute="bottom" constant="50" id="NUk-Sf-UQD"/>
-                <constraint firstItem="QSE-lr-ecJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-36" id="ZCn-iA-4LW"/>
+                <constraint firstItem="QSE-lr-ecJ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-60" id="ZCn-iA-4LW"/>
+                <constraint firstItem="vf2-Or-6yK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZYu-zF-S77"/>
                 <constraint firstItem="2gU-4J-PxW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="j8u-og-Dgl"/>
                 <constraint firstItem="i8k-Kf-aU2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lYa-KF-FeR"/>
             </constraints>
@@ -213,8 +217,8 @@
         <namedColor name="colorMain">
             <color red="0.23100000619888306" green="0.067000001668930054" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>

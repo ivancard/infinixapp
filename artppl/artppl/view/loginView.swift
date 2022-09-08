@@ -7,12 +7,16 @@
 
 import UIKit
 
-class loginView: UIViewController {
+class loginView: UIViewController,UITextFieldDelegate{
 
     @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var textFieldEmail: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textFieldEmail.delegate = self
         
         StyleFunctions.setGradientToAButton(button: loginButton)
 
@@ -29,4 +33,14 @@ class loginView: UIViewController {
     }
     */
 
+}
+
+extension loginView: UITextViewDelegate{
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        return textFieldEmail.resignFirstResponder()
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }

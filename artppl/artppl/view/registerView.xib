@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -23,6 +22,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="registerView" customModule="artppl" customModuleProvider="target">
             <connections>
                 <outlet property="itsAButton" destination="POS-zs-J7R" id="Zqp-pH-Q78"/>
+                <outlet property="textFieldFullName" destination="yhX-2Q-7xo" id="yfa-3T-NBe"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -57,12 +57,13 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="295" id="aDl-18-2de"/>
                                     </constraints>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                     <textInputTraits key="textInputTraits" textContentType="name"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J7B-7B-iiS">
                                     <rect key="frame" x="0.0" y="40" width="295" height="2"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="qez-nn-v6o"/>
                                     </constraints>
@@ -84,12 +85,13 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="295" id="ngM-eR-7QU"/>
                                     </constraints>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                     <textInputTraits key="textInputTraits" textContentType="email"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z1n-Iv-asc">
                                     <rect key="frame" x="0.0" y="40" width="295" height="2"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="rG5-ly-eTt"/>
                                     </constraints>
@@ -122,12 +124,13 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="295" id="T9p-wa-Nso"/>
                                     </constraints>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                     <textInputTraits key="textInputTraits" textContentType="tel"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7f-MT-kJ7">
                                     <rect key="frame" x="0.0" y="40" width="295" height="2"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="oHV-i4-TQo"/>
                                     </constraints>
@@ -152,12 +155,13 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="295" id="jBs-8r-rAO"/>
                                     </constraints>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                     <textInputTraits key="textInputTraits" textContentType="password"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ow5-Uj-ZuT">
                                     <rect key="frame" x="0.0" y="40" width="295" height="2"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="DmY-Hn-Zjh"/>
                                     </constraints>
@@ -185,12 +189,13 @@
                                     <constraints>
                                         <constraint firstAttribute="width" constant="295" id="0cU-yU-3P0"/>
                                     </constraints>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                     <textInputTraits key="textInputTraits" textContentType="password"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgL-A9-VOe">
                                     <rect key="frame" x="0.0" y="40" width="295" height="2"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="2" id="vfd-f3-4bt"/>
                                     </constraints>
@@ -223,7 +228,7 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </button>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qXb-SZ-vhU">
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qXb-SZ-vhU" userLabel="Stack redes View">
                     <rect key="frame" x="60" y="645" width="294" height="151"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- O -" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="auC-Ta-CGh">
@@ -304,7 +309,7 @@
                 <constraint firstItem="Lfj-yk-J1k" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="taT-qv-daU"/>
                 <constraint firstItem="1i5-aA-k4d" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zqX-hc-Q3r"/>
             </constraints>
-            <point key="canvasLocation" x="139" y="110"/>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </view>
     </objects>
     <resources>
@@ -321,8 +326,8 @@
         <namedColor name="colorMain">
             <color red="0.23100000619888306" green="0.067000001668930054" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
