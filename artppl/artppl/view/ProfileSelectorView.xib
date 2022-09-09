@@ -16,7 +16,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="profileSelectorView" customModule="artppl" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileSelectorView" customModule="artppl" customModuleProvider="target">
             <connections>
                 <outlet property="itemArtLover" destination="WdR-k3-3NE" id="cvt-Yp-92I"/>
                 <outlet property="itemArtist" destination="Pq7-ob-hgM" id="BtF-bZ-zqC"/>

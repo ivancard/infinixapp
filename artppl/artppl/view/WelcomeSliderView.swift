@@ -7,7 +7,7 @@
 
 import UIKit
 
-class welcomeSliderView: UIViewController {
+class WelcomeSliderView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

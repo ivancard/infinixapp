@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Black.ttf">
+            <string>Montserrat-Black</string>
+        </array>
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalTastesView" customModule="artppl" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCine" destination="M45-nl-bS6" id="hYo-X3-f2J"/>
+                <outlet property="btnCrafty" destination="2Rm-cc-Qss" id="bHm-Sb-9E0"/>
+                <outlet property="btnDanza" destination="IP1-zG-MzL" id="8So-3U-LGn"/>
+                <outlet property="btnDibujo" destination="Hx0-mn-uZY" id="eTE-79-F1Q"/>
+                <outlet property="btnDiseno" destination="zvG-67-B9T" id="Bht-23-oZl"/>
+                <outlet property="btnEscritura" destination="ddo-Dy-MXr" id="SUS-jw-swY"/>
+                <outlet property="btnEscultura" destination="NSz-Ck-zF9" id="Dtp-Un-9HB"/>
+                <outlet property="btnFotografia" destination="ZXT-UR-sGL" id="WzK-zP-9rE"/>
+                <outlet property="btnMakeUp" destination="UyP-fb-KEY" id="EhN-xy-DrX"/>
+                <outlet property="btnMusica" destination="fvw-cP-4Rd" id="8MV-O9-Ty4"/>
+                <outlet property="btnPintura" destination="vbt-Z6-tLt" id="VL8-Ts-7y1"/>
+                <outlet property="btnTattoo" destination="Kva-SS-6dD" id="KDb-Mh-hUm"/>
+                <outlet property="btnTeatro" destination="7NQ-U4-r65" id="3ni-aq-TFi"/>
+                <outlet property="stackIzquierda" destination="NAg-ma-LV4" id="neu-py-DwO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿QUÉ TE GUSTA?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iw-nn-IBt">
+                    <rect key="frame" x="30" y="0.0" width="206" height="29.5"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
+                    <color key="textColor" name="colorWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona al menos 2 categorías para personalizar tu experiencia." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m2-em-GbP">
+                    <rect key="frame" x="30" y="37.5" width="249" height="29.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="249" id="frm-qo-Eu6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                    <color key="textColor" name="colorWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="NAg-ma-LV4">
+                    <rect key="frame" x="30" y="132" width="87" height="371"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbt-Z6-tLt">
+                            <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="CMV-7k-Ss8"/>
+                                <constraint firstAttribute="width" constant="87" id="ONe-hW-puz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Pintura">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnPintura:" destination="-1" eventType="touchUpInside" id="DYU-sr-XaJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddo-Dy-MXr">
+                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="IiC-oa-zII"/>
+                                <constraint firstAttribute="height" constant="86" id="oHb-9j-fow"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Escritura">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hx0-mn-uZY">
+                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="IeO-GT-8TU"/>
+                                <constraint firstAttribute="height" constant="86" id="xh9-Dt-V5N"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Dibujo">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSz-Ck-zF9">
+                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="6da-kL-hHS"/>
+                                <constraint firstAttribute="width" constant="87" id="ZFM-9J-2BC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Escultura">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Nc9-bu-ETM">
+                    <rect key="frame" x="258" y="132" width="87" height="371"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvw-cP-4Rd">
+                            <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="Hqe-AI-NLC"/>
+                                <constraint firstAttribute="width" constant="87" id="KD1-ot-U4s"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Música">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M45-nl-bS6">
+                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="5Zy-yU-vdk"/>
+                                <constraint firstAttribute="width" constant="87" id="lal-bI-OMN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Cine">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvG-67-B9T">
+                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="3zI-Qh-aGm"/>
+                                <constraint firstAttribute="height" constant="86" id="9CI-3A-bh8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Diseño">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Rm-cc-Qss">
+                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="POG-G9-X7L"/>
+                                <constraint firstAttribute="height" constant="86" id="dV7-Wk-yK6"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Crafty">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿No encuentras tu categoria?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kad-3H-Ku9">
+                    <rect key="frame" x="98" y="632" width="179.5" height="15"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                    <color key="textColor" name="colorWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="V7z-KF-IMc">
+                    <rect key="frame" x="144" y="87" width="87" height="466"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7NQ-U4-r65">
+                            <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="DZb-Y8-wiA"/>
+                                <constraint firstAttribute="height" constant="86" id="cYG-EA-kTP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Teatro">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IP1-zG-MzL">
+                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="FMa-ej-Fef"/>
+                                <constraint firstAttribute="height" constant="86" id="Qek-uc-l2q"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Danza">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kva-SS-6dD">
+                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="QiB-fn-sn2"/>
+                                <constraint firstAttribute="height" constant="86" id="hpQ-6O-vud"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Tattoo">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyP-fb-KEY">
+                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="52P-4j-ttH"/>
+                                <constraint firstAttribute="height" constant="86" id="Owh-A2-3M7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Makeup">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXT-UR-sGL">
+                            <rect key="frame" x="0.0" y="380" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="Mge-vH-Udh"/>
+                                <constraint firstAttribute="width" constant="87" id="oge-7L-5n3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Fotografía">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                    <integer key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                    <color key="value" name="colorWhite"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="colorMain"/>
+            <constraints>
+                <constraint firstItem="NAg-ma-LV4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" identifier="stackLeftMargin" id="56U-kT-gz4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kad-3H-Ku9" secondAttribute="bottom" constant="20" id="830-bB-BVG"/>
+                <constraint firstItem="V7z-KF-IMc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RvN-D9-ZQs"/>
+                <constraint firstItem="NAg-ma-LV4" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="65" id="WRc-X2-NbQ"/>
+                <constraint firstItem="3iw-nn-IBt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="abx-ex-cjh"/>
+                <constraint firstItem="2m2-em-GbP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="aqP-qL-7HU"/>
+                <constraint firstItem="Nc9-bu-ETM" firstAttribute="top" secondItem="NAg-ma-LV4" secondAttribute="top" id="hxk-Dk-fyc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nc9-bu-ETM" secondAttribute="trailing" constant="30" id="ieF-et-UtW"/>
+                <constraint firstItem="3iw-nn-IBt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kIr-zt-arj"/>
+                <constraint firstItem="V7z-KF-IMc" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="20" id="rCu-Qv-eaD"/>
+                <constraint firstItem="2m2-em-GbP" firstAttribute="top" secondItem="3iw-nn-IBt" secondAttribute="bottom" constant="8" id="tlW-US-340"/>
+                <constraint firstItem="Kad-3H-Ku9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zFl-SH-gqu"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="colorMain">
+            <color red="0.23100000619888306" green="0.067000001668930054" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

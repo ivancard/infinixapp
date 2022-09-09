@@ -7,7 +7,7 @@
 
 import UIKit
 
-class registerView: UIViewController, UITextFieldDelegate {
+class RegisterView: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var itsAButton: UIButton!
@@ -39,7 +39,7 @@ class registerView: UIViewController, UITextFieldDelegate {
 }
 
 //Remueve el teclado en pantalla
-extension registerView{
+extension RegisterView{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return textFieldFullName.resignFirstResponder()

@@ -19,7 +19,7 @@
         </array>
     </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="registerView" customModule="artppl" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterView" customModule="artppl" customModuleProvider="target">
             <connections>
                 <outlet property="itsAButton" destination="POS-zs-J7R" id="Zqp-pH-Q78"/>
                 <outlet property="textFieldFullName" destination="yhX-2Q-7xo" id="yfa-3T-NBe"/>

@@ -8,27 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		E8562500D779A4C9A4171CBC /* Pods_artppl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */; };
-		FC11884828CA7FDC00D9972A /* personalTastesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* personalTastesView.swift */; };
-		FC11884928CA7FDC00D9972A /* personalTastesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC11884728CA7FDC00D9972A /* personalTastesView.xib */; };
+		FC11884828CA7FDC00D9972A /* PersonalTastesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */; };
+		FC11884928CA7FDC00D9972A /* PersonalTastesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */; };
 		FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */; };
-		FC58B06D28C8F5E100A66B78 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* loginView.swift */; };
-		FC58B06E28C8F5E100A66B78 /* loginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06C28C8F5E100A66B78 /* loginView.xib */; };
+		FC5313F028CBC31400C7ACA6 /* animationTest.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313EF28CBC31400C7ACA6 /* animationTest.json */; };
+		FC5313F428CBD77D00C7ACA6 /* AnimationButton.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313F328CBD77D00C7ACA6 /* AnimationButton.json */; };
+		FC58B06D28C8F5E100A66B78 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* LoginView.swift */; };
+		FC58B06E28C8F5E100A66B78 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06C28C8F5E100A66B78 /* LoginView.xib */; };
 		FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06F28C8F96400A66B78 /* Montserrat-Medium.ttf */; };
 		FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07128C8FC4E00A66B78 /* Montserrat-Regular.ttf */; };
 		FC58B07428C9037000A66B78 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */; };
 		FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07628C91C1E00A66B78 /* StyleFunctions.swift */; };
-		FC58B07A28C91FF800A66B78 /* registerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07828C91FF800A66B78 /* registerView.swift */; };
-		FC58B07B28C91FF800A66B78 /* registerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07928C91FF800A66B78 /* registerView.xib */; };
-		FC58B07E28C92F8C00A66B78 /* profileSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07C28C92F8C00A66B78 /* profileSelectorView.swift */; };
-		FC58B07F28C92F8C00A66B78 /* profileSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07D28C92F8C00A66B78 /* profileSelectorView.xib */; };
+		FC58B07A28C91FF800A66B78 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07828C91FF800A66B78 /* RegisterView.swift */; };
+		FC58B07B28C91FF800A66B78 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07928C91FF800A66B78 /* RegisterView.xib */; };
+		FC58B07E28C92F8C00A66B78 /* ProfileSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07C28C92F8C00A66B78 /* ProfileSelectorView.swift */; };
+		FC58B07F28C92F8C00A66B78 /* ProfileSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07D28C92F8C00A66B78 /* ProfileSelectorView.xib */; };
 		FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60702C28C7D3F000424A33 /* AppDelegate.swift */; };
 		FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60702E28C7D3F000424A33 /* SceneDelegate.swift */; };
 		FC60703128C7D3F000424A33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60703028C7D3F000424A33 /* ViewController.swift */; };
 		FC60703428C7D3F000424A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC60703228C7D3F000424A33 /* Main.storyboard */; };
 		FC60703628C7D3F400424A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC60703528C7D3F400424A33 /* Assets.xcassets */; };
 		FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC60703728C7D3F400424A33 /* LaunchScreen.storyboard */; };
-		FC60704328C7E09200424A33 /* welcomeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60704128C7E09200424A33 /* welcomeSliderView.swift */; };
-		FC60704428C7E09200424A33 /* welcomeSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC60704228C7E09200424A33 /* welcomeSliderView.xib */; };
+		FC60704328C7E09200424A33 /* WelcomeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60704128C7E09200424A33 /* WelcomeSliderView.swift */; };
+		FC60704428C7E09200424A33 /* WelcomeSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC60704228C7E09200424A33 /* WelcomeSliderView.xib */; };
 		FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */; };
 /* End PBXBuildFile section */
 
@@ -36,19 +38,21 @@
 		3E1457A6C6709C3277742006 /* Pods-artppl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artppl.debug.xcconfig"; path = "Target Support Files/Pods-artppl/Pods-artppl.debug.xcconfig"; sourceTree = "<group>"; };
 		96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artppl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78B62642C57E15A5F63DA57 /* Pods-artppl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artppl.release.xcconfig"; path = "Target Support Files/Pods-artppl/Pods-artppl.release.xcconfig"; sourceTree = "<group>"; };
-		FC11884628CA7FDC00D9972A /* personalTastesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalTastesView.swift; sourceTree = "<group>"; };
-		FC11884728CA7FDC00D9972A /* personalTastesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = personalTastesView.xib; sourceTree = "<group>"; };
+		FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesView.swift; sourceTree = "<group>"; };
+		FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalTastesView.xib; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
-		FC58B06B28C8F5E100A66B78 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
-		FC58B06C28C8F5E100A66B78 /* loginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = loginView.xib; sourceTree = "<group>"; };
+		FC5313EF28CBC31400C7ACA6 /* animationTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationTest.json; sourceTree = "<group>"; };
+		FC5313F328CBD77D00C7ACA6 /* AnimationButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimationButton.json; sourceTree = "<group>"; };
+		FC58B06B28C8F5E100A66B78 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FC58B06C28C8F5E100A66B78 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		FC58B06F28C8F96400A66B78 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		FC58B07128C8FC4E00A66B78 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		FC58B07628C91C1E00A66B78 /* StyleFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleFunctions.swift; sourceTree = "<group>"; };
-		FC58B07828C91FF800A66B78 /* registerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerView.swift; sourceTree = "<group>"; };
-		FC58B07928C91FF800A66B78 /* registerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = registerView.xib; sourceTree = "<group>"; };
-		FC58B07C28C92F8C00A66B78 /* profileSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileSelectorView.swift; sourceTree = "<group>"; };
-		FC58B07D28C92F8C00A66B78 /* profileSelectorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = profileSelectorView.xib; sourceTree = "<group>"; };
+		FC58B07828C91FF800A66B78 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FC58B07928C91FF800A66B78 /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		FC58B07C28C92F8C00A66B78 /* ProfileSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSelectorView.swift; sourceTree = "<group>"; };
+		FC58B07D28C92F8C00A66B78 /* ProfileSelectorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileSelectorView.xib; sourceTree = "<group>"; };
 		FC60702928C7D3F000424A33 /* artppl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = artppl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC60702C28C7D3F000424A33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC60702E28C7D3F000424A33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,8 +61,8 @@
 		FC60703528C7D3F400424A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC60703828C7D3F400424A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC60703A28C7D3F400424A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC60704128C7E09200424A33 /* welcomeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeSliderView.swift; sourceTree = "<group>"; };
-		FC60704228C7E09200424A33 /* welcomeSliderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = welcomeSliderView.xib; sourceTree = "<group>"; };
+		FC60704128C7E09200424A33 /* WelcomeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSliderView.swift; sourceTree = "<group>"; };
+		FC60704228C7E09200424A33 /* WelcomeSliderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeSliderView.xib; sourceTree = "<group>"; };
 		FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +95,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC5313EE28CBC30100C7ACA6 /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				FC5313EF28CBC31400C7ACA6 /* animationTest.json */,
+				FC5313F328CBD77D00C7ACA6 /* AnimationButton.json */,
+			);
+			path = animations;
+			sourceTree = "<group>";
+		};
 		FC58B07528C91BCC00A66B78 /* controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +133,7 @@
 		FC60702B28C7D3F000424A33 /* artppl */ = {
 			isa = PBXGroup;
 			children = (
+				FC5313EE28CBC30100C7ACA6 /* animations */,
 				FC60704528C7E87500424A33 /* fonts */,
 				FC60704028C7E01300424A33 /* view */,
 				FC58B07528C91BCC00A66B78 /* controller */,
@@ -137,16 +151,16 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FC60704128C7E09200424A33 /* welcomeSliderView.swift */,
-				FC60704228C7E09200424A33 /* welcomeSliderView.xib */,
-				FC58B06B28C8F5E100A66B78 /* loginView.swift */,
-				FC58B06C28C8F5E100A66B78 /* loginView.xib */,
-				FC58B07828C91FF800A66B78 /* registerView.swift */,
-				FC58B07928C91FF800A66B78 /* registerView.xib */,
-				FC58B07C28C92F8C00A66B78 /* profileSelectorView.swift */,
-				FC58B07D28C92F8C00A66B78 /* profileSelectorView.xib */,
-				FC11884628CA7FDC00D9972A /* personalTastesView.swift */,
-				FC11884728CA7FDC00D9972A /* personalTastesView.xib */,
+				FC60704128C7E09200424A33 /* WelcomeSliderView.swift */,
+				FC60704228C7E09200424A33 /* WelcomeSliderView.xib */,
+				FC58B06B28C8F5E100A66B78 /* LoginView.swift */,
+				FC58B06C28C8F5E100A66B78 /* LoginView.xib */,
+				FC58B07828C91FF800A66B78 /* RegisterView.swift */,
+				FC58B07928C91FF800A66B78 /* RegisterView.xib */,
+				FC58B07C28C92F8C00A66B78 /* ProfileSelectorView.swift */,
+				FC58B07D28C92F8C00A66B78 /* ProfileSelectorView.xib */,
+				FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */,
+				FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -223,18 +237,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5313F028CBC31400C7ACA6 /* animationTest.json in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
-				FC58B07B28C91FF800A66B78 /* registerView.xib in Resources */,
-				FC58B06E28C8F5E100A66B78 /* loginView.xib in Resources */,
-				FC60704428C7E09200424A33 /* welcomeSliderView.xib in Resources */,
+				FC58B07B28C91FF800A66B78 /* RegisterView.xib in Resources */,
+				FC58B06E28C8F5E100A66B78 /* LoginView.xib in Resources */,
+				FC60704428C7E09200424A33 /* WelcomeSliderView.xib in Resources */,
+				FC5313F428CBD77D00C7ACA6 /* AnimationButton.json in Resources */,
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
-				FC58B07F28C92F8C00A66B78 /* profileSelectorView.xib in Resources */,
+				FC58B07F28C92F8C00A66B78 /* ProfileSelectorView.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
 				FC58B07428C9037000A66B78 /* Montserrat-Bold.ttf in Resources */,
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
 				FC60703628C7D3F400424A33 /* Assets.xcassets in Resources */,
-				FC11884928CA7FDC00D9972A /* personalTastesView.xib in Resources */,
+				FC11884928CA7FDC00D9972A /* PersonalTastesView.xib in Resources */,
 				FC60703428C7D3F000424A33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,15 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC60704328C7E09200424A33 /* welcomeSliderView.swift in Sources */,
-				FC58B07E28C92F8C00A66B78 /* profileSelectorView.swift in Sources */,
+				FC60704328C7E09200424A33 /* WelcomeSliderView.swift in Sources */,
+				FC58B07E28C92F8C00A66B78 /* ProfileSelectorView.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
-				FC58B06D28C8F5E100A66B78 /* loginView.swift in Sources */,
+				FC58B06D28C8F5E100A66B78 /* LoginView.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
-				FC58B07A28C91FF800A66B78 /* registerView.swift in Sources */,
+				FC58B07A28C91FF800A66B78 /* RegisterView.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
-				FC11884828CA7FDC00D9972A /* personalTastesView.swift in Sources */,
+				FC11884828CA7FDC00D9972A /* PersonalTastesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
