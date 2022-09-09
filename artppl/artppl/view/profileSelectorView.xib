@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -68,7 +67,6 @@ facilmente y sin comisión.</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
                                 <constraint firstItem="aGd-R3-WVc" firstAttribute="top" secondItem="Pq7-ob-hgM" secondAttribute="top" constant="12" id="4Ei-FN-rgY"/>
                                 <constraint firstItem="iJ9-no-Wf9" firstAttribute="leading" secondItem="Pq7-ob-hgM" secondAttribute="leading" constant="22" id="5Gt-hn-fb9"/>
@@ -124,7 +122,6 @@ las expresiones del arte.</string>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             <constraints>
                                 <constraint firstItem="K2Y-Hz-oyv" firstAttribute="leading" secondItem="WdR-k3-3NE" secondAttribute="leading" constant="22" id="5QY-Ua-dDk"/>
                                 <constraint firstItem="dmk-o9-Rhl" firstAttribute="top" secondItem="WdR-k3-3NE" secondAttribute="top" constant="12" id="9f4-Sg-kTi"/>
@@ -177,8 +174,5 @@ las expresiones del arte.</string>
         <namedColor name="colorWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

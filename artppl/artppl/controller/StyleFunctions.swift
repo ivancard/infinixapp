@@ -55,4 +55,11 @@ class StyleFunctions {
         view.layer.insertSublayer(gradient, at: 0 )
     }
 
+    public static func setBorder(button: UIButton){
+        button.clipsToBounds = true
+        button.layer.cornerRadius = 8
+        button.layer.borderColor = UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha: 1).cgColor
+        button.layer.borderWidth = 2
+        button.alpha = 1
+    }
 }
