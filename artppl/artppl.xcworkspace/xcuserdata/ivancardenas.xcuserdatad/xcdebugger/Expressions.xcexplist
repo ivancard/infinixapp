@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "PersonalTastesView.showAnimation(container:isCheck:):PersonalTastesView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "buttonPinturaState">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

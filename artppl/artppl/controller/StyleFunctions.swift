@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class StyleFunctions {
+final class StyleFunctions {
     
     public static func setGradientTwo(view: UIView){
         let colorGradientRight: UIColor = UIColor(named: "colorGradient2Right") ?? UIColor.systemPink
@@ -61,5 +61,19 @@ class StyleFunctions {
         button.layer.borderColor = UIColor(red: 1.00, green: 1.00, blue: 1.00, alpha: 1).cgColor
         button.layer.borderWidth = 2
         button.alpha = 1
+    }
+    public static func setGradientPurpleToTransparent(view: UIView){
+        let colorGradientRight: UIColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
+        let colorGradientLeft: UIColor = UIColor(named: "colorGradient2Left") ?? UIColor.systemPurple
+        
+        let gradient = CAGradientLayer()
+       
+        gradient.colors = [ colorGradientRight.cgColor, colorGradientLeft.cgColor,]
+        //gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
+        //gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
+        
+        gradient.frame = view.bounds
+        
+        view.layer.insertSublayer(gradient, at: 0 )
     }
 }
