@@ -33,6 +33,9 @@
 		FC60704428C7E09200424A33 /* WelcomeSliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC60704228C7E09200424A33 /* WelcomeSliderView.xib */; };
 		FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
+		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
+		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
+		FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		FC60704228C7E09200424A33 /* WelcomeSliderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeSliderView.xib; sourceTree = "<group>"; };
 		FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
+		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
+		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
+		FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewGradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,7 @@
 		FC60702B28C7D3F000424A33 /* artppl */ = {
 			isa = PBXGroup;
 			children = (
+				FCEE50C528D2373B00CF9B68 /* customComponents */,
 				FC5313EE28CBC30100C7ACA6 /* animations */,
 				FC60704528C7E87500424A33 /* fonts */,
 				FC60704028C7E01300424A33 /* view */,
@@ -178,6 +185,16 @@
 				FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		FCEE50C528D2373B00CF9B68 /* customComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */,
+				FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */,
+				FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */,
+			);
+			path = customComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,11 +328,14 @@
 				FC60704328C7E09200424A33 /* WelcomeSliderView.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorView.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
+				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginView.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterView.swift in Sources */,
+				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
+				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

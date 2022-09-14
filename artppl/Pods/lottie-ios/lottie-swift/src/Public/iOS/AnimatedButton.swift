@@ -11,7 +11,7 @@ import UIKit
 /**
  An interactive button that plays an animation when pressed.
  */
-final public class AnimatedButton: AnimatedControl {
+final public class CustomAnimatedButton: AnimatedControl {
   
   /// Sets the play range for the given UIControlEvent.
   public func setPlayRange(fromProgress: AnimationProgressTime, toProgress: AnimationProgressTime, event: UIControl.Event) {

@@ -18,19 +18,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalTastesView" customModule="artppl" customModuleProvider="target">
             <connections>
-                <outlet property="btnCine" destination="M45-nl-bS6" id="hYo-X3-f2J"/>
-                <outlet property="btnCrafty" destination="2Rm-cc-Qss" id="bHm-Sb-9E0"/>
-                <outlet property="btnDanza" destination="IP1-zG-MzL" id="8So-3U-LGn"/>
-                <outlet property="btnDibujo" destination="Hx0-mn-uZY" id="eTE-79-F1Q"/>
-                <outlet property="btnDiseno" destination="zvG-67-B9T" id="Bht-23-oZl"/>
-                <outlet property="btnEscritura" destination="bbh-3j-mcL" id="C6w-Bv-HRs"/>
-                <outlet property="btnEscultura" destination="NSz-Ck-zF9" id="Dtp-Un-9HB"/>
-                <outlet property="btnFotografia" destination="ZXT-UR-sGL" id="WzK-zP-9rE"/>
-                <outlet property="btnMakeUp" destination="UyP-fb-KEY" id="EhN-xy-DrX"/>
-                <outlet property="btnMusica" destination="fvw-cP-4Rd" id="8MV-O9-Ty4"/>
-                <outlet property="btnPintura" destination="vbt-Z6-tLt" id="VL8-Ts-7y1"/>
-                <outlet property="btnTattoo" destination="Kva-SS-6dD" id="KDb-Mh-hUm"/>
-                <outlet property="btnTeatro" destination="7NQ-U4-r65" id="3ni-aq-TFi"/>
                 <outlet property="containerViewCine" destination="9LX-3O-A7N" id="hvJ-nG-Cdg"/>
                 <outlet property="containerViewCrafty" destination="tBa-6N-VeT" id="hU8-A8-wPr"/>
                 <outlet property="containerViewDanza" destination="54x-sz-NTJ" id="1gI-4C-7pA"/>
@@ -44,7 +31,6 @@
                 <outlet property="containerViewPintura" destination="Qh2-wI-Z9q" id="jF0-KB-O6r"/>
                 <outlet property="containerViewTattoo" destination="k2O-Kh-3GA" id="9MP-yd-S73"/>
                 <outlet property="containerViewTeatro" destination="Jfq-QJ-hZ4" id="ceA-mQ-tcc"/>
-                <outlet property="gradientPintura" destination="OXv-Ka-s9l" id="U2Y-lt-gFc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -74,14 +60,14 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xYQ-l4-CFk">
                             <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qh2-wI-Z9q">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qh2-wI-Z9q" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXv-Ka-s9l" userLabel="gradient">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXv-Ka-s9l" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbt-Z6-tLt">
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbt-Z6-tLt" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -120,11 +106,14 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6so-bm-Evr">
                             <rect key="frame" x="0.0" y="95" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NrO-Vm-0Nb">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NrO-Vm-0Nb" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbh-3j-mcL">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoU-EO-3fX" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbh-3j-mcL" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -138,12 +127,16 @@
                             </subviews>
                             <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
+                                <constraint firstItem="aoU-EO-3fX" firstAttribute="top" secondItem="6so-bm-Evr" secondAttribute="top" id="9OW-gf-9MR"/>
+                                <constraint firstAttribute="trailing" secondItem="aoU-EO-3fX" secondAttribute="trailing" id="9ho-W8-sJB"/>
+                                <constraint firstItem="aoU-EO-3fX" firstAttribute="leading" secondItem="6so-bm-Evr" secondAttribute="leading" id="ASD-uH-dC9"/>
                                 <constraint firstItem="NrO-Vm-0Nb" firstAttribute="leading" secondItem="6so-bm-Evr" secondAttribute="leading" id="OTa-ks-qJ8"/>
                                 <constraint firstAttribute="bottom" secondItem="NrO-Vm-0Nb" secondAttribute="bottom" id="PaZ-Ez-nM2"/>
                                 <constraint firstAttribute="height" constant="86" id="TOb-9B-TZ7"/>
                                 <constraint firstAttribute="bottom" secondItem="bbh-3j-mcL" secondAttribute="bottom" id="Zd2-Zb-A7w"/>
                                 <constraint firstAttribute="trailing" secondItem="NrO-Vm-0Nb" secondAttribute="trailing" id="bSL-Y1-IqW"/>
                                 <constraint firstItem="NrO-Vm-0Nb" firstAttribute="top" secondItem="6so-bm-Evr" secondAttribute="top" id="gk7-7H-duK"/>
+                                <constraint firstAttribute="bottom" secondItem="aoU-EO-3fX" secondAttribute="bottom" id="jyw-uC-XXJ"/>
                                 <constraint firstAttribute="trailing" secondItem="bbh-3j-mcL" secondAttribute="trailing" id="nAr-Uo-SMi"/>
                                 <constraint firstItem="bbh-3j-mcL" firstAttribute="top" secondItem="6so-bm-Evr" secondAttribute="top" id="wjv-6z-ICc"/>
                                 <constraint firstAttribute="width" constant="87" id="xen-92-HjP"/>
@@ -159,10 +152,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ysn-hc-U36">
                             <rect key="frame" x="0.0" y="190" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DoE-54-H8g">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DoE-54-H8g" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hx0-mn-uZY">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZY-hX-xz1" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hx0-mn-uZY" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -188,7 +184,11 @@
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="DoE-54-H8g" secondAttribute="trailing" id="0Rc-BJ-tK4"/>
                                 <constraint firstAttribute="trailing" secondItem="Hx0-mn-uZY" secondAttribute="trailing" id="9gK-Ql-yeC"/>
+                                <constraint firstAttribute="bottom" secondItem="FZY-hX-xz1" secondAttribute="bottom" id="Acl-ty-osF"/>
+                                <constraint firstAttribute="trailing" secondItem="FZY-hX-xz1" secondAttribute="trailing" id="EXa-Jt-lno"/>
                                 <constraint firstAttribute="bottom" secondItem="DoE-54-H8g" secondAttribute="bottom" id="eEn-eh-Z3M"/>
+                                <constraint firstItem="FZY-hX-xz1" firstAttribute="leading" secondItem="Ysn-hc-U36" secondAttribute="leading" id="f2M-Df-JJ5"/>
+                                <constraint firstItem="FZY-hX-xz1" firstAttribute="top" secondItem="Ysn-hc-U36" secondAttribute="top" id="fb3-Qs-Q5Y"/>
                                 <constraint firstAttribute="width" constant="87" id="iww-aM-hs1"/>
                                 <constraint firstItem="DoE-54-H8g" firstAttribute="leading" secondItem="Ysn-hc-U36" secondAttribute="leading" id="j5C-ZE-vX9"/>
                                 <constraint firstAttribute="bottom" secondItem="Hx0-mn-uZY" secondAttribute="bottom" id="qCI-ab-1eO"/>
@@ -207,10 +207,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zt1-TY-pvB">
                             <rect key="frame" x="0.0" y="285" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zao-jT-4as">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zao-jT-4as" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSz-Ck-zF9">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pWt-La-zOo" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSz-Ck-zF9" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -235,13 +238,17 @@
                             </subviews>
                             <constraints>
                                 <constraint firstItem="NSz-Ck-zF9" firstAttribute="leading" secondItem="zt1-TY-pvB" secondAttribute="leading" id="5xG-ni-tP3"/>
+                                <constraint firstAttribute="bottom" secondItem="pWt-La-zOo" secondAttribute="bottom" id="86z-5V-VAv"/>
                                 <constraint firstAttribute="trailing" secondItem="zao-jT-4as" secondAttribute="trailing" id="HMg-I6-IRb"/>
                                 <constraint firstAttribute="trailing" secondItem="NSz-Ck-zF9" secondAttribute="trailing" id="JkA-3X-mb9"/>
+                                <constraint firstItem="pWt-La-zOo" firstAttribute="leading" secondItem="zt1-TY-pvB" secondAttribute="leading" id="KSu-Bs-7LL"/>
                                 <constraint firstItem="zao-jT-4as" firstAttribute="leading" secondItem="zt1-TY-pvB" secondAttribute="leading" id="QyE-Wv-9lQ"/>
                                 <constraint firstItem="NSz-Ck-zF9" firstAttribute="top" secondItem="zt1-TY-pvB" secondAttribute="top" id="VVH-DR-bjr"/>
+                                <constraint firstItem="pWt-La-zOo" firstAttribute="top" secondItem="zt1-TY-pvB" secondAttribute="top" id="ZkE-Qj-d0Q"/>
                                 <constraint firstItem="zao-jT-4as" firstAttribute="top" secondItem="zt1-TY-pvB" secondAttribute="top" id="bil-PV-6SU"/>
                                 <constraint firstAttribute="width" constant="87" id="eSo-fb-7V0"/>
                                 <constraint firstAttribute="height" constant="86" id="hkj-xv-og7"/>
+                                <constraint firstAttribute="trailing" secondItem="pWt-La-zOo" secondAttribute="trailing" id="jYa-uu-PqI"/>
                                 <constraint firstAttribute="bottom" secondItem="NSz-Ck-zF9" secondAttribute="bottom" id="moc-Op-elq"/>
                                 <constraint firstAttribute="bottom" secondItem="zao-jT-4as" secondAttribute="bottom" id="yK7-Qu-Qpb"/>
                             </constraints>
@@ -260,10 +267,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3KW-86-LFz">
                             <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztV-sT-KWP">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztV-sT-KWP" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvw-cP-4Rd">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3jK-cs-21N" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvw-cP-4Rd" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -281,11 +291,15 @@
                                 <constraint firstAttribute="trailing" secondItem="ztV-sT-KWP" secondAttribute="trailing" id="AvZ-g4-3in"/>
                                 <constraint firstAttribute="bottom" secondItem="ztV-sT-KWP" secondAttribute="bottom" id="CIO-mK-zPr"/>
                                 <constraint firstAttribute="bottom" secondItem="fvw-cP-4Rd" secondAttribute="bottom" id="ET1-EV-z0f"/>
+                                <constraint firstItem="3jK-cs-21N" firstAttribute="leading" secondItem="3KW-86-LFz" secondAttribute="leading" id="H9c-sT-LVJ"/>
+                                <constraint firstItem="3jK-cs-21N" firstAttribute="top" secondItem="3KW-86-LFz" secondAttribute="top" id="Rvx-mW-9lC"/>
                                 <constraint firstAttribute="trailing" secondItem="fvw-cP-4Rd" secondAttribute="trailing" id="c4v-lg-Q64"/>
                                 <constraint firstItem="ztV-sT-KWP" firstAttribute="top" secondItem="3KW-86-LFz" secondAttribute="top" id="cBr-hS-YLJ"/>
+                                <constraint firstAttribute="trailing" secondItem="3jK-cs-21N" secondAttribute="trailing" id="ja7-ZL-qyG"/>
                                 <constraint firstItem="ztV-sT-KWP" firstAttribute="leading" secondItem="3KW-86-LFz" secondAttribute="leading" id="kJs-kz-KKa"/>
                                 <constraint firstItem="fvw-cP-4Rd" firstAttribute="top" secondItem="3KW-86-LFz" secondAttribute="top" id="nTF-oj-bkV"/>
                                 <constraint firstAttribute="width" constant="87" id="pwi-QA-rhW"/>
+                                <constraint firstAttribute="bottom" secondItem="3jK-cs-21N" secondAttribute="bottom" id="zfm-Vr-GKq"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -297,10 +311,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksW-3S-Xrw">
                             <rect key="frame" x="0.0" y="95" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9LX-3O-A7N">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9LX-3O-A7N" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M45-nl-bS6">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgU-Vm-dLw" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M45-nl-bS6" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -324,13 +341,17 @@
                                 </button>
                             </subviews>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="rgU-Vm-dLw" secondAttribute="trailing" id="4RD-HO-X46"/>
+                                <constraint firstItem="rgU-Vm-dLw" firstAttribute="top" secondItem="ksW-3S-Xrw" secondAttribute="top" id="AuR-bk-ayX"/>
                                 <constraint firstAttribute="bottom" secondItem="M45-nl-bS6" secondAttribute="bottom" id="Fvf-U7-M83"/>
                                 <constraint firstAttribute="trailing" secondItem="9LX-3O-A7N" secondAttribute="trailing" id="HBN-fF-zOf"/>
                                 <constraint firstAttribute="trailing" secondItem="M45-nl-bS6" secondAttribute="trailing" id="HkH-ts-DkT"/>
                                 <constraint firstItem="M45-nl-bS6" firstAttribute="leading" secondItem="ksW-3S-Xrw" secondAttribute="leading" id="PwU-pb-b3K"/>
                                 <constraint firstAttribute="width" constant="87" id="RLO-kI-aOs"/>
+                                <constraint firstAttribute="bottom" secondItem="rgU-Vm-dLw" secondAttribute="bottom" id="npt-jm-1D0"/>
                                 <constraint firstItem="9LX-3O-A7N" firstAttribute="leading" secondItem="ksW-3S-Xrw" secondAttribute="leading" id="nvb-ih-19d"/>
                                 <constraint firstAttribute="height" constant="86" id="r8G-vz-H0q"/>
+                                <constraint firstItem="rgU-Vm-dLw" firstAttribute="leading" secondItem="ksW-3S-Xrw" secondAttribute="leading" id="swF-JC-9eB"/>
                                 <constraint firstAttribute="bottom" secondItem="9LX-3O-A7N" secondAttribute="bottom" id="sxK-4H-cqG"/>
                                 <constraint firstItem="M45-nl-bS6" firstAttribute="top" secondItem="ksW-3S-Xrw" secondAttribute="top" id="t96-yv-qSw"/>
                                 <constraint firstItem="9LX-3O-A7N" firstAttribute="top" secondItem="ksW-3S-Xrw" secondAttribute="top" id="uNI-53-sHr"/>
@@ -345,10 +366,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RuQ-aI-MHH">
                             <rect key="frame" x="0.0" y="190" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7n-Fn-QC8">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7n-Fn-QC8" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvG-67-B9T">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vLk-7C-TNi" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvG-67-B9T" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -372,12 +396,16 @@
                                 </button>
                             </subviews>
                             <constraints>
+                                <constraint firstItem="vLk-7C-TNi" firstAttribute="top" secondItem="RuQ-aI-MHH" secondAttribute="top" id="Bkt-SB-X62"/>
                                 <constraint firstItem="zvG-67-B9T" firstAttribute="top" secondItem="RuQ-aI-MHH" secondAttribute="top" id="CRB-Ws-YJY"/>
                                 <constraint firstAttribute="height" constant="86" id="FSj-M3-MzT"/>
                                 <constraint firstAttribute="bottom" secondItem="V7n-Fn-QC8" secondAttribute="bottom" id="JwQ-v8-5fc"/>
+                                <constraint firstItem="vLk-7C-TNi" firstAttribute="leading" secondItem="RuQ-aI-MHH" secondAttribute="leading" id="KVg-M1-kb7"/>
                                 <constraint firstAttribute="trailing" secondItem="V7n-Fn-QC8" secondAttribute="trailing" id="Tbx-Yd-acQ"/>
                                 <constraint firstItem="zvG-67-B9T" firstAttribute="leading" secondItem="RuQ-aI-MHH" secondAttribute="leading" id="V06-IW-tQa"/>
                                 <constraint firstItem="V7n-Fn-QC8" firstAttribute="top" secondItem="RuQ-aI-MHH" secondAttribute="top" id="V43-Y6-WrM"/>
+                                <constraint firstAttribute="trailing" secondItem="vLk-7C-TNi" secondAttribute="trailing" id="WiK-aG-vhC"/>
+                                <constraint firstAttribute="bottom" secondItem="vLk-7C-TNi" secondAttribute="bottom" id="a3u-Bu-NnR"/>
                                 <constraint firstItem="V7n-Fn-QC8" firstAttribute="leading" secondItem="RuQ-aI-MHH" secondAttribute="leading" id="hKQ-Eh-HrY"/>
                                 <constraint firstAttribute="trailing" secondItem="zvG-67-B9T" secondAttribute="trailing" id="lWY-Wl-UKZ"/>
                                 <constraint firstAttribute="bottom" secondItem="zvG-67-B9T" secondAttribute="bottom" id="taN-P2-LbN"/>
@@ -393,10 +421,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSc-4D-5WS">
                             <rect key="frame" x="0.0" y="285" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBa-6N-VeT">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBa-6N-VeT" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Rm-cc-Qss">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="98S-QW-qm7" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Rm-cc-Qss" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -421,8 +452,12 @@
                             </subviews>
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="tBa-6N-VeT" secondAttribute="bottom" id="545-r2-Jk0"/>
+                                <constraint firstItem="98S-QW-qm7" firstAttribute="leading" secondItem="DSc-4D-5WS" secondAttribute="leading" id="6u8-V0-kRS"/>
+                                <constraint firstAttribute="trailing" secondItem="98S-QW-qm7" secondAttribute="trailing" id="8ir-VW-hs3"/>
                                 <constraint firstItem="2Rm-cc-Qss" firstAttribute="leading" secondItem="DSc-4D-5WS" secondAttribute="leading" id="Jfi-3E-43T"/>
+                                <constraint firstAttribute="bottom" secondItem="98S-QW-qm7" secondAttribute="bottom" id="KcL-lh-8Qe"/>
                                 <constraint firstItem="2Rm-cc-Qss" firstAttribute="top" secondItem="DSc-4D-5WS" secondAttribute="top" id="LpY-7Y-Htn"/>
+                                <constraint firstItem="98S-QW-qm7" firstAttribute="top" secondItem="DSc-4D-5WS" secondAttribute="top" id="Qx8-RI-Mcj"/>
                                 <constraint firstAttribute="trailing" secondItem="2Rm-cc-Qss" secondAttribute="trailing" id="Rdj-ma-tch"/>
                                 <constraint firstAttribute="height" constant="86" id="SEP-Xd-06f"/>
                                 <constraint firstItem="tBa-6N-VeT" firstAttribute="top" secondItem="DSc-4D-5WS" secondAttribute="top" id="Vib-u9-F4f"/>
@@ -452,10 +487,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BnP-ia-20R">
                             <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jfq-QJ-hZ4">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jfq-QJ-hZ4" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7NQ-U4-r65">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oPv-KT-5gM" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7NQ-U4-r65" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -468,15 +506,19 @@
                                 </button>
                             </subviews>
                             <constraints>
+                                <constraint firstItem="oPv-KT-5gM" firstAttribute="top" secondItem="BnP-ia-20R" secondAttribute="top" id="0QR-qF-XAI"/>
                                 <constraint firstItem="Jfq-QJ-hZ4" firstAttribute="top" secondItem="BnP-ia-20R" secondAttribute="top" id="0fJ-ZA-yhy"/>
                                 <constraint firstAttribute="trailing" secondItem="7NQ-U4-r65" secondAttribute="trailing" id="Cpr-YO-jl8"/>
                                 <constraint firstAttribute="width" constant="87" id="EAt-Xp-jUV"/>
+                                <constraint firstItem="oPv-KT-5gM" firstAttribute="leading" secondItem="BnP-ia-20R" secondAttribute="leading" id="EpJ-Fd-stE"/>
+                                <constraint firstAttribute="bottom" secondItem="oPv-KT-5gM" secondAttribute="bottom" id="LCz-mw-lmw"/>
                                 <constraint firstItem="7NQ-U4-r65" firstAttribute="top" secondItem="BnP-ia-20R" secondAttribute="top" id="TTh-XS-4Kg"/>
                                 <constraint firstItem="Jfq-QJ-hZ4" firstAttribute="leading" secondItem="BnP-ia-20R" secondAttribute="leading" id="dCl-Sl-Nyt"/>
                                 <constraint firstAttribute="trailing" secondItem="Jfq-QJ-hZ4" secondAttribute="trailing" id="i1D-kr-jrN"/>
                                 <constraint firstItem="7NQ-U4-r65" firstAttribute="leading" secondItem="BnP-ia-20R" secondAttribute="leading" id="iot-Q5-hNb"/>
                                 <constraint firstAttribute="bottom" secondItem="7NQ-U4-r65" secondAttribute="bottom" id="l8Q-NA-WRm"/>
                                 <constraint firstAttribute="bottom" secondItem="Jfq-QJ-hZ4" secondAttribute="bottom" id="mQN-4L-JJt"/>
+                                <constraint firstAttribute="trailing" secondItem="oPv-KT-5gM" secondAttribute="trailing" id="sqf-ZR-Euj"/>
                                 <constraint firstAttribute="height" constant="86" id="tJb-Ry-zGj"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
@@ -489,10 +531,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qcr-3y-azo">
                             <rect key="frame" x="0.0" y="95" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54x-sz-NTJ">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54x-sz-NTJ" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IP1-zG-MzL">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mpx-eC-H9b" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IP1-zG-MzL" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -521,11 +566,15 @@
                                 <constraint firstItem="54x-sz-NTJ" firstAttribute="top" secondItem="Qcr-3y-azo" secondAttribute="top" id="EAh-va-f0d"/>
                                 <constraint firstAttribute="width" constant="87" id="FOo-BU-F9X"/>
                                 <constraint firstAttribute="trailing" secondItem="54x-sz-NTJ" secondAttribute="trailing" id="THj-BW-e1i"/>
+                                <constraint firstAttribute="bottom" secondItem="Mpx-eC-H9b" secondAttribute="bottom" id="VJf-3C-S8L"/>
                                 <constraint firstItem="IP1-zG-MzL" firstAttribute="leading" secondItem="Qcr-3y-azo" secondAttribute="leading" id="W8Q-qT-wP4"/>
                                 <constraint firstAttribute="height" constant="86" id="amA-CC-g98"/>
                                 <constraint firstItem="IP1-zG-MzL" firstAttribute="top" secondItem="Qcr-3y-azo" secondAttribute="top" id="bYb-nf-jSE"/>
+                                <constraint firstItem="Mpx-eC-H9b" firstAttribute="top" secondItem="Qcr-3y-azo" secondAttribute="top" id="hx5-YB-Rlp"/>
+                                <constraint firstAttribute="trailing" secondItem="Mpx-eC-H9b" secondAttribute="trailing" id="o7f-Xm-LYz"/>
                                 <constraint firstAttribute="trailing" secondItem="IP1-zG-MzL" secondAttribute="trailing" id="tvC-dV-kiq"/>
                                 <constraint firstItem="54x-sz-NTJ" firstAttribute="leading" secondItem="Qcr-3y-azo" secondAttribute="leading" id="uRl-Lw-C5S"/>
+                                <constraint firstItem="Mpx-eC-H9b" firstAttribute="leading" secondItem="Qcr-3y-azo" secondAttribute="leading" id="uiG-1q-8hy"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -537,10 +586,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Roq-DZ-OV5">
                             <rect key="frame" x="0.0" y="190" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k2O-Kh-3GA">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k2O-Kh-3GA" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kva-SS-6dD">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PWv-Ac-D3H" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kva-SS-6dD" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -566,13 +618,17 @@
                             <constraints>
                                 <constraint firstAttribute="bottom" secondItem="k2O-Kh-3GA" secondAttribute="bottom" id="5Xd-Tu-Ayb"/>
                                 <constraint firstItem="Kva-SS-6dD" firstAttribute="leading" secondItem="Roq-DZ-OV5" secondAttribute="leading" id="883-LY-M2T"/>
+                                <constraint firstAttribute="trailing" secondItem="PWv-Ac-D3H" secondAttribute="trailing" id="ExN-Pc-5QI"/>
                                 <constraint firstAttribute="trailing" secondItem="Kva-SS-6dD" secondAttribute="trailing" id="MV5-UY-UUF"/>
                                 <constraint firstAttribute="trailing" secondItem="k2O-Kh-3GA" secondAttribute="trailing" id="T8X-on-vmM"/>
+                                <constraint firstItem="PWv-Ac-D3H" firstAttribute="top" secondItem="Roq-DZ-OV5" secondAttribute="top" id="VkT-KM-nCS"/>
                                 <constraint firstAttribute="width" constant="87" id="c6r-iB-n4l"/>
+                                <constraint firstAttribute="bottom" secondItem="PWv-Ac-D3H" secondAttribute="bottom" id="e7s-8O-sIh"/>
                                 <constraint firstItem="Kva-SS-6dD" firstAttribute="top" secondItem="Roq-DZ-OV5" secondAttribute="top" id="fQ8-Y5-XrI"/>
                                 <constraint firstItem="k2O-Kh-3GA" firstAttribute="top" secondItem="Roq-DZ-OV5" secondAttribute="top" id="fZJ-7v-NW6"/>
                                 <constraint firstItem="k2O-Kh-3GA" firstAttribute="leading" secondItem="Roq-DZ-OV5" secondAttribute="leading" id="i4g-Nk-64h"/>
                                 <constraint firstAttribute="bottom" secondItem="Kva-SS-6dD" secondAttribute="bottom" id="j6X-wJ-GwI"/>
+                                <constraint firstItem="PWv-Ac-D3H" firstAttribute="leading" secondItem="Roq-DZ-OV5" secondAttribute="leading" id="nQD-da-bTB"/>
                                 <constraint firstAttribute="height" constant="86" id="y2T-Tn-ICX"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
@@ -585,10 +641,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4d-ga-l1Y">
                             <rect key="frame" x="0.0" y="285" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uFS-86-PGW">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uFS-86-PGW" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyP-fb-KEY">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9WB-Nt-qiV" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyP-fb-KEY" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -612,9 +671,11 @@
                                 </button>
                             </subviews>
                             <constraints>
+                                <constraint firstAttribute="trailing" secondItem="9WB-Nt-qiV" secondAttribute="trailing" id="1FO-aI-gaf"/>
                                 <constraint firstItem="uFS-86-PGW" firstAttribute="leading" secondItem="Z4d-ga-l1Y" secondAttribute="leading" id="26s-hM-0dk"/>
                                 <constraint firstAttribute="height" constant="86" id="4qn-9i-fJG"/>
                                 <constraint firstAttribute="trailing" secondItem="uFS-86-PGW" secondAttribute="trailing" id="GT2-zs-tYa"/>
+                                <constraint firstAttribute="bottom" secondItem="9WB-Nt-qiV" secondAttribute="bottom" id="Hl0-Tc-CXu"/>
                                 <constraint firstAttribute="bottom" secondItem="UyP-fb-KEY" secondAttribute="bottom" id="SOc-Fy-Pjd"/>
                                 <constraint firstItem="uFS-86-PGW" firstAttribute="top" secondItem="Z4d-ga-l1Y" secondAttribute="top" id="TjP-o5-JNC"/>
                                 <constraint firstAttribute="bottom" secondItem="uFS-86-PGW" secondAttribute="bottom" id="lYB-MR-OTF"/>
@@ -622,6 +683,8 @@
                                 <constraint firstAttribute="trailing" secondItem="UyP-fb-KEY" secondAttribute="trailing" id="qpd-W5-QJx"/>
                                 <constraint firstAttribute="width" constant="87" id="sLw-IY-q4P"/>
                                 <constraint firstItem="UyP-fb-KEY" firstAttribute="leading" secondItem="Z4d-ga-l1Y" secondAttribute="leading" id="wSH-cz-PGv"/>
+                                <constraint firstItem="9WB-Nt-qiV" firstAttribute="leading" secondItem="Z4d-ga-l1Y" secondAttribute="leading" id="wlD-Q9-xdq"/>
+                                <constraint firstItem="9WB-Nt-qiV" firstAttribute="top" secondItem="Z4d-ga-l1Y" secondAttribute="top" id="yFl-5Q-8GN"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -633,10 +696,13 @@
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJF-se-shj">
                             <rect key="frame" x="0.0" y="380" width="87" height="86"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQo-ka-YmH">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQo-ka-YmH" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                 </view>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXT-UR-sGL">
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IlF-uJ-43L" userLabel="gradient" customClass="CustomViewGradient" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXT-UR-sGL" customClass="CustomButtonBorder" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
                                     <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -661,14 +727,18 @@
                             </subviews>
                             <constraints>
                                 <constraint firstAttribute="width" constant="87" id="9xm-aB-lRC"/>
+                                <constraint firstAttribute="trailing" secondItem="IlF-uJ-43L" secondAttribute="trailing" id="Dr2-G1-2Ha"/>
                                 <constraint firstItem="JQo-ka-YmH" firstAttribute="leading" secondItem="dJF-se-shj" secondAttribute="leading" id="FcT-5R-r1w"/>
                                 <constraint firstItem="ZXT-UR-sGL" firstAttribute="top" secondItem="dJF-se-shj" secondAttribute="top" id="M3F-1u-4kI"/>
                                 <constraint firstItem="ZXT-UR-sGL" firstAttribute="leading" secondItem="dJF-se-shj" secondAttribute="leading" id="OjF-Cd-tHq"/>
                                 <constraint firstAttribute="bottom" secondItem="JQo-ka-YmH" secondAttribute="bottom" id="Qko-sX-Ubf"/>
+                                <constraint firstAttribute="bottom" secondItem="IlF-uJ-43L" secondAttribute="bottom" id="R1O-3e-Rgh"/>
+                                <constraint firstItem="IlF-uJ-43L" firstAttribute="top" secondItem="dJF-se-shj" secondAttribute="top" id="WMY-GI-lWn"/>
                                 <constraint firstAttribute="trailing" secondItem="JQo-ka-YmH" secondAttribute="trailing" id="YlK-23-kOu"/>
                                 <constraint firstAttribute="bottom" secondItem="ZXT-UR-sGL" secondAttribute="bottom" id="qDm-2e-WM8"/>
                                 <constraint firstItem="JQo-ka-YmH" firstAttribute="top" secondItem="dJF-se-shj" secondAttribute="top" id="qFF-ud-rqB"/>
                                 <constraint firstAttribute="height" constant="86" id="u2a-jo-6sn"/>
+                                <constraint firstItem="IlF-uJ-43L" firstAttribute="leading" secondItem="dJF-se-shj" secondAttribute="leading" id="vRn-H9-Dgl"/>
                                 <constraint firstAttribute="trailing" secondItem="ZXT-UR-sGL" secondAttribute="trailing" id="viT-La-NuO"/>
                             </constraints>
                             <userDefinedRuntimeAttributes>
@@ -697,7 +767,7 @@
                 <constraint firstItem="2m2-em-GbP" firstAttribute="top" secondItem="3iw-nn-IBt" secondAttribute="bottom" constant="8" id="tlW-US-340"/>
                 <constraint firstItem="Kad-3H-Ku9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zFl-SH-gqu"/>
             </constraints>
-            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
+            <point key="canvasLocation" x="136.80000000000001" y="109.29535232383809"/>
         </view>
     </objects>
     <resources>
