@@ -11,6 +11,9 @@
         <array key="Montserrat-Black.ttf">
             <string>Montserrat-Black</string>
         </array>
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
         <array key="Montserrat-Medium.ttf">
             <string>Montserrat-Medium</string>
         </array>
@@ -18,6 +21,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalTastesView" customModule="artppl" customModuleProvider="target">
             <connections>
+                <outlet property="btnComenzar" destination="khL-aP-1XY" id="98P-dV-tSl"/>
                 <outlet property="containerViewCine" destination="9LX-3O-A7N" id="hvJ-nG-Cdg"/>
                 <outlet property="containerViewCrafty" destination="tBa-6N-VeT" id="hU8-A8-wPr"/>
                 <outlet property="containerViewDanza" destination="54x-sz-NTJ" id="1gI-4C-7pA"/>
@@ -750,17 +754,34 @@
                         </view>
                     </subviews>
                 </stackView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khL-aP-1XY" customClass="CustomButtonGradient" customModule="artppl" customModuleProvider="target">
+                    <rect key="frame" x="16" y="585" width="343" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="343" id="ANe-oG-0Dg"/>
+                        <constraint firstAttribute="height" constant="39" id="pyu-I4-4WR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="COMENZAR">
+                        <color key="titleColor" name="colorWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="actionBtnComenzar:" destination="-1" eventType="touchUpInside" id="wMm-g7-zxO"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="colorMain"/>
             <constraints>
                 <constraint firstItem="NAg-ma-LV4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" identifier="stackLeftMargin" id="56U-kT-gz4"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kad-3H-Ku9" secondAttribute="bottom" constant="20" id="830-bB-BVG"/>
+                <constraint firstItem="khL-aP-1XY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NTC-2D-IAA"/>
                 <constraint firstItem="V7z-KF-IMc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RvN-D9-ZQs"/>
                 <constraint firstItem="NAg-ma-LV4" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="65" id="WRc-X2-NbQ"/>
                 <constraint firstItem="3iw-nn-IBt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="abx-ex-cjh"/>
                 <constraint firstItem="2m2-em-GbP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="aqP-qL-7HU"/>
                 <constraint firstItem="Nc9-bu-ETM" firstAttribute="top" secondItem="NAg-ma-LV4" secondAttribute="top" id="hxk-Dk-fyc"/>
+                <constraint firstItem="Kad-3H-Ku9" firstAttribute="top" secondItem="khL-aP-1XY" secondAttribute="bottom" constant="8" symbolic="YES" id="iX8-rG-wDM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nc9-bu-ETM" secondAttribute="trailing" constant="30" id="ieF-et-UtW"/>
                 <constraint firstItem="3iw-nn-IBt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kIr-zt-arj"/>
                 <constraint firstItem="V7z-KF-IMc" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="20" id="rCu-Qv-eaD"/>

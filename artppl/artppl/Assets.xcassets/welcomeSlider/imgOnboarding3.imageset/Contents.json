@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "screens-1.png",
+      "filename" : "imgOnboarding3.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "imgOnboarding3@2x.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "imgOnboarding3@3x.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

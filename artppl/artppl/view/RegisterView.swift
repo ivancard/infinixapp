@@ -15,27 +15,20 @@ class RegisterView: UIViewController, UITextFieldDelegate {
     //TextFields
     @IBOutlet weak var textFieldFullName: UITextField!
     
+    @IBAction func actionBtnComenzar(_ sender: Any) {
+        self.navigationController?.pushViewController(PersonalTastesView(), animated: true)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
         
         self.textFieldFullName.delegate = self
         
         StyleFunctions.setGradientToAButton(button: itsAButton)
 
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 //Remueve el teclado en pantalla

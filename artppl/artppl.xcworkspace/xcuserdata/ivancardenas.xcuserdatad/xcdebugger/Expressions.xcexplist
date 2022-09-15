@@ -3,6 +3,28 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "PersonalTastesView.actionBtnPintura(_:):PersonalTastesView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "buttonPinturaState">
+            </PersistentString>
+            <PersistentString
+               value = "selectedButtons">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PersonalTastesView.confirmTwoSelected():PersonalTastesView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "buttonEscrituraState">
+            </PersistentString>
+            <PersistentString
+               value = "selectedButtons">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "PersonalTastesView.showAnimation(container:isCheck:):PersonalTastesView.swift">
          <PersistentStrings>
             <PersistentString

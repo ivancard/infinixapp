@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E8562500D779A4C9A4171CBC /* Pods_artppl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */; };
+		FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */; };
 		FC11884828CA7FDC00D9972A /* PersonalTastesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */; };
 		FC11884928CA7FDC00D9972A /* PersonalTastesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */; };
 		FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */; };
@@ -42,6 +43,7 @@
 		3E1457A6C6709C3277742006 /* Pods-artppl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artppl.debug.xcconfig"; path = "Target Support Files/Pods-artppl/Pods-artppl.debug.xcconfig"; sourceTree = "<group>"; };
 		96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artppl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78B62642C57E15A5F63DA57 /* Pods-artppl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artppl.release.xcconfig"; path = "Target Support Files/Pods-artppl/Pods-artppl.release.xcconfig"; sourceTree = "<group>"; };
+		FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonGradient.swift; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesView.swift; sourceTree = "<group>"; };
 		FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalTastesView.xib; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */,
 				FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */,
 				FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */,
+				FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */,
 			);
 			path = customComponents;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorView.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
+				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginView.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,

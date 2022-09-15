@@ -7,23 +7,36 @@
 
 import UIKit
 
-class WelcomeSliderView: UIViewController {
+class WelcomeSliderView: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var pageControl: UIPageControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        scrollView.delegate = self
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+      let scrollViewWidth = scrollView.bounds.width
+      self.page = Int(round(scrollView.contentOffset.x / scrollViewWidth))
     }
-    */
-
+    
+    var page: Int? {
+        didSet {
+            guard oldValue != self.page else {
+              return
+            }
+            pageControl.currentPage = page ?? 0
+            
+            //Al llegar a la pagina 3 espera 2 segundos y direcciona a la vista de registro
+            if(page == 2){
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+                let homeView = RegisterView()
+                self.navigationController?.pushViewController(homeView, animated: true)
+                }
+            }
+        }
+    }
 }
