@@ -9,12 +9,12 @@ import UIKit
 
 class WelcomeSliderView: UIViewController, UIScrollViewDelegate {
 
+    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         scrollView.delegate = self
     }
     

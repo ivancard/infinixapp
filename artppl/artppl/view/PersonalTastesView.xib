@@ -21,20 +21,20 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalTastesView" customModule="artppl" customModuleProvider="target">
             <connections>
-                <outlet property="btnComenzar" destination="khL-aP-1XY" id="98P-dV-tSl"/>
-                <outlet property="containerViewCine" destination="9LX-3O-A7N" id="hvJ-nG-Cdg"/>
-                <outlet property="containerViewCrafty" destination="tBa-6N-VeT" id="hU8-A8-wPr"/>
-                <outlet property="containerViewDanza" destination="54x-sz-NTJ" id="1gI-4C-7pA"/>
-                <outlet property="containerViewDibujo" destination="DoE-54-H8g" id="w4v-jQ-HpF"/>
-                <outlet property="containerViewDiseno" destination="V7n-Fn-QC8" id="P3y-wX-Wc9"/>
-                <outlet property="containerViewEscritura" destination="NrO-Vm-0Nb" id="oVJ-1r-VrZ"/>
-                <outlet property="containerViewEscultura" destination="zao-jT-4as" id="0Ud-53-64M"/>
-                <outlet property="containerViewFotografia" destination="JQo-ka-YmH" id="MKL-sG-0Vi"/>
-                <outlet property="containerViewMakeUp" destination="uFS-86-PGW" id="Zjz-ZZ-HUd"/>
-                <outlet property="containerViewMusica" destination="ztV-sT-KWP" id="oUm-aS-ppk"/>
-                <outlet property="containerViewPintura" destination="Qh2-wI-Z9q" id="jF0-KB-O6r"/>
-                <outlet property="containerViewTattoo" destination="k2O-Kh-3GA" id="9MP-yd-S73"/>
-                <outlet property="containerViewTeatro" destination="Jfq-QJ-hZ4" id="ceA-mQ-tcc"/>
+                <outlet property="btnCine" destination="YIA-ZI-HxK" id="5hr-rJ-ddo"/>
+                <outlet property="btnComenzar" destination="khL-aP-1XY" id="ysz-cc-vn5"/>
+                <outlet property="btnCrafty" destination="MgE-0d-1Im" id="nd6-jW-4cm"/>
+                <outlet property="btnDanza" destination="vZT-Vp-ALU" id="ri1-dg-7Pg"/>
+                <outlet property="btnDibujo" destination="Q0Q-cw-PDF" id="7ev-4Z-w1c"/>
+                <outlet property="btnDiseno" destination="Ekl-TO-8O6" id="ruZ-r0-Gqi"/>
+                <outlet property="btnEscritura" destination="SSc-ur-crf" id="uYI-fZ-OuL"/>
+                <outlet property="btnEscultura" destination="dOL-uh-ZG8" id="mhM-3Y-lfU"/>
+                <outlet property="btnFotografia" destination="7Nh-gf-DtB" id="ZmI-gQ-fqb"/>
+                <outlet property="btnMusica" destination="JKU-Cm-JYY" id="eoO-HR-bFd"/>
+                <outlet property="btnPintura" destination="DiW-By-bw6" id="2Vt-ec-xlE"/>
+                <outlet property="btnTattoo" destination="D5o-XA-mCJ" id="Flg-g6-UXc"/>
+                <outlet property="btnTeatro" destination="oOl-RE-nQh" id="cEU-nE-KR2"/>
+                <outlet property="btnmakeUp" destination="p0B-bw-UQp" id="QFv-q4-oca"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -61,8 +61,68 @@
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="NAg-ma-LV4">
                     <rect key="frame" x="30" y="132" width="87" height="371"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xYQ-l4-CFk">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiW-By-bw6" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="W1I-hw-MSO"/>
+                                <constraint firstAttribute="height" constant="86" id="kHB-8B-GGB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Pintura">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnPintura:" destination="-1" eventType="touchUpInside" id="d5o-NQ-1b4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSc-ur-crf" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="mx4-pp-XQy"/>
+                                <constraint firstAttribute="width" constant="87" id="zmH-gy-ete"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Escritura">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnEscritura:" destination="-1" eventType="touchUpInside" id="pYi-DV-EcH"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0Q-cw-PDF" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="MW1-ex-RAi"/>
+                                <constraint firstAttribute="width" constant="87" id="e7M-4d-mNW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Dibujo">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnDibujo:" destination="-1" eventType="touchUpInside" id="oKX-tC-Icw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOL-uh-ZG8" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="Inl-WY-nT4"/>
+                                <constraint firstAttribute="height" constant="86" id="Oel-7E-Cwf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Escultura">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnEscultura:" destination="-1" eventType="touchUpInside" id="rXr-cN-TJF"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xYQ-l4-CFk">
+                            <rect key="frame" x="0.0" y="40" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qh2-wI-Z9q" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -78,9 +138,6 @@
                                     <state key="normal" title="Pintura">
                                         <color key="titleColor" name="colorWhite"/>
                                     </state>
-                                    <connections>
-                                        <action selector="actionBtnPintura:" destination="-1" eventType="touchUpInside" id="DYU-sr-XaJ"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -108,7 +165,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6so-bm-Evr">
-                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <rect key="frame" x="0.0" y="160" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NrO-Vm-0Nb" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -124,9 +181,6 @@
                                     <state key="normal" title="Escritura">
                                         <color key="titleColor" name="colorWhite"/>
                                     </state>
-                                    <connections>
-                                        <action selector="actionBtnEscritura:" destination="-1" eventType="touchUpInside" id="CxO-TG-5xT"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <color key="backgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -154,7 +208,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ysn-hc-U36">
-                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <rect key="frame" x="0.0" y="255" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DoE-54-H8g" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -180,9 +234,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnDibujo:" destination="-1" eventType="touchUpInside" id="u8a-QX-dEk"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -209,7 +260,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zt1-TY-pvB">
-                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <rect key="frame" x="0.0" y="350" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zao-jT-4as" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -235,9 +286,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnEscultura:" destination="-1" eventType="touchUpInside" id="84J-jp-KLN"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -264,12 +312,80 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                     </subviews>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="xYQ-l4-CFk"/>
+                            <exclude reference="6so-bm-Evr"/>
+                            <exclude reference="Ysn-hc-U36"/>
+                            <exclude reference="zt1-TY-pvB"/>
+                        </mask>
+                    </variation>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Nc9-bu-ETM">
                     <rect key="frame" x="258" y="132" width="87" height="371"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3KW-86-LFz">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKU-Cm-JYY" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="DZJ-ju-X9W"/>
+                                <constraint firstAttribute="width" constant="87" id="dcz-by-b3R"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Música">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnMusica:" destination="-1" eventType="touchUpInside" id="BpW-Rh-CrG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIA-ZI-HxK" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="GBS-WG-3yB"/>
+                                <constraint firstAttribute="height" constant="86" id="QNz-8x-Uk7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Cine">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnCine:" destination="-1" eventType="touchUpInside" id="6PH-yi-h4Z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ekl-TO-8O6" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="1BI-Dp-ZnI"/>
+                                <constraint firstAttribute="height" constant="86" id="Dlv-pA-igB"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Diseño">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnDiseno:" destination="-1" eventType="touchUpInside" id="0sw-E8-bos"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgE-0d-1Im" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="6sq-Q8-sQ7"/>
+                                <constraint firstAttribute="width" constant="87" id="eMP-Ba-MR5"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Crafty">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnCrafty:" destination="-1" eventType="touchUpInside" id="6PX-U4-JjL"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3KW-86-LFz">
+                            <rect key="frame" x="0.0" y="380" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztV-sT-KWP" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -284,9 +400,6 @@
                                     <state key="normal" title="Música">
                                         <color key="titleColor" name="colorWhite"/>
                                     </state>
-                                    <connections>
-                                        <action selector="actionBtnMusica:" destination="-1" eventType="touchUpInside" id="XRB-DE-bIX"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -313,7 +426,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksW-3S-Xrw">
-                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <rect key="frame" x="0.0" y="475" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9LX-3O-A7N" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -339,9 +452,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnCine:" destination="-1" eventType="touchUpInside" id="GZR-DZ-1jN"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -368,7 +478,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RuQ-aI-MHH">
-                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <rect key="frame" x="0.0" y="570" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7n-Fn-QC8" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -394,9 +504,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnDiseno:" destination="-1" eventType="touchUpInside" id="hyd-Y7-D0X"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -423,7 +530,7 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DSc-4D-5WS">
-                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <rect key="frame" x="0.0" y="665" width="87" height="86"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tBa-6N-VeT" customClass="CustomViewAnimation" customModule="artppl" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
@@ -449,9 +556,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnCrafty:" destination="-1" eventType="touchUpInside" id="ggv-3N-g1q"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -478,13 +582,27 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                     </subviews>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="3KW-86-LFz"/>
+                            <exclude reference="ksW-3S-Xrw"/>
+                            <exclude reference="RuQ-aI-MHH"/>
+                            <exclude reference="DSc-4D-5WS"/>
+                        </mask>
+                    </variation>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿No encuentras tu categoria?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kad-3H-Ku9">
-                    <rect key="frame" x="98" y="632" width="179.5" height="15"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLY-Vh-sqF">
+                    <rect key="frame" x="87.5" y="630" width="200" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="hzv-iW-RAi"/>
+                    </constraints>
                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
-                    <color key="textColor" name="colorWhite"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="¿No encuentras tu categoria?"/>
+                    <connections>
+                        <action selector="actionNewCategory" destination="-1" eventType="touchUpInside" id="5pi-ko-Okd"/>
+                    </connections>
+                </button>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="V7z-KF-IMc">
                     <rect key="frame" x="144" y="87" width="87" height="466"/>
                     <subviews>
@@ -504,9 +622,6 @@
                                     <state key="normal" title="Teatro">
                                         <color key="titleColor" name="colorWhite"/>
                                     </state>
-                                    <connections>
-                                        <action selector="actionBtnTeatro:" destination="-1" eventType="touchUpInside" id="1FM-Jg-9Np"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -559,9 +674,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnDanza:" destination="-1" eventType="touchUpInside" id="n0g-ME-1qv"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -614,9 +726,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnTattoo:" destination="-1" eventType="touchUpInside" id="0yh-K0-DoD"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -669,9 +778,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnMakeUp:" destination="-1" eventType="touchUpInside" id="A98-oH-lSL"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -724,9 +830,6 @@
                                             <color key="value" name="colorWhite"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
-                                    <connections>
-                                        <action selector="actionBtnFotografia:" destination="-1" eventType="touchUpInside" id="rhb-Sn-1Fa"/>
-                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -752,10 +855,94 @@
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                             </userDefinedRuntimeAttributes>
                         </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOl-RE-nQh" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="Mpk-Qn-P8S"/>
+                                <constraint firstAttribute="width" constant="87" id="pdr-zc-FCg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Teatro">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnTeatro:" destination="-1" eventType="touchUpInside" id="Yag-7f-TLf"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZT-Vp-ALU" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="RjV-Dy-5nP"/>
+                                <constraint firstAttribute="height" constant="86" id="vdn-fo-iGj"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Danza">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnDanza:" destination="-1" eventType="touchUpInside" id="WJK-u7-Mev"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5o-XA-mCJ" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="AlC-TP-XQd"/>
+                                <constraint firstAttribute="width" constant="87" id="crF-I8-v9m"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Tattoo">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnTattoo:" destination="-1" eventType="touchUpInside" id="Qnj-g5-H34"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0B-bw-UQp" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="87" id="8HS-S9-DgU"/>
+                                <constraint firstAttribute="height" constant="86" id="FUl-28-EEo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="MakeUp">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnMakeUp:" destination="-1" eventType="touchUpInside" id="DK9-72-6I0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nh-gf-DtB" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="380" width="87" height="86"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="86" id="38h-FX-QpB"/>
+                                <constraint firstAttribute="width" constant="87" id="Ma9-CM-chp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Fotografía">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="actionBtnFotografia:" destination="-1" eventType="touchUpInside" id="ikQ-7r-coz"/>
+                            </connections>
+                        </button>
                     </subviews>
+                    <variation key="default">
+                        <mask key="subviews">
+                            <exclude reference="BnP-ia-20R"/>
+                            <exclude reference="Qcr-3y-azo"/>
+                            <exclude reference="Roq-DZ-OV5"/>
+                            <exclude reference="Z4d-ga-l1Y"/>
+                            <exclude reference="dJF-se-shj"/>
+                        </mask>
+                    </variation>
                 </stackView>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khL-aP-1XY" customClass="CustomButtonGradient" customModule="artppl" customModuleProvider="target">
-                    <rect key="frame" x="16" y="585" width="343" height="39"/>
+                    <rect key="frame" x="16" y="581" width="343" height="39"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="343" id="ANe-oG-0Dg"/>
                         <constraint firstAttribute="height" constant="39" id="pyu-I4-4WR"/>
@@ -766,7 +953,7 @@
                         <color key="titleColor" name="colorWhite"/>
                     </state>
                     <connections>
-                        <action selector="actionBtnComenzar:" destination="-1" eventType="touchUpInside" id="wMm-g7-zxO"/>
+                        <action selector="actionBtnComenzar:" destination="-1" eventType="touchUpInside" id="Vxc-BI-sp7"/>
                     </connections>
                 </button>
             </subviews>
@@ -774,19 +961,19 @@
             <color key="backgroundColor" name="colorMain"/>
             <constraints>
                 <constraint firstItem="NAg-ma-LV4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" identifier="stackLeftMargin" id="56U-kT-gz4"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Kad-3H-Ku9" secondAttribute="bottom" constant="20" id="830-bB-BVG"/>
+                <constraint firstItem="MLY-Vh-sqF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9hh-Dp-842"/>
                 <constraint firstItem="khL-aP-1XY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NTC-2D-IAA"/>
                 <constraint firstItem="V7z-KF-IMc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RvN-D9-ZQs"/>
                 <constraint firstItem="NAg-ma-LV4" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="65" id="WRc-X2-NbQ"/>
+                <constraint firstItem="MLY-Vh-sqF" firstAttribute="top" secondItem="khL-aP-1XY" secondAttribute="bottom" constant="10" id="WkA-5m-zPy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MLY-Vh-sqF" secondAttribute="bottom" constant="10" id="YVG-bb-gY4"/>
                 <constraint firstItem="3iw-nn-IBt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="abx-ex-cjh"/>
                 <constraint firstItem="2m2-em-GbP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="aqP-qL-7HU"/>
                 <constraint firstItem="Nc9-bu-ETM" firstAttribute="top" secondItem="NAg-ma-LV4" secondAttribute="top" id="hxk-Dk-fyc"/>
-                <constraint firstItem="Kad-3H-Ku9" firstAttribute="top" secondItem="khL-aP-1XY" secondAttribute="bottom" constant="8" symbolic="YES" id="iX8-rG-wDM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nc9-bu-ETM" secondAttribute="trailing" constant="30" id="ieF-et-UtW"/>
                 <constraint firstItem="3iw-nn-IBt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kIr-zt-arj"/>
                 <constraint firstItem="V7z-KF-IMc" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="20" id="rCu-Qv-eaD"/>
                 <constraint firstItem="2m2-em-GbP" firstAttribute="top" secondItem="3iw-nn-IBt" secondAttribute="bottom" constant="8" id="tlW-US-340"/>
-                <constraint firstItem="Kad-3H-Ku9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zFl-SH-gqu"/>
             </constraints>
             <point key="canvasLocation" x="136.80000000000001" y="109.29535232383809"/>
         </view>

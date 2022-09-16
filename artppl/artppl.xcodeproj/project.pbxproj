@@ -12,6 +12,9 @@
 		FC11884828CA7FDC00D9972A /* PersonalTastesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */; };
 		FC11884928CA7FDC00D9972A /* PersonalTastesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */; };
 		FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */; };
+		FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */; };
+		FC44002A28D4E44C00818FE8 /* NewCategorieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002828D4E44C00818FE8 /* NewCategorieView.swift */; };
+		FC44002B28D4E44C00818FE8 /* NewCategorieView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC44002928D4E44C00818FE8 /* NewCategorieView.xib */; };
 		FC5313F028CBC31400C7ACA6 /* animationTest.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313EF28CBC31400C7ACA6 /* animationTest.json */; };
 		FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313F728CBDC5700C7ACA6 /* animationButton.json */; };
 		FC58B06D28C8F5E100A66B78 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* LoginView.swift */; };
@@ -47,6 +50,9 @@
 		FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesView.swift; sourceTree = "<group>"; };
 		FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonalTastesView.xib; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationButton.swift; sourceTree = "<group>"; };
+		FC44002828D4E44C00818FE8 /* NewCategorieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategorieView.swift; sourceTree = "<group>"; };
+		FC44002928D4E44C00818FE8 /* NewCategorieView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCategorieView.xib; sourceTree = "<group>"; };
 		FC5313EF28CBC31400C7ACA6 /* animationTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationTest.json; sourceTree = "<group>"; };
 		FC5313F728CBDC5700C7ACA6 /* animationButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButton.json; sourceTree = "<group>"; };
 		FC58B06B28C8F5E100A66B78 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -173,6 +179,8 @@
 				FC58B07D28C92F8C00A66B78 /* ProfileSelectorView.xib */,
 				FC11884628CA7FDC00D9972A /* PersonalTastesView.swift */,
 				FC11884728CA7FDC00D9972A /* PersonalTastesView.xib */,
+				FC44002828D4E44C00818FE8 /* NewCategorieView.swift */,
+				FC44002928D4E44C00818FE8 /* NewCategorieView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 				FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */,
 				FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */,
 				FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */,
+				FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */,
 			);
 			path = customComponents;
 			sourceTree = "<group>";
@@ -261,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC5313F028CBC31400C7ACA6 /* animationTest.json in Resources */,
+				FC44002B28D4E44C00818FE8 /* NewCategorieView.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
 				FC58B07B28C91FF800A66B78 /* RegisterView.xib in Resources */,
 				FC58B06E28C8F5E100A66B78 /* LoginView.xib in Resources */,
@@ -336,6 +346,8 @@
 				FC58B06D28C8F5E100A66B78 /* LoginView.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
+				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
+				FC44002A28D4E44C00818FE8 /* NewCategorieView.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterView.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
