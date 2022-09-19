@@ -69,6 +69,8 @@ class PersonalTastesViewController: UIViewController {
     
     @IBAction func actionBtnComenzar(_ sender: Any) {
         //Dirige a Home
+       goToTabBar()
+        
     }
     @IBAction func actionNewCategory(){
         self.navigationController?.pushViewController(NewCategorieViewController(), animated: true)
@@ -92,5 +94,31 @@ class PersonalTastesViewController: UIViewController {
         }else{
             btnComenzar.isHidden = true
         }
+    }
+    
+    func goToTabBar() {
+        let tabBar = UITabBarController()
+        tabBar.tabBar.backgroundColor = .white
+        
+        let v1 = HomeViewController()
+        v1.title = "Home"
+        let v2 = MarketViewController()
+        v2.title = "Market"
+        let v3 = MessaggesViewController()
+        v3.title = "Chat"
+        let v4 = ProfileViewController()
+        v4.title = "Profile"
+        
+        tabBar.setViewControllers([v1, v2, v3, v4], animated: false  )
+        guard let items = tabBar.tabBar.items else { return }
+        let icons = ["iconHome", "iconMarket","iconChat", "iconProfile"]
+        
+        for item in 0..<items.count {
+            items[item].image = UIImage(named: icons[item])
+            
+        }
+        
+        tabBar.modalPresentationStyle = .fullScreen
+        present(tabBar, animated: true)
     }
 }
