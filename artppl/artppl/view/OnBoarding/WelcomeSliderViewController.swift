@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WelcomeSliderView: UIViewController, UIScrollViewDelegate {
+class WelcomeSliderViewController: UIViewController, UIScrollViewDelegate {
 
     
     @IBOutlet weak var scrollView: UIScrollView!
@@ -33,7 +33,7 @@ class WelcomeSliderView: UIViewController, UIScrollViewDelegate {
             //Al llegar a la pagina 3 espera 2 segundos y direcciona a la vista de registro
             if(page == 2){
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                let homeView = RegisterView()
+                let homeView = RegisterViewController()
                 self.navigationController?.pushViewController(homeView, animated: true)
                 }
             }

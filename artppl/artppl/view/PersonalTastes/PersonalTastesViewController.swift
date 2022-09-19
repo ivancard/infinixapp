@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonalTastesView: UIViewController {
+class PersonalTastesViewController: UIViewController {
     
     var selectedButtons: Int8 = 0
     
@@ -71,12 +71,12 @@ class PersonalTastesView: UIViewController {
         //Dirige a Home
     }
     @IBAction func actionNewCategory(){
-        self.navigationController?.pushViewController(NewCategorieView(), animated: true)
+        self.navigationController?.pushViewController(NewCategorieViewController(), animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.navigationController?.setNavigationBarHidden(true, animated: true)
-        self.navigationController?.navigationBar.isHidden = true
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        self.navigationController?.setToolbarHidden(true, animated: true)
     }
     
     func confirmTwoSelected(button: GradientAnimationButton){

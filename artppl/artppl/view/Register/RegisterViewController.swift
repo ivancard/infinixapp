@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RegisterView: UIViewController, UITextFieldDelegate {
+class RegisterViewController: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var itsAButton: UIButton!
@@ -16,7 +16,7 @@ class RegisterView: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textFieldFullName: UITextField!
     
     @IBAction func actionBtnComenzar(_ sender: Any) {
-        self.navigationController?.pushViewController(PersonalTastesView(), animated: true)
+        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
     }
     
     override func viewDidLoad() {
@@ -32,7 +32,7 @@ class RegisterView: UIViewController, UITextFieldDelegate {
 }
 
 //Remueve el teclado en pantalla
-extension RegisterView{
+extension RegisterViewController{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return textFieldFullName.resignFirstResponder()

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginView: UIViewController,UITextFieldDelegate{
+class LoginViewController: UIViewController,UITextFieldDelegate{
 
     @IBOutlet weak var loginButton: UIButton!
     
@@ -35,7 +35,7 @@ class LoginView: UIViewController,UITextFieldDelegate{
 
 }
 
-extension LoginView{
+extension LoginViewController{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return textFieldEmail.resignFirstResponder()

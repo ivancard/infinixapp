@@ -7,13 +7,18 @@
 
 import UIKit
 
-class NewCategorieView: UIViewController, UITextFieldDelegate {
+class NewCategorieViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var frameTextView: UIView!
     @IBOutlet weak var newCategoryTxtField: UITextField!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light 
+        }
         self.newCategoryTxtField.delegate = self
         
         self.navigationController?.setNavigationBarHidden(false, animated: true)
@@ -21,7 +26,7 @@ class NewCategorieView: UIViewController, UITextFieldDelegate {
         frameTextView.layer.borderColor = UIColor(named: "colorFrameGray")?.cgColor
     }
 }
-extension NewCategorieView{
+extension NewCategorieViewController{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return newCategoryTxtField.resignFirstResponder()

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProfileSelectorView: UIViewController {
+class ProfileSelectorViewController: UIViewController {
 
     
     @IBOutlet weak var shadowArtist: UIView!
