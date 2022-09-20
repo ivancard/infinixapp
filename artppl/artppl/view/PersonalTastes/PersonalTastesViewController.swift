@@ -99,15 +99,15 @@ class PersonalTastesViewController: UIViewController {
     func goToTabBar() {
         let tabBar = UITabBarController()
         tabBar.tabBar.backgroundColor = .white
+        tabBar.tabBar.clipsToBounds = false
+        tabBar.tabBar.layer.shadowColor = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 0.80).cgColor
+        tabBar.tabBar.layer.shadowOpacity = 0.34
+        tabBar.tabBar.layer.shadowOffset = CGSize(width: 0, height: -3)
         
         let v1 = HomeViewController()
-        v1.title = "Home"
         let v2 = MarketViewController()
-        v2.title = "Market"
         let v3 = MessaggesViewController()
-        v3.title = "Chat"
         let v4 = ProfileViewController()
-        v4.title = "Profile"
         
         tabBar.setViewControllers([v1, v2, v3, v4], animated: false  )
         guard let items = tabBar.tabBar.items else { return }
@@ -115,7 +115,6 @@ class PersonalTastesViewController: UIViewController {
         
         for item in 0..<items.count {
             items[item].image = UIImage(named: icons[item])
-            
         }
         
         tabBar.modalPresentationStyle = .fullScreen
