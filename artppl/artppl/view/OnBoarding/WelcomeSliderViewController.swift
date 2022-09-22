@@ -33,8 +33,7 @@ class WelcomeSliderViewController: UIViewController, UIScrollViewDelegate {
             //Al llegar a la pagina 3 espera 2 segundos y direcciona a la vista de registro
             if(page == 2){
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-                let homeView = RegisterViewController()
-                self.navigationController?.pushViewController(homeView, animated: true)
+                self.navigationController?.pushViewController(LoginViewController(), animated: true)
                 }
             }
         }

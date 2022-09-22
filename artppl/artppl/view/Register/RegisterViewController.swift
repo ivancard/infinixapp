@@ -16,7 +16,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var textFieldFullName: UITextField!
     
     @IBAction func actionBtnComenzar(_ sender: Any) {
-        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
+        self.navigationController?.pushViewController(ProfileSelectorViewController(), animated: true)
     }
     
     override func viewDidLoad() {

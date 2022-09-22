@@ -15,6 +15,12 @@ class ProfileSelectorViewController: UIViewController {
     @IBOutlet weak var itemArtist: UIView!
     @IBOutlet weak var itemArtLover: UIView!
     
+    @IBAction func actionArtist(_ sender: Any) {
+        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
+    }
+    @IBAction func actionArtLover(_ sender: Any) {
+        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,16 +37,5 @@ class ProfileSelectorViewController: UIViewController {
         shadowLover.layer.shadowOffset = CGSize(width: 0, height: 0)
         shadowLover.layer.shadowColor = UIColor(red: 1.00, green: 0.34, blue: 0.86, alpha: 0.47).cgColor
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
