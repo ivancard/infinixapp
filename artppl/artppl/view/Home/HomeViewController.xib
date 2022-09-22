@@ -9,6 +9,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
         <array key="Montserrat-Regular.ttf">
             <string>Montserrat-Regular</string>
         </array>
@@ -16,6 +19,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="artppl" customModuleProvider="target">
             <connections>
+                <outlet property="artNearCollectionView" destination="Z5Y-m2-qhF" id="8ki-8X-OEA"/>
+                <outlet property="artistCollectionView" destination="ImC-7y-Jzp" id="sKp-7W-Z98"/>
+                <outlet property="cocreationCollectionView" destination="wTk-N1-Glj" id="nge-Z5-Ipu"/>
                 <outlet property="marketCollectionView" destination="6fe-mQ-3qi" id="vjZ-Nb-hsG"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -29,7 +35,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jAz-j7-iO2">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="1020"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="2005"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eq-DF-Tsf" userLabel="HeaderView">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
@@ -89,15 +95,15 @@
                                         <constraint firstItem="jrL-io-giv" firstAttribute="centerY" secondItem="MpN-ZR-G6O" secondAttribute="centerY" id="yrv-T0-ZXW"/>
                                     </constraints>
                                 </view>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fbF-OI-fog">
-                                    <rect key="frame" x="0.0" y="140" width="375" height="380"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fbF-OI-fog" userLabel="Carrousels">
+                                    <rect key="frame" x="0.0" y="140" width="375" height="1365"/>
                                     <subviews>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xiH-KK-Hrh">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xiH-KK-Hrh" userLabel="titleMarket">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARKET DE ARTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Kz-Mg-EGR">
-                                                    <rect key="frame" x="22" y="4" width="163" height="22"/>
-                                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                                                    <rect key="frame" x="22" y="4" width="164.5" height="22"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
                                                     <color key="textColor" name="AccentColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -119,7 +125,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="1L6-DR-dFj" secondAttribute="trailing" constant="22" id="ewe-So-h7F"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcH-eM-tzN">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcH-eM-tzN" userLabel="carrouselMarket">
                                             <rect key="frame" x="0.0" y="30" width="375" height="350"/>
                                             <subviews>
                                                 <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="6fe-mQ-3qi">
@@ -142,10 +148,160 @@
                                                 <constraint firstAttribute="trailing" secondItem="6fe-mQ-3qi" secondAttribute="trailing" id="xM0-UJ-Jml"/>
                                             </constraints>
                                         </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ao-JS-ej9" userLabel="titleArtistNear">
+                                            <rect key="frame" x="0.0" y="380" width="375" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARTISTAS CERCA DE TI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkB-LV-P8q">
+                                                    <rect key="frame" x="22" y="16.5" width="209.5" height="22"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                                                    <color key="textColor" name="AccentColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Cb-u1-doF">
+                                                    <rect key="frame" x="304" y="14" width="49" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Ver más">
+                                                        <color key="titleColor" name="AccentColor"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" name="colorWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="45" id="56t-vs-SgQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="6Cb-u1-doF" secondAttribute="trailing" constant="22" id="UYV-K0-teP"/>
+                                                <constraint firstItem="IkB-LV-P8q" firstAttribute="centerY" secondItem="4ao-JS-ej9" secondAttribute="centerY" constant="5" id="elC-cY-7Zw"/>
+                                                <constraint firstItem="IkB-LV-P8q" firstAttribute="leading" secondItem="4ao-JS-ej9" secondAttribute="leading" constant="22" id="xyZ-mW-WCc"/>
+                                                <constraint firstItem="6Cb-u1-doF" firstAttribute="centerY" secondItem="IkB-LV-P8q" secondAttribute="centerY" id="yaG-AL-Nsh"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VFh-37-K6b" userLabel="carrouselArtistNear">
+                                            <rect key="frame" x="0.0" y="425" width="375" height="200"/>
+                                            <subviews>
+                                                <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ImC-7y-Jzp">
+                                                    <rect key="frame" x="22" y="0.0" width="353" height="200"/>
+                                                    <color key="backgroundColor" name="colorWhite"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Opu-2H-r5V">
+                                                        <size key="itemSize" width="128" height="128"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                </collectionView>
+                                            </subviews>
+                                            <color key="backgroundColor" name="colorWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="ImC-7y-Jzp" secondAttribute="trailing" id="7b1-Xh-9uE"/>
+                                                <constraint firstAttribute="bottom" secondItem="ImC-7y-Jzp" secondAttribute="bottom" id="T54-lQ-obC"/>
+                                                <constraint firstAttribute="height" constant="200" id="bR6-03-ttV"/>
+                                                <constraint firstItem="ImC-7y-Jzp" firstAttribute="top" secondItem="VFh-37-K6b" secondAttribute="top" id="cXd-1I-ypM"/>
+                                                <constraint firstItem="ImC-7y-Jzp" firstAttribute="leading" secondItem="VFh-37-K6b" secondAttribute="leading" constant="22" id="jYl-94-TxI"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y0w-7v-w4H" userLabel="titleCoCreations">
+                                            <rect key="frame" x="0.0" y="625" width="375" height="40"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CO-CREACION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCZ-9v-ccN">
+                                                    <rect key="frame" x="22" y="19" width="134.5" height="22"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                                                    <color key="textColor" name="AccentColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQ2-1o-rgu">
+                                                    <rect key="frame" x="304" y="16.5" width="49" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Ver más">
+                                                        <color key="titleColor" name="AccentColor"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" name="colorWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="qCZ-9v-ccN" firstAttribute="centerY" secondItem="y0w-7v-w4H" secondAttribute="centerY" constant="10" id="2Wd-eU-LbA"/>
+                                                <constraint firstItem="qCZ-9v-ccN" firstAttribute="leading" secondItem="y0w-7v-w4H" secondAttribute="leading" constant="22" id="7s2-GW-JeS"/>
+                                                <constraint firstAttribute="height" constant="40" id="NRT-Wf-V4k"/>
+                                                <constraint firstAttribute="trailing" secondItem="nQ2-1o-rgu" secondAttribute="trailing" constant="22" id="YSR-nV-leR"/>
+                                                <constraint firstItem="nQ2-1o-rgu" firstAttribute="centerY" secondItem="qCZ-9v-ccN" secondAttribute="centerY" id="qFU-Sq-0X9"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mW-t6-Q7C" userLabel="carrouselCoCreations">
+                                            <rect key="frame" x="0.0" y="665" width="375" height="460"/>
+                                            <subviews>
+                                                <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wTk-N1-Glj">
+                                                    <rect key="frame" x="22" y="0.0" width="353" height="460"/>
+                                                    <color key="backgroundColor" name="colorWhite"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="n2E-SK-vWU">
+                                                        <size key="itemSize" width="128" height="128"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                </collectionView>
+                                            </subviews>
+                                            <color key="backgroundColor" name="colorWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="wTk-N1-Glj" firstAttribute="top" secondItem="7mW-t6-Q7C" secondAttribute="top" id="C4F-kF-qCQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="wTk-N1-Glj" secondAttribute="trailing" id="HFH-K9-zf0"/>
+                                                <constraint firstAttribute="height" constant="460" id="ZlC-8p-J3m"/>
+                                                <constraint firstAttribute="bottom" secondItem="wTk-N1-Glj" secondAttribute="bottom" id="u8Q-Tc-0Gt"/>
+                                                <constraint firstItem="wTk-N1-Glj" firstAttribute="leading" secondItem="7mW-t6-Q7C" secondAttribute="leading" constant="22" id="vQa-ec-k6Y"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mN-AW-878" userLabel="titleArtNear">
+                                            <rect key="frame" x="0.0" y="1125" width="375" height="40"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARTE CERCA DE TÍ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOZ-R2-4qv">
+                                                    <rect key="frame" x="22" y="19" width="170.5" height="22"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                                                    <color key="textColor" name="AccentColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03F-t1-sCR">
+                                                    <rect key="frame" x="304" y="16.5" width="49" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Ver más">
+                                                        <color key="titleColor" name="AccentColor"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" name="colorWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="03F-t1-sCR" firstAttribute="centerY" secondItem="hOZ-R2-4qv" secondAttribute="centerY" id="as8-sj-C3z"/>
+                                                <constraint firstAttribute="trailing" secondItem="03F-t1-sCR" secondAttribute="trailing" constant="22" id="eUD-eC-ZpF"/>
+                                                <constraint firstItem="hOZ-R2-4qv" firstAttribute="centerY" secondItem="0mN-AW-878" secondAttribute="centerY" constant="10" id="lUM-iq-Uco"/>
+                                                <constraint firstAttribute="height" constant="40" id="n1D-2I-9sT"/>
+                                                <constraint firstItem="hOZ-R2-4qv" firstAttribute="leading" secondItem="0mN-AW-878" secondAttribute="leading" constant="22" id="xnU-Fr-uGn"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d31-xy-Hed" userLabel="carrouselCoCreations">
+                                            <rect key="frame" x="0.0" y="1165" width="375" height="200"/>
+                                            <subviews>
+                                                <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Z5Y-m2-qhF">
+                                                    <rect key="frame" x="22" y="0.0" width="353" height="200"/>
+                                                    <color key="backgroundColor" name="colorWhite"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="D10-Po-Fpm">
+                                                        <size key="itemSize" width="128" height="128"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                </collectionView>
+                                            </subviews>
+                                            <color key="backgroundColor" name="colorWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="Z5Y-m2-qhF" firstAttribute="top" secondItem="d31-xy-Hed" secondAttribute="top" id="0s5-Dt-2bL"/>
+                                                <constraint firstItem="Z5Y-m2-qhF" firstAttribute="leading" secondItem="d31-xy-Hed" secondAttribute="leading" constant="22" id="9uX-2t-aDo"/>
+                                                <constraint firstAttribute="height" constant="200" id="XSW-mm-GWU"/>
+                                                <constraint firstAttribute="bottom" secondItem="Z5Y-m2-qhF" secondAttribute="bottom" id="cpc-uP-Rmx"/>
+                                                <constraint firstAttribute="trailing" secondItem="Z5Y-m2-qhF" secondAttribute="trailing" id="pA3-QL-j3n"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
                                 </stackView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HUc-N2-l3o">
-                                    <rect key="frame" x="0.0" y="520" width="375" height="500"/>
+                                    <rect key="frame" x="0.0" y="1505" width="375" height="500"/>
                                     <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="500" id="V5t-0V-4L6"/>
@@ -174,7 +330,7 @@
                 <constraint firstItem="7sU-KK-gih" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aLS-pQ-Mi3"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7sU-KK-gih" secondAttribute="trailing" id="kzD-TF-XtC"/>
             </constraints>
-            <point key="canvasLocation" x="36" y="20.239880059970016"/>
+            <point key="canvasLocation" x="-150" y="81"/>
         </view>
     </objects>
     <resources>

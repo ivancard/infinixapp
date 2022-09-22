@@ -46,6 +46,12 @@
 		FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60704128C7E09200424A33 /* WelcomeSliderViewController.swift */; };
 		FC60704428C7E09200424A33 /* WelcomeSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC60704228C7E09200424A33 /* WelcomeSliderViewController.xib */; };
 		FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */; };
+		FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D07C28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift */; };
+		FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D07D28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib */; };
+		FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08128DCE0B800B9B65A /* CoCreationCollectionViewCell.swift */; };
+		FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */; };
+		FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */; };
+		FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
@@ -96,6 +102,12 @@
 		FC60704128C7E09200424A33 /* WelcomeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSliderViewController.swift; sourceTree = "<group>"; };
 		FC60704228C7E09200424A33 /* WelcomeSliderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeSliderViewController.xib; sourceTree = "<group>"; };
 		FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		FC70D07C28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistNearCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC70D07D28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistNearCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC70D08128DCE0B800B9B65A /* CoCreationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoCreationCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoCreationCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtNearCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtNearCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
@@ -161,6 +173,9 @@
 		FC4423A228D8BC9A00803C9A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FC70D08528DCEC9A00B9B65A /* ArtNearCollectionCell */,
+				FC70D08028DCE09700B9B65A /* CoCreationCollectionCell */,
+				FC70D07B28DCBEE800B9B65A /* ArtistNearCollectionCell */,
 				FC133E5228DA2A5A00216014 /* MarketCollectionCell */,
 				FC4423A328D8BCAD00803C9A /* HomeViewController.swift */,
 				FC4423A428D8BCAD00803C9A /* HomeViewController.xib */,
@@ -279,6 +294,33 @@
 			path = fonts;
 			sourceTree = "<group>";
 		};
+		FC70D07B28DCBEE800B9B65A /* ArtistNearCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC70D07C28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift */,
+				FC70D07D28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib */,
+			);
+			path = ArtistNearCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC70D08028DCE09700B9B65A /* CoCreationCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC70D08128DCE0B800B9B65A /* CoCreationCollectionViewCell.swift */,
+				FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */,
+			);
+			path = CoCreationCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC70D08528DCEC9A00B9B65A /* ArtNearCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */,
+				FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */,
+			);
+			path = ArtNearCollectionCell;
+			sourceTree = "<group>";
+		};
 		FC99304C28D89E5E003E8223 /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +435,7 @@
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
 				FC58B07B28C91FF800A66B78 /* RegisterViewController.xib in Resources */,
 				FC4423AD28D8E67500803C9A /* MarketViewController.xib in Resources */,
+				FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */,
 				FC44239D28D89FC900803C9A /* PersonalTastesViewController.xib in Resources */,
 				FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */,
 				FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */,
@@ -408,6 +451,8 @@
 				FC60703428C7D3F000424A33 /* Main.storyboard in Resources */,
 				FC4423A828D8C36000803C9A /* Assets.xcassets in Resources */,
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
+				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
+				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
 				FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +515,7 @@
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
+				FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
@@ -479,6 +525,8 @@
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
+				FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */,
+				FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */,
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 			);

@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "pexels-janiere-fernandez-13484865.jpeg",
+      "filename" : "Malena Genova.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Malena Genova@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Malena Genova@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

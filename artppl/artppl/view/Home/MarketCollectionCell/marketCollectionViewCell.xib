@@ -26,7 +26,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="312.66666666666663" height="333.66666666666669"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="land" translatesAutoresizingMaskIntoConstraints="NO" id="SX0-MK-zvz">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgCarrouselMarket" translatesAutoresizingMaskIntoConstraints="NO" id="SX0-MK-zvz">
                         <rect key="frame" x="0.0" y="0.0" width="312.66666666666669" height="210"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="210" id="Hb6-F8-6eE"/>
@@ -85,7 +85,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="land" width="3376" height="6000"/>
+        <image name="imgCarrouselMarket" width="346" height="236"/>
         <namedColor name="AccentColor">
             <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
