@@ -9,8 +9,11 @@ import UIKit
 
 class ArtNearCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var imgArtNear: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        imgArtNear.layer.cornerRadius = 8
+        imgArtNear.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
-
 }

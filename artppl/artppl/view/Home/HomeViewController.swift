@@ -14,6 +14,8 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     let cocreationCellIdentifier = "CoCreationCollectionViewCell"
     let artNearCellIdentifier = "ArtNearCollectionViewCell"
     
+    @IBOutlet weak var popUpView: UIView!
+    
     @IBOutlet weak var marketCollectionView: UICollectionView!
     @IBOutlet weak var artistCollectionView: UICollectionView!
     @IBOutlet weak var cocreationCollectionView: UICollectionView!
@@ -71,22 +73,22 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         var size = CGSize()
         if collectionView == self.marketCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 1.2
-            let sizeHeight = UIScreen.main.bounds.height / 2.0
+            let sizeHeight = UIScreen.main.bounds.height / 2.8
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         if collectionView == self.artistCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 2.5
-            let sizeHeight = UIScreen.main.bounds.height / 3.5
+            let sizeHeight = UIScreen.main.bounds.height / 4.8
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         if collectionView == self.cocreationCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 1.2
-            let sizeHeight = UIScreen.main.bounds.height / 1.55
+            let sizeHeight = UIScreen.main.bounds.height / 2.2
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         if collectionView == self.artNearCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 2.5
-            let sizeHeight = UIScreen.main.bounds.height / 3.5
+            let sizeHeight = UIScreen.main.bounds.height / 4.5
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         
@@ -104,4 +106,10 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         cell.layer.shadowOpacity = 0.34
         cell.layer.shadowOffset = CGSize(width: 0, height: 3)
     }
+    
+    func togglePopUp(){
+        popUpView.isHidden.toggle()
+    }
+    
+    
 }

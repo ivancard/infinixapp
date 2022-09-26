@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Grupo 451.svg",
+      "filename" : "Trigger button.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Grupo 451@2x.svg",
+      "filename" : "Trigger button@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Grupo 451@3x.svg",
+      "filename" : "Trigger button@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
@@ -19,5 +19,8 @@
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "original"
   }
 }

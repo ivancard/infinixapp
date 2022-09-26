@@ -74,6 +74,9 @@
                 <constraint firstItem="tVo-XZ-O6g" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vPS-hE-kpV"/>
             </constraints>
             <size key="customSize" width="195" height="276"/>
+            <connections>
+                <outlet property="imgArtNear" destination="tVo-XZ-O6g" id="aDf-3N-4R7"/>
+            </connections>
             <point key="canvasLocation" x="204.61538461538461" y="78.554502369668242"/>
         </collectionViewCell>
     </objects>

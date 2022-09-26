@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "iconChat.png",
+      "filename" : "Trazado 7.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "iconChat@2x.png",
+      "filename" : "Trazado 7@2x.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "iconChat@3x.png",
+      "filename" : "Trazado 7@3x.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

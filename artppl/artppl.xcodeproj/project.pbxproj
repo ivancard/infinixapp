@@ -14,6 +14,8 @@
 		FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */; };
 		FC133E5528DA2B5000216014 /* marketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC133E5328DA2B5000216014 /* marketCollectionViewCell.swift */; };
 		FC133E5628DA2B5000216014 /* marketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC133E5428DA2B5000216014 /* marketCollectionViewCell.xib */; };
+		FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC226ADA28DE139800621699 /* AddNewViewController.swift */; };
+		FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC226ADB28DE139800621699 /* AddNewViewController.xib */; };
 		FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */; };
 		FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002828D4E44C00818FE8 /* NewCategorieViewController.swift */; };
 		FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC44002928D4E44C00818FE8 /* NewCategorieViewController.xib */; };
@@ -53,6 +55,10 @@
 		FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */; };
 		FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
+		FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */; };
+		FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */; };
+		FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */; };
+		FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */; };
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
 		FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */; };
@@ -67,6 +73,8 @@
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		FC133E5328DA2B5000216014 /* marketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marketCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC133E5428DA2B5000216014 /* marketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = marketCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC226ADA28DE139800621699 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		FC226ADB28DE139800621699 /* AddNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewViewController.xib; sourceTree = "<group>"; };
 		FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationButton.swift; sourceTree = "<group>"; };
 		FC44002828D4E44C00818FE8 /* NewCategorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategorieViewController.swift; sourceTree = "<group>"; };
 		FC44002928D4E44C00818FE8 /* NewCategorieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCategorieViewController.xib; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 		FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtNearCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtNearCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
+		FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
+		FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
+		FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTabViewController.xib; sourceTree = "<group>"; };
+		FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientWhiteTransp.swift; sourceTree = "<group>"; };
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
 		FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewGradient.swift; sourceTree = "<group>"; };
@@ -150,6 +162,15 @@
 				FC133E5428DA2B5000216014 /* marketCollectionViewCell.xib */,
 			);
 			path = MarketCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC226AD928DE137A00621699 /* AddNew */ = {
+			isa = PBXGroup;
+			children = (
+				FC226ADA28DE139800621699 /* AddNewViewController.swift */,
+				FC226ADB28DE139800621699 /* AddNewViewController.xib */,
+			);
+			path = AddNew;
 			sourceTree = "<group>";
 		};
 		FC4423A028D8A00500803C9A /* PersonalTastes */ = {
@@ -268,6 +289,8 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FCA2D1D828E22C3700960950 /* TabBar */,
+				FC226AD928DE137A00621699 /* AddNew */,
 				FC4423B328D8E6C000803C9A /* Profile */,
 				FC4423AE28D8E67D00803C9A /* Messages */,
 				FC4423A928D8E66200803C9A /* Market */,
@@ -357,6 +380,15 @@
 			path = "Profile selector";
 			sourceTree = "<group>";
 		};
+		FCA2D1D828E22C3700960950 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */,
+				FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		FCEE50C528D2373B00CF9B68 /* customComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,6 +397,8 @@
 				FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */,
 				FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */,
 				FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */,
+				FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */,
+				FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */,
 			);
 			path = customComponents;
 			sourceTree = "<group>";
@@ -442,7 +476,9 @@
 				FC60704428C7E09200424A33 /* WelcomeSliderViewController.xib in Resources */,
 				FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */,
 				FC44239F28D89FF200803C9A /* ProfileSelectorViewController.xib in Resources */,
+				FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */,
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
+				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
 				FC133E5628DA2B5000216014 /* marketCollectionViewCell.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
@@ -511,6 +547,7 @@
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
+				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
 				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
@@ -520,13 +557,16 @@
 				FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
+				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
+				FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
 				FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */,
 				FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */,
+				FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */,
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 			);
@@ -676,9 +716,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4X9384T86F;
+				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = artppl;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -690,7 +732,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infinixsoft.artppl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinixapp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -706,9 +748,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4X9384T86F;
+				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = artppl;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -720,7 +764,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infinixsoft.artppl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinixapp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
