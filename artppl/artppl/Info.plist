@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Black</string>
+		<string>Montserrat-Medium</string>
+		<string>Monserrat-Regular</string>
+		<string>Montserrat-Bold</string>
+		<string>Montserrat-Black</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -21,13 +29,5 @@
 			</array>
 		</dict>
 	</dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Roboto-Black</string>
-		<string>Montserrat-Medium</string>
-		<string>Monserrat-Regular</string>
-		<string>Montserrat-Bold</string>
-		<string>Montserrat-Black</string>
-	</array>
 </dict>
 </plist>
