@@ -18,8 +18,6 @@ final class RegisterViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
-        
         self.textFieldFullName.delegate = self
         
         StyleFunctions.setGradientToAButton(button: itsAButton)

@@ -15,6 +15,7 @@ final class LoginViewController: UIViewController,UITextFieldDelegate{
     
     @IBAction func actionLogin(_ sender: Any) {
         // Dirige a home
+        self.navigationController?.pushViewController(HomeViewController(), animated: true)
     }
     
     @IBAction func actionRegister(_ sender: Any) {
