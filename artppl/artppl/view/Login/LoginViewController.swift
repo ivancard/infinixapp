@@ -7,10 +7,9 @@
 
 import UIKit
 
-class LoginViewController: UIViewController,UITextFieldDelegate{
+final class LoginViewController: UIViewController,UITextFieldDelegate{
 
     @IBOutlet weak var loginButton: UIButton!
-    
     @IBOutlet weak var textFieldEmail: UITextField!
     
     override func viewDidLoad() {
@@ -19,20 +18,7 @@ class LoginViewController: UIViewController,UITextFieldDelegate{
         textFieldEmail.delegate = self
         
         StyleFunctions.setGradientToAButton(button: loginButton)
-
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 extension LoginViewController{

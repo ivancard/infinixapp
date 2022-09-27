@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ArtNearCollectionViewCell: UICollectionViewCell {
+final class ArtNearCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgArtNear: UIImageView!
     

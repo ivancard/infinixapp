@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonalTastesViewController: UIViewController {
+final class PersonalTastesViewController: UIViewController {
     
     var selectedButtons: Int8 = 0
     

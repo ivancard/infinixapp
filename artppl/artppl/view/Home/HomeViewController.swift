@@ -7,22 +7,23 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-
-    let marketViewCellIdentifier = "marketCollectionViewCell"
-    let artistViewCellIdentifier = "ArtistNearCollectionViewCell"
-    let cocreationCellIdentifier = "CoCreationCollectionViewCell"
-    let artNearCellIdentifier = "ArtNearCollectionViewCell"
+final class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     @IBOutlet weak var popUpView: UIView!
-    
     @IBOutlet weak var marketCollectionView: UICollectionView!
     @IBOutlet weak var artistCollectionView: UICollectionView!
     @IBOutlet weak var cocreationCollectionView: UICollectionView!
     @IBOutlet weak var artNearCollectionView: UICollectionView!
     
+    let marketViewCellIdentifier = "marketCollectionViewCell"
+    let artistViewCellIdentifier = "ArtistNearCollectionViewCell"
+    let cocreationCellIdentifier = "CoCreationCollectionViewCell"
+    let artNearCellIdentifier = "ArtNearCollectionViewCell"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
         
         artistCollectionView.register(UINib(nibName: artistViewCellIdentifier, bundle: nil), forCellWithReuseIdentifier: artistViewCellIdentifier)
         artistCollectionView.dataSource = self
@@ -39,6 +40,18 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         artNearCollectionView.register(UINib(nibName: artNearCellIdentifier, bundle: nil), forCellWithReuseIdentifier: artNearCellIdentifier)
         artNearCollectionView.dataSource = self
         artNearCollectionView.delegate = self
+    }
+    
+    private func setCellStyle(cell: UICollectionViewCell){
+        cell.layer.cornerRadius = 8
+        cell.clipsToBounds = false
+        cell.layer.shadowColor = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 0.80).cgColor
+        cell.layer.shadowOpacity = 0.34
+        cell.layer.shadowOffset = CGSize(width: 0, height: 3)
+    }
+    
+    func togglePopUp(){
+        popUpView.isHidden.toggle()
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -98,18 +111,4 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
        20
     }
-    
-    private func setCellStyle(cell: UICollectionViewCell){
-        cell.layer.cornerRadius = 8
-        cell.clipsToBounds = false
-        cell.layer.shadowColor = UIColor(red: 0.00, green: 0.00, blue: 0.00, alpha: 0.80).cgColor
-        cell.layer.shadowOpacity = 0.34
-        cell.layer.shadowOffset = CGSize(width: 0, height: 3)
-    }
-    
-    func togglePopUp(){
-        popUpView.isHidden.toggle()
-    }
-    
-    
 }

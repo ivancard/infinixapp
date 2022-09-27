@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NewCategorieViewController: UIViewController, UITextFieldDelegate {
+final class NewCategorieViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var frameTextView: UIView!
     @IBOutlet weak var newCategoryTxtField: UITextField!
@@ -19,6 +19,7 @@ class NewCategorieViewController: UIViewController, UITextFieldDelegate {
         if #available(iOS 13.0, *) {
             overrideUserInterfaceStyle = .light 
         }
+        
         self.newCategoryTxtField.delegate = self
         
         self.navigationController?.setNavigationBarHidden(false, animated: true)

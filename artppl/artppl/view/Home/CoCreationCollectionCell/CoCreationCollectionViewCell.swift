@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CoCreationCollectionViewCell: UICollectionViewCell {
+final class CoCreationCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgCocreation: UIImageView!
     override func awakeFromNib() {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ArtistNearCollectionViewCell: UICollectionViewCell {
+final class ArtistNearCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgArtist: UIImageView!
     override func awakeFromNib() {

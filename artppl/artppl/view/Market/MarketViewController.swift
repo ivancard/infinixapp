@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MarketViewController: UIViewController {
+final class MarketViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
