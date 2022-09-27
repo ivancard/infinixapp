@@ -85,11 +85,23 @@ facilmente y sin comisión.</string>
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                             </userDefinedRuntimeAttributes>
                         </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55C-4D-vPC">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="98"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                            <connections>
+                                <action selector="actionArtist:" destination="-1" eventType="touchUpInside" id="3bq-4n-9fU"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstItem="Pq7-ob-hgM" firstAttribute="top" secondItem="Pgy-vA-XH5" secondAttribute="top" id="DH1-fC-Ftl"/>
+                        <constraint firstItem="55C-4D-vPC" firstAttribute="top" secondItem="Pgy-vA-XH5" secondAttribute="top" id="K7q-ff-WSJ"/>
+                        <constraint firstAttribute="bottom" secondItem="55C-4D-vPC" secondAttribute="bottom" id="RyO-z5-PNh"/>
                         <constraint firstAttribute="bottom" secondItem="Pq7-ob-hgM" secondAttribute="bottom" id="ZGr-gL-Kaf"/>
                         <constraint firstAttribute="height" constant="98" id="aZE-Wy-Xoc"/>
+                        <constraint firstItem="55C-4D-vPC" firstAttribute="leading" secondItem="Pgy-vA-XH5" secondAttribute="leading" id="dOZ-PV-xBC"/>
+                        <constraint firstAttribute="trailing" secondItem="55C-4D-vPC" secondAttribute="trailing" id="jLa-b3-25m"/>
                         <constraint firstAttribute="width" constant="343" id="lJj-FN-jVB"/>
                         <constraint firstAttribute="trailing" secondItem="Pq7-ob-hgM" secondAttribute="trailing" id="peA-hP-QKL"/>
                         <constraint firstItem="Pq7-ob-hgM" firstAttribute="leading" secondItem="Pgy-vA-XH5" secondAttribute="leading" id="sCl-ON-pUB"/>
@@ -140,6 +152,15 @@ las expresiones del arte.</string>
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                             </userDefinedRuntimeAttributes>
                         </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUR-Ju-l6F">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="98"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain"/>
+                            <connections>
+                                <action selector="actionArtLover:" destination="-1" eventType="touchUpInside" id="vkR-ux-7bo"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="WdR-k3-3NE" secondAttribute="trailing" id="7qE-0B-nIf"/>

@@ -15,6 +15,12 @@ final class ProfileSelectorViewController: UIViewController {
     @IBOutlet weak var itemArtist: UIView!
     @IBOutlet weak var itemArtLover: UIView!
     
+    @IBAction func actionArtist(_ sender: Any) {
+        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
+    }
+    @IBAction func actionArtLover(_ sender: Any) {
+        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
