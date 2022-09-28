@@ -17,4 +17,10 @@ class SideMenuViewController: UIViewController {
         imgProfile.layer.cornerRadius = imgProfile.layer.bounds.width / 2
         imgProfile.clipsToBounds = true
     }
+    
+    @IBAction func btnSupport(_ sender: Any) {
+        let supportView = SupportViewController()
+        supportView.modalPresentationStyle = .overFullScreen
+        present(supportView, animated: false)
+    }
 }

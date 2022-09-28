@@ -111,6 +111,9 @@
                             <state key="normal" title="     Soporte" image="iconSupport">
                                 <color key="titleColor" name="colorWhite"/>
                             </state>
+                            <connections>
+                                <action selector="btnSupport:" destination="-1" eventType="touchUpInside" id="yjX-e3-SBr"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Maw-y8-RMZ">
                             <rect key="frame" x="0.0" y="38" width="217" height="18"/>

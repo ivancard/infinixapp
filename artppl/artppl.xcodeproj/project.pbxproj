@@ -16,6 +16,8 @@
 		FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */; };
 		FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC226ADA28DE139800621699 /* AddNewViewController.swift */; };
 		FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC226ADB28DE139800621699 /* AddNewViewController.xib */; };
+		FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A1C3028E4C34D00FA3056 /* SupportViewController.swift */; };
+		FC3A1C3328E4C34D00FA3056 /* SupportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3A1C3128E4C34D00FA3056 /* SupportViewController.xib */; };
 		FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */; };
 		FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002828D4E44C00818FE8 /* NewCategorieViewController.swift */; };
 		FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC44002928D4E44C00818FE8 /* NewCategorieViewController.xib */; };
@@ -76,6 +78,8 @@
 		FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC226ADA28DE139800621699 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
 		FC226ADB28DE139800621699 /* AddNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewViewController.xib; sourceTree = "<group>"; };
+		FC3A1C3028E4C34D00FA3056 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		FC3A1C3128E4C34D00FA3056 /* SupportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportViewController.xib; sourceTree = "<group>"; };
 		FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationButton.swift; sourceTree = "<group>"; };
 		FC44002828D4E44C00818FE8 /* NewCategorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategorieViewController.swift; sourceTree = "<group>"; };
 		FC44002928D4E44C00818FE8 /* NewCategorieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCategorieViewController.xib; sourceTree = "<group>"; };
@@ -173,6 +177,15 @@
 				FC226ADB28DE139800621699 /* AddNewViewController.xib */,
 			);
 			path = AddNew;
+			sourceTree = "<group>";
+		};
+		FC3A1C2F28E4C33100FA3056 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A1C3028E4C34D00FA3056 /* SupportViewController.swift */,
+				FC3A1C3128E4C34D00FA3056 /* SupportViewController.xib */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		FC4423A028D8A00500803C9A /* PersonalTastes */ = {
@@ -290,6 +303,7 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FC3A1C2F28E4C33100FA3056 /* Support */,
 				FCC03FC228E37B930016CF57 /* SideMenu */,
 				FCA2D1D828E22C3700960950 /* TabBar */,
 				FC226AD928DE137A00621699 /* AddNew */,
@@ -500,6 +514,7 @@
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
 				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
 				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
+				FC3A1C3328E4C34D00FA3056 /* SupportViewController.xib in Resources */,
 				FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +575,7 @@
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
 				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
+				FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */,
 				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
