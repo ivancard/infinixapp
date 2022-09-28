@@ -15,7 +15,7 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
     @IBOutlet weak var cocreationCollectionView: UICollectionView!
     @IBOutlet weak var artNearCollectionView: UICollectionView!
     
-    let marketViewCellIdentifier = "marketCollectionViewCell"
+    let marketViewCellIdentifier = "MarketCollectionViewCell"
     let artistViewCellIdentifier = "ArtistNearCollectionViewCell"
     let cocreationCellIdentifier = "CoCreationCollectionViewCell"
     let artNearCellIdentifier = "ArtNearCollectionViewCell"
@@ -63,7 +63,7 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         var cellItem = UICollectionViewCell()
         
         if collectionView == self.marketCollectionView {
-            cellItem = collectionView.dequeueReusableCell(withReuseIdentifier: marketViewCellIdentifier, for: indexPath) as! marketCollectionViewCell
+            cellItem = collectionView.dequeueReusableCell(withReuseIdentifier: marketViewCellIdentifier, for: indexPath) as! MarketCollectionViewCell
         }
         
         if collectionView == self.artistCollectionView {

@@ -8,8 +8,6 @@
 import UIKit
 
 final class MyTabViewController: UITabBarController, UITabBarControllerDelegate {
-    
-    @IBOutlet weak var myTabBar: UITabBar!
 
     let v1 = HomeViewController()
     let v2 = MarketViewController()
@@ -20,8 +18,7 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
-        
-       setTabBar()
+        setTabBar()
     }
     
     func setTabBar(){
@@ -31,19 +28,20 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         tabBar.layer.shadowOpacity = 0.34
         tabBar.layer.shadowOffset = CGSize(width: 0, height: -3)
         
-        guard let items = tabBar.items else { return }
+        tabBar.scrollEdgeAppearance = tabBar.standardAppearance
+        
+        let views = [v1, v2, v3, v4, v5]
         
         let icons = ["iconHome", "iconMarket", "iconAddNew" ,"iconChat", "iconProfile"]
         
-        for item in 0..<items.count {
-            items[item].image = UIImage(named: icons[item])
-            items[item].selectedImage = UIImage(named: icons[item])
-            items[item].title = nil
-            items[item].imageInsets = UIEdgeInsets(top: 6,left: 0,bottom: 0,right: 0)
+        for view in 0..<views.count {
+            views[view].tabBarItem = UITabBarItem(title: nil, image: UIImage(named: icons[view]), selectedImage: UIImage(named: icons[view]))
+            views[view].tabBarItem.imageInsets = UIEdgeInsets(top: 6,left: 0,bottom: 0,right: 0)
         }
+                
         tabBar.tintColor = UIColor(named: "colorMain")
-        
-        items[2].imageInsets = UIEdgeInsets(top: -10, left: 0, bottom: 0, right: 0)
+                
+        views[2].tabBarItem.imageInsets = UIEdgeInsets(top: -15, left: 0, bottom: 0, right: 0)
     }
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {

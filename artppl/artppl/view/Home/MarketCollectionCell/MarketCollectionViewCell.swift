@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class marketCollectionViewCell: UICollectionViewCell {
+final class MarketCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var image: UIImageView!
     
     override func awakeFromNib() {

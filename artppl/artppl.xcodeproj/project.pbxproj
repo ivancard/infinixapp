@@ -12,8 +12,8 @@
 		FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */; };
 		FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */; };
 		FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */; };
-		FC133E5528DA2B5000216014 /* marketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC133E5328DA2B5000216014 /* marketCollectionViewCell.swift */; };
-		FC133E5628DA2B5000216014 /* marketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC133E5428DA2B5000216014 /* marketCollectionViewCell.xib */; };
+		FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */; };
+		FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */; };
 		FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC226ADA28DE139800621699 /* AddNewViewController.swift */; };
 		FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC226ADB28DE139800621699 /* AddNewViewController.xib */; };
 		FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */; };
@@ -70,8 +70,8 @@
 		FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonGradient.swift; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
-		FC133E5328DA2B5000216014 /* marketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marketCollectionViewCell.swift; sourceTree = "<group>"; };
-		FC133E5428DA2B5000216014 /* marketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = marketCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC226ADA28DE139800621699 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
 		FC226ADB28DE139800621699 /* AddNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewViewController.xib; sourceTree = "<group>"; };
 		FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationButton.swift; sourceTree = "<group>"; };
@@ -156,8 +156,8 @@
 		FC133E5228DA2A5A00216014 /* MarketCollectionCell */ = {
 			isa = PBXGroup;
 			children = (
-				FC133E5328DA2B5000216014 /* marketCollectionViewCell.swift */,
-				FC133E5428DA2B5000216014 /* marketCollectionViewCell.xib */,
+				FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */,
+				FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */,
 			);
 			path = MarketCollectionCell;
 			sourceTree = "<group>";
@@ -476,7 +476,7 @@
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
-				FC133E5628DA2B5000216014 /* marketCollectionViewCell.xib in Resources */,
+				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
@@ -538,7 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC133E5528DA2B5000216014 /* marketCollectionViewCell.swift in Sources */,
+				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
