@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -52,22 +53,30 @@
                                             <rect key="frame" x="330.5" y="20.5" width="20.5" height="18.5"/>
                                             <color key="tintColor" name="AccentColor"/>
                                         </imageView>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.horizontal.3" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-Xx-zNC">
-                                            <rect key="frame" x="21" y="22.5" width="27" height="15.5"/>
-                                            <color key="tintColor" name="AccentColor"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ml9-dN-c36" userLabel="SideMenu">
+                                            <rect key="frame" x="24" y="17.5" width="25" height="25"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="27" id="e3Q-A7-WUC"/>
-                                                <constraint firstAttribute="height" constant="25" id="hUx-Ci-5Fy"/>
+                                                <constraint firstAttribute="height" constant="25" id="3Fi-uo-TRy"/>
+                                                <constraint firstAttribute="width" constant="25" id="TAi-jf-KG1"/>
                                             </constraints>
-                                        </imageView>
+                                            <color key="tintColor" name="colorMain"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain">
+                                                <imageReference key="image" image="line.horizontal.3" catalog="system" symbolScale="large"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                            </buttonConfiguration>
+                                            <connections>
+                                                <action selector="toogleSideMenu:" destination="-1" eventType="touchUpInside" id="781-3B-GZj"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="DCy-30-4sO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="CS3-QC-QuF"/>
                                         <constraint firstAttribute="trailing" secondItem="BW4-nE-vDO" secondAttribute="trailing" constant="24" id="GOg-8W-nI3"/>
-                                        <constraint firstItem="FZc-Xx-zNC" firstAttribute="leading" secondItem="8eq-DF-Tsf" secondAttribute="leading" constant="21" id="OWO-X2-CXx"/>
-                                        <constraint firstItem="FZc-Xx-zNC" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="Ycd-Kv-IiD"/>
+                                        <constraint firstItem="Ml9-dN-c36" firstAttribute="leading" secondItem="8eq-DF-Tsf" secondAttribute="leading" constant="24" id="H6j-ec-Ca5"/>
                                         <constraint firstItem="DCy-30-4sO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="bdG-OE-d0i"/>
+                                        <constraint firstItem="Ml9-dN-c36" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="g3u-Qt-svD"/>
                                         <constraint firstAttribute="height" constant="60" id="gmN-l0-J18"/>
                                         <constraint firstItem="DCy-30-4sO" firstAttribute="centerX" secondItem="8eq-DF-Tsf" secondAttribute="centerX" id="pWD-6O-Moj"/>
                                         <constraint firstItem="BW4-nE-vDO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="vcb-HC-Qwp"/>
@@ -395,7 +404,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EIw-Fv-dd4" secondAttribute="trailing" id="fQ6-dv-i2k"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7sU-KK-gih" secondAttribute="trailing" id="kzD-TF-XtC"/>
             </constraints>
-            <point key="canvasLocation" x="-150" y="81"/>
+            <point key="canvasLocation" x="-151.19999999999999" y="80.50974512743629"/>
         </view>
     </objects>
     <resources>

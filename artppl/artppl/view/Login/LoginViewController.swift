@@ -15,7 +15,7 @@ final class LoginViewController: UIViewController,UITextFieldDelegate{
     
     @IBAction func actionLogin(_ sender: Any) {
         // Dirige a home
-        self.navigationController?.pushViewController(HomeViewController(), animated: true)
+        self.navigationController?.pushViewController(MyTabViewController(), animated: true)
     }
     
     @IBAction func actionRegister(_ sender: Any) {
@@ -27,7 +27,6 @@ final class LoginViewController: UIViewController,UITextFieldDelegate{
         textFieldEmail.delegate = self
         
         StyleFunctions.setGradientToAButton(button: loginButton)
-
     }
 }
 
