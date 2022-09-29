@@ -11,6 +11,8 @@
 		FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */; };
 		FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */; };
 		FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */; };
+		FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC12B83F28E6183200BF91D1 /* ArtisticWorkViewController.swift */; };
+		FC12B84228E6183200BF91D1 /* ArtisticWorkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC12B84028E6183200BF91D1 /* ArtisticWorkViewController.xib */; };
 		FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */; };
 		FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */; };
 		FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */; };
@@ -74,6 +76,8 @@
 		FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonGradient.swift; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		FC12B83F28E6183200BF91D1 /* ArtisticWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisticWorkViewController.swift; sourceTree = "<group>"; };
+		FC12B84028E6183200BF91D1 /* ArtisticWorkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtisticWorkViewController.xib; sourceTree = "<group>"; };
 		FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC226ADA28DE139800621699 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +163,15 @@
 				96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC12B83E28E6181400BF91D1 /* artisticWork */ = {
+			isa = PBXGroup;
+			children = (
+				FC12B83F28E6183200BF91D1 /* ArtisticWorkViewController.swift */,
+				FC12B84028E6183200BF91D1 /* ArtisticWorkViewController.xib */,
+			);
+			path = artisticWork;
 			sourceTree = "<group>";
 		};
 		FC133E5228DA2A5A00216014 /* MarketCollectionCell */ = {
@@ -303,6 +316,7 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FC12B83E28E6181400BF91D1 /* artisticWork */,
 				FC3A1C2F28E4C33100FA3056 /* Support */,
 				FCC03FC228E37B930016CF57 /* SideMenu */,
 				FCA2D1D828E22C3700960950 /* TabBar */,
@@ -489,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */,
+				FC12B84228E6183200BF91D1 /* ArtisticWorkViewController.xib in Resources */,
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
 				FC58B07B28C91FF800A66B78 /* RegisterViewController.xib in Resources */,
@@ -580,6 +595,7 @@
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
+				FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */,
 				FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */,

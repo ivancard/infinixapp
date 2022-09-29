@@ -19,10 +19,12 @@ final class PersonalTastesViewController: UIViewController {
     
     @IBAction func actionBtnComenzar(_ sender: Any) {
         //Dirige a Home
-        self.navigationController?.pushViewController(MyTabViewController(), animated: false)
+        self.navigationController?.pushViewController(ArtisticWorkViewController(), animated: false)
     }
     @IBAction func actionNewCategory(){
-        self.navigationController?.pushViewController(NewCategorieViewController(), animated: true)
+        let newCategory = NewCategorieViewController()
+        newCategory.modalPresentationStyle = .fullScreen
+        present(newCategory, animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

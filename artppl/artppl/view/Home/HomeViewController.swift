@@ -95,22 +95,22 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         var size = CGSize()
         if collectionView == self.marketCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 1.2
-            let sizeHeight = UIScreen.main.bounds.height / 2.8
+            let sizeHeight = CGFloat(377)
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         if collectionView == self.artistCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 2.5
-            let sizeHeight = UIScreen.main.bounds.height / 4.8
+            let sizeHeight = CGFloat(208)
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         if collectionView == self.cocreationCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 1.2
-            let sizeHeight = UIScreen.main.bounds.height / 2.2
+            let sizeHeight = CGFloat(416)
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         if collectionView == self.artNearCollectionView {
             let sizeWidth = UIScreen.main.bounds.width / 2.5
-            let sizeHeight = UIScreen.main.bounds.height / 4.5
+            let sizeHeight = CGFloat(240)
             size = CGSize(width: sizeWidth, height: sizeHeight)
         }
         

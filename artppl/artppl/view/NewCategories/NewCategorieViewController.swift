@@ -26,6 +26,9 @@ final class NewCategorieViewController: UIViewController, UITextFieldDelegate {
         
         frameTextView.layer.borderColor = UIColor(named: "colorFrameGray")?.cgColor
     }
+    @IBAction func actionClose(_ sender: Any) {
+        dismiss(animated: true)
+    }
 }
 extension NewCategorieViewController{
     
