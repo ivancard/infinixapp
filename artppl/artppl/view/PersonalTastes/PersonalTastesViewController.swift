@@ -19,7 +19,7 @@ final class PersonalTastesViewController: UIViewController {
     
     @IBAction func actionBtnComenzar(_ sender: Any) {
         //Dirige a Home
-        self.navigationController?.pushViewController(ArtisticWorkViewController(), animated: false)
+        self.navigationController?.pushViewController(ArtisticWorkViewController(), animated: true)
     }
     @IBAction func actionNewCategory(){
         let newCategory = NewCategorieViewController()

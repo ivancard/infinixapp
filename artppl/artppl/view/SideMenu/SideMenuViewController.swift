@@ -18,6 +18,12 @@ class SideMenuViewController: UIViewController {
         imgProfile.clipsToBounds = true
     }
     
+    @IBAction func btnLogOut(_ sender: Any) {
+        self.navigationController?.pushViewController(LoginViewController(), animated: true)
+    }
+    @IBAction func btnMyShopping(_ sender: Any) {
+        self.navigationController?.pushViewController(MyShoppingViewController(), animated: true)
+    }
     @IBAction func btnSupport(_ sender: Any) {
         let supportView = SupportViewController()
         supportView.modalPresentationStyle = .overFullScreen

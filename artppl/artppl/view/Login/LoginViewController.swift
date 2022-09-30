@@ -29,7 +29,7 @@ final class LoginViewController: UIViewController,UITextFieldDelegate{
         StyleFunctions.setGradientToAButton(button: loginButton)
     }
     override func viewDidAppear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 }
 

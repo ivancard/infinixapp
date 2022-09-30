@@ -82,6 +82,9 @@
                             <state key="normal" title="     Mis compras" image="iconCart">
                                 <color key="titleColor" name="colorWhite"/>
                             </state>
+                            <connections>
+                                <action selector="btnMyShopping:" destination="-1" eventType="touchUpInside" id="Huz-4O-hpO"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxr-Gz-cho">
                             <rect key="frame" x="0.0" y="42" width="148" height="22"/>
@@ -140,6 +143,9 @@
                     <state key="normal" title="    Log out" image="iconLogOut">
                         <color key="titleColor" name="colorWhite"/>
                     </state>
+                    <connections>
+                        <action selector="btnLogOut:" destination="-1" eventType="touchUpInside" id="SiK-KU-HHK"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

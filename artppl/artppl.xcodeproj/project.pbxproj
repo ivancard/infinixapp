@@ -57,6 +57,12 @@
 		FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */; };
 		FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */; };
 		FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */; };
+		FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */; };
+		FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */; };
+		FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */; };
+		FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */; };
+		FC74B61528E768E200FC073F /* MyNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B61328E768E200FC073F /* MyNavViewController.swift */; };
+		FC74B61628E768E200FC073F /* MyNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B61428E768E200FC073F /* MyNavViewController.xib */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
 		FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */; };
 		FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */; };
@@ -124,6 +130,12 @@
 		FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoCreationCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtNearCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtNearCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShoppingViewController.swift; sourceTree = "<group>"; };
+		FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShoppingViewController.xib; sourceTree = "<group>"; };
+		FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
+		FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
+		FC74B61328E768E200FC073F /* MyNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavViewController.swift; sourceTree = "<group>"; };
+		FC74B61428E768E200FC073F /* MyNavViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyNavViewController.xib; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
 		FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
 		FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
@@ -316,6 +328,8 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FC74B61228E768CB00FC073F /* NavigationBar */,
+				FC74B60528E7495E00FC073F /* MyShopping */,
 				FC12B83E28E6181400BF91D1 /* artisticWork */,
 				FC3A1C2F28E4C33100FA3056 /* Support */,
 				FCC03FC228E37B930016CF57 /* SideMenu */,
@@ -372,6 +386,34 @@
 				FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */,
 			);
 			path = ArtNearCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC74B60528E7495E00FC073F /* MyShopping */ = {
+			isa = PBXGroup;
+			children = (
+				FC74B60A28E74CA600FC073F /* ShoppingItem */,
+				FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */,
+				FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */,
+			);
+			path = MyShopping;
+			sourceTree = "<group>";
+		};
+		FC74B60A28E74CA600FC073F /* ShoppingItem */ = {
+			isa = PBXGroup;
+			children = (
+				FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */,
+				FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */,
+			);
+			path = ShoppingItem;
+			sourceTree = "<group>";
+		};
+		FC74B61228E768CB00FC073F /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				FC74B61328E768E200FC073F /* MyNavViewController.swift */,
+				FC74B61428E768E200FC073F /* MyNavViewController.xib */,
+			);
+			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 		FC99304C28D89E5E003E8223 /* OnBoarding */ = {
@@ -520,6 +562,8 @@
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
+				FC74B61628E768E200FC073F /* MyNavViewController.xib in Resources */,
+				FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */,
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
@@ -528,6 +572,7 @@
 				FC4423A828D8C36000803C9A /* Assets.xcassets in Resources */,
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
 				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
+				FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */,
 				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
 				FC3A1C3328E4C34D00FA3056 /* SupportViewController.xib in Resources */,
 				FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */,
@@ -584,6 +629,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
+				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
@@ -602,6 +648,7 @@
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
 				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
+				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
@@ -611,6 +658,7 @@
 				FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */,
 				FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */,
 				FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */,
+				FC74B61528E768E200FC073F /* MyNavViewController.swift in Sources */,
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 			);

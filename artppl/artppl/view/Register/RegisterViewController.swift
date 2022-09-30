@@ -22,6 +22,12 @@ final class RegisterViewController: UIViewController, UITextFieldDelegate {
         
         self.navigationController?.setNavigationBarHidden(false, animated: true)
         self.navigationController?.navigationBar.tintColor = .white
+        //self.navigationController?.navigationBar.backgroundColor = .white
+        
+//        let logo = UIImage(named: "logoHorizontal")
+//        let imageView = UIImageView(image:logo)
+//        imageView.contentMode = .scaleAspectFit
+//        self.navigationItem.titleView = imageView
         
         StyleFunctions.setGradientToAButton(button: btnStart)
     }

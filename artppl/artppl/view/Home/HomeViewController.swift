@@ -24,8 +24,6 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
-        
         artistCollectionView.register(UINib(nibName: artistViewCellIdentifier, bundle: nil), forCellWithReuseIdentifier: artistViewCellIdentifier)
         artistCollectionView.dataSource = self
         artistCollectionView.delegate = self
@@ -41,6 +39,9 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         artNearCollectionView.register(UINib(nibName: artNearCellIdentifier, bundle: nil), forCellWithReuseIdentifier: artNearCellIdentifier)
         artNearCollectionView.dataSource = self
         artNearCollectionView.delegate = self
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     @IBAction func toogleSideMenu(_ sender: Any) {
