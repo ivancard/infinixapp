@@ -20,18 +20,14 @@ final class RegisterViewController: UIViewController, UITextFieldDelegate {
         
         self.textFieldFullName.delegate = self
         
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
-        self.navigationController?.navigationBar.tintColor = .white
-        //self.navigationController?.navigationBar.backgroundColor = .white
-        
-//        let logo = UIImage(named: "logoHorizontal")
-//        let imageView = UIImageView(image:logo)
-//        imageView.contentMode = .scaleAspectFit
-//        self.navigationItem.titleView = imageView
         
         StyleFunctions.setGradientToAButton(button: btnStart)
     }
-    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        self.navigationController?.navigationBar.tintColor = .white
+    }
     @IBAction func actionBtnComenzar(_ sender: Any) {
         self.navigationController?.pushViewController(ProfileSelectorViewController(), animated: true)
     }

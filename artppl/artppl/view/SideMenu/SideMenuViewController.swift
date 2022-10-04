@@ -8,6 +8,7 @@
 import UIKit
 
 class SideMenuViewController: UIViewController {
+    
     @IBOutlet weak var imgProfile: UIImageView!
     
     override func viewDidLoad() {
@@ -21,9 +22,11 @@ class SideMenuViewController: UIViewController {
     @IBAction func btnLogOut(_ sender: Any) {
         self.navigationController?.pushViewController(LoginViewController(), animated: true)
     }
+    
     @IBAction func btnMyShopping(_ sender: Any) {
         self.navigationController?.pushViewController(MyShoppingViewController(), animated: true)
     }
+    
     @IBAction func btnSupport(_ sender: Any) {
         let supportView = SupportViewController()
         supportView.modalPresentationStyle = .overFullScreen

@@ -28,7 +28,7 @@ final class PersonalTastesViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     func confirmTwoSelected(button: GradientAnimationButton){

@@ -40,18 +40,7 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         artNearCollectionView.dataSource = self
         artNearCollectionView.delegate = self
     }
-    override func viewDidAppear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
-    }
     
-    @IBAction func toogleSideMenu(_ sender: Any) {
-        let sideMenu = SideMenuViewController()
-        let sideMenuController = SideMenuNavigationController(rootViewController: sideMenu)
-        sideMenuController.leftSide = true
-        sideMenuController.menuWidth = view.layer.bounds.width / 1.3
-        sideMenuController.presentationStyle = .menuSlideIn
-        present(sideMenuController, animated: true, completion: nil)
-    }
     private func setCellStyle(cell: UICollectionViewCell){
         cell.layer.cornerRadius = 8
         cell.clipsToBounds = false

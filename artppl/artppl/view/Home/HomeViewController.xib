@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
-        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -37,54 +36,10 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jAz-j7-iO2">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="1610"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1550"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eq-DF-Tsf" userLabel="HeaderView">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
-                                    <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoHorizontal" translatesAutoresizingMaskIntoConstraints="NO" id="DCy-30-4sO">
-                                            <rect key="frame" x="132.5" y="16" width="110" height="28"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="28" id="b2b-dK-7Rr"/>
-                                                <constraint firstAttribute="width" constant="110" id="nav-vA-Ho7"/>
-                                            </constraints>
-                                        </imageView>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BW4-nE-vDO">
-                                            <rect key="frame" x="330.5" y="20.5" width="20.5" height="18.5"/>
-                                            <color key="tintColor" name="AccentColor"/>
-                                        </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ml9-dN-c36" userLabel="SideMenu">
-                                            <rect key="frame" x="24" y="17.5" width="25" height="25"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="25" id="3Fi-uo-TRy"/>
-                                                <constraint firstAttribute="width" constant="25" id="TAi-jf-KG1"/>
-                                            </constraints>
-                                            <color key="tintColor" name="colorMain"/>
-                                            <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain">
-                                                <imageReference key="image" image="line.horizontal.3" catalog="system" symbolScale="large"/>
-                                                <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
-                                            </buttonConfiguration>
-                                            <connections>
-                                                <action selector="toogleSideMenu:" destination="-1" eventType="touchUpInside" id="781-3B-GZj"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="CS3-QC-QuF"/>
-                                        <constraint firstAttribute="trailing" secondItem="BW4-nE-vDO" secondAttribute="trailing" constant="24" id="GOg-8W-nI3"/>
-                                        <constraint firstItem="Ml9-dN-c36" firstAttribute="leading" secondItem="8eq-DF-Tsf" secondAttribute="leading" constant="24" id="H6j-ec-Ca5"/>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="bdG-OE-d0i"/>
-                                        <constraint firstItem="Ml9-dN-c36" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="g3u-Qt-svD"/>
-                                        <constraint firstAttribute="height" constant="60" id="gmN-l0-J18"/>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerX" secondItem="8eq-DF-Tsf" secondAttribute="centerX" id="pWD-6O-Moj"/>
-                                        <constraint firstItem="BW4-nE-vDO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="vcb-HC-Qwp"/>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerX" secondItem="8eq-DF-Tsf" secondAttribute="centerX" id="ze8-FL-ZZy"/>
-                                    </constraints>
-                                </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MpN-ZR-G6O" userLabel="UserView">
-                                    <rect key="frame" x="0.0" y="60" width="375" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgProfile" translatesAutoresizingMaskIntoConstraints="NO" id="xFs-Pm-aad">
                                             <rect key="frame" x="23" y="17" width="46" height="46"/>
@@ -106,7 +61,7 @@
                                     </constraints>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fbF-OI-fog" userLabel="Carrousels">
-                                    <rect key="frame" x="0.0" y="140" width="375" height="1470"/>
+                                    <rect key="frame" x="0.0" y="80" width="375" height="1470"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xiH-KK-Hrh" userLabel="titleMarket">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
@@ -412,9 +367,6 @@
         <image name="iconMarket" width="26" height="26"/>
         <image name="iconPorfolio" width="29" height="29"/>
         <image name="imgProfile" width="46" height="46"/>
-        <image name="line.horizontal.3" catalog="system" width="128" height="65"/>
-        <image name="logoHorizontal" width="220" height="56"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <namedColor name="AccentColor">
             <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

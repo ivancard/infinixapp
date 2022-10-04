@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SideMenu
 
 final class MyTabViewController: UITabBarController, UITabBarControllerDelegate {
     
@@ -19,6 +20,36 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         super.viewDidLoad()
         self.delegate = self
         setTabBar()
+        setNavigationBar()
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        self.navigationController?.navigationBar.tintColor = UIColor(named: "colorMain")
+    }
+    
+    private func setNavigationBar(){
+        
+        let logo = UIImage(named: "logoHorizontal")
+        let imageView = UIImageView(image:logo)
+        
+        imageView.contentMode = .scaleAspectFit
+        navigationItem.titleView = imageView
+        let menuButton = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .plain, target: self, action: #selector(setSideMenu))
+        
+        navigationItem.setLeftBarButton(menuButton, animated: true)
+        
+        let searchButton = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: nil)
+        
+        navigationItem.setRightBarButton(searchButton, animated: true)
+    }
+    
+    @objc func setSideMenu(){
+        let sideMenu = SideMenuViewController()
+        let sideMenuController = SideMenuNavigationController(rootViewController: sideMenu)
+        sideMenuController.leftSide = true
+        sideMenuController.menuWidth = view.layer.bounds.width / 1.3
+        sideMenuController.presentationStyle = .menuSlideIn
+        present(sideMenuController, animated: true, completion: nil)
     }
     
     func setTabBar(){

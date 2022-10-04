@@ -61,8 +61,6 @@
 		FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */; };
 		FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */; };
 		FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */; };
-		FC74B61528E768E200FC073F /* MyNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B61328E768E200FC073F /* MyNavViewController.swift */; };
-		FC74B61628E768E200FC073F /* MyNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B61428E768E200FC073F /* MyNavViewController.xib */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
 		FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */; };
 		FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */; };
@@ -134,8 +132,6 @@
 		FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShoppingViewController.xib; sourceTree = "<group>"; };
 		FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
-		FC74B61328E768E200FC073F /* MyNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavViewController.swift; sourceTree = "<group>"; };
-		FC74B61428E768E200FC073F /* MyNavViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyNavViewController.xib; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
 		FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
 		FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
@@ -328,7 +324,6 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FC74B61228E768CB00FC073F /* NavigationBar */,
 				FC74B60528E7495E00FC073F /* MyShopping */,
 				FC12B83E28E6181400BF91D1 /* artisticWork */,
 				FC3A1C2F28E4C33100FA3056 /* Support */,
@@ -405,15 +400,6 @@
 				FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */,
 			);
 			path = ShoppingItem;
-			sourceTree = "<group>";
-		};
-		FC74B61228E768CB00FC073F /* NavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				FC74B61328E768E200FC073F /* MyNavViewController.swift */,
-				FC74B61428E768E200FC073F /* MyNavViewController.xib */,
-			);
-			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 		FC99304C28D89E5E003E8223 /* OnBoarding */ = {
@@ -562,7 +548,6 @@
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
-				FC74B61628E768E200FC073F /* MyNavViewController.xib in Resources */,
 				FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */,
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
@@ -658,7 +643,6 @@
 				FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */,
 				FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */,
 				FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */,
-				FC74B61528E768E200FC073F /* MyNavViewController.swift in Sources */,
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 			);
@@ -807,7 +791,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
@@ -839,7 +823,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
