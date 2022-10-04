@@ -61,6 +61,7 @@
 		FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */; };
 		FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */; };
 		FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */; };
+		FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
 		FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */; };
 		FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */; };
@@ -132,6 +133,7 @@
 		FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShoppingViewController.xib; sourceTree = "<group>"; };
 		FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
+		FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
 		FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
 		FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				FC58B07628C91C1E00A66B78 /* StyleFunctions.swift */,
+				FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -636,6 +639,7 @@
 				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
+				FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */,
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
 				FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,

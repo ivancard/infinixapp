@@ -16,11 +16,7 @@ class MyShoppingViewController: UIViewController, UITableViewDelegate, UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
-        self.navigationController?.navigationBar.tintColor = UIColor(named: "colorMain")
-        shoppingTableView.register(UINib(nibName: shoppingCellIdentifier, bundle: nil), forCellReuseIdentifier: shoppingCellIdentifier)
-        shoppingTableView.delegate = self
-        shoppingTableView.dataSource = self
+        shoppingTableView.configure(delegate: self, dataSource: self, cells: [ShoppingTableViewCell.self])
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -28,8 +24,7 @@ class MyShoppingViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let tableCell = shoppingTableView.dequeueReusableCell(withIdentifier: shoppingCellIdentifier, for: indexPath)
-                        as? ShoppingTableViewCell else { return UITableViewCell() }
+        let tableCell = tableView.dequeue(cellType: ShoppingTableViewCell.self)
         return tableCell
     }
     

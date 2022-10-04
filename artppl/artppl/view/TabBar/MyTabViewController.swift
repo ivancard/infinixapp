@@ -34,7 +34,7 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         
         imageView.contentMode = .scaleAspectFit
         navigationItem.titleView = imageView
-        let menuButton = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .plain, target: self, action: #selector(setSideMenu))
+        let menuButton = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .plain, target: self, action: #selector(toggleSideMenu))
         
         navigationItem.setLeftBarButton(menuButton, animated: true)
         
@@ -43,7 +43,7 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         navigationItem.setRightBarButton(searchButton, animated: true)
     }
     
-    @objc func setSideMenu(){
+    @objc func toggleSideMenu(){
         let sideMenu = SideMenuViewController()
         let sideMenuController = SideMenuNavigationController(rootViewController: sideMenu)
         sideMenuController.leftSide = true
