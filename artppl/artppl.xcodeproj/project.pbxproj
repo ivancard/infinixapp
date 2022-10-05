@@ -59,6 +59,10 @@
 		FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */; };
 		FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */; };
 		FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */; };
+		FC7290A328EE130D00F47E08 /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7290A128EE130D00F47E08 /* PortfolioCollectionViewCell.swift */; };
+		FC7290A428EE130D00F47E08 /* PortfolioCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7290A228EE130D00F47E08 /* PortfolioCollectionViewCell.xib */; };
+		FC7290AC28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7290AA28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift */; };
+		FC7290AD28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7290AB28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib */; };
 		FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */; };
 		FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */; };
 		FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */; };
@@ -133,6 +137,10 @@
 		FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtNearCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
 		FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		FC7290A128EE130D00F47E08 /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7290A228EE130D00F47E08 /* PortfolioCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfolioCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC7290AA28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7290AB28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShoppingViewController.swift; sourceTree = "<group>"; };
 		FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShoppingViewController.xib; sourceTree = "<group>"; };
 		FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
@@ -268,6 +276,8 @@
 		FC4423B328D8E6C000803C9A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FC7290A528EE17D500F47E08 /* MarketCollectionCell */,
+				FC7290A028EE12E900F47E08 /* PortfolioCollectionCell */,
 				FC4423B428D8E6D700803C9A /* ProfileViewController.swift */,
 				FC4423B528D8E6D700803C9A /* ProfileViewController.xib */,
 			);
@@ -398,6 +408,24 @@
 				FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */,
 			);
 			path = MessagesTableCell;
+			sourceTree = "<group>";
+		};
+		FC7290A028EE12E900F47E08 /* PortfolioCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7290A128EE130D00F47E08 /* PortfolioCollectionViewCell.swift */,
+				FC7290A228EE130D00F47E08 /* PortfolioCollectionViewCell.xib */,
+			);
+			path = PortfolioCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC7290A528EE17D500F47E08 /* MarketCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7290AA28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift */,
+				FC7290AB28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib */,
+			);
+			path = MarketCollectionCell;
 			sourceTree = "<group>";
 		};
 		FC74B60528E7495E00FC073F /* MyShopping */ = {
@@ -573,6 +601,8 @@
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
 				FC60703428C7D3F000424A33 /* Main.storyboard in Resources */,
 				FC4423A828D8C36000803C9A /* Assets.xcassets in Resources */,
+				FC7290AD28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib in Resources */,
+				FC7290A428EE130D00F47E08 /* PortfolioCollectionViewCell.xib in Resources */,
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
 				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
 				FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */,
@@ -635,6 +665,7 @@
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
 				FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */,
+				FC7290AC28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
@@ -655,6 +686,7 @@
 				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
+				FC7290A328EE130D00F47E08 /* PortfolioCollectionViewCell.swift in Sources */,
 				FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */,
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
 				FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */,
