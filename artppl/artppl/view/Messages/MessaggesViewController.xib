@@ -6,11 +6,18 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessaggesViewController" customModule="artppl" customModuleProvider="target">
             <connections>
+                <outlet property="messageTableView" destination="pWf-gK-UIy" id="kbI-t0-M4I"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,25 +26,39 @@
             <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="st9-JP-zZZ">
-                    <rect key="frame" x="133" y="389.33333333333331" width="124.33333333333331" height="65.666666666666686"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="55"/>
-                    <nil key="textColor"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENSAJES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVJ-Bl-SZo">
+                    <rect key="frame" x="22" y="87" width="101" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                    <color key="textColor" name="colorMain"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-gK-UIy">
+                    <rect key="frame" x="22" y="139" width="346" height="671"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="colorWhite"/>
             <constraints>
-                <constraint firstItem="st9-JP-zZZ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Xru-03-agN"/>
-                <constraint firstItem="st9-JP-zZZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="eXf-rC-Sw1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pWf-gK-UIy" secondAttribute="trailing" constant="22" id="6Ou-LY-MZM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pWf-gK-UIy" secondAttribute="bottom" id="BW6-gK-5t7"/>
+                <constraint firstItem="pWf-gK-UIy" firstAttribute="top" secondItem="tVJ-Bl-SZo" secondAttribute="bottom" constant="30" id="cqI-ae-JVz"/>
+                <constraint firstItem="pWf-gK-UIy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="iOn-ma-yYH"/>
+                <constraint firstItem="tVJ-Bl-SZo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="qwx-ce-PTP"/>
+                <constraint firstItem="tVJ-Bl-SZo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="xHG-eK-3zv"/>
             </constraints>
-            <point key="canvasLocation" x="37" y="21"/>
+            <point key="canvasLocation" x="36.92307692307692" y="20.616113744075829"/>
         </view>
     </objects>
     <resources>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="colorWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

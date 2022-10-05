@@ -57,6 +57,8 @@
 		FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */; };
 		FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */; };
 		FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */; };
+		FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */; };
+		FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */; };
 		FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */; };
 		FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */; };
 		FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */; };
@@ -129,6 +131,8 @@
 		FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoCreationCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtNearCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtNearCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
 		FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShoppingViewController.swift; sourceTree = "<group>"; };
 		FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShoppingViewController.xib; sourceTree = "<group>"; };
 		FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
@@ -254,6 +258,7 @@
 		FC4423AE28D8E67D00803C9A /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				FC72909B28EDE52C00F47E08 /* MessagesTableCell */,
 				FC4423AF28D8E69C00803C9A /* MessaggesViewController.swift */,
 				FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */,
 			);
@@ -384,6 +389,15 @@
 				FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */,
 			);
 			path = ArtNearCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC72909B28EDE52C00F47E08 /* MessagesTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */,
+				FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */,
+			);
+			path = MessagesTableCell;
 			sourceTree = "<group>";
 		};
 		FC74B60528E7495E00FC073F /* MyShopping */ = {
@@ -550,6 +564,7 @@
 				FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */,
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
+				FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
 				FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */,
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
@@ -619,6 +634,7 @@
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
+				FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
