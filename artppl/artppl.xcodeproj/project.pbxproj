@@ -69,6 +69,12 @@
 		FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */; };
 		FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
+		FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */; };
+		FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */; };
+		FC9E719528EF5589008165DC /* SubastaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E719328EF5589008165DC /* SubastaCollectionViewCell.swift */; };
+		FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E719428EF5589008165DC /* SubastaCollectionViewCell.xib */; };
+		FC9E719A28EF55B4008165DC /* RecycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E719828EF55B4008165DC /* RecycleCollectionViewCell.swift */; };
+		FC9E719B28EF55B4008165DC /* RecycleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E719928EF55B4008165DC /* RecycleCollectionViewCell.xib */; };
 		FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */; };
 		FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */; };
 		FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */; };
@@ -147,6 +153,12 @@
 		FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
 		FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
+		FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArteCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArteCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC9E719328EF5589008165DC /* SubastaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubastaCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC9E719428EF5589008165DC /* SubastaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubastaCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC9E719828EF55B4008165DC /* RecycleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC9E719928EF55B4008165DC /* RecycleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecycleCollectionViewCell.xib; sourceTree = "<group>"; };
 		FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
 		FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
 		FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTabViewController.xib; sourceTree = "<group>"; };
@@ -257,6 +269,9 @@
 		FC4423A928D8E66200803C9A /* Market */ = {
 			isa = PBXGroup;
 			children = (
+				FC9E719728EF55A0008165DC /* RecycleCollectionCell */,
+				FC9E719228EF556D008165DC /* SubastaCollectionCell */,
+				FC9E718D28EF54D3008165DC /* ArteCollectionCell */,
 				FC4423AA28D8E67500803C9A /* MarketViewController.swift */,
 				FC4423AB28D8E67500803C9A /* MarketViewController.xib */,
 			);
@@ -483,6 +498,33 @@
 			path = "Profile selector";
 			sourceTree = "<group>";
 		};
+		FC9E718D28EF54D3008165DC /* ArteCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */,
+				FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */,
+			);
+			path = ArteCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC9E719228EF556D008165DC /* SubastaCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E719328EF5589008165DC /* SubastaCollectionViewCell.swift */,
+				FC9E719428EF5589008165DC /* SubastaCollectionViewCell.xib */,
+			);
+			path = SubastaCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC9E719728EF55A0008165DC /* RecycleCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E719828EF55B4008165DC /* RecycleCollectionViewCell.swift */,
+				FC9E719928EF55B4008165DC /* RecycleCollectionViewCell.xib */,
+			);
+			path = RecycleCollectionCell;
+			sourceTree = "<group>";
+		};
 		FCA2D1D828E22C3700960950 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,6 +621,8 @@
 				FC12B84228E6183200BF91D1 /* ArtisticWorkViewController.xib in Resources */,
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
+				FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */,
+				FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */,
 				FC58B07B28C91FF800A66B78 /* RegisterViewController.xib in Resources */,
 				FC4423AD28D8E67500803C9A /* MarketViewController.xib in Resources */,
 				FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */,
@@ -586,6 +630,7 @@
 				FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */,
 				FCC03FC628E37BB60016CF57 /* SideMenuViewController.xib in Resources */,
 				FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */,
+				FC9E719B28EF55B4008165DC /* RecycleCollectionViewCell.xib in Resources */,
 				FC60704428C7E09200424A33 /* WelcomeSliderViewController.xib in Resources */,
 				FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */,
 				FC44239F28D89FF200803C9A /* ProfileSelectorViewController.xib in Resources */,
@@ -663,12 +708,14 @@
 			files = (
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
+				FC9E719528EF5589008165DC /* SubastaCollectionViewCell.swift in Sources */,
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
 				FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */,
 				FC7290AC28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
+				FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
 				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
 				FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */,
@@ -689,6 +736,7 @@
 				FC7290A328EE130D00F47E08 /* PortfolioCollectionViewCell.swift in Sources */,
 				FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */,
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
+				FC9E719A28EF55B4008165DC /* RecycleCollectionViewCell.swift in Sources */,
 				FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,

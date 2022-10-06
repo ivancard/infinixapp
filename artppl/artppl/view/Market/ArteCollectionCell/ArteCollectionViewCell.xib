@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ArteCollectionViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="159" height="249"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="159" height="249"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgArtMarket" translatesAutoresizingMaskIntoConstraints="NO" id="hrh-D3-26l">
+                        <rect key="frame" x="0.0" y="0.0" width="159" height="159"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="159" id="DyP-Qd-3nK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atril de pintura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GD2-dr-gwU">
+                        <rect key="frame" x="8" y="169" width="111" height="17.333333333333343"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARTA CASTELUCCI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNY-EI-1tk">
+                        <rect key="frame" x="8" y="188.33333333333334" width="102.66666666666667" height="12.333333333333343"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PD-N6-Yg1">
+                        <rect key="frame" x="8" y="214" width="34" height="20"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="colorWhite"/>
+            <constraints>
+                <constraint firstItem="hrh-D3-26l" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6I6-DQ-yZv"/>
+                <constraint firstItem="GD2-dr-gwU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="E46-KM-w54"/>
+                <constraint firstItem="8PD-N6-Yg1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="EXz-h8-wGe"/>
+                <constraint firstItem="hrh-D3-26l" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Gku-Vx-iF2"/>
+                <constraint firstAttribute="bottom" secondItem="8PD-N6-Yg1" secondAttribute="bottom" constant="15" id="O02-YA-mkE"/>
+                <constraint firstItem="GD2-dr-gwU" firstAttribute="top" secondItem="hrh-D3-26l" secondAttribute="bottom" constant="10" id="aNh-FA-Fia"/>
+                <constraint firstAttribute="trailing" secondItem="hrh-D3-26l" secondAttribute="trailing" id="iJP-W3-xtI"/>
+                <constraint firstItem="oNY-EI-1tk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="jm5-TC-rv7"/>
+                <constraint firstItem="oNY-EI-1tk" firstAttribute="top" secondItem="GD2-dr-gwU" secondAttribute="bottom" constant="2" id="lLv-4r-oAu"/>
+            </constraints>
+            <size key="customSize" width="126" height="261"/>
+            <point key="canvasLocation" x="82.307692307692307" y="95.616113744075818"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="imgArtMarket" width="159" height="159"/>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

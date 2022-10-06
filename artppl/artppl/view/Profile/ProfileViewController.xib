@@ -171,8 +171,7 @@
                                     <subviews>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="vhz-l0-4nY">
                                             <rect key="frame" x="0.0" y="0.0" width="346" height="499"/>
-                                            <color key="backgroundColor" name="colorWhite"/>
-                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QOW-AS-UWU">
+                                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NGX-vF-cll">
                                                 <size key="itemSize" width="128" height="128"/>
                                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                 <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -180,12 +179,12 @@
                                             </collectionViewFlowLayout>
                                         </collectionView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
                                         <constraint firstItem="vhz-l0-4nY" firstAttribute="top" secondItem="RdY-MX-pgQ" secondAttribute="top" id="1dq-ek-AMu"/>
-                                        <constraint firstItem="vhz-l0-4nY" firstAttribute="leading" secondItem="RdY-MX-pgQ" secondAttribute="leading" id="Kpt-Wx-CyN"/>
-                                        <constraint firstAttribute="trailing" secondItem="vhz-l0-4nY" secondAttribute="trailing" id="VdK-G0-y44"/>
+                                        <constraint firstItem="vhz-l0-4nY" firstAttribute="leading" secondItem="RdY-MX-pgQ" secondAttribute="leading" id="bpX-ys-8C8"/>
                                         <constraint firstAttribute="bottom" secondItem="vhz-l0-4nY" secondAttribute="bottom" id="hra-oe-rQI"/>
+                                        <constraint firstAttribute="trailing" secondItem="vhz-l0-4nY" secondAttribute="trailing" id="tGe-4Y-u4y"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnZ-wr-0u5" userLabel="marketTab">
@@ -202,7 +201,7 @@
                                             </collectionViewFlowLayout>
                                         </collectionView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="rUW-Vh-gSa" secondAttribute="trailing" id="0BM-IJ-2en"/>
                                         <constraint firstAttribute="bottom" secondItem="rUW-Vh-gSa" secondAttribute="bottom" id="BzG-9u-twm"/>
@@ -270,12 +269,6 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
