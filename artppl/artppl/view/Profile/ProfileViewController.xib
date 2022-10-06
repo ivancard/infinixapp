@@ -24,8 +24,13 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileViewController" customModule="artppl" customModuleProvider="target">
             <connections>
                 <outlet property="btnConectar" destination="dEi-cP-2iF" id="N5q-rF-XqT"/>
+                <outlet property="btnMarket" destination="jQV-SQ-ucg" id="Bzr-ZZ-0A6"/>
+                <outlet property="btnPortfolio" destination="Acq-po-l9b" id="Pda-d5-QxY"/>
+                <outlet property="constrainLineLeading" destination="pmr-bB-w6m" id="aKf-gy-qVE"/>
+                <outlet property="lineSelectIndicator" destination="iGI-iG-Ch5" id="dgC-7R-WYG"/>
                 <outlet property="marketCollectionView" destination="rUW-Vh-gSa" id="rux-BQ-CH2"/>
                 <outlet property="portfolioCollectionView" destination="vhz-l0-4nY" id="mrK-RY-pcm"/>
+                <outlet property="tabsScrollView" destination="Oc9-Aw-gc5" id="i3e-bZ-cDg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -57,7 +62,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hola, soy artista, fotografa. Me encanta sacar fotos de paisajes, esculturas, y lugares hermosos. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFm-2t-mz4">
-                    <rect key="frame" x="22" y="148" width="330" height="58.666666666666657"/>
+                    <rect key="frame" x="22" y="148" width="330" height="0.0"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="330" id="aR7-VB-aSY"/>
                     </constraints>
@@ -66,7 +71,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aV6-S0-RB1">
-                    <rect key="frame" x="22" y="228.66666666666666" width="346" height="47.999999999999972"/>
+                    <rect key="frame" x="22" y="170" width="346" height="48"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconChat" translatesAutoresizingMaskIntoConstraints="NO" id="PuV-tM-3Lh">
                             <rect key="frame" x="304" y="14" width="20" height="20"/>
@@ -106,7 +111,7 @@
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YWb-Jf-haM">
-                    <rect key="frame" x="10" y="296.66666666666669" width="370" height="50"/>
+                    <rect key="frame" x="10" y="238" width="370" height="50"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Acq-po-l9b">
                             <rect key="frame" x="0.0" y="0.0" width="185" height="50"/>
@@ -115,6 +120,9 @@
                             <state key="normal" title="Portfolio">
                                 <color key="titleColor" name="colorMain"/>
                             </state>
+                            <connections>
+                                <action selector="btnPortfolioTab:" destination="-1" eventType="touchUpInside" id="NNu-W7-8Sn"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQV-SQ-ucg">
                             <rect key="frame" x="185" y="0.0" width="185" height="50"/>
@@ -123,6 +131,9 @@
                             <state key="normal" title="Market">
                                 <color key="titleColor" name="colorMain"/>
                             </state>
+                            <connections>
+                                <action selector="btnMarketTab:" destination="-1" eventType="touchUpInside" id="muw-fy-VYK"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>
@@ -130,10 +141,10 @@
                     </constraints>
                 </stackView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OzA-uB-ghQ">
-                    <rect key="frame" x="0.0" y="346.66666666666669" width="390" height="1"/>
+                    <rect key="frame" x="0.0" y="288" width="390" height="1"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N4c-Sk-E4x" userLabel="line">
-                            <rect key="frame" x="10" y="-2.3333333333333712" width="370" height="6"/>
+                            <rect key="frame" x="10" y="-2.3333333333333144" width="370" height="6"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iGI-iG-Ch5">
                                     <rect key="frame" x="0.0" y="0.0" width="185" height="6"/>
@@ -158,17 +169,18 @@
                         <constraint firstItem="N4c-Sk-E4x" firstAttribute="centerY" secondItem="OzA-uB-ghQ" secondAttribute="centerY" id="xP3-mg-4Ph"/>
                     </constraints>
                 </view>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oc9-Aw-gc5">
-                    <rect key="frame" x="22" y="369.66666666666674" width="346" height="440.33333333333326"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oc9-Aw-gc5">
+                    <rect key="frame" x="22" y="311" width="346" height="499"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="L7I-6P-6z0">
-                            <rect key="frame" x="0.0" y="0.0" width="692" height="440.33333333333331"/>
+                            <rect key="frame" x="0.0" y="0.0" width="692" height="499"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RdY-MX-pgQ" userLabel="portfolioTab">
-                                    <rect key="frame" x="0.0" y="0.0" width="346" height="440.33333333333331"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="346" height="499"/>
                                     <subviews>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="vhz-l0-4nY">
-                                            <rect key="frame" x="0.0" y="0.0" width="346" height="440.33333333333331"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="346" height="499"/>
+                                            <color key="backgroundColor" name="colorWhite"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QOW-AS-UWU">
                                                 <size key="itemSize" width="128" height="128"/>
                                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -186,10 +198,10 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnZ-wr-0u5" userLabel="marketTab">
-                                    <rect key="frame" x="346" y="0.0" width="346" height="440.33333333333331"/>
+                                    <rect key="frame" x="346" y="0.0" width="346" height="499"/>
                                     <subviews>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rUW-Vh-gSa">
-                                            <rect key="frame" x="0.0" y="0.0" width="346" height="440.33333333333331"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="346" height="499"/>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KKa-ka-Gej">
                                                 <size key="itemSize" width="128" height="128"/>

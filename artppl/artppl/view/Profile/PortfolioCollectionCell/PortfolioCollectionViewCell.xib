@@ -19,6 +19,9 @@
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgPortfolioCell" translatesAutoresizingMaskIntoConstraints="NO" id="1Ia-mL-1pK">
                         <rect key="frame" x="0.0" y="0.0" width="159" height="159"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="1Ia-mL-1pK" secondAttribute="height" multiplier="1:1" id="tmN-yg-y6U"/>
+                        </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                 <integer key="value" value="8"/>
