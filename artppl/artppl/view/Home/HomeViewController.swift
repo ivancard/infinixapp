@@ -97,4 +97,9 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
        20
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == self.marketCollectionView {
+            self.navigationController?.pushViewController(MarketItemViewController(), animated: true)
+        }
+    }
 }

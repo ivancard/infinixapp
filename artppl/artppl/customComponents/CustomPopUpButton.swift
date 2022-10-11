@@ -9,7 +9,6 @@ import UIKit
 
 class CustomPopUpButton: UIButton {
 
-
     override func awakeFromNib() {
         super.awakeFromNib()
         self.layer.cornerRadius = layer.bounds.width / 2
