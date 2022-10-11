@@ -33,19 +33,19 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atril de pintura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blQ-MC-sBs">
-                        <rect key="frame" x="8" y="169" width="111" height="18"/>
+                        <rect key="frame" x="8" y="169" width="111" height="16.333333333333343"/>
                         <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
                         <color key="textColor" name="colorMain"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARTA CASTELUCCI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw9-gG-nlA">
-                        <rect key="frame" x="8" y="189" width="103" height="13"/>
+                        <rect key="frame" x="8" y="187.33333333333334" width="102.66666666666667" height="11.666666666666657"/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
                         <color key="textColor" name="colorMain"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJI-VH-P8s">
-                        <rect key="frame" x="8" y="214" width="34" height="20"/>
+                        <rect key="frame" x="8" y="214.33333333333334" width="33.666666666666664" height="19.666666666666657"/>
                         <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
                         <color key="textColor" name="colorMain"/>
                         <nil key="highlightedColor"/>
@@ -80,6 +80,9 @@ RECYCLED</string>
                 <constraint firstItem="GvL-KR-Ref" firstAttribute="centerY" secondItem="qJI-VH-P8s" secondAttribute="centerY" id="v2v-3z-Rta"/>
             </constraints>
             <size key="customSize" width="183" height="185"/>
+            <connections>
+                <outlet property="imgCell" destination="BoH-o9-AQW" id="KKt-QK-0Mw"/>
+            </connections>
             <point key="canvasLocation" x="226.92307692307691" y="68.60189573459715"/>
         </collectionViewCell>
     </objects>

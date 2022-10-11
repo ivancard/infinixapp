@@ -9,9 +9,11 @@ import UIKit
 
 class SubastaCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var imgCell: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        imgCell.layer.cornerRadius = 8
+        imgCell.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
 
 }

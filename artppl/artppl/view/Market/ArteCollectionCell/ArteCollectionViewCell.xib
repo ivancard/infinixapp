@@ -33,19 +33,19 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atril de pintura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GD2-dr-gwU">
-                        <rect key="frame" x="8" y="169" width="111" height="17.333333333333343"/>
+                        <rect key="frame" x="8" y="169" width="111" height="16.333333333333343"/>
                         <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
                         <color key="textColor" name="colorMain"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARTA CASTELUCCI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNY-EI-1tk">
-                        <rect key="frame" x="8" y="188.33333333333334" width="102.66666666666667" height="12.333333333333343"/>
+                        <rect key="frame" x="8" y="187.33333333333334" width="102.66666666666667" height="12.333333333333343"/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
                         <color key="textColor" name="colorMain"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PD-N6-Yg1">
-                        <rect key="frame" x="8" y="214" width="34" height="20"/>
+                        <rect key="frame" x="8" y="214.33333333333334" width="33.666666666666664" height="19.666666666666657"/>
                         <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
                         <color key="textColor" name="colorMain"/>
                         <nil key="highlightedColor"/>
@@ -66,6 +66,9 @@
                 <constraint firstItem="oNY-EI-1tk" firstAttribute="top" secondItem="GD2-dr-gwU" secondAttribute="bottom" constant="2" id="lLv-4r-oAu"/>
             </constraints>
             <size key="customSize" width="126" height="261"/>
+            <connections>
+                <outlet property="imgCell" destination="hrh-D3-26l" id="wl5-2h-hba"/>
+            </connections>
             <point key="canvasLocation" x="82.307692307692307" y="95.616113744075818"/>
         </collectionViewCell>
     </objects>

@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
         <array key="Montserrat-Regular.ttf">
             <string>Montserrat-Regular</string>
         </array>
@@ -18,7 +21,12 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MarketViewController" customModule="artppl" customModuleProvider="target">
             <connections>
                 <outlet property="arteCollectionView" destination="FGb-Qi-cAD" id="KR5-Li-ceZ"/>
+                <outlet property="btnArteOutlet" destination="p60-JX-SPY" id="Pnl-72-XmS"/>
+                <outlet property="btnRecycledOutlet" destination="niP-gS-Pyq" id="ewa-1J-Wkl"/>
+                <outlet property="btnSubastaOutlet" destination="Gdc-Si-Q1v" id="23D-Gq-fNC"/>
+                <outlet property="lineConstrain" destination="CWI-XX-qnH" id="GGW-U4-R0k"/>
                 <outlet property="recycleCollectionView" destination="PfV-Y5-YA9" id="tHI-nC-7tb"/>
+                <outlet property="scrollViewMarket" destination="obo-di-xmg" id="c9b-hH-gj1"/>
                 <outlet property="subastaCollectionview" destination="0kw-X2-S5J" id="X6U-Zs-5QZ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -38,22 +46,31 @@
                             <state key="normal" title="Arte">
                                 <color key="titleColor" name="colorMain"/>
                             </state>
+                            <connections>
+                                <action selector="btnArte:" destination="-1" eventType="touchUpInside" id="9UK-Ig-rrq"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niP-gS-Pyq">
                             <rect key="frame" x="123.33333333333334" y="0.0" width="123.33333333333334" height="50"/>
-                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" title="Recycled">
                                 <color key="titleColor" name="colorMain"/>
                             </state>
+                            <connections>
+                                <action selector="btnRecycled:" destination="-1" eventType="touchUpInside" id="HPf-vh-Ulf"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gdc-Si-Q1v">
                             <rect key="frame" x="246.66666666666671" y="0.0" width="123.33333333333334" height="50"/>
-                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                             <state key="normal" title="Subasta">
                                 <color key="titleColor" name="colorMain"/>
                             </state>
+                            <connections>
+                                <action selector="btnSubasta:" destination="-1" eventType="touchUpInside" id="v6Y-JV-GCu"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>
@@ -89,7 +106,7 @@
                         <constraint firstItem="cqK-Mm-o9W" firstAttribute="centerY" secondItem="pJb-bF-Mis" secondAttribute="centerY" id="sio-C3-Jit"/>
                     </constraints>
                 </view>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obo-di-xmg">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obo-di-xmg">
                     <rect key="frame" x="0.0" y="118" width="390" height="692"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ic0-oO-GcR">
