@@ -101,5 +101,8 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         if collectionView == self.marketCollectionView {
             self.navigationController?.pushViewController(MarketItemViewController(), animated: true)
         }
+        if collectionView == self.cocreationCollectionView {
+            self.navigationController?.pushViewController(CocreationViewController(), animated: true)
+        }
     }
 }

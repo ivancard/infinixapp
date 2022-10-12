@@ -13,8 +13,8 @@ class CustomFilledButton: UIButton {
         super.awakeFromNib()
         layer.cornerRadius = 8
         backgroundColor = UIColor(named: "colorMain")
+        alpha = 1
         titleLabel?.textColor = UIColor(named: "colorWhite")
         titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 12)
-        
     }
 }

@@ -41,6 +41,9 @@
 		FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */; };
 		FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4423B428D8E6D700803C9A /* ProfileViewController.swift */; };
 		FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423B528D8E6D700803C9A /* ProfileViewController.xib */; };
+		FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74C428F70D43007F5970 /* CocreationViewController.swift */; };
+		FC4A74C728F70D43007F5970 /* CocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A74C528F70D43007F5970 /* CocreationViewController.xib */; };
+		FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */; };
 		FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313F728CBDC5700C7ACA6 /* animationButton.json */; };
 		FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */; };
 		FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */; };
@@ -129,6 +132,9 @@
 		FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessaggesViewController.xib; sourceTree = "<group>"; };
 		FC4423B428D8E6D700803C9A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FC4423B528D8E6D700803C9A /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		FC4A74C428F70D43007F5970 /* CocreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationViewController.swift; sourceTree = "<group>"; };
+		FC4A74C528F70D43007F5970 /* CocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationViewController.xib; sourceTree = "<group>"; };
+		FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorderNegative.swift; sourceTree = "<group>"; };
 		FC5313F728CBDC5700C7ACA6 /* animationButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButton.json; sourceTree = "<group>"; };
 		FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -243,6 +249,7 @@
 		FC39BDA228F5C68A004779A8 /* CarrouselItems */ = {
 			isa = PBXGroup;
 			children = (
+				FC4A74C328F70D11007F5970 /* CocreationItems */,
 				FC39BDA328F5C698004779A8 /* MarketItems */,
 			);
 			path = CarrouselItems;
@@ -348,6 +355,15 @@
 				FC4423B528D8E6D700803C9A /* ProfileViewController.xib */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC4A74C328F70D11007F5970 /* CocreationItems */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A74C428F70D43007F5970 /* CocreationViewController.swift */,
+				FC4A74C528F70D43007F5970 /* CocreationViewController.xib */,
+			);
+			path = CocreationItems;
 			sourceTree = "<group>";
 		};
 		FC5313EE28CBC30100C7ACA6 /* animations */ = {
@@ -606,6 +622,7 @@
 				FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */,
 				FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */,
 				FC39BDA828F5CCCF004779A8 /* CustomFilledButton.swift */,
+				FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */,
 			);
 			path = customComponents;
 			sourceTree = "<group>";
@@ -698,6 +715,7 @@
 				FC39BDB228F5E8C3004779A8 /* SpecItemTableViewCell.xib in Resources */,
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
+				FC4A74C728F70D43007F5970 /* CocreationViewController.xib in Resources */,
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
 				FC60703428C7D3F000424A33 /* Main.storyboard in Resources */,
@@ -776,6 +794,7 @@
 				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
 				FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */,
 				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
+				FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */,
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
@@ -805,6 +824,7 @@
 				FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */,
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
+				FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
