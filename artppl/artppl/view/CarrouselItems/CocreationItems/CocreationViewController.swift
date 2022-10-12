@@ -15,4 +15,9 @@ class CocreationViewController: UIViewController {
         
         navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor(named: "colorMain") ?? UIColor.purple]
     }
+    @IBAction func btnParticipar(_ sender: Any) {
+        let requestPage = CocreationRequestViewController()
+        requestPage.modalPresentationStyle = .fullScreen
+        present(requestPage, animated: true)
+    }
 }

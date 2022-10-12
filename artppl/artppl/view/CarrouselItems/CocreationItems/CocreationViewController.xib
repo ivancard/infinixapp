@@ -8,7 +8,6 @@
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -101,9 +100,12 @@
                                             <state key="normal" title="Participar">
                                                 <color key="titleColor" name="colorWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="btnParticipar:" destination="-1" eventType="touchUpInside" id="N2O-Ci-d24"/>
+                                            </connections>
                                         </button>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstItem="QlE-Ro-AEP" firstAttribute="top" secondItem="TeH-Cp-nLa" secondAttribute="top" constant="22" id="4iZ-d0-hS2"/>
                                         <constraint firstItem="GKC-Gq-TW6" firstAttribute="leading" secondItem="TeH-Cp-nLa" secondAttribute="leading" constant="22" id="BNr-4C-gwz"/>
@@ -134,7 +136,7 @@
                                             </constraints>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstItem="HUZ-iv-CqS" firstAttribute="leading" secondItem="cDy-6e-oq7" secondAttribute="leading" constant="22" id="21O-PF-TLS"/>
                                         <constraint firstAttribute="height" constant="2" id="Q9x-kB-703"/>
@@ -229,7 +231,7 @@
                                             </state>
                                         </button>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstItem="FGj-4n-vdi" firstAttribute="top" secondItem="kG3-FU-L6I" secondAttribute="top" id="0GW-4e-hgE"/>
                                         <constraint firstItem="CR1-7W-4l4" firstAttribute="centerX" secondItem="CWq-Pe-1d4" secondAttribute="centerX" id="4Ga-Ju-JHT"/>
@@ -261,7 +263,7 @@
                                             </constraints>
                                         </view>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="atx-1A-sWM" secondAttribute="trailing" constant="22" id="BFT-LI-G9o"/>
                                         <constraint firstItem="atx-1A-sWM" firstAttribute="leading" secondItem="yis-cH-97R" secondAttribute="leading" constant="22" id="E9R-TI-7fV"/>
@@ -289,7 +291,7 @@
                                             <standardMapConfiguration key="preferredConfiguration"/>
                                         </mapView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="lVt-NT-0Qd" secondAttribute="bottom" constant="22" id="2Mb-oA-oh9"/>
                                         <constraint firstItem="lVt-NT-0Qd" firstAttribute="leading" secondItem="war-zI-13k" secondAttribute="leading" constant="22" id="A94-Ov-zQx"/>
@@ -316,7 +318,7 @@
                 </scrollView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" name="colorWhite"/>
             <constraints>
                 <constraint firstItem="V0z-48-ijv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ivj-P6-oO1"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="V0z-48-ijv" secondAttribute="bottom" id="Sdu-KU-Ijm"/>
@@ -345,8 +347,5 @@
         <namedColor name="colorWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

@@ -44,6 +44,8 @@
 		FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74C428F70D43007F5970 /* CocreationViewController.swift */; };
 		FC4A74C728F70D43007F5970 /* CocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A74C528F70D43007F5970 /* CocreationViewController.xib */; };
 		FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */; };
+		FC4A74CD28F720C0007F5970 /* CocreationRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */; };
+		FC4A74CE28F720C0007F5970 /* CocreationRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */; };
 		FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313F728CBDC5700C7ACA6 /* animationButton.json */; };
 		FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */; };
 		FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */; };
@@ -135,6 +137,8 @@
 		FC4A74C428F70D43007F5970 /* CocreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationViewController.swift; sourceTree = "<group>"; };
 		FC4A74C528F70D43007F5970 /* CocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationViewController.xib; sourceTree = "<group>"; };
 		FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorderNegative.swift; sourceTree = "<group>"; };
+		FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationRequestViewController.swift; sourceTree = "<group>"; };
+		FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationRequestViewController.xib; sourceTree = "<group>"; };
 		FC5313F728CBDC5700C7ACA6 /* animationButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButton.json; sourceTree = "<group>"; };
 		FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -360,10 +364,20 @@
 		FC4A74C328F70D11007F5970 /* CocreationItems */ = {
 			isa = PBXGroup;
 			children = (
+				FC4A74CA28F7209C007F5970 /* CocreationRequest */,
 				FC4A74C428F70D43007F5970 /* CocreationViewController.swift */,
 				FC4A74C528F70D43007F5970 /* CocreationViewController.xib */,
 			);
 			path = CocreationItems;
+			sourceTree = "<group>";
+		};
+		FC4A74CA28F7209C007F5970 /* CocreationRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */,
+				FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */,
+			);
+			path = CocreationRequest;
 			sourceTree = "<group>";
 		};
 		FC5313EE28CBC30100C7ACA6 /* animations */ = {
@@ -694,6 +708,7 @@
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
 				FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */,
 				FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */,
+				FC4A74CE28F720C0007F5970 /* CocreationRequestViewController.xib in Resources */,
 				FC58B07B28C91FF800A66B78 /* RegisterViewController.xib in Resources */,
 				FC4423AD28D8E67500803C9A /* MarketViewController.xib in Resources */,
 				FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */,
@@ -825,6 +840,7 @@
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 				FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */,
+				FC4A74CD28F720C0007F5970 /* CocreationRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
