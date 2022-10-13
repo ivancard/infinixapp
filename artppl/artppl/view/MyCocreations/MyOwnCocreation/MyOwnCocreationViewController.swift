@@ -26,6 +26,9 @@ class MyOwnCocreationViewController: UIViewController, UITableViewDelegate, UITa
         
         activitiesTableView.configure(delegate: self, dataSource: self, cells: [ActivitiesTableViewCell.self])
         galleryCollectionView.configure(delegate: self, dataSource: self, cells: [CocreationGalleryCollectionViewCell.self])
+        
+        title = "Maquillaje y emoción: obra de teatro en creación"
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor(named: "colorMain") ?? UIColor.purple]
 
     }
     private func selectedTab(_ tab: CocreationTab){
@@ -49,6 +52,12 @@ class MyOwnCocreationViewController: UIViewController, UITableViewDelegate, UITa
         }
     }
     
+    @IBAction func btnParticipants(_ sender: Any) {
+        navigationController?.pushViewController(ParticipantsViewController(), animated: true)
+    }
+    @IBAction func btnRequests(_ sender: Any) {
+        navigationController?.pushViewController(RequestsViewController(), animated: true)
+    }
     @IBAction func btnActivity(_ sender: Any) {
         selectedTab(.activity)
     }
@@ -68,6 +77,7 @@ class MyOwnCocreationViewController: UIViewController, UITableViewDelegate, UITa
         360
     }
     
+    //Collection Gallery
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         10
     }

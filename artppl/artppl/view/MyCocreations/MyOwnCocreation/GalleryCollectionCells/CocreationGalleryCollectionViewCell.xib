@@ -29,18 +29,17 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgMarketCell" translatesAutoresizingMaskIntoConstraints="NO" id="Ydg-lA-SkX">
                         <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="160" id="n4V-gw-X1j"/>
-                            <constraint firstAttribute="height" constant="160" id="paf-hh-Jww"/>
+                            <constraint firstAttribute="height" constant="160" id="p7y-FW-aMH"/>
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asphen Siphron" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYJ-8a-bsQ">
-                        <rect key="frame" x="0.0" y="179" width="98" height="15"/>
+                        <rect key="frame" x="0.0" y="178" width="97.666666666666671" height="14"/>
                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
                         <color key="textColor" name="colorMain"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posted by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzb-bM-99a">
-                        <rect key="frame" x="0.0" y="162" width="60" height="15"/>
+                        <rect key="frame" x="0.0" y="162" width="59.666666666666664" height="14"/>
                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
                         <color key="textColor" name="colorFontGray2"/>
                         <nil key="highlightedColor"/>
@@ -50,13 +49,14 @@
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <color key="backgroundColor" name="colorWhite"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="Ydg-lA-SkX" secondAttribute="trailing" id="9NX-t6-euH"/>
+                <constraint firstItem="fzb-bM-99a" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ach-gf-aUV"/>
+                <constraint firstItem="Ydg-lA-SkX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="IuT-Ib-5Wh"/>
+                <constraint firstAttribute="trailing" secondItem="Ydg-lA-SkX" secondAttribute="trailing" id="Ohx-qp-dPX"/>
                 <constraint firstItem="TYJ-8a-bsQ" firstAttribute="top" secondItem="fzb-bM-99a" secondAttribute="bottom" constant="2" id="RHS-ot-O2A"/>
                 <constraint firstItem="fzb-bM-99a" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Sco-01-7oT"/>
-                <constraint firstItem="Ydg-lA-SkX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="j5V-nw-AuU"/>
-                <constraint firstItem="fzb-bM-99a" firstAttribute="top" secondItem="Ydg-lA-SkX" secondAttribute="bottom" constant="2" id="qCy-Qo-ln3"/>
+                <constraint firstItem="fzb-bM-99a" firstAttribute="top" secondItem="Ydg-lA-SkX" secondAttribute="bottom" constant="2" id="WGS-RI-zT2"/>
+                <constraint firstItem="Ydg-lA-SkX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="taF-sg-She"/>
                 <constraint firstItem="TYJ-8a-bsQ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tdo-ZX-ISS"/>
-                <constraint firstItem="Ydg-lA-SkX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yNw-2b-HZJ"/>
             </constraints>
             <size key="customSize" width="174" height="209"/>
             <point key="canvasLocation" x="232.30769230769229" y="77.132701421800945"/>

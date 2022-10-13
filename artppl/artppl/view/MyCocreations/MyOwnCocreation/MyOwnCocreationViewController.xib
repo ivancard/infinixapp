@@ -111,6 +111,9 @@
                                             <state key="normal" title="      Participantes">
                                                 <color key="titleColor" name="colorMain"/>
                                             </state>
+                                            <connections>
+                                                <action selector="btnParticipants:" destination="-1" eventType="touchUpInside" id="AjI-Vs-Idb"/>
+                                            </connections>
                                         </button>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xCA-ot-Kpo">
                                             <rect key="frame" x="343" y="19.666666666666686" width="25" height="21.333333333333329"/>
@@ -149,6 +152,9 @@
                                             <state key="normal" title="      Solicitudes">
                                                 <color key="titleColor" name="colorMain"/>
                                             </state>
+                                            <connections>
+                                                <action selector="btnRequests:" destination="-1" eventType="touchUpInside" id="fGv-KP-Lyc"/>
+                                            </connections>
                                         </button>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="l9N-QG-OAa">
                                             <rect key="frame" x="343" y="19.666666666666629" width="25" height="21.333333333333329"/>
@@ -237,7 +243,7 @@
                                                 <constraint firstAttribute="height" constant="6" id="pUE-h1-Qpu"/>
                                             </constraints>
                                         </view>
-                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kz7-A0-VYy">
+                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kz7-A0-VYy">
                                             <rect key="frame" x="0.0" y="127" width="390" height="523"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yL0-7O-AxS">
@@ -262,7 +268,7 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vCD-kp-qAu">
                                                             <rect key="frame" x="390" y="0.0" width="390" height="523"/>
                                                             <subviews>
-                                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="JhA-uL-h05">
+                                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="JhA-uL-h05">
                                                                     <rect key="frame" x="22" y="22" width="346" height="501"/>
                                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9h6-4e-qdt">
