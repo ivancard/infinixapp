@@ -93,9 +93,23 @@
 		FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC03FC328E37BB60016CF57 /* SideMenuViewController.swift */; };
 		FCC03FC628E37BB60016CF57 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC03FC428E37BB60016CF57 /* SideMenuViewController.xib */; };
 		FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */; };
+		FCE3A81828F734E800E412B5 /* MyCocreationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */; };
+		FCE3A81928F734E800E412B5 /* MyCocreationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */; };
+		FCE3A81D28F7358B00E412B5 /* MyCocreationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A81B28F7358B00E412B5 /* MyCocreationsTableViewCell.swift */; };
+		FCE3A81E28F7358B00E412B5 /* MyCocreationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A81C28F7358B00E412B5 /* MyCocreationsTableViewCell.xib */; };
+		FCE3A82228F73BB800E412B5 /* MyOwnCocreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A82028F73BB800E412B5 /* MyOwnCocreationViewController.swift */; };
+		FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */; };
+		FCE3A82728F7453B00E412B5 /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */; };
+		FCE3A82828F7453B00E412B5 /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */; };
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
 		FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */; };
+		FCF989B228F861CB003CD299 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */; };
+		FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */; };
+		FCF989B628F861F4003CD299 /* ToggleCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */; };
+		FCF989B728F861F4003CD299 /* ToggleCommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989B528F861F4003CD299 /* ToggleCommentsTableViewCell.xib */; };
+		FCF989BB28F87698003CD299 /* CocreationGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B928F87698003CD299 /* CocreationGalleryCollectionViewCell.swift */; };
+		FCF989BC28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989BA28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -189,9 +203,23 @@
 		FCC03FC328E37BB60016CF57 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		FCC03FC428E37BB60016CF57 /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
 		FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientWhiteTransp.swift; sourceTree = "<group>"; };
+		FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCocreationsViewController.swift; sourceTree = "<group>"; };
+		FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCocreationsViewController.xib; sourceTree = "<group>"; };
+		FCE3A81B28F7358B00E412B5 /* MyCocreationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCocreationsTableViewCell.swift; sourceTree = "<group>"; };
+		FCE3A81C28F7358B00E412B5 /* MyCocreationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCocreationsTableViewCell.xib; sourceTree = "<group>"; };
+		FCE3A82028F73BB800E412B5 /* MyOwnCocreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOwnCocreationViewController.swift; sourceTree = "<group>"; };
+		FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOwnCocreationViewController.xib; sourceTree = "<group>"; };
+		FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
+		FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
 		FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewGradient.swift; sourceTree = "<group>"; };
+		FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleCommentsTableViewCell.swift; sourceTree = "<group>"; };
+		FCF989B528F861F4003CD299 /* ToggleCommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToggleCommentsTableViewCell.xib; sourceTree = "<group>"; };
+		FCF989B928F87698003CD299 /* CocreationGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCF989BA28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationGalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +466,7 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FCE3A81528F734C400E412B5 /* MyCocreations */,
 				FC39BDA228F5C68A004779A8 /* CarrouselItems */,
 				FC74B60528E7495E00FC073F /* MyShopping */,
 				FC12B83E28E6181400BF91D1 /* artisticWork */,
@@ -625,6 +654,47 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		FCE3A81528F734C400E412B5 /* MyCocreations */ = {
+			isa = PBXGroup;
+			children = (
+				FCE3A81F28F73B9800E412B5 /* MyOwnCocreation */,
+				FCE3A81A28F7356800E412B5 /* MyCocreationsCells */,
+				FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */,
+				FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */,
+			);
+			path = MyCocreations;
+			sourceTree = "<group>";
+		};
+		FCE3A81A28F7356800E412B5 /* MyCocreationsCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCE3A81B28F7358B00E412B5 /* MyCocreationsTableViewCell.swift */,
+				FCE3A81C28F7358B00E412B5 /* MyCocreationsTableViewCell.xib */,
+			);
+			path = MyCocreationsCells;
+			sourceTree = "<group>";
+		};
+		FCE3A81F28F73B9800E412B5 /* MyOwnCocreation */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989B828F87668003CD299 /* GalleryCollectionCells */,
+				FCE3A82428F7451300E412B5 /* ActivitiesTableCells */,
+				FCE3A82028F73BB800E412B5 /* MyOwnCocreationViewController.swift */,
+				FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */,
+			);
+			path = MyOwnCocreation;
+			sourceTree = "<group>";
+		};
+		FCE3A82428F7451300E412B5 /* ActivitiesTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989AF28F861AE003CD299 /* CommentsCells */,
+				FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */,
+				FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */,
+			);
+			path = ActivitiesTableCells;
+			sourceTree = "<group>";
+		};
 		FCEE50C528D2373B00CF9B68 /* customComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +709,26 @@
 				FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */,
 			);
 			path = customComponents;
+			sourceTree = "<group>";
+		};
+		FCF989AF28F861AE003CD299 /* CommentsCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */,
+				FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */,
+				FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */,
+				FCF989B528F861F4003CD299 /* ToggleCommentsTableViewCell.xib */,
+			);
+			path = CommentsCells;
+			sourceTree = "<group>";
+		};
+		FCF989B828F87668003CD299 /* GalleryCollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989B928F87698003CD299 /* CocreationGalleryCollectionViewCell.swift */,
+				FCF989BA28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib */,
+			);
+			path = GalleryCollectionCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -702,9 +792,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */,
+				FCE3A81928F734E800E412B5 /* MyCocreationsViewController.xib in Resources */,
 				FC12B84228E6183200BF91D1 /* ArtisticWorkViewController.xib in Resources */,
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
 				FC39BDA728F5C6CF004779A8 /* MarketItemViewController.xib in Resources */,
+				FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
 				FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */,
 				FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */,
@@ -714,6 +806,7 @@
 				FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */,
 				FC44239D28D89FC900803C9A /* PersonalTastesViewController.xib in Resources */,
 				FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */,
+				FCE3A82828F7453B00E412B5 /* ActivitiesTableViewCell.xib in Resources */,
 				FCC03FC628E37BB60016CF57 /* SideMenuViewController.xib in Resources */,
 				FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */,
 				FC9E719B28EF55B4008165DC /* RecycleCollectionViewCell.xib in Resources */,
@@ -725,6 +818,7 @@
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */,
+				FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
 				FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */,
 				FC39BDB228F5E8C3004779A8 /* SpecItemTableViewCell.xib in Resources */,
@@ -734,15 +828,18 @@
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
 				FC60703428C7D3F000424A33 /* Main.storyboard in Resources */,
+				FCE3A81E28F7358B00E412B5 /* MyCocreationsTableViewCell.xib in Resources */,
 				FC4423A828D8C36000803C9A /* Assets.xcassets in Resources */,
 				FC7290AD28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib in Resources */,
 				FC7290A428EE130D00F47E08 /* PortfolioCollectionViewCell.xib in Resources */,
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
 				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
+				FCF989B728F861F4003CD299 /* ToggleCommentsTableViewCell.xib in Resources */,
 				FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */,
 				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
 				FC3A1C3328E4C34D00FA3056 /* SupportViewController.xib in Resources */,
 				FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */,
+				FCF989BC28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,6 +893,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
+				FCF989B628F861F4003CD299 /* ToggleCommentsTableViewCell.swift in Sources */,
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
 				FC9E719528EF5589008165DC /* SubastaCollectionViewCell.swift in Sources */,
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
@@ -805,8 +903,10 @@
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
 				FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */,
+				FCF989B228F861CB003CD299 /* CommentsTableViewCell.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
 				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
+				FCE3A81D28F7358B00E412B5 /* MyCocreationsTableViewCell.swift in Sources */,
 				FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */,
 				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
 				FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */,
@@ -814,6 +914,7 @@
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
 				FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */,
+				FCF989BB28F87698003CD299 /* CocreationGalleryCollectionViewCell.swift in Sources */,
 				FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */,
 				FC39BDA928F5CCCF004779A8 /* CustomFilledButton.swift in Sources */,
 				FC39BDA628F5C6CF004779A8 /* MarketItemViewController.swift in Sources */,
@@ -824,7 +925,9 @@
 				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
 				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
+				FCE3A81828F734E800E412B5 /* MyCocreationsViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
+				FCE3A82228F73BB800E412B5 /* MyOwnCocreationViewController.swift in Sources */,
 				FC7290A328EE130D00F47E08 /* PortfolioCollectionViewCell.swift in Sources */,
 				FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */,
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
@@ -834,6 +937,7 @@
 				FC39BDB128F5E8C3004779A8 /* SpecItemTableViewCell.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
 				FC39BDB628F5EE42004779A8 /* MainItemTableViewCell.swift in Sources */,
+				FCE3A82728F7453B00E412B5 /* ActivitiesTableViewCell.swift in Sources */,
 				FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */,
 				FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */,
 				FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */,

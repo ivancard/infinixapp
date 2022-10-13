@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "imgMessageProfile.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -91,6 +91,9 @@
                                     <integer key="value" value="1"/>
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="btnMyCocreations:" destination="-1" eventType="touchUpInside" id="wez-xV-hcf"/>
+                            </connections>
                         </button>
                     </subviews>
                     <constraints>

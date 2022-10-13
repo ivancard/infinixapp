@@ -48,6 +48,9 @@ final class ProfileViewController: UIViewController, UICollectionViewDataSource,
        let isSelected = false
         selectedTab(isSelected)
     }
+    @IBAction func btnMyCocreations(_ sender: Any) {
+        navigationController?.pushViewController(MyCocreationsViewController(), animated: true)
+    }
     
     private func selectedTab(_ position: Bool){
         //Position, true para market, false para portfolio
