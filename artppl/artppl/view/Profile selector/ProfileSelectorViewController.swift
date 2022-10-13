@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProfileSelectorViewController: UIViewController {
+final class ProfileSelectorViewController: UIViewController {
 
     
     @IBOutlet weak var shadowArtist: UIView!
@@ -37,5 +37,4 @@ class ProfileSelectorViewController: UIViewController {
         shadowLover.layer.shadowOffset = CGSize(width: 0, height: 0)
         shadowLover.layer.shadowColor = UIColor(red: 1.00, green: 0.34, blue: 0.86, alpha: 0.47).cgColor
     }
-
 }

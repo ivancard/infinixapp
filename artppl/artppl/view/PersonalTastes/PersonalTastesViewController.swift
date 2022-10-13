@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonalTastesViewController: UIViewController {
+final class PersonalTastesViewController: UIViewController {
     
     var selectedButtons: Int8 = 0
     
@@ -19,6 +19,7 @@ class PersonalTastesViewController: UIViewController {
     
     @IBAction func actionBtnComenzar(_ sender: Any) {
         //Dirige a Home
+        self.navigationController?.pushViewController(MyTabViewController(), animated: false)
     }
     @IBAction func actionNewCategory(){
         self.navigationController?.pushViewController(NewCategorieViewController(), animated: true)

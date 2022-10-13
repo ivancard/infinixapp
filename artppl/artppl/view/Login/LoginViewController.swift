@@ -7,15 +7,15 @@
 
 import UIKit
 
-class LoginViewController: UIViewController,UITextFieldDelegate{
+final class LoginViewController: UIViewController,UITextFieldDelegate{
 
     
     @IBOutlet weak var loginButton: UIButton!
-    
     @IBOutlet weak var textFieldEmail: UITextField!
     
     @IBAction func actionLogin(_ sender: Any) {
         // Dirige a home
+        self.navigationController?.pushViewController(MyTabViewController(), animated: true)
     }
     
     @IBAction func actionRegister(_ sender: Any) {

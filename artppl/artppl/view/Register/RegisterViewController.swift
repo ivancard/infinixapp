@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController, UITextFieldDelegate {
+final class RegisterViewController: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var itsAButton: UIButton!
@@ -15,19 +15,16 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
     //TextFields
     @IBOutlet weak var textFieldFullName: UITextField!
     
-    @IBAction func actionBtnComenzar(_ sender: Any) {
-        self.navigationController?.pushViewController(ProfileSelectorViewController(), animated: true)
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
         
         self.textFieldFullName.delegate = self
         
         StyleFunctions.setGradientToAButton(button: itsAButton)
-
+    }
+    
+    @IBAction func actionBtnComenzar(_ sender: Any) {
+        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
     }
 }
 

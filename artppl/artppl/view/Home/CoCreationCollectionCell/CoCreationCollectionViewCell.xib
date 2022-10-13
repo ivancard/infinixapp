@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CoCreationCollectionViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="434"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="434"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgCarrouselCoCreation" translatesAutoresizingMaskIntoConstraints="NO" id="IPP-3k-TGn">
+                        <rect key="frame" x="0.0" y="0.0" width="338" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="6KM-WP-P1i"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maquillaje y emoción: obra de teatro en creación" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4r-bn-rRr">
+                        <rect key="frame" x="15" y="222" width="259" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="A3M-oW-vLh"/>
+                            <constraint firstAttribute="width" constant="259" id="aUr-wG-IMq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estamos buscando maquilladoras/es que quieran colaborar con esta obra. La idea es crear los personajes entre todos..." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kj7-1p-lCM">
+                        <rect key="frame" x="15" y="269" width="298" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="298" id="MOa-Ic-15r"/>
+                            <constraint firstAttribute="height" constant="45" id="hqH-dy-7h5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                        <color key="textColor" name="colorFontGray"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PTr-eo-qtP">
+                        <rect key="frame" x="15" y="329" width="308" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PINTURA - FOTOGRAFÍA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X6k-km-C0q">
+                                <rect key="frame" x="0.0" y="0.0" width="208" height="40"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aam-XR-fW5">
+                                <rect key="frame" x="208" y="0.0" width="100" height="40"/>
+                                <color key="backgroundColor" name="colorMain"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8vB-me-FBZ"/>
+                                    <constraint firstAttribute="width" constant="100" id="pH5-On-Zf3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Participar">
+                                    <color key="titleColor" name="colorWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="inw-mH-Cyb" userLabel="Line">
+                        <rect key="frame" x="15" y="384" width="308" height="1"/>
+                        <color key="backgroundColor" name="colorMain"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="BML-ky-Qr2"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSz-NR-ghi">
+                        <rect key="frame" x="15" y="390" width="58" height="27"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="12"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="VER MÁS">
+                            <color key="titleColor" name="colorMain"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="colorWhite"/>
+            <constraints>
+                <constraint firstItem="inw-mH-Cyb" firstAttribute="top" secondItem="PTr-eo-qtP" secondAttribute="bottom" constant="15" id="6iE-6N-zk1"/>
+                <constraint firstAttribute="trailing" secondItem="IPP-3k-TGn" secondAttribute="trailing" id="J1f-cq-LnQ"/>
+                <constraint firstItem="PTr-eo-qtP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="Moi-g0-05L"/>
+                <constraint firstItem="IPP-3k-TGn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ROA-La-SWq"/>
+                <constraint firstItem="PTr-eo-qtP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="SWH-N9-KbK"/>
+                <constraint firstItem="IPP-3k-TGn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XG3-NR-Vsy"/>
+                <constraint firstAttribute="trailing" secondItem="inw-mH-Cyb" secondAttribute="trailing" constant="15" id="Zcn-Ag-bHD"/>
+                <constraint firstItem="uSz-NR-ghi" firstAttribute="top" secondItem="inw-mH-Cyb" secondAttribute="bottom" constant="5" id="f1A-4b-z3U"/>
+                <constraint firstItem="PTr-eo-qtP" firstAttribute="top" secondItem="Kj7-1p-lCM" secondAttribute="bottom" constant="15" id="g4o-gW-6qu"/>
+                <constraint firstItem="uSz-NR-ghi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="hGC-Vd-J5B"/>
+                <constraint firstAttribute="trailing" secondItem="PTr-eo-qtP" secondAttribute="trailing" constant="15" id="hPf-xj-alh"/>
+                <constraint firstItem="Kj7-1p-lCM" firstAttribute="top" secondItem="T4r-bn-rRr" secondAttribute="bottom" constant="5" id="ihe-zU-g3f"/>
+                <constraint firstItem="T4r-bn-rRr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="mhm-5O-wmw"/>
+                <constraint firstItem="inw-mH-Cyb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="sqk-c5-u01"/>
+                <constraint firstItem="T4r-bn-rRr" firstAttribute="top" secondItem="IPP-3k-TGn" secondAttribute="bottom" constant="22" id="uOV-bu-euP"/>
+                <constraint firstItem="Kj7-1p-lCM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="yAr-fZ-4QL"/>
+            </constraints>
+            <size key="customSize" width="338" height="434"/>
+            <connections>
+                <outlet property="imgCocreation" destination="IPP-3k-TGn" id="lDx-Oh-13D"/>
+            </connections>
+            <point key="canvasLocation" x="215.38461538461539" y="134.36018957345971"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="imgCarrouselCoCreation" width="328" height="187"/>
+        <namedColor name="colorFontGray">
+            <color red="0.31000000238418579" green="0.3059999942779541" blue="0.3059999942779541" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

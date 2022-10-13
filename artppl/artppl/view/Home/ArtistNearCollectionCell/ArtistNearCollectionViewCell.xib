@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ArtistNearCollectionViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="197"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="197"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgCarrouselArtist" translatesAutoresizingMaskIntoConstraints="NO" id="4TX-Np-39K">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="130" id="LGV-0j-mKm"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="V6R-GY-PTd">
+                        <rect key="frame" x="0.0" y="140" width="140" height="37"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malena Genova" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zs-hM-abC">
+                                <rect key="frame" x="13.666666666666664" y="0.0" width="112.66666666666669" height="17.333333333333332"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2n-sY-fzO">
+                                <rect key="frame" x="44" y="22.333333333333343" width="52.333333333333343" height="14.666666666666664"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="colorWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4TX-Np-39K" secondAttribute="trailing" id="AfV-Ga-RLp"/>
+                <constraint firstItem="V6R-GY-PTd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LkI-wW-ggE"/>
+                <constraint firstItem="V6R-GY-PTd" firstAttribute="top" secondItem="4TX-Np-39K" secondAttribute="bottom" constant="10" id="NpC-E0-3Lh"/>
+                <constraint firstItem="4TX-Np-39K" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PBm-EX-G8x"/>
+                <constraint firstAttribute="trailing" secondItem="V6R-GY-PTd" secondAttribute="trailing" id="qUZ-aW-XaC"/>
+                <constraint firstItem="4TX-Np-39K" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="z2M-LB-sl3"/>
+            </constraints>
+            <size key="customSize" width="140" height="197"/>
+            <connections>
+                <outlet property="imgArtist" destination="4TX-Np-39K" id="tut-v6-tek"/>
+            </connections>
+            <point key="canvasLocation" x="160" y="72.867298578199055"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="imgCarrouselArtist" width="142.33332824707031" height="157"/>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

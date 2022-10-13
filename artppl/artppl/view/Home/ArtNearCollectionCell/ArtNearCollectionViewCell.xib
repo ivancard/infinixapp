@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ArtNearCollectionViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="140" height="197"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="140" height="197"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgCarrouselArtNear" translatesAutoresizingMaskIntoConstraints="NO" id="tVo-XZ-O6g">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="130" id="Lec-R7-cDT"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="z2W-h0-dnw">
+                        <rect key="frame" x="5" y="140" width="130" height="29.666666666666657"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atril de pintura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="943-pf-A7D">
+                                <rect key="frame" x="0.0" y="0.0" width="130" height="17.333333333333332"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARTA CASTELUCCI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLe-hf-OAs">
+                                <rect key="frame" x="0.0" y="17.333333333333343" width="130" height="12.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="tLe-hf-OAs" firstAttribute="centerX" secondItem="z2W-h0-dnw" secondAttribute="centerX" id="MaP-17-Obk"/>
+                        </constraints>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ESCULTURA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12l-4t-2nz">
+                        <rect key="frame" x="5" y="174.66666666666666" width="49" height="10"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="8"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="colorWhite"/>
+            <constraints>
+                <constraint firstItem="z2W-h0-dnw" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="0ew-RF-qgs"/>
+                <constraint firstItem="tVo-XZ-O6g" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EUB-xr-Rx7"/>
+                <constraint firstItem="12l-4t-2nz" firstAttribute="top" secondItem="z2W-h0-dnw" secondAttribute="bottom" constant="5" id="Hjy-GV-82T"/>
+                <constraint firstAttribute="trailing" secondItem="tVo-XZ-O6g" secondAttribute="trailing" id="KTx-Th-clh"/>
+                <constraint firstItem="z2W-h0-dnw" firstAttribute="top" secondItem="tVo-XZ-O6g" secondAttribute="bottom" constant="10" id="M5i-cy-Kuo"/>
+                <constraint firstAttribute="trailing" secondItem="z2W-h0-dnw" secondAttribute="trailing" constant="5" id="og7-sF-jgD"/>
+                <constraint firstItem="12l-4t-2nz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="prJ-I9-ETf"/>
+                <constraint firstItem="z2W-h0-dnw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="s06-th-bcD"/>
+                <constraint firstItem="tVo-XZ-O6g" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vPS-hE-kpV"/>
+            </constraints>
+            <size key="customSize" width="195" height="276"/>
+            <connections>
+                <outlet property="imgArtNear" destination="tVo-XZ-O6g" id="aDf-3N-4R7"/>
+            </connections>
+            <point key="canvasLocation" x="204.61538461538461" y="78.554502369668242"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="imgCarrouselArtNear" width="159" height="159"/>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

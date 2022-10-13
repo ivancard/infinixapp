@@ -76,4 +76,19 @@ final class StyleFunctions {
         
         view.layer.insertSublayer(gradient, at: 0 )
     }
+    
+    public static func setGradientWhiteToTransparent(view: UIView){
+        let colorGradientRight: UIColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0)
+        let colorGradientLeft: UIColor = UIColor(named: "colorWhite") ?? UIColor.white
+        
+        let gradient = CAGradientLayer()
+       
+        gradient.colors = [ colorGradientRight.cgColor, colorGradientLeft.cgColor,]
+        //gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
+        //gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
+        
+        gradient.frame = view.bounds
+        
+        view.layer.insertSublayer(gradient, at: 0 )
+    }
 }

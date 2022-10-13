@@ -11,18 +11,30 @@
 		FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */; };
 		FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */; };
 		FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */; };
+		FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */; };
+		FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */; };
+		FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */; };
+		FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC226ADA28DE139800621699 /* AddNewViewController.swift */; };
+		FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC226ADB28DE139800621699 /* AddNewViewController.xib */; };
 		FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */; };
 		FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002828D4E44C00818FE8 /* NewCategorieViewController.swift */; };
 		FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC44002928D4E44C00818FE8 /* NewCategorieViewController.xib */; };
 		FC44239D28D89FC900803C9A /* PersonalTastesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC44239C28D89FC900803C9A /* PersonalTastesViewController.xib */; };
 		FC44239F28D89FF200803C9A /* ProfileSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC44239E28D89FF200803C9A /* ProfileSelectorViewController.xib */; };
-		FC5313F028CBC31400C7ACA6 /* animationTest.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313EF28CBC31400C7ACA6 /* animationTest.json */; };
+		FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4423A328D8BCAD00803C9A /* HomeViewController.swift */; };
+		FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423A428D8BCAD00803C9A /* HomeViewController.xib */; };
+		FC4423A828D8C36000803C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4423A728D8C36000803C9A /* Assets.xcassets */; };
+		FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4423AA28D8E67500803C9A /* MarketViewController.swift */; };
+		FC4423AD28D8E67500803C9A /* MarketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423AB28D8E67500803C9A /* MarketViewController.xib */; };
+		FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4423AF28D8E69C00803C9A /* MessaggesViewController.swift */; };
+		FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */; };
+		FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4423B428D8E6D700803C9A /* ProfileViewController.swift */; };
+		FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423B528D8E6D700803C9A /* ProfileViewController.xib */; };
 		FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313F728CBDC5700C7ACA6 /* animationButton.json */; };
 		FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */; };
 		FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */; };
 		FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06F28C8F96400A66B78 /* Montserrat-Medium.ttf */; };
 		FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07128C8FC4E00A66B78 /* Montserrat-Regular.ttf */; };
-		FC58B07428C9037000A66B78 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07328C9037000A66B78 /* Montserrat-Bold.ttf */; };
 		FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07628C91C1E00A66B78 /* StyleFunctions.swift */; };
 		FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B07828C91FF800A66B78 /* RegisterViewController.swift */; };
 		FC58B07B28C91FF800A66B78 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B07928C91FF800A66B78 /* RegisterViewController.xib */; };
@@ -31,12 +43,21 @@
 		FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60702E28C7D3F000424A33 /* SceneDelegate.swift */; };
 		FC60703128C7D3F000424A33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60703028C7D3F000424A33 /* ViewController.swift */; };
 		FC60703428C7D3F000424A33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC60703228C7D3F000424A33 /* Main.storyboard */; };
-		FC60703628C7D3F400424A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC60703528C7D3F400424A33 /* Assets.xcassets */; };
 		FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC60703728C7D3F400424A33 /* LaunchScreen.storyboard */; };
 		FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC60704128C7E09200424A33 /* WelcomeSliderViewController.swift */; };
 		FC60704428C7E09200424A33 /* WelcomeSliderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC60704228C7E09200424A33 /* WelcomeSliderViewController.xib */; };
 		FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */; };
+		FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D07C28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift */; };
+		FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D07D28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib */; };
+		FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08128DCE0B800B9B65A /* CoCreationCollectionViewCell.swift */; };
+		FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */; };
+		FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */; };
+		FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
+		FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */; };
+		FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */; };
+		FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */; };
+		FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */; };
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
 		FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */; };
@@ -49,12 +70,24 @@
 		FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonGradient.swift; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC226ADA28DE139800621699 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		FC226ADB28DE139800621699 /* AddNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewViewController.xib; sourceTree = "<group>"; };
 		FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationButton.swift; sourceTree = "<group>"; };
 		FC44002828D4E44C00818FE8 /* NewCategorieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategorieViewController.swift; sourceTree = "<group>"; };
 		FC44002928D4E44C00818FE8 /* NewCategorieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCategorieViewController.xib; sourceTree = "<group>"; };
 		FC44239C28D89FC900803C9A /* PersonalTastesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalTastesViewController.xib; sourceTree = "<group>"; };
 		FC44239E28D89FF200803C9A /* ProfileSelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileSelectorViewController.xib; sourceTree = "<group>"; };
-		FC5313EF28CBC31400C7ACA6 /* animationTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationTest.json; sourceTree = "<group>"; };
+		FC4423A328D8BCAD00803C9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC4423A428D8BCAD00803C9A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FC4423A728D8C36000803C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4423AA28D8E67500803C9A /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		FC4423AB28D8E67500803C9A /* MarketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketViewController.xib; sourceTree = "<group>"; };
+		FC4423AF28D8E69C00803C9A /* MessaggesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessaggesViewController.swift; sourceTree = "<group>"; };
+		FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessaggesViewController.xib; sourceTree = "<group>"; };
+		FC4423B428D8E6D700803C9A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FC4423B528D8E6D700803C9A /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		FC5313F728CBDC5700C7ACA6 /* animationButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButton.json; sourceTree = "<group>"; };
 		FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -70,13 +103,22 @@
 		FC60702E28C7D3F000424A33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FC60703028C7D3F000424A33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC60703328C7D3F000424A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC60703528C7D3F400424A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC60703828C7D3F400424A33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC60703A28C7D3F400424A33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC60704128C7E09200424A33 /* WelcomeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSliderViewController.swift; sourceTree = "<group>"; };
 		FC60704228C7E09200424A33 /* WelcomeSliderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeSliderViewController.xib; sourceTree = "<group>"; };
 		FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		FC70D07C28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistNearCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC70D07D28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistNearCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC70D08128DCE0B800B9B65A /* CoCreationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoCreationCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoCreationCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtNearCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtNearCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
+		FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
+		FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
+		FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTabViewController.xib; sourceTree = "<group>"; };
+		FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientWhiteTransp.swift; sourceTree = "<group>"; };
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
 		FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewGradient.swift; sourceTree = "<group>"; };
@@ -111,6 +153,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC133E5228DA2A5A00216014 /* MarketCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */,
+				FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */,
+			);
+			path = MarketCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC226AD928DE137A00621699 /* AddNew */ = {
+			isa = PBXGroup;
+			children = (
+				FC226ADA28DE139800621699 /* AddNewViewController.swift */,
+				FC226ADB28DE139800621699 /* AddNewViewController.xib */,
+			);
+			path = AddNew;
+			sourceTree = "<group>";
+		};
 		FC4423A028D8A00500803C9A /* PersonalTastes */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,10 +189,49 @@
 			path = NewCategories;
 			sourceTree = "<group>";
 		};
+		FC4423A228D8BC9A00803C9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC70D08528DCEC9A00B9B65A /* ArtNearCollectionCell */,
+				FC70D08028DCE09700B9B65A /* CoCreationCollectionCell */,
+				FC70D07B28DCBEE800B9B65A /* ArtistNearCollectionCell */,
+				FC133E5228DA2A5A00216014 /* MarketCollectionCell */,
+				FC4423A328D8BCAD00803C9A /* HomeViewController.swift */,
+				FC4423A428D8BCAD00803C9A /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC4423A928D8E66200803C9A /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				FC4423AA28D8E67500803C9A /* MarketViewController.swift */,
+				FC4423AB28D8E67500803C9A /* MarketViewController.xib */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		FC4423AE28D8E67D00803C9A /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				FC4423AF28D8E69C00803C9A /* MessaggesViewController.swift */,
+				FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		FC4423B328D8E6C000803C9A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FC4423B428D8E6D700803C9A /* ProfileViewController.swift */,
+				FC4423B528D8E6D700803C9A /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		FC5313EE28CBC30100C7ACA6 /* animations */ = {
 			isa = PBXGroup;
 			children = (
-				FC5313EF28CBC31400C7ACA6 /* animationTest.json */,
 				FC5313F728CBDC5700C7ACA6 /* animationButton.json */,
 				FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */,
 			);
@@ -177,8 +276,8 @@
 				FC60702E28C7D3F000424A33 /* SceneDelegate.swift */,
 				FC60703028C7D3F000424A33 /* ViewController.swift */,
 				FC60703228C7D3F000424A33 /* Main.storyboard */,
-				FC60703528C7D3F400424A33 /* Assets.xcassets */,
 				FC60703728C7D3F400424A33 /* LaunchScreen.storyboard */,
+				FC4423A728D8C36000803C9A /* Assets.xcassets */,
 				FC60703A28C7D3F400424A33 /* Info.plist */,
 			);
 			path = artppl;
@@ -187,6 +286,12 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FCA2D1D828E22C3700960950 /* TabBar */,
+				FC226AD928DE137A00621699 /* AddNew */,
+				FC4423B328D8E6C000803C9A /* Profile */,
+				FC4423AE28D8E67D00803C9A /* Messages */,
+				FC4423A928D8E66200803C9A /* Market */,
+				FC4423A228D8BC9A00803C9A /* Home */,
 				FC4423A128D8A01E00803C9A /* NewCategories */,
 				FC4423A028D8A00500803C9A /* PersonalTastes */,
 				FC99304F28D89EBC003E8223 /* Profile selector */,
@@ -207,6 +312,33 @@
 				FC60704628C7E8BB00424A33 /* Roboto-Black.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		FC70D07B28DCBEE800B9B65A /* ArtistNearCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC70D07C28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift */,
+				FC70D07D28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib */,
+			);
+			path = ArtistNearCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC70D08028DCE09700B9B65A /* CoCreationCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC70D08128DCE0B800B9B65A /* CoCreationCollectionViewCell.swift */,
+				FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */,
+			);
+			path = CoCreationCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC70D08528DCEC9A00B9B65A /* ArtNearCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */,
+				FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */,
+			);
+			path = ArtNearCollectionCell;
 			sourceTree = "<group>";
 		};
 		FC99304C28D89E5E003E8223 /* OnBoarding */ = {
@@ -245,6 +377,15 @@
 			path = "Profile selector";
 			sourceTree = "<group>";
 		};
+		FCA2D1D828E22C3700960950 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */,
+				FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		FCEE50C528D2373B00CF9B68 /* customComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +394,8 @@
 				FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */,
 				FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */,
 				FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */,
+				FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */,
+				FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */,
 			);
 			path = customComponents;
 			sourceTree = "<group>";
@@ -317,23 +460,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5313F028CBC31400C7ACA6 /* animationTest.json in Resources */,
+				FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */,
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
 				FC58B07B28C91FF800A66B78 /* RegisterViewController.xib in Resources */,
+				FC4423AD28D8E67500803C9A /* MarketViewController.xib in Resources */,
+				FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */,
 				FC44239D28D89FC900803C9A /* PersonalTastesViewController.xib in Resources */,
 				FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */,
 				FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */,
 				FC60704428C7E09200424A33 /* WelcomeSliderViewController.xib in Resources */,
 				FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */,
 				FC44239F28D89FF200803C9A /* ProfileSelectorViewController.xib in Resources */,
+				FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */,
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
+				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
+				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
-				FC58B07428C9037000A66B78 /* Montserrat-Bold.ttf in Resources */,
+				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
-				FC60703628C7D3F400424A33 /* Assets.xcassets in Resources */,
 				FC60703428C7D3F000424A33 /* Main.storyboard in Resources */,
+				FC4423A828D8C36000803C9A /* Assets.xcassets in Resources */,
+				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
+				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
+				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
+				FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,19 +538,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
+				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
+				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
+				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
+				FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
+				FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
+				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
+				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
+				FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
+				FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */,
+				FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */,
+				FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */,
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 			);
@@ -548,9 +712,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4X9384T86F;
+				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = artppl;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -562,7 +728,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infinixsoft.artppl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinixapp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -578,9 +744,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4X9384T86F;
+				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = artppl;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -592,7 +760,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.infinixsoft.artppl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinixapp.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
