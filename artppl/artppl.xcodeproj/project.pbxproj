@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		E8562500D779A4C9A4171CBC /* Pods_artppl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */; };
 		FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */; };
+		FC03123628F9B5F000C254E0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03123428F9B5F000C254E0 /* ChatViewController.swift */; };
+		FC03123728F9B5F000C254E0 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03123528F9B5F000C254E0 /* ChatViewController.xib */; };
+		FC03123D28F9E86300C254E0 /* ReceiverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03123B28F9E86300C254E0 /* ReceiverTableViewCell.swift */; };
+		FC03123E28F9E86300C254E0 /* ReceiverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */; };
+		FC03124128F9E88D00C254E0 /* SenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */; };
+		FC03124228F9E88D00C254E0 /* SenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */; };
 		FC06771028F897BD0058144A /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */; };
 		FC06771128F897BD0058144A /* RequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */; };
 		FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */; };
@@ -125,6 +131,12 @@
 		96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artppl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78B62642C57E15A5F63DA57 /* Pods-artppl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artppl.release.xcconfig"; path = "Target Support Files/Pods-artppl/Pods-artppl.release.xcconfig"; sourceTree = "<group>"; };
 		FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonGradient.swift; sourceTree = "<group>"; };
+		FC03123428F9B5F000C254E0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FC03123528F9B5F000C254E0 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		FC03123B28F9E86300C254E0 /* ReceiverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverTableViewCell.swift; sourceTree = "<group>"; };
+		FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverTableViewCell.xib; sourceTree = "<group>"; };
+		FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderTableViewCell.swift; sourceTree = "<group>"; };
+		FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderTableViewCell.xib; sourceTree = "<group>"; };
 		FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
 		FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestsTableViewCell.xib; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
@@ -267,6 +279,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC03123328F9B5BE00C254E0 /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC03123928F9E7DD00C254E0 /* ReceiverCell */,
+				FC03123828F9E7D300C254E0 /* SenderCell */,
+				FC03123428F9B5F000C254E0 /* ChatViewController.swift */,
+				FC03123528F9B5F000C254E0 /* ChatViewController.xib */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		FC03123828F9E7D300C254E0 /* SenderCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */,
+				FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */,
+			);
+			path = SenderCell;
+			sourceTree = "<group>";
+		};
+		FC03123928F9E7DD00C254E0 /* ReceiverCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC03123B28F9E86300C254E0 /* ReceiverTableViewCell.swift */,
+				FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */,
+			);
+			path = ReceiverCell;
+			sourceTree = "<group>";
+		};
 		FC12B83E28E6181400BF91D1 /* artisticWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -387,6 +428,7 @@
 		FC4423AE28D8E67D00803C9A /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				FC03123328F9B5BE00C254E0 /* ChatViewController */,
 				FC72909B28EDE52C00F47E08 /* MessagesTableCell */,
 				FC4423AF28D8E69C00803C9A /* MessaggesViewController.swift */,
 				FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */,
@@ -847,8 +889,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC03123E28F9E86300C254E0 /* ReceiverTableViewCell.xib in Resources */,
 				FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */,
 				FCE3A81928F734E800E412B5 /* MyCocreationsViewController.xib in Resources */,
+				FC03123728F9B5F000C254E0 /* ChatViewController.xib in Resources */,
 				FCF989DC28F88CA4003CD299 /* RequestsViewController.xib in Resources */,
 				FC12B84228E6183200BF91D1 /* ArtisticWorkViewController.xib in Resources */,
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
@@ -897,6 +941,7 @@
 				FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */,
 				FCF989CB28F8866B003CD299 /* ParticipantsTableViewCell.xib in Resources */,
 				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
+				FC03124228F9E88D00C254E0 /* SenderTableViewCell.xib in Resources */,
 				FC3A1C3328E4C34D00FA3056 /* SupportViewController.xib in Resources */,
 				FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */,
 				FCF989BC28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib in Resources */,
@@ -977,6 +1022,7 @@
 				FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */,
 				FCF989CA28F8866A003CD299 /* ParticipantsTableViewCell.swift in Sources */,
 				FCF989BB28F87698003CD299 /* CocreationGalleryCollectionViewCell.swift in Sources */,
+				FC03123D28F9E86300C254E0 /* ReceiverTableViewCell.swift in Sources */,
 				FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */,
 				FC39BDA928F5CCCF004779A8 /* CustomFilledButton.swift in Sources */,
 				FC39BDA628F5C6CF004779A8 /* MarketItemViewController.swift in Sources */,
@@ -999,6 +1045,7 @@
 				FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
 				FC39BDB128F5E8C3004779A8 /* SpecItemTableViewCell.swift in Sources */,
+				FC03124128F9E88D00C254E0 /* SenderTableViewCell.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
 				FC39BDB628F5EE42004779A8 /* MainItemTableViewCell.swift in Sources */,
 				FCE3A82728F7453B00E412B5 /* ActivitiesTableViewCell.swift in Sources */,
@@ -1008,6 +1055,7 @@
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 				FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */,
+				FC03123628F9B5F000C254E0 /* ChatViewController.swift in Sources */,
 				FC4A74CD28F720C0007F5970 /* CocreationRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

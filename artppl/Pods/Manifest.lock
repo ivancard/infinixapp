@@ -1,20 +1,24 @@
 PODS:
+  - IQKeyboardManagerSwift (6.5.10)
   - lottie-ios (3.2.3)
   - SideMenu (6.5.0)
 
 DEPENDENCIES:
+  - IQKeyboardManagerSwift
   - lottie-ios
   - SideMenu
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManagerSwift
     - lottie-ios
     - SideMenu
 
 SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
 
-PODFILE CHECKSUM: f558373f5992bf0ea225a853166fe129a39b857c
+PODFILE CHECKSUM: 1f04da6a8a3e2d4a2c5538447bec756a62ab32c3
 
 COCOAPODS: 1.11.3

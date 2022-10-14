@@ -7,6 +7,6 @@ target 'artppl' do
 
   # Pods for artppl
   pod 'lottie-ios'
-  pod 'SideMenu' 
-
+  pod 'SideMenu'
+  pod 'IQKeyboardManagerSwift'
 end

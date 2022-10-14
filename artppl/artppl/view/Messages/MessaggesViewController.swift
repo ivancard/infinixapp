@@ -8,7 +8,7 @@
 import UIKit
 
 final class MessaggesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
     @IBOutlet weak var messageTableView: UITableView!
     
     override func viewDidLoad() {
@@ -28,5 +28,8 @@ final class MessaggesViewController: UIViewController, UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         100
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        navigationController?.pushViewController(ChatViewController(), animated: true)
+    }
 }
