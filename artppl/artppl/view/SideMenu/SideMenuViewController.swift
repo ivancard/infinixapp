@@ -23,6 +23,9 @@ class SideMenuViewController: UIViewController {
         self.navigationController?.pushViewController(LoginViewController(), animated: true)
     }
     
+    @IBAction func btnMySells(_ sender: Any) {
+        navigationController?.pushViewController(MySellsViewController(), animated: true)
+    }
     @IBAction func btnMyShopping(_ sender: Any) {
         self.navigationController?.pushViewController(MyShoppingViewController(), animated: true)
     }

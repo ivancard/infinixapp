@@ -44,13 +44,21 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        scrollToBottom()
         title = "Tomas Gonzalez"
         
         sendButton.layer.cornerRadius = sendButton.layer.bounds.width / 2
         
         messaggesTableView.configure(delegate: self, dataSource: self, cells: [ReceiverTableViewCell.self])
         messaggesTableView.configure(delegate: self, dataSource: self, cells: [SenderTableViewCell.self])
-        
+     
+    }
+    
+    func scrollToBottom(){
+        DispatchQueue.main.async {
+            let indexPath = IndexPath(row: self.messagges.count-1, section: 0)
+            self.messaggesTableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

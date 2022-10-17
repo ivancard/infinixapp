@@ -73,31 +73,47 @@
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="l93-G1-mYu">
-                    <rect key="frame" x="81" y="278" width="148" height="64"/>
+                    <rect key="frame" x="80" y="278" width="170" height="106"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QN4-1R-a7a">
-                            <rect key="frame" x="0.0" y="0.0" width="148" height="22"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QN4-1R-a7a">
+                            <rect key="frame" x="0.0" y="0.0" width="170" height="22"/>
                             <color key="tintColor" name="colorWhite"/>
+                            <inset key="titleEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="     Mis compras" image="iconCart">
+                            <state key="normal" title="Mis compras" image="iconCart">
                                 <color key="titleColor" name="colorWhite"/>
                             </state>
                             <connections>
                                 <action selector="btnMyShopping:" destination="-1" eventType="touchUpInside" id="Huz-4O-hpO"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxr-Gz-cho">
-                            <rect key="frame" x="0.0" y="42" width="148" height="22"/>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TY-fe-bg3">
+                            <rect key="frame" x="0.0" y="42" width="170" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="170" id="3Lg-0b-M2z"/>
+                            </constraints>
                             <color key="tintColor" name="colorWhite"/>
+                            <inset key="titleEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Mis ventas" image="iconSells">
+                                <color key="titleColor" name="colorWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnMySells:" destination="-1" eventType="touchUpInside" id="pzT-ec-H0E"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxr-Gz-cho">
+                            <rect key="frame" x="0.0" y="84" width="170" height="22"/>
+                            <color key="tintColor" name="colorWhite"/>
+                            <inset key="titleEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="     Mis favoritos" image="iconFavourites">
+                            <state key="normal" title="Mis favoritos" image="iconFavourites">
                                 <color key="titleColor" name="colorWhite"/>
                             </state>
                         </button>
                     </subviews>
                 </stackView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dyG-mL-ujg">
-                    <rect key="frame" x="65" y="382" width="260" height="1"/>
+                    <rect key="frame" x="65" y="424" width="260" height="1"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.34217197849999997" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="260" id="8NS-W0-5Fu"/>
@@ -105,7 +121,7 @@
                     </constraints>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="WXx-N9-0L5">
-                    <rect key="frame" x="86.666666666666686" y="573" width="217" height="99"/>
+                    <rect key="frame" x="86.666666666666686" y="593" width="217" height="99"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdm-pa-2oG">
                             <rect key="frame" x="0.0" y="0.0" width="217" height="18"/>
@@ -158,12 +174,12 @@
                 <constraint firstItem="fP7-vD-nau" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GvZ-yP-2HR"/>
                 <constraint firstItem="fP7-vD-nau" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="ODd-ZX-hcj"/>
                 <constraint firstItem="Kai-rc-wld" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="UEF-YI-Kse"/>
-                <constraint firstItem="5D2-ol-nwz" firstAttribute="top" secondItem="WXx-N9-0L5" secondAttribute="bottom" constant="100" id="Uuo-Dz-VDA"/>
+                <constraint firstItem="5D2-ol-nwz" firstAttribute="top" secondItem="WXx-N9-0L5" secondAttribute="bottom" constant="80" id="Uuo-Dz-VDA"/>
                 <constraint firstItem="dyG-mL-ujg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VY3-ow-KPn"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="5D2-ol-nwz" secondAttribute="bottom" constant="20" id="cM8-ZQ-bey"/>
                 <constraint firstItem="Kai-rc-wld" firstAttribute="top" secondItem="fP7-vD-nau" secondAttribute="bottom" constant="40" id="fqF-fb-CpU"/>
                 <constraint firstItem="5D2-ol-nwz" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-60" id="jo4-Pv-wJg"/>
-                <constraint firstItem="l93-G1-mYu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-40" id="k04-rw-WoM"/>
+                <constraint firstItem="l93-G1-mYu" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-30" id="k04-rw-WoM"/>
                 <constraint firstItem="fP7-vD-nau" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="nAp-28-3AN"/>
                 <constraint firstItem="WXx-N9-0L5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uXf-9i-GAq"/>
             </constraints>
@@ -175,6 +191,7 @@
         <image name="iconFavourites" width="18" height="16"/>
         <image name="iconGuide" width="22" height="17"/>
         <image name="iconLogOut" width="21" height="12"/>
+        <image name="iconSells" width="20" height="20"/>
         <image name="iconSupport" width="20" height="18"/>
         <image name="iconTerms" width="11" height="23"/>
         <image name="imgProfile" width="46" height="46"/>

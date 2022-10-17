@@ -15,6 +15,10 @@
 		FC03123E28F9E86300C254E0 /* ReceiverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */; };
 		FC03124128F9E88D00C254E0 /* SenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */; };
 		FC03124228F9E88D00C254E0 /* SenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */; };
+		FC03124628F9F8B200C254E0 /* MySellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03124428F9F8B200C254E0 /* MySellsViewController.swift */; };
+		FC03124728F9F8B200C254E0 /* MySellsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124528F9F8B200C254E0 /* MySellsViewController.xib */; };
+		FC03124B28F9F94900C254E0 /* SellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03124928F9F94800C254E0 /* SellTableViewCell.swift */; };
+		FC03124C28F9F94900C254E0 /* SellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */; };
 		FC06771028F897BD0058144A /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */; };
 		FC06771128F897BD0058144A /* RequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */; };
 		FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */; };
@@ -87,6 +91,8 @@
 		FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */; };
 		FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */; };
 		FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */; };
+		FC75139C28FB3577009ECB50 /* SellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */; };
+		FC75139D28FB3577009ECB50 /* SellDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */; };
 		FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
 		FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */; };
@@ -137,6 +143,10 @@
 		FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverTableViewCell.xib; sourceTree = "<group>"; };
 		FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderTableViewCell.swift; sourceTree = "<group>"; };
 		FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderTableViewCell.xib; sourceTree = "<group>"; };
+		FC03124428F9F8B200C254E0 /* MySellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySellsViewController.swift; sourceTree = "<group>"; };
+		FC03124528F9F8B200C254E0 /* MySellsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySellsViewController.xib; sourceTree = "<group>"; };
+		FC03124928F9F94800C254E0 /* SellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellTableViewCell.swift; sourceTree = "<group>"; };
+		FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellTableViewCell.xib; sourceTree = "<group>"; };
 		FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
 		FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestsTableViewCell.xib; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
@@ -211,6 +221,8 @@
 		FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShoppingViewController.xib; sourceTree = "<group>"; };
 		FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
+		FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellDetailViewController.swift; sourceTree = "<group>"; };
+		FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellDetailViewController.xib; sourceTree = "<group>"; };
 		FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
 		FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArteCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -306,6 +318,26 @@
 				FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */,
 			);
 			path = ReceiverCell;
+			sourceTree = "<group>";
+		};
+		FC03124328F9F87F00C254E0 /* MySells */ = {
+			isa = PBXGroup;
+			children = (
+				FC75139928FB355A009ECB50 /* SellDetail */,
+				FC03124828F9F92B00C254E0 /* SellsCell */,
+				FC03124428F9F8B200C254E0 /* MySellsViewController.swift */,
+				FC03124528F9F8B200C254E0 /* MySellsViewController.xib */,
+			);
+			path = MySells;
+			sourceTree = "<group>";
+		};
+		FC03124828F9F92B00C254E0 /* SellsCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC03124928F9F94800C254E0 /* SellTableViewCell.swift */,
+				FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */,
+			);
+			path = SellsCell;
 			sourceTree = "<group>";
 		};
 		FC12B83E28E6181400BF91D1 /* artisticWork */ = {
@@ -524,24 +556,25 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FCE3A81528F734C400E412B5 /* MyCocreations */,
-				FC39BDA228F5C68A004779A8 /* CarrouselItems */,
-				FC74B60528E7495E00FC073F /* MyShopping */,
-				FC12B83E28E6181400BF91D1 /* artisticWork */,
-				FC3A1C2F28E4C33100FA3056 /* Support */,
-				FCC03FC228E37B930016CF57 /* SideMenu */,
-				FCA2D1D828E22C3700960950 /* TabBar */,
 				FC226AD928DE137A00621699 /* AddNew */,
-				FC4423B328D8E6C000803C9A /* Profile */,
-				FC4423AE28D8E67D00803C9A /* Messages */,
-				FC4423A928D8E66200803C9A /* Market */,
+				FC12B83E28E6181400BF91D1 /* artisticWork */,
+				FC39BDA228F5C68A004779A8 /* CarrouselItems */,
 				FC4423A228D8BC9A00803C9A /* Home */,
+				FC99304D28D89EA0003E8223 /* Login */,
+				FC4423A928D8E66200803C9A /* Market */,
+				FC4423AE28D8E67D00803C9A /* Messages */,
+				FCE3A81528F734C400E412B5 /* MyCocreations */,
+				FC03124328F9F87F00C254E0 /* MySells */,
+				FC74B60528E7495E00FC073F /* MyShopping */,
 				FC4423A128D8A01E00803C9A /* NewCategories */,
+				FC99304C28D89E5E003E8223 /* OnBoarding */,
 				FC4423A028D8A00500803C9A /* PersonalTastes */,
+				FC4423B328D8E6C000803C9A /* Profile */,
 				FC99304F28D89EBC003E8223 /* Profile selector */,
 				FC99304E28D89EAF003E8223 /* Register */,
-				FC99304D28D89EA0003E8223 /* Login */,
-				FC99304C28D89E5E003E8223 /* OnBoarding */,
+				FCC03FC228E37B930016CF57 /* SideMenu */,
+				FC3A1C2F28E4C33100FA3056 /* Support */,
+				FCA2D1D828E22C3700960950 /* TabBar */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -629,6 +662,15 @@
 				FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */,
 			);
 			path = ShoppingItem;
+			sourceTree = "<group>";
+		};
+		FC75139928FB355A009ECB50 /* SellDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */,
+				FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */,
+			);
+			path = SellDetail;
 			sourceTree = "<group>";
 		};
 		FC99304C28D89E5E003E8223 /* OnBoarding */ = {
@@ -891,8 +933,10 @@
 			files = (
 				FC03123E28F9E86300C254E0 /* ReceiverTableViewCell.xib in Resources */,
 				FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */,
+				FC03124728F9F8B200C254E0 /* MySellsViewController.xib in Resources */,
 				FCE3A81928F734E800E412B5 /* MyCocreationsViewController.xib in Resources */,
 				FC03123728F9B5F000C254E0 /* ChatViewController.xib in Resources */,
+				FC03124C28F9F94900C254E0 /* SellTableViewCell.xib in Resources */,
 				FCF989DC28F88CA4003CD299 /* RequestsViewController.xib in Resources */,
 				FC12B84228E6183200BF91D1 /* ArtisticWorkViewController.xib in Resources */,
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
@@ -938,6 +982,7 @@
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
 				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
 				FCF989B728F861F4003CD299 /* ToggleCommentsTableViewCell.xib in Resources */,
+				FC75139D28FB3577009ECB50 /* SellDetailViewController.xib in Resources */,
 				FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */,
 				FCF989CB28F8866B003CD299 /* ParticipantsTableViewCell.xib in Resources */,
 				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
@@ -1021,8 +1066,11 @@
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
 				FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */,
 				FCF989CA28F8866A003CD299 /* ParticipantsTableViewCell.swift in Sources */,
+				FC03124628F9F8B200C254E0 /* MySellsViewController.swift in Sources */,
 				FCF989BB28F87698003CD299 /* CocreationGalleryCollectionViewCell.swift in Sources */,
 				FC03123D28F9E86300C254E0 /* ReceiverTableViewCell.swift in Sources */,
+				FC75139C28FB3577009ECB50 /* SellDetailViewController.swift in Sources */,
+				FC03124B28F9F94900C254E0 /* SellTableViewCell.swift in Sources */,
 				FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */,
 				FC39BDA928F5CCCF004779A8 /* CustomFilledButton.swift in Sources */,
 				FC39BDA628F5C6CF004779A8 /* MarketItemViewController.swift in Sources */,

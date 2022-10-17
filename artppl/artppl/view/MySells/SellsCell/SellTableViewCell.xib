@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="140" id="KGk-i7-Jjw" customClass="SellTableViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JnX-fm-bHK">
+                        <rect key="frame" x="0.0" y="20" width="390" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgMyCocreations" translatesAutoresizingMaskIntoConstraints="NO" id="d9v-2j-Ivb">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="XgB-gV-C7F"/>
+                                    <constraint firstAttribute="width" constant="100" id="yfC-Ra-s2k"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cuadro 120x289 cm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOF-lD-WYo">
+                                <rect key="frame" x="114.00000000000001" y="3" width="162.33333333333337" height="19.666666666666668"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24 Nov. 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVV-wm-b9d">
+                                <rect key="frame" x="114" y="25.666666666666664" width="85" height="18"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juan Pedro Martinez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7u-fN-bHZ">
+                                <rect key="frame" x="114" y="48.666666666666671" width="146" height="18"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$1899" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ha-Zz-CAO">
+                                <rect key="frame" x="114" y="79" width="42" height="18"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" name="colorMain"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="19f-fJ-lfv">
+                                <rect key="frame" x="377.33333333333331" y="4.6666666666666679" width="12.666666666666686" height="16.666666666666664"/>
+                                <color key="tintColor" name="colorMain"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a7u-fN-bHZ" firstAttribute="leading" secondItem="vOF-lD-WYo" secondAttribute="leading" id="2Iq-18-05Q"/>
+                            <constraint firstItem="vOF-lD-WYo" firstAttribute="leading" secondItem="d9v-2j-Ivb" secondAttribute="trailing" constant="14" id="5M2-OY-yA3"/>
+                            <constraint firstItem="7Ha-Zz-CAO" firstAttribute="bottom" secondItem="d9v-2j-Ivb" secondAttribute="bottom" constant="-3" id="AL3-z0-uBb"/>
+                            <constraint firstItem="7Ha-Zz-CAO" firstAttribute="leading" secondItem="d9v-2j-Ivb" secondAttribute="trailing" constant="14" id="D6v-Tc-IjF"/>
+                            <constraint firstItem="NVV-wm-b9d" firstAttribute="top" secondItem="vOF-lD-WYo" secondAttribute="bottom" constant="3" id="Dg2-uu-4Kq"/>
+                            <constraint firstItem="d9v-2j-Ivb" firstAttribute="leading" secondItem="JnX-fm-bHK" secondAttribute="leading" id="EEc-ST-WOe"/>
+                            <constraint firstItem="vOF-lD-WYo" firstAttribute="top" secondItem="d9v-2j-Ivb" secondAttribute="top" constant="3" id="JQJ-8H-VOZ"/>
+                            <constraint firstItem="19f-fJ-lfv" firstAttribute="centerY" secondItem="vOF-lD-WYo" secondAttribute="centerY" id="Jl4-aO-G6Q"/>
+                            <constraint firstItem="a7u-fN-bHZ" firstAttribute="top" secondItem="NVV-wm-b9d" secondAttribute="bottom" constant="5" id="Kt3-3y-PSP"/>
+                            <constraint firstAttribute="trailing" secondItem="19f-fJ-lfv" secondAttribute="trailing" id="TFA-HA-Y8V"/>
+                            <constraint firstItem="d9v-2j-Ivb" firstAttribute="centerY" secondItem="JnX-fm-bHK" secondAttribute="centerY" id="aYu-pO-MX7"/>
+                            <constraint firstItem="NVV-wm-b9d" firstAttribute="leading" secondItem="vOF-lD-WYo" secondAttribute="leading" id="rSl-HN-SgC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="JnX-fm-bHK" secondAttribute="trailing" id="7Li-sd-KtD"/>
+                    <constraint firstItem="JnX-fm-bHK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PBP-gn-HQ5"/>
+                    <constraint firstItem="JnX-fm-bHK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="mf3-n0-ylf"/>
+                    <constraint firstAttribute="bottom" secondItem="JnX-fm-bHK" secondAttribute="bottom" constant="20" id="vBR-g5-y9i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="190.76923076923077" y="71.445497630331744"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <image name="imgMyCocreations" width="333" height="187"/>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
