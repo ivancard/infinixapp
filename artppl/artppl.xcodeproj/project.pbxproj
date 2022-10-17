@@ -94,6 +94,10 @@
 		FC75139C28FB3577009ECB50 /* SellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */; };
 		FC75139D28FB3577009ECB50 /* SellDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */; };
 		FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */; };
+		FC808F1D28FDBED600C26858 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */; };
+		FC808F1E28FDBED600C26858 /* EditProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */; };
+		FC85EFD528FDD7E6002BB553 /* MyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */; };
+		FC85EFD628FDD7E6002BB553 /* MyLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC85EFD428FDD7E6002BB553 /* MyLocationViewController.xib */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
 		FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */; };
 		FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */; };
@@ -224,6 +228,10 @@
 		FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellDetailViewController.swift; sourceTree = "<group>"; };
 		FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellDetailViewController.xib; sourceTree = "<group>"; };
 		FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
+		FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileViewController.xib; sourceTree = "<group>"; };
+		FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
+		FC85EFD428FDD7E6002BB553 /* MyLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyLocationViewController.xib; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
 		FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArteCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArteCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -471,6 +479,7 @@
 		FC4423B328D8E6C000803C9A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FC808F1A28FDBEC200C26858 /* EditProfile */,
 				FC7290A528EE17D500F47E08 /* MarketCollectionCell */,
 				FC7290A028EE12E900F47E08 /* PortfolioCollectionCell */,
 				FC4423B428D8E6D700803C9A /* ProfileViewController.swift */,
@@ -671,6 +680,25 @@
 				FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */,
 			);
 			path = SellDetail;
+			sourceTree = "<group>";
+		};
+		FC808F1A28FDBEC200C26858 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FC85EFD228FDD7C5002BB553 /* MyLocation */,
+				FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */,
+				FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		FC85EFD228FDD7C5002BB553 /* MyLocation */ = {
+			isa = PBXGroup;
+			children = (
+				FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */,
+				FC85EFD428FDD7E6002BB553 /* MyLocationViewController.xib */,
+			);
+			path = MyLocation;
 			sourceTree = "<group>";
 		};
 		FC99304C28D89E5E003E8223 /* OnBoarding */ = {
@@ -963,6 +991,7 @@
 				FC44239F28D89FF200803C9A /* ProfileSelectorViewController.xib in Resources */,
 				FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */,
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
+				FC808F1E28FDBED600C26858 /* EditProfileViewController.xib in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */,
 				FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */,
@@ -970,6 +999,7 @@
 				FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */,
 				FC39BDB228F5E8C3004779A8 /* SpecItemTableViewCell.xib in Resources */,
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
+				FC85EFD628FDD7E6002BB553 /* MyLocationViewController.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
 				FC4A74C728F70D43007F5970 /* CocreationViewController.xib in Resources */,
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
@@ -1058,12 +1088,14 @@
 				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
 				FCF989C128F883E2003CD299 /* ParticipantsViewController.swift in Sources */,
 				FCE3A81D28F7358B00E412B5 /* MyCocreationsTableViewCell.swift in Sources */,
+				FC808F1D28FDBED600C26858 /* EditProfileViewController.swift in Sources */,
 				FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */,
 				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
 				FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */,
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
+				FC85EFD528FDD7E6002BB553 /* MyLocationViewController.swift in Sources */,
 				FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */,
 				FCF989CA28F8866A003CD299 /* ParticipantsTableViewCell.swift in Sources */,
 				FC03124628F9F8B200C254E0 /* MySellsViewController.swift in Sources */,

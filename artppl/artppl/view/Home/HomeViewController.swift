@@ -104,5 +104,10 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         if collectionView == self.cocreationCollectionView {
             self.navigationController?.pushViewController(CocreationViewController(), animated: true)
         }
+        if collectionView == self.artistCollectionView {
+            let profileView = ProfileViewController()
+            profileView.isMyProfile = false
+            self.navigationController?.pushViewController(profileView, animated: true)
+        }
     }
 }

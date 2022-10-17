@@ -19,9 +19,6 @@
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgMarketCell" translatesAutoresizingMaskIntoConstraints="NO" id="nZp-cK-PKv">
                         <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
-                        <constraints>
-                            <constraint firstAttribute="width" secondItem="nZp-cK-PKv" secondAttribute="height" multiplier="1:1" id="fkc-Eb-Tre"/>
-                        </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                 <integer key="value" value="8"/>
@@ -32,10 +29,10 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="nZp-cK-PKv" secondAttribute="bottom" id="L6c-N6-Zdw"/>
-                <constraint firstItem="nZp-cK-PKv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dH6-Nf-XqD"/>
-                <constraint firstItem="nZp-cK-PKv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="g3z-av-Gex"/>
-                <constraint firstAttribute="trailing" secondItem="nZp-cK-PKv" secondAttribute="trailing" id="kjr-GB-c85"/>
+                <constraint firstItem="nZp-cK-PKv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1nd-Rv-bgI"/>
+                <constraint firstAttribute="bottom" secondItem="nZp-cK-PKv" secondAttribute="bottom" id="7wc-vy-tte"/>
+                <constraint firstItem="nZp-cK-PKv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Fe2-hF-YG0"/>
+                <constraint firstAttribute="trailing" secondItem="nZp-cK-PKv" secondAttribute="trailing" id="esY-K6-I15"/>
             </constraints>
             <size key="customSize" width="186" height="183"/>
             <point key="canvasLocation" x="229.23076923076923" y="67.890995260663502"/>

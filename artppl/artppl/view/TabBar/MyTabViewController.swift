@@ -22,6 +22,7 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         setTabBar()
         setNavigationBar()
     }
+    
     override func viewDidAppear(_ animated: Bool) {
         self.navigationController?.setNavigationBarHidden(false, animated: false)
         self.navigationController?.navigationBar.tintColor = UIColor(named: "colorMain")
@@ -38,9 +39,7 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         
         navigationItem.setLeftBarButton(menuButton, animated: true)
         
-        let searchButton = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: nil)
-        
-        navigationItem.setRightBarButton(searchButton, animated: true)
+        setSearchBarButton()
     }
     
     @objc func toggleSideMenu(){
@@ -53,7 +52,6 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
     }
     
     func setTabBar(){
-        
         setViewControllers([v1, v2, v3, v4, v5], animated: true)
         tabBar.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).cgColor
         tabBar.layer.shadowOpacity = 0.34
@@ -75,6 +73,21 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         views[2].tabBarItem.imageInsets = UIEdgeInsets(top: -15, left: 0, bottom: 0, right: 0)
     }
     
+    private func setSearchBarButton(){
+        let searchButton = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: nil)
+        
+        navigationItem.setRightBarButton(searchButton, animated: true)
+    }
+    
+    private func setEditBarButton(){
+        let editProfileButton = UIBarButtonItem(image: UIImage(systemName: "pencil.line"), style: .plain, target: self, action: #selector(editButtonHandler))
+        navigationItem.setRightBarButton(editProfileButton, animated: true)
+    }
+    
+    @objc func editButtonHandler(){
+        navigationController?.pushViewController(EditProfileViewController(), animated: true)
+    }
+    
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         let tabbarIndex = tabBarController.viewControllers!.firstIndex(of: viewController)!
         
@@ -83,6 +96,14 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
             return false
         } else {
             return true
+        }
+    }
+    
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        if viewController == self.v5{
+            setEditBarButton()
+        } else {
+            setSearchBarButton()
         }
     }
 }
