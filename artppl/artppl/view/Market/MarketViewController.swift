@@ -45,26 +45,26 @@ final class MarketViewController: UIViewController, UICollectionViewDelegateFlow
             scrollViewMarket.setContentOffset(CGPoint(x: 0, y: 0), animated: false)
             lineConstrain.constant = 0
             
-            btnArteOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
-            btnRecycledOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
-            btnSubastaOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
+            btnArteOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
+            btnRecycledOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
+            btnSubastaOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
             
         }
         if tab == .recycle{
             scrollViewMarket.setContentOffset(CGPoint(x: scrollViewMarket.bounds.width, y: 0), animated: false)
             lineConstrain.constant = btnArteOutlet.layer.bounds.width
             
-            btnArteOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
-            btnRecycledOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
-            btnSubastaOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
+            btnArteOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
+            btnRecycledOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
+            btnSubastaOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
         }
         if tab == .subasta {
             scrollViewMarket.setContentOffset(CGPoint(x: scrollViewMarket.bounds.width * 2, y: 0), animated: false)
             lineConstrain.constant = btnArteOutlet.layer.bounds.width * 2
             
-            btnArteOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
-            btnRecycledOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
-            btnSubastaOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
+            btnArteOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
+            btnRecycledOutlet.titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
+            btnSubastaOutlet.titleLabel?.font = UIFont(name: "Montserrat-Bold", size: 18)
         }
         
         UIView.animate(withDuration: 0.2) {

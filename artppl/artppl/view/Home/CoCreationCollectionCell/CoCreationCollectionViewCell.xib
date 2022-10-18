@@ -82,6 +82,9 @@
                                                 <integer key="value" value="8"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnParticipate:" destination="gTV-IL-0wX" eventType="touchUpInside" id="JQF-bQ-REu"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -102,6 +105,9 @@
                                 <state key="normal" title="VER MÁS">
                                     <color key="titleColor" name="colorMain"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnMore:" destination="gTV-IL-0wX" eventType="touchUpInside" id="jYZ-I8-T6a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>

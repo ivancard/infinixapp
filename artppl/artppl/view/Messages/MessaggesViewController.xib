@@ -27,13 +27,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENSAJES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVJ-Bl-SZo">
-                    <rect key="frame" x="22" y="87" width="101" height="22"/>
+                    <rect key="frame" x="22" y="69" width="101" height="22"/>
                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
                     <color key="textColor" name="colorMain"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-gK-UIy">
-                    <rect key="frame" x="22" y="139" width="346" height="671"/>
+                    <rect key="frame" x="22" y="113" width="346" height="697"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
@@ -42,9 +42,9 @@
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pWf-gK-UIy" secondAttribute="trailing" constant="22" id="6Ou-LY-MZM"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pWf-gK-UIy" secondAttribute="bottom" id="BW6-gK-5t7"/>
-                <constraint firstItem="pWf-gK-UIy" firstAttribute="top" secondItem="tVJ-Bl-SZo" secondAttribute="bottom" constant="30" id="cqI-ae-JVz"/>
+                <constraint firstItem="pWf-gK-UIy" firstAttribute="top" secondItem="tVJ-Bl-SZo" secondAttribute="bottom" constant="22" id="cqI-ae-JVz"/>
                 <constraint firstItem="pWf-gK-UIy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="iOn-ma-yYH"/>
-                <constraint firstItem="tVJ-Bl-SZo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="40" id="qwx-ce-PTP"/>
+                <constraint firstItem="tVJ-Bl-SZo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="22" id="qwx-ce-PTP"/>
                 <constraint firstItem="tVJ-Bl-SZo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="xHG-eK-3zv"/>
             </constraints>
             <point key="canvasLocation" x="36.92307692307692" y="20.616113744075829"/>

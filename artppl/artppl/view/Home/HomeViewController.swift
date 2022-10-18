@@ -57,7 +57,9 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         }
         
         if collectionView == self.cocreationCollectionView {
-            cellItem = collectionView.dequeue(cellType: CoCreationCollectionViewCell.self, at: indexPath)
+            let fcellItem = collectionView.dequeue(cellType: CoCreationCollectionViewCell.self, at: indexPath)
+            fcellItem.myNavigation = navigationController
+            return fcellItem
         }
         
         if collectionView == self.artNearCollectionView {
