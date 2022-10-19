@@ -75,7 +75,7 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
     }
     
     private func setSearchBarButton(){
-        let searchButton = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: nil)
+        let searchButton = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: #selector(searchButtonHandler))
         
         navigationItem.setRightBarButton(searchButton, animated: true)
     }
@@ -84,7 +84,6 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         let editProfileButton = UIBarButtonItem(image: UIImage(systemName: "pencil.line"), style: .plain, target: self, action: #selector(editButtonHandler))
         let favouritesButton = UIBarButtonItem(image: UIImage(systemName: "heart.fill"), style: .plain, target: self, action: #selector(favouritesButtonHandler))
         navigationItem.setRightBarButtonItems([editProfileButton, favouritesButton], animated: true)
-//        navigationItem.setRightBarButton(editProfileButton, animated: true)
     }
     
     @objc func editButtonHandler(){
@@ -93,6 +92,9 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
     
     @objc func favouritesButtonHandler(){
         navigationController?.pushViewController(FavouritesViewController(), animated: true)
+    }
+    @objc func searchButtonHandler(){
+        navigationController?.pushViewController(SearchViewController(), animated: true)
     }
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {

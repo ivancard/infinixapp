@@ -32,6 +32,10 @@
 		FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC226ADB28DE139800621699 /* AddNewViewController.xib */; };
 		FC2DD58A2900771300C1B9F7 /* NewCocreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DD5882900771300C1B9F7 /* NewCocreationViewController.swift */; };
 		FC2DD58B2900771300C1B9F7 /* NewCocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD5892900771300C1B9F7 /* NewCocreationViewController.xib */; };
+		FC2DD58F29007DE300C1B9F7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DD58D29007DE300C1B9F7 /* SearchViewController.swift */; };
+		FC2DD59029007DE300C1B9F7 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD58E29007DE300C1B9F7 /* SearchViewController.xib */; };
+		FC2DD59429008BCC00C1B9F7 /* FilterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DD59229008BCC00C1B9F7 /* FilterSearchViewController.swift */; };
+		FC2DD59529008BCC00C1B9F7 /* FilterSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD59329008BCC00C1B9F7 /* FilterSearchViewController.xib */; };
 		FC39BDA628F5C6CF004779A8 /* MarketItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39BDA428F5C6CF004779A8 /* MarketItemViewController.swift */; };
 		FC39BDA728F5C6CF004779A8 /* MarketItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC39BDA528F5C6CF004779A8 /* MarketItemViewController.xib */; };
 		FC39BDA928F5CCCF004779A8 /* CustomFilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39BDA828F5CCCF004779A8 /* CustomFilledButton.swift */; };
@@ -183,6 +187,10 @@
 		FC226ADB28DE139800621699 /* AddNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewViewController.xib; sourceTree = "<group>"; };
 		FC2DD5882900771300C1B9F7 /* NewCocreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCocreationViewController.swift; sourceTree = "<group>"; };
 		FC2DD5892900771300C1B9F7 /* NewCocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCocreationViewController.xib; sourceTree = "<group>"; };
+		FC2DD58D29007DE300C1B9F7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FC2DD58E29007DE300C1B9F7 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		FC2DD59229008BCC00C1B9F7 /* FilterSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSearchViewController.swift; sourceTree = "<group>"; };
+		FC2DD59329008BCC00C1B9F7 /* FilterSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterSearchViewController.xib; sourceTree = "<group>"; };
 		FC39BDA428F5C6CF004779A8 /* MarketItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketItemViewController.swift; sourceTree = "<group>"; };
 		FC39BDA528F5C6CF004779A8 /* MarketItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketItemViewController.xib; sourceTree = "<group>"; };
 		FC39BDA828F5CCCF004779A8 /* CustomFilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilledButton.swift; sourceTree = "<group>"; };
@@ -424,6 +432,25 @@
 			path = Cocreation;
 			sourceTree = "<group>";
 		};
+		FC2DD58C29007DC700C1B9F7 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DD59129008BB800C1B9F7 /* Filters */,
+				FC2DD58D29007DE300C1B9F7 /* SearchViewController.swift */,
+				FC2DD58E29007DE300C1B9F7 /* SearchViewController.xib */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		FC2DD59129008BB800C1B9F7 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DD59229008BCC00C1B9F7 /* FilterSearchViewController.swift */,
+				FC2DD59329008BCC00C1B9F7 /* FilterSearchViewController.xib */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
 		FC39BDA228F5C68A004779A8 /* CarrouselItems */ = {
 			isa = PBXGroup;
 			children = (
@@ -651,13 +678,11 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FCCE6338290068480068F685 /* SuccessScreen */,
-				FC4B1E4228FF2B120042AFE7 /* Wallet */,
-				FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */,
-				FC7F8E7F28FF06CA0035ACF0 /* Favourites */,
 				FC226AD928DE137A00621699 /* AddNew */,
+				FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */,
 				FC12B83E28E6181400BF91D1 /* artisticWork */,
 				FC39BDA228F5C68A004779A8 /* CarrouselItems */,
+				FC7F8E7F28FF06CA0035ACF0 /* Favourites */,
 				FC4423A228D8BC9A00803C9A /* Home */,
 				FC99304D28D89EA0003E8223 /* Login */,
 				FC4423A928D8E66200803C9A /* Market */,
@@ -671,9 +696,12 @@
 				FC4423B328D8E6C000803C9A /* Profile */,
 				FC99304F28D89EBC003E8223 /* Profile selector */,
 				FC99304E28D89EAF003E8223 /* Register */,
+				FC2DD58C29007DC700C1B9F7 /* SearchView */,
 				FCC03FC228E37B930016CF57 /* SideMenu */,
+				FCCE6338290068480068F685 /* SuccessScreen */,
 				FC3A1C2F28E4C33100FA3056 /* Support */,
 				FCA2D1D828E22C3700960950 /* TabBar */,
+				FC4B1E4228FF2B120042AFE7 /* Wallet */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1120,7 +1148,9 @@
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
 				FC39BDA728F5C6CF004779A8 /* MarketItemViewController.xib in Resources */,
 				FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */,
+				FC2DD59529008BCC00C1B9F7 /* FilterSearchViewController.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
+				FC2DD59029007DE300C1B9F7 /* SearchViewController.xib in Resources */,
 				FCCE6337290047C30068F685 /* NewMarketViewController.xib in Resources */,
 				FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */,
 				FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */,
@@ -1231,6 +1261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
+				FC2DD59429008BCC00C1B9F7 /* FilterSearchViewController.swift in Sources */,
 				FCCE6336290047C30068F685 /* NewMarketViewController.swift in Sources */,
 				FCF989B628F861F4003CD299 /* ToggleCommentsTableViewCell.swift in Sources */,
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
@@ -1272,6 +1303,7 @@
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */,
 				FC7F8E8228FF06E50035ACF0 /* FavouritesViewController.swift in Sources */,
+				FC2DD58F29007DE300C1B9F7 /* SearchViewController.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
 				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
