@@ -10,6 +10,8 @@ import SideMenu
 
 final class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
+    let isMarketConfigured = false
+    
     @IBOutlet weak var popUpView: UIView!
     @IBOutlet weak var marketCollectionView: UICollectionView!
     @IBOutlet weak var artistCollectionView: UICollectionView!
@@ -28,6 +30,10 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         artNearCollectionView.configure(delegate: self, dataSource: self, cells: [ArtNearCollectionViewCell.self])
     }
     
+    @IBAction func btnNewMarket(_ sender: Any) {
+        let pathToRedirect = isMarketConfigured ? ConfigureWalletViewController() : ConfigureWalletViewController()
+        navigationController?.pushViewController(pathToRedirect, animated: true)
+    }
     private func setCellStyle(cell: UICollectionViewCell){
         cell.layer.cornerRadius = 8
         cell.clipsToBounds = false
@@ -59,6 +65,7 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         if collectionView == self.cocreationCollectionView {
             let fcellItem = collectionView.dequeue(cellType: CoCreationCollectionViewCell.self, at: indexPath)
             fcellItem.myNavigation = navigationController
+            setCellStyle(cell: fcellItem)
             return fcellItem
         }
         

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfigureWalletViewController" customModule="artppl" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Para publicar tienes que configurar antes tu billetera" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OpF-Bf-zLn">
+                    <rect key="frame" x="40" y="302.33333333333331" width="310" height="39.333333333333314"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                    <color key="textColor" name="colorMain"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3IE-JW-hg2" customClass="CustomFilledButton" customModule="artppl" customModuleProvider="target">
+                    <rect key="frame" x="22" y="396.66666666666669" width="346" height="40"/>
+                    <color key="backgroundColor" name="colorMain"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="w2D-xr-jOY"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="CONFIGURAR">
+                        <color key="titleColor" name="colorWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnConfigureWallet:" destination="-1" eventType="touchUpInside" id="TOI-vw-oZc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbv-eq-TOL">
+                    <rect key="frame" x="131" y="466.66666666666669" width="128" height="27"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Configurar más tarde">
+                        <color key="titleColor" name="colorMain"/>
+                    </state>
+                    <connections>
+                        <action selector="btnDismiss:" destination="-1" eventType="touchUpInside" id="5Zv-So-8Yi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="OpF-Bf-zLn" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="E0G-me-ocQ"/>
+                <constraint firstItem="3IE-JW-hg2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="HFa-yt-Iwa"/>
+                <constraint firstItem="OpF-Bf-zLn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="VlA-wj-GJV"/>
+                <constraint firstItem="Dbv-eq-TOL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bX4-w8-91U"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3IE-JW-hg2" secondAttribute="trailing" constant="22" id="fKh-o0-1GT"/>
+                <constraint firstItem="Dbv-eq-TOL" firstAttribute="top" secondItem="3IE-JW-hg2" secondAttribute="bottom" constant="30" id="knj-Xg-prO"/>
+                <constraint firstItem="3IE-JW-hg2" firstAttribute="top" secondItem="OpF-Bf-zLn" secondAttribute="bottom" constant="55" id="pY8-0m-1Ft"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OpF-Bf-zLn" secondAttribute="trailing" constant="40" id="sbi-Gs-MZF"/>
+            </constraints>
+            <point key="canvasLocation" x="64.615384615384613" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

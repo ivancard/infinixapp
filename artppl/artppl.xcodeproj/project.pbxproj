@@ -58,6 +58,10 @@
 		FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */; };
 		FC4A74CD28F720C0007F5970 /* CocreationRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */; };
 		FC4A74CE28F720C0007F5970 /* CocreationRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */; };
+		FC4B1E4528FF2B3A0042AFE7 /* ConfigureWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B1E4328FF2B390042AFE7 /* ConfigureWalletViewController.swift */; };
+		FC4B1E4628FF2B3A0042AFE7 /* ConfigureWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B1E4428FF2B390042AFE7 /* ConfigureWalletViewController.xib */; };
+		FC4B1E4A28FF35260042AFE7 /* SetWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B1E4828FF35260042AFE7 /* SetWalletViewController.swift */; };
+		FC4B1E4B28FF35260042AFE7 /* SetWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B1E4928FF35260042AFE7 /* SetWalletViewController.xib */; };
 		FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313F728CBDC5700C7ACA6 /* animationButton.json */; };
 		FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */; };
 		FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */; };
@@ -94,6 +98,16 @@
 		FC75139C28FB3577009ECB50 /* SellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */; };
 		FC75139D28FB3577009ECB50 /* SellDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */; };
 		FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */; };
+		FC7F8E8228FF06E50035ACF0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8028FF06E50035ACF0 /* FavouritesViewController.swift */; };
+		FC7F8E8328FF06E50035ACF0 /* FavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E8128FF06E50035ACF0 /* FavouritesViewController.xib */; };
+		FC7F8E8828FF19B80035ACF0 /* ArtistFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8628FF19B80035ACF0 /* ArtistFavouritesViewController.swift */; };
+		FC7F8E8928FF19B80035ACF0 /* ArtistFavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E8728FF19B80035ACF0 /* ArtistFavouritesViewController.xib */; };
+		FC7F8E8C28FF19C70035ACF0 /* ArtFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8A28FF19C70035ACF0 /* ArtFavouritesViewController.swift */; };
+		FC7F8E8D28FF19C70035ACF0 /* ArtFavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E8B28FF19C70035ACF0 /* ArtFavouritesViewController.xib */; };
+		FC7F8E9128FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8F28FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift */; };
+		FC7F8E9228FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E9028FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib */; };
+		FC7F8E9628FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E9428FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift */; };
+		FC7F8E9728FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E9528FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib */; };
 		FC808F1D28FDBED600C26858 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */; };
 		FC808F1E28FDBED600C26858 /* EditProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */; };
 		FC85EFD528FDD7E6002BB553 /* MyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */; };
@@ -110,6 +124,8 @@
 		FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */; };
 		FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC03FC328E37BB60016CF57 /* SideMenuViewController.swift */; };
 		FCC03FC628E37BB60016CF57 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC03FC428E37BB60016CF57 /* SideMenuViewController.xib */; };
+		FCCE6336290047C30068F685 /* NewMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCE6334290047C30068F685 /* NewMarketViewController.swift */; };
+		FCCE6337290047C30068F685 /* NewMarketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCCE6335290047C30068F685 /* NewMarketViewController.xib */; };
 		FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */; };
 		FCE3A81828F734E800E412B5 /* MyCocreationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */; };
 		FCE3A81928F734E800E412B5 /* MyCocreationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */; };
@@ -189,6 +205,10 @@
 		FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorderNegative.swift; sourceTree = "<group>"; };
 		FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationRequestViewController.swift; sourceTree = "<group>"; };
 		FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationRequestViewController.xib; sourceTree = "<group>"; };
+		FC4B1E4328FF2B390042AFE7 /* ConfigureWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureWalletViewController.swift; sourceTree = "<group>"; };
+		FC4B1E4428FF2B390042AFE7 /* ConfigureWalletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureWalletViewController.xib; sourceTree = "<group>"; };
+		FC4B1E4828FF35260042AFE7 /* SetWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWalletViewController.swift; sourceTree = "<group>"; };
+		FC4B1E4928FF35260042AFE7 /* SetWalletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetWalletViewController.xib; sourceTree = "<group>"; };
 		FC5313F728CBDC5700C7ACA6 /* animationButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButton.json; sourceTree = "<group>"; };
 		FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -228,6 +248,16 @@
 		FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellDetailViewController.swift; sourceTree = "<group>"; };
 		FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellDetailViewController.xib; sourceTree = "<group>"; };
 		FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
+		FC7F8E8028FF06E50035ACF0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		FC7F8E8128FF06E50035ACF0 /* FavouritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouritesViewController.xib; sourceTree = "<group>"; };
+		FC7F8E8628FF19B80035ACF0 /* ArtistFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistFavouritesViewController.swift; sourceTree = "<group>"; };
+		FC7F8E8728FF19B80035ACF0 /* ArtistFavouritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistFavouritesViewController.xib; sourceTree = "<group>"; };
+		FC7F8E8A28FF19C70035ACF0 /* ArtFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtFavouritesViewController.swift; sourceTree = "<group>"; };
+		FC7F8E8B28FF19C70035ACF0 /* ArtFavouritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtFavouritesViewController.xib; sourceTree = "<group>"; };
+		FC7F8E8F28FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteArtistCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7F8E9028FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteArtistCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC7F8E9428FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteArtCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7F8E9528FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteArtCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileViewController.xib; sourceTree = "<group>"; };
 		FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
@@ -244,6 +274,8 @@
 		FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTabViewController.xib; sourceTree = "<group>"; };
 		FCC03FC328E37BB60016CF57 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		FCC03FC428E37BB60016CF57 /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		FCCE6334290047C30068F685 /* NewMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMarketViewController.swift; sourceTree = "<group>"; };
+		FCCE6335290047C30068F685 /* NewMarketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewMarketViewController.xib; sourceTree = "<group>"; };
 		FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientWhiteTransp.swift; sourceTree = "<group>"; };
 		FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCocreationsViewController.swift; sourceTree = "<group>"; };
 		FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCocreationsViewController.xib; sourceTree = "<group>"; };
@@ -507,6 +539,42 @@
 			path = CocreationRequest;
 			sourceTree = "<group>";
 		};
+		FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */ = {
+			isa = PBXGroup;
+			children = (
+				FC4B1E4128FF2AF70042AFE7 /* Market */,
+			);
+			path = AddNewItem;
+			sourceTree = "<group>";
+		};
+		FC4B1E4128FF2AF70042AFE7 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				FCCE6334290047C30068F685 /* NewMarketViewController.swift */,
+				FCCE6335290047C30068F685 /* NewMarketViewController.xib */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		FC4B1E4228FF2B120042AFE7 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				FC4B1E4728FF350E0042AFE7 /* SetWallet */,
+				FC4B1E4328FF2B390042AFE7 /* ConfigureWalletViewController.swift */,
+				FC4B1E4428FF2B390042AFE7 /* ConfigureWalletViewController.xib */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		FC4B1E4728FF350E0042AFE7 /* SetWallet */ = {
+			isa = PBXGroup;
+			children = (
+				FC4B1E4828FF35260042AFE7 /* SetWalletViewController.swift */,
+				FC4B1E4928FF35260042AFE7 /* SetWalletViewController.xib */,
+			);
+			path = SetWallet;
+			sourceTree = "<group>";
+		};
 		FC5313EE28CBC30100C7ACA6 /* animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +633,9 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FC4B1E4228FF2B120042AFE7 /* Wallet */,
+				FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */,
+				FC7F8E7F28FF06CA0035ACF0 /* Favourites */,
 				FC226AD928DE137A00621699 /* AddNew */,
 				FC12B83E28E6181400BF91D1 /* artisticWork */,
 				FC39BDA228F5C68A004779A8 /* CarrouselItems */,
@@ -680,6 +751,55 @@
 				FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */,
 			);
 			path = SellDetail;
+			sourceTree = "<group>";
+		};
+		FC7F8E7F28FF06CA0035ACF0 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E8528FF19A10035ACF0 /* ArtistView */,
+				FC7F8E8428FF19960035ACF0 /* ArtView */,
+				FC7F8E8028FF06E50035ACF0 /* FavouritesViewController.swift */,
+				FC7F8E8128FF06E50035ACF0 /* FavouritesViewController.xib */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		FC7F8E8428FF19960035ACF0 /* ArtView */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E9328FF1C6E0035ACF0 /* FavArtCell */,
+				FC7F8E8A28FF19C70035ACF0 /* ArtFavouritesViewController.swift */,
+				FC7F8E8B28FF19C70035ACF0 /* ArtFavouritesViewController.xib */,
+			);
+			path = ArtView;
+			sourceTree = "<group>";
+		};
+		FC7F8E8528FF19A10035ACF0 /* ArtistView */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E8E28FF1B6C0035ACF0 /* FavArtistCell */,
+				FC7F8E8628FF19B80035ACF0 /* ArtistFavouritesViewController.swift */,
+				FC7F8E8728FF19B80035ACF0 /* ArtistFavouritesViewController.xib */,
+			);
+			path = ArtistView;
+			sourceTree = "<group>";
+		};
+		FC7F8E8E28FF1B6C0035ACF0 /* FavArtistCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E8F28FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift */,
+				FC7F8E9028FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib */,
+			);
+			path = FavArtistCell;
+			sourceTree = "<group>";
+		};
+		FC7F8E9328FF1C6E0035ACF0 /* FavArtCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E9428FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift */,
+				FC7F8E9528FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib */,
+			);
+			path = FavArtCell;
 			sourceTree = "<group>";
 		};
 		FC808F1A28FDBEC200C26858 /* EditProfile */ = {
@@ -959,6 +1079,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7F8E8328FF06E50035ACF0 /* FavouritesViewController.xib in Resources */,
 				FC03123E28F9E86300C254E0 /* ReceiverTableViewCell.xib in Resources */,
 				FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */,
 				FC03124728F9F8B200C254E0 /* MySellsViewController.xib in Resources */,
@@ -971,6 +1092,7 @@
 				FC39BDA728F5C6CF004779A8 /* MarketItemViewController.xib in Resources */,
 				FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
+				FCCE6337290047C30068F685 /* NewMarketViewController.xib in Resources */,
 				FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */,
 				FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */,
 				FC06771128F897BD0058144A /* RequestsTableViewCell.xib in Resources */,
@@ -988,10 +1110,13 @@
 				FCF989C228F883E2003CD299 /* ParticipantsViewController.xib in Resources */,
 				FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */,
 				FC39BDB728F5EE42004779A8 /* MainItemTableViewCell.xib in Resources */,
+				FC7F8E9728FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib in Resources */,
+				FC7F8E8D28FF19C70035ACF0 /* ArtFavouritesViewController.xib in Resources */,
 				FC44239F28D89FF200803C9A /* ProfileSelectorViewController.xib in Resources */,
 				FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */,
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
 				FC808F1E28FDBED600C26858 /* EditProfileViewController.xib in Resources */,
+				FC4B1E4B28FF35260042AFE7 /* SetWalletViewController.xib in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */,
 				FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */,
@@ -1001,6 +1126,7 @@
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
 				FC85EFD628FDD7E6002BB553 /* MyLocationViewController.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
+				FC7F8E8928FF19B80035ACF0 /* ArtistFavouritesViewController.xib in Resources */,
 				FC4A74C728F70D43007F5970 /* CocreationViewController.xib in Resources */,
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
@@ -1010,9 +1136,11 @@
 				FC7290AD28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib in Resources */,
 				FC7290A428EE130D00F47E08 /* PortfolioCollectionViewCell.xib in Resources */,
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
+				FC7F8E9228FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib in Resources */,
 				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
 				FCF989B728F861F4003CD299 /* ToggleCommentsTableViewCell.xib in Resources */,
 				FC75139D28FB3577009ECB50 /* SellDetailViewController.xib in Resources */,
+				FC4B1E4628FF2B3A0042AFE7 /* ConfigureWalletViewController.xib in Resources */,
 				FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */,
 				FCF989CB28F8866B003CD299 /* ParticipantsTableViewCell.xib in Resources */,
 				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
@@ -1073,6 +1201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
+				FCCE6336290047C30068F685 /* NewMarketViewController.swift in Sources */,
 				FCF989B628F861F4003CD299 /* ToggleCommentsTableViewCell.swift in Sources */,
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
 				FC9E719528EF5589008165DC /* SubastaCollectionViewCell.swift in Sources */,
@@ -1083,6 +1212,7 @@
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
 				FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */,
+				FC7F8E8828FF19B80035ACF0 /* ArtistFavouritesViewController.swift in Sources */,
 				FCF989B228F861CB003CD299 /* CommentsTableViewCell.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
 				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
@@ -1095,6 +1225,7 @@
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
+				FC7F8E9628FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift in Sources */,
 				FC85EFD528FDD7E6002BB553 /* MyLocationViewController.swift in Sources */,
 				FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */,
 				FCF989CA28F8866A003CD299 /* ParticipantsTableViewCell.swift in Sources */,
@@ -1108,11 +1239,14 @@
 				FC39BDA628F5C6CF004779A8 /* MarketItemViewController.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */,
+				FC7F8E8228FF06E50035ACF0 /* FavouritesViewController.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
 				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
 				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
+				FC4B1E4528FF2B3A0042AFE7 /* ConfigureWalletViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
+				FC7F8E9128FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift in Sources */,
 				FCE3A81828F734E800E412B5 /* MyCocreationsViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
 				FC06771028F897BD0058144A /* RequestsTableViewCell.swift in Sources */,
@@ -1135,7 +1269,9 @@
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
 				FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */,
+				FC4B1E4A28FF35260042AFE7 /* SetWalletViewController.swift in Sources */,
 				FC03123628F9B5F000C254E0 /* ChatViewController.swift in Sources */,
+				FC7F8E8C28FF19C70035ACF0 /* ArtFavouritesViewController.swift in Sources */,
 				FC4A74CD28F720C0007F5970 /* CocreationRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
