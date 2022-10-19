@@ -1,5 +1,5 @@
 //
-//  NewMarketViewController.swift
+//  NewCocreationViewController.swift
 //  artppl
 //
 //  Created by ivan cardenas on 19/10/2022.
@@ -7,31 +7,21 @@
 
 import UIKit
 
-class NewMarketViewController: UIViewController {
+class NewCocreationViewController: UIViewController {
 
-    @IBOutlet weak var marketHeader: UIView!
     @IBOutlet weak var uploadPhotoContainer: UIView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setGradient(view: marketHeader)
+        title = "CREAR COCREACION"
         addDashedBorder(view: uploadPhotoContainer)
     }
-
-    private func setGradient(view: UIView){
-        let colorGradientRight: UIColor = UIColor(named: "colorGradientRight") ?? UIColor.systemMint
-        let colorGradientLeft: UIColor = UIColor(named: "colorGradientLeft") ?? UIColor.systemPurple
-        
-        let gradient = CAGradientLayer()
-       
-        gradient.colors = [colorGradientLeft.cgColor, colorGradientRight.cgColor]
-        gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
-        gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
-        
-        gradient.frame = view.bounds
-        
-        view.layer.insertSublayer(gradient, at: 0 )
+    
+    @IBAction func btnCrear(_ sender: Any) {
+        let successView = SuccessViewController()
+        successView.titleLabel = "Cocreación creada con éxito"
+        successView.subtitleLabel = "Chequea tu bandeja de mensaje por si fuiste seleccionada."
+        navigationController?.pushViewController(successView, animated: true)
     }
     
     func addDashedBorder(view: UIView) {
@@ -51,10 +41,6 @@ class NewMarketViewController: UIViewController {
         shapeLayer.path = UIBezierPath(roundedRect: shapeRect, cornerRadius: 4).cgPath
         
         view.layer.addSublayer(shapeLayer)
-        }
-    @IBAction func btnPost(_ sender: Any) {
-        let successScreen = SuccessViewController()
-        successScreen.titleLabel = "Obra publicada con éxito"
-        navigationController?.pushViewController(successScreen, animated: true)
     }
+
 }

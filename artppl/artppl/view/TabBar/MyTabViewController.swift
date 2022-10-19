@@ -21,6 +21,7 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         self.delegate = self
         setTabBar()
         setNavigationBar()
+        title = "Home"
     }
     
     override func viewDidAppear(_ animated: Bool) {

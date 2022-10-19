@@ -326,6 +326,9 @@
                             </constraints>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" image="iconCocreation"/>
+                            <connections>
+                                <action selector="btnNewCocreation:" destination="-1" eventType="touchUpInside" id="UFe-ER-iY1"/>
+                            </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cocreación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDG-5W-iRf">
                             <rect key="frame" x="233.5" y="167" width="68" height="15"/>

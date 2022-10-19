@@ -29,7 +29,15 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         
         artNearCollectionView.configure(delegate: self, dataSource: self, cells: [ArtNearCollectionViewCell.self])
     }
+    override func viewDidDisappear(_ animated: Bool) {
+        if popUpView.isHidden == false {
+            popUpView.isHidden = true
+        }
+    }
     
+    @IBAction func btnNewCocreation(_ sender: Any) {
+        navigationController?.pushViewController(NewCocreationViewController(), animated: true)
+    }
     @IBAction func btnNewMarket(_ sender: Any) {
         let pathToRedirect = isMarketConfigured ? ConfigureWalletViewController() : ConfigureWalletViewController()
         navigationController?.pushViewController(pathToRedirect, animated: true)
