@@ -26,7 +26,7 @@ final class ProfileViewController: UIViewController, UICollectionViewDataSource,
         super.viewDidLoad()
         
         setTypeOfProfile(isMyProfile ?? true)
-        
+        setNavItems()
         btnConectar.layer.borderColor = UIColor(named: "colorMain")?.cgColor
         
         portfolioCollectionView.configure(delegate: self, dataSource: self, cells: [PortfolioCollectionViewCell.self])
@@ -35,6 +35,11 @@ final class ProfileViewController: UIViewController, UICollectionViewDataSource,
         tabsScrollView.delegate = self
         
     }
+    func setNavItems(){
+        let shareButton = UIBarButtonItem(image: UIImage(named: "iconShare"), style: .plain, target: self, action: nil)
+        navigationItem.setRightBarButton(shareButton, animated: true)
+    }
+    
     
     @IBAction func btnMarketTab(_ sender: Any) {
         let isSelected = true

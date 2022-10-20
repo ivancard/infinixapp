@@ -75,6 +75,8 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
     }
     
     private func setSearchBarButton(){
+        let _ = navigationItem.rightBarButtonItems?.popLast()
+        let _ = navigationItem.rightBarButtonItems?.popLast()
         let searchButton = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: #selector(searchButtonHandler))
         
         navigationItem.setRightBarButton(searchButton, animated: true)
@@ -82,8 +84,9 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
     
     private func setProfileBarButtons(){
         let editProfileButton = UIBarButtonItem(image: UIImage(systemName: "pencil.line"), style: .plain, target: self, action: #selector(editButtonHandler))
+        let shareButton = UIBarButtonItem(image: UIImage(named: "iconShare"), style: .plain, target: self, action: #selector(editButtonHandler))
         let favouritesButton = UIBarButtonItem(image: UIImage(systemName: "heart.fill"), style: .plain, target: self, action: #selector(favouritesButtonHandler))
-        navigationItem.setRightBarButtonItems([editProfileButton, favouritesButton], animated: true)
+        navigationItem.setRightBarButtonItems([editProfileButton,shareButton, favouritesButton], animated: true)
     }
     
     @objc func editButtonHandler(){

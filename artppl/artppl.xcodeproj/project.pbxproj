@@ -143,6 +143,7 @@
 		FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */; };
 		FCE3A82728F7453B00E412B5 /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */; };
 		FCE3A82828F7453B00E412B5 /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */; };
+		FCE929532901A8870034DEB8 /* CustomFilterOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */; };
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
 		FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */; };
@@ -301,6 +302,7 @@
 		FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOwnCocreationViewController.xib; sourceTree = "<group>"; };
 		FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
 		FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
+		FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilterOutlineButton.swift; sourceTree = "<group>"; };
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
 		FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewGradient.swift; sourceTree = "<group>"; };
@@ -1001,9 +1003,18 @@
 			path = ActivitiesTableCells;
 			sourceTree = "<group>";
 		};
+		FCE9294F2901A6510034DEB8 /* SearchFilters */ = {
+			isa = PBXGroup;
+			children = (
+				FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */,
+			);
+			path = SearchFilters;
+			sourceTree = "<group>";
+		};
 		FCEE50C528D2373B00CF9B68 /* customComponents */ = {
 			isa = PBXGroup;
 			children = (
+				FCE9294F2901A6510034DEB8 /* SearchFilters */,
 				FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */,
 				FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */,
 				FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */,
@@ -1307,6 +1318,7 @@
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
 				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
+				FCE929532901A8870034DEB8 /* CustomFilterOutlineButton.swift in Sources */,
 				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
 				FC4B1E4528FF2B3A0042AFE7 /* ConfigureWalletViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
