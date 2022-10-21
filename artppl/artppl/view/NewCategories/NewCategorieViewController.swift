@@ -23,7 +23,11 @@ final class NewCategorieViewController: UIViewController, UITextFieldDelegate {
         
         self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
+    
     @IBAction func actionClose(_ sender: Any) {
+        dismiss(animated: true)
+    }
+    @IBAction func btnSendNewCategory(_ sender: Any) {
         dismiss(animated: true)
     }
 }
