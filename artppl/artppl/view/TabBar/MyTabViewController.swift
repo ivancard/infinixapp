@@ -22,6 +22,9 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         setTabBar()
         setNavigationBar()
         title = "Home"
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -33,11 +36,10 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         
         let logo = UIImage(named: "logoHorizontal")
         let imageView = UIImageView(image:logo)
-        
         imageView.contentMode = .scaleAspectFit
         navigationItem.titleView = imageView
-        let menuButton = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .plain, target: self, action: #selector(toggleSideMenu))
         
+        let menuButton = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3"), style: .plain, target: self, action: #selector(toggleSideMenu))
         navigationItem.setLeftBarButton(menuButton, animated: true)
         
         setSearchBarButton()
@@ -57,11 +59,9 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         tabBar.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).cgColor
         tabBar.layer.shadowOpacity = 0.34
         tabBar.layer.shadowOffset = CGSize(width: 0, height: -3)
-        
         tabBar.scrollEdgeAppearance = tabBar.standardAppearance
         
         let views = [v1, v2, v3, v4, v5]
-        
         let icons = ["iconHome", "iconMarket", "iconAddNew" ,"iconChat", "iconProfile"]
         
         for view in 0..<views.count {
@@ -70,12 +70,10 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         }
         
         tabBar.tintColor = UIColor(named: "colorMain")
-        
         views[2].tabBarItem.imageInsets = UIEdgeInsets(top: -15, left: 0, bottom: 0, right: 0)
     }
     
     private func setSearchBarButton(){
-        let _ = navigationItem.rightBarButtonItems?.popLast()
         let _ = navigationItem.rightBarButtonItems?.popLast()
         let searchButton = UIBarButtonItem(image: UIImage(systemName: "magnifyingglass"), style: .plain, target: self, action: #selector(searchButtonHandler))
         
@@ -84,18 +82,14 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
     
     private func setProfileBarButtons(){
         let editProfileButton = UIBarButtonItem(image: UIImage(systemName: "pencil.line"), style: .plain, target: self, action: #selector(editButtonHandler))
-        let shareButton = UIBarButtonItem(image: UIImage(named: "iconShare"), style: .plain, target: self, action: #selector(editButtonHandler))
-        let favouritesButton = UIBarButtonItem(image: UIImage(systemName: "heart.fill"), style: .plain, target: self, action: #selector(favouritesButtonHandler))
-        navigationItem.setRightBarButtonItems([editProfileButton,shareButton, favouritesButton], animated: true)
+        let shareButton = UIBarButtonItem(image: UIImage(named: "iconShare"), style: .plain, target: self, action: nil)
+        navigationItem.setRightBarButtonItems([editProfileButton,shareButton ], animated: true)
     }
     
     @objc func editButtonHandler(){
         navigationController?.pushViewController(EditProfileViewController(), animated: true)
     }
     
-    @objc func favouritesButtonHandler(){
-        navigationController?.pushViewController(FavouritesViewController(), animated: true)
-    }
     @objc func searchButtonHandler(){
         navigationController?.pushViewController(SearchViewController(), animated: true)
     }

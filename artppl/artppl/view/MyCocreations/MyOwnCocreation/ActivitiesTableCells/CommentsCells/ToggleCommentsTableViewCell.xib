@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,6 +33,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" name="colorWhite"/>
                 <constraints>
                     <constraint firstItem="gmC-li-etC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6ow-0z-pbR"/>
                     <constraint firstItem="wDi-rl-Pk9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="7Pm-x7-EpU"/>
@@ -46,4 +48,9 @@
             <point key="canvasLocation" x="209.23076923076923" y="41.232227488151658"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

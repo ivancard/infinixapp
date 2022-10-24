@@ -12,6 +12,7 @@ class SearchViewController: UIViewController, UICollectionViewDelegateFlowLayout
     @IBOutlet weak var searchCollectionView: UICollectionView!
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         let myTextField = UITextField()
         myTextField.placeholder = "Ingrese Busqueda"

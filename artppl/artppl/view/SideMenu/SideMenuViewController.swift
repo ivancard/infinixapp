@@ -35,4 +35,7 @@ class SideMenuViewController: UIViewController {
         supportView.modalPresentationStyle = .overFullScreen
         present(supportView, animated: false)
     }
+    @IBAction func btnFavourites(_ sender: Any) {
+        navigationController?.pushViewController(FavouritesViewController(), animated: true)
+    }
 }

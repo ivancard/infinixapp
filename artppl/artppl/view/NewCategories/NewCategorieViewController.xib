@@ -84,6 +84,7 @@
                 </button>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="Agrega aqui las categorías." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Z3-8C-121">
                     <rect key="frame" x="22" y="168" width="331" height="228"/>
+                    <color key="backgroundColor" name="colorWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="228" id="Htf-ts-U6D"/>
                     </constraints>

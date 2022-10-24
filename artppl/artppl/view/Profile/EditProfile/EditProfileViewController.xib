@@ -6,7 +6,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -77,7 +76,6 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="2xp-4n-00x"/>
                                         <constraint firstItem="8na-4M-liJ" firstAttribute="leading" secondItem="69m-T6-ZS8" secondAttribute="leading" id="GXE-1U-Gq3"/>
@@ -122,7 +120,6 @@
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="T8u-lu-KI3" firstAttribute="top" secondItem="Ebv-tn-Y2H" secondAttribute="top" id="8T8-5W-4uR"/>
                                         <constraint firstItem="hjj-U6-CW6" firstAttribute="leading" secondItem="Ebv-tn-Y2H" secondAttribute="leading" id="DoC-EL-47A"/>
@@ -176,7 +173,6 @@
                                             <color key="tintColor" name="colorMain"/>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="2D5-2b-WhK" firstAttribute="leading" secondItem="Hle-8h-qIX" secondAttribute="leading" id="1cR-Wv-0vG"/>
                                         <constraint firstItem="hdJ-Oh-Zqn" firstAttribute="centerY" secondItem="IDa-JC-KDo" secondAttribute="centerY" id="6Iu-q3-E8R"/>
@@ -232,7 +228,6 @@
                                             <color key="tintColor" name="colorMain"/>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="Gyv-qo-5sK" firstAttribute="top" secondItem="0NQ-X6-Y11" secondAttribute="bottom" id="JFX-fy-UCP"/>
                                         <constraint firstItem="Gyv-qo-5sK" firstAttribute="leading" secondItem="jxC-YW-Ifb" secondAttribute="leading" id="NeD-FV-GI5"/>
@@ -274,13 +269,11 @@
                                         </label>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hola, soy artista, fotografa. Me encanta sacar fotos de paisajes, esculturas, y lugares hermosos. " translatesAutoresizingMaskIntoConstraints="NO" id="I8B-Go-AVp">
                                             <rect key="frame" x="0.0" y="14.666666666666679" width="346" height="105.33333333333331"/>
-                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <color key="textColor" name="colorFontGray2"/>
                                             <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="I8B-Go-AVp" secondAttribute="bottom" id="2ae-al-m0G"/>
                                         <constraint firstItem="I8B-Go-AVp" firstAttribute="leading" secondItem="dpy-9o-Iuc" secondAttribute="leading" id="BUV-wT-k9X"/>
@@ -343,7 +336,6 @@
                                             <color key="tintColor" name="colorMain"/>
                                         </imageView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="PFQ-3q-axp" firstAttribute="top" secondItem="cJ3-ZW-Q0a" secondAttribute="bottom" id="1EN-2Q-aJM"/>
                                         <constraint firstItem="cJ3-ZW-Q0a" firstAttribute="leading" secondItem="Q0I-Eh-cUl" secondAttribute="leading" id="1Eb-G4-Qw5"/>
@@ -399,8 +391,5 @@
         <namedColor name="colorWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

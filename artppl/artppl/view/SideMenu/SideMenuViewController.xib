@@ -109,6 +109,9 @@
                             <state key="normal" title="Mis favoritos" image="iconFavourites">
                                 <color key="titleColor" name="colorWhite"/>
                             </state>
+                            <connections>
+                                <action selector="btnFavourites:" destination="-1" eventType="touchUpInside" id="u8F-BW-Hyd"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>

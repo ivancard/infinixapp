@@ -143,8 +143,6 @@
 		FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */; };
 		FCE3A82728F7453B00E412B5 /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */; };
 		FCE3A82828F7453B00E412B5 /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */; };
-		FCE4CF572902E578007BC698 /* TestFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE4CF552902E578007BC698 /* TestFieldsViewController.swift */; };
-		FCE4CF582902E578007BC698 /* TestFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE4CF562902E578007BC698 /* TestFieldsViewController.xib */; };
 		FCE929532901A8870034DEB8 /* CustomFilterOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */; };
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
@@ -304,8 +302,6 @@
 		FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOwnCocreationViewController.xib; sourceTree = "<group>"; };
 		FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
 		FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
-		FCE4CF552902E578007BC698 /* TestFieldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFieldsViewController.swift; sourceTree = "<group>"; };
-		FCE4CF562902E578007BC698 /* TestFieldsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestFieldsViewController.xib; sourceTree = "<group>"; };
 		FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilterOutlineButton.swift; sourceTree = "<group>"; };
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
@@ -684,7 +680,6 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FCE4CF542902E55D007BC698 /* testField */,
 				FC226AD928DE137A00621699 /* AddNew */,
 				FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */,
 				FC12B83E28E6181400BF91D1 /* artisticWork */,
@@ -1008,15 +1003,6 @@
 			path = ActivitiesTableCells;
 			sourceTree = "<group>";
 		};
-		FCE4CF542902E55D007BC698 /* testField */ = {
-			isa = PBXGroup;
-			children = (
-				FCE4CF552902E578007BC698 /* TestFieldsViewController.swift */,
-				FCE4CF562902E578007BC698 /* TestFieldsViewController.xib */,
-			);
-			path = testField;
-			sourceTree = "<group>";
-		};
 		FCE9294F2901A6510034DEB8 /* SearchFilters */ = {
 			isa = PBXGroup;
 			children = (
@@ -1187,7 +1173,6 @@
 				FC44239D28D89FC900803C9A /* PersonalTastesViewController.xib in Resources */,
 				FCCE633C290068660068F685 /* SuccessViewController.xib in Resources */,
 				FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */,
-				FCE4CF582902E578007BC698 /* TestFieldsViewController.xib in Resources */,
 				FCE3A82828F7453B00E412B5 /* ActivitiesTableViewCell.xib in Resources */,
 				FCC03FC628E37BB60016CF57 /* SideMenuViewController.xib in Resources */,
 				FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */,
@@ -1296,7 +1281,6 @@
 				FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */,
 				FC7290AC28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
-				FCE4CF572902E578007BC698 /* TestFieldsViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
 				FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */,

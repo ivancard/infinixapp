@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -119,6 +119,7 @@
                         </subviews>
                     </stackView>
                 </subviews>
+                <color key="backgroundColor" name="colorWhite"/>
                 <constraints>
                     <constraint firstItem="IEU-Y6-upU" firstAttribute="centerY" secondItem="EZ5-pd-kkM" secondAttribute="centerY" id="3uO-c5-e5h"/>
                     <constraint firstAttribute="trailing" secondItem="LsB-eJ-uS0" secondAttribute="trailing" id="7gm-Yp-dZh"/>

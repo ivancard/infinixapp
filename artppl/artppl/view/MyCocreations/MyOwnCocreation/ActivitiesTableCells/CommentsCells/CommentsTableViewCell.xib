@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -70,6 +70,7 @@
                         </state>
                     </button>
                 </subviews>
+                <color key="backgroundColor" name="colorWhite"/>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="8hW-dO-WTO" secondAttribute="bottom" id="3m7-mW-BuE"/>
                     <constraint firstItem="0A4-M3-jqu" firstAttribute="leading" secondItem="NMX-ir-gay" secondAttribute="trailing" constant="7" id="ArO-Qr-q1c"/>
@@ -99,6 +100,9 @@
         <image name="imgCommentUser" width="23" height="23"/>
         <namedColor name="colorMain">
             <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

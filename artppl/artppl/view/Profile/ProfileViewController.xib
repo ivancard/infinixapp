@@ -6,7 +6,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -71,7 +70,6 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="TBN-TN-Zqd" firstAttribute="centerY" secondItem="IBc-DX-5ME" secondAttribute="centerY" id="AJ7-Z2-Znv"/>
                                         <constraint firstItem="cf0-H5-gGe" firstAttribute="leading" secondItem="TBN-TN-Zqd" secondAttribute="trailing" constant="20" id="HIE-Or-PpO"/>
@@ -92,7 +90,6 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="kFm-2t-mz4" firstAttribute="top" secondItem="Fnl-KN-mt3" secondAttribute="top" id="7K1-EJ-bIA"/>
                                         <constraint firstItem="kFm-2t-mz4" firstAttribute="leading" secondItem="Fnl-KN-mt3" secondAttribute="leading" constant="22" id="C2l-td-MsZ"/>
@@ -130,7 +127,6 @@
                                             </connections>
                                         </button>
                                     </subviews>
-                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstItem="dEi-cP-2iF" firstAttribute="leading" secondItem="aV6-S0-RB1" secondAttribute="leading" constant="22" id="PBN-Vd-uuF"/>
                                         <constraint firstAttribute="height" constant="48" id="PIv-mc-UvG"/>
@@ -164,7 +160,6 @@
                                             </connections>
                                         </button>
                                     </subviews>
-                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="msL-ez-zYo"/>
                                     </constraints>
@@ -212,6 +207,7 @@
                                                             <subviews>
                                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="vhz-l0-4nY">
                                                                     <rect key="frame" x="22" y="10" width="346" height="489"/>
+                                                                    <color key="backgroundColor" name="colorWhite"/>
                                                                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="NGX-vF-cll">
                                                                         <size key="itemSize" width="128" height="128"/>
                                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -233,7 +229,7 @@
                                                             <subviews>
                                                                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rUW-Vh-gSa">
                                                                     <rect key="frame" x="22" y="10" width="346" height="489"/>
-                                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                                    <color key="backgroundColor" name="colorWhite"/>
                                                                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="KKa-ka-Gej">
                                                                         <size key="itemSize" width="128" height="128"/>
                                                                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -264,7 +260,6 @@
                                             </constraints>
                                         </scrollView>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstAttribute="trailing" secondItem="Oc9-Aw-gc5" secondAttribute="trailing" id="1iK-iM-zPn"/>
                                         <constraint firstItem="Oc9-Aw-gc5" firstAttribute="top" secondItem="ene-Vo-k9b" secondAttribute="top" id="5jw-bX-rfw"/>
@@ -314,8 +309,5 @@
         <namedColor name="colorWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

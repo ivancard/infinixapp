@@ -14,6 +14,9 @@ class SupportViewController: UIViewController {
     @IBOutlet weak var supportRequestView: UIView!
     
     override func viewDidLoad() {
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
         super.viewDidLoad()
     }
     

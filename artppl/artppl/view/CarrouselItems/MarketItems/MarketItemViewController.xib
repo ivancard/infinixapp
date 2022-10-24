@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -70,7 +69,6 @@
                                             <rect key="frame" x="145.66666666666666" y="361" width="98.666666666666657" height="26"/>
                                         </pageControl>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstItem="Ioq-oz-ilV" firstAttribute="leading" secondItem="wAz-a0-ftg" secondAttribute="leading" constant="12" id="HJi-mu-0IF"/>
                                         <constraint firstAttribute="bottom" secondItem="xCl-67-mFk" secondAttribute="bottom" constant="10" id="KKA-rO-h0r"/>
@@ -115,7 +113,6 @@
                                             </state>
                                         </button>
                                     </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="165" id="53f-Gj-g1l"/>
                                         <constraint firstAttribute="bottom" secondItem="oD6-qb-560" secondAttribute="bottom" constant="22" id="8UK-e9-d2U"/>
@@ -137,10 +134,11 @@
                                 </view>
                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Dcj-lI-Gqs">
                                     <rect key="frame" x="0.0" y="563" width="390" height="220"/>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="220" id="mKQ-91-UkO"/>
                                     </constraints>
+                                    <color key="sectionIndexBackgroundColor" name="colorWhite"/>
                                 </tableView>
                             </subviews>
                         </stackView>
@@ -156,7 +154,7 @@
                 </scrollView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" name="colorWhite"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="EdK-cV-kLv" secondAttribute="bottom" id="MEs-d0-gdJ"/>
                 <constraint firstItem="EdK-cV-kLv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="N7X-72-S3T"/>
@@ -177,8 +175,5 @@
         <namedColor name="colorWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

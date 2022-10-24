@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -80,7 +79,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                             <constraints>
                                 <constraint firstItem="FsQ-FN-Ktw" firstAttribute="top" secondItem="0rO-yN-yJI" secondAttribute="bottom" constant="2" id="3tS-jT-lzK"/>
                                 <constraint firstItem="PHQ-uE-XwK" firstAttribute="centerY" secondItem="0rO-yN-yJI" secondAttribute="centerY" id="8Xd-cu-9it"/>
@@ -121,7 +120,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="ANs-YG-g73" secondAttribute="trailing" id="35a-f1-FIs"/>
                                 <constraint firstAttribute="height" constant="70" id="5Ko-h7-jCf"/>
@@ -160,7 +159,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                             <constraints>
                                 <constraint firstItem="ZMx-qA-H5v" firstAttribute="leading" secondItem="TgL-Et-R3E" secondAttribute="leading" id="04a-hk-QSZ"/>
                                 <constraint firstItem="BtI-K4-a7A" firstAttribute="top" secondItem="TgL-Et-R3E" secondAttribute="top" id="5pM-0Q-i96"/>
@@ -199,7 +198,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                             <constraints>
                                 <constraint firstItem="XmQ-sn-e9y" firstAttribute="leading" secondItem="smi-Vb-Lbq" secondAttribute="leading" id="3VZ-MK-mP1"/>
                                 <constraint firstAttribute="trailing" secondItem="60Q-8b-82Q" secondAttribute="trailing" id="LEi-YC-Baa"/>
@@ -238,7 +237,7 @@
                                     </constraints>
                                 </view>
                             </subviews>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="J2y-9D-vKk" secondAttribute="trailing" id="8Vd-yj-wBS"/>
                                 <constraint firstItem="zTN-Jw-cu4" firstAttribute="leading" secondItem="Pbs-3d-qTX" secondAttribute="leading" id="D1H-DT-Rrx"/>
@@ -267,13 +266,13 @@
                         </button>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UWF-hK-IM9">
                             <rect key="frame" x="0.0" y="390" width="346" height="187"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <color key="backgroundColor" name="colorWhite"/>
                         </view>
                     </subviews>
                 </stackView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <color key="backgroundColor" name="colorWhite"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0Kb-aR-0fb" secondAttribute="trailing" constant="22" id="3Wq-83-WLI"/>
                 <constraint firstItem="0Kb-aR-0fb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="6JJ-q7-jOM"/>
@@ -299,8 +298,5 @@
         <namedColor name="colorWhite">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
