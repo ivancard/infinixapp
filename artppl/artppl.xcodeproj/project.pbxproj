@@ -81,8 +81,11 @@
 		FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonGradient.swift; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		FC12B83F28E6183200BF91D1 /* ArtisticWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisticWorkViewController.swift; sourceTree = "<group>"; };
 		FC12B84028E6183200BF91D1 /* ArtisticWorkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtisticWorkViewController.xib; sourceTree = "<group>"; };
+=======
+>>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
 		FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC226ADA28DE139800621699 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
@@ -551,7 +554,10 @@
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
 				FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */,
+=======
+>>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
@@ -617,7 +623,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
+<<<<<<< HEAD
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
+=======
+>>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,

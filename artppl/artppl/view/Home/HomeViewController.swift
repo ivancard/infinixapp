@@ -16,6 +16,14 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
     @IBOutlet weak var cocreationCollectionView: UICollectionView!
     @IBOutlet weak var artNearCollectionView: UICollectionView!
     
+<<<<<<< HEAD
+=======
+    let marketViewCellIdentifier = "MarketCollectionViewCell"
+    let artistViewCellIdentifier = "ArtistNearCollectionViewCell"
+    let cocreationCellIdentifier = "CoCreationCollectionViewCell"
+    let artNearCellIdentifier = "ArtNearCollectionViewCell"
+    
+>>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,7 +57,11 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         var cellItem = UICollectionViewCell()
         
         if collectionView == self.marketCollectionView {
+<<<<<<< HEAD
             cellItem = collectionView.dequeue(cellType: MarketCollectionViewCell.self, at: indexPath)
+=======
+            cellItem = collectionView.dequeueReusableCell(withReuseIdentifier: marketViewCellIdentifier, for: indexPath) as! MarketCollectionViewCell
+>>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
         }
         
         if collectionView == self.artistCollectionView {
