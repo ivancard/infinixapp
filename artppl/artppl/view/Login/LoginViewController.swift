@@ -27,7 +27,9 @@ final class LoginViewController: UIViewController,UITextFieldDelegate{
         textFieldEmail.delegate = self
         
         StyleFunctions.setGradientToAButton(button: loginButton)
-
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 }
 

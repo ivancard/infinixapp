@@ -36,46 +36,10 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jAz-j7-iO2">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="1565"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1550"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8eq-DF-Tsf" userLabel="HeaderView">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
-                                    <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoHorizontal" translatesAutoresizingMaskIntoConstraints="NO" id="DCy-30-4sO">
-                                            <rect key="frame" x="132.5" y="16" width="110" height="28"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="28" id="b2b-dK-7Rr"/>
-                                                <constraint firstAttribute="width" constant="110" id="nav-vA-Ho7"/>
-                                            </constraints>
-                                        </imageView>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifyingglass" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BW4-nE-vDO">
-                                            <rect key="frame" x="330.5" y="20.5" width="20.5" height="18.5"/>
-                                            <color key="tintColor" name="AccentColor"/>
-                                        </imageView>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line.horizontal.3" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FZc-Xx-zNC">
-                                            <rect key="frame" x="21" y="22.5" width="27" height="15.5"/>
-                                            <color key="tintColor" name="AccentColor"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="27" id="e3Q-A7-WUC"/>
-                                                <constraint firstAttribute="height" constant="25" id="hUx-Ci-5Fy"/>
-                                            </constraints>
-                                        </imageView>
-                                    </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <constraints>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="CS3-QC-QuF"/>
-                                        <constraint firstAttribute="trailing" secondItem="BW4-nE-vDO" secondAttribute="trailing" constant="24" id="GOg-8W-nI3"/>
-                                        <constraint firstItem="FZc-Xx-zNC" firstAttribute="leading" secondItem="8eq-DF-Tsf" secondAttribute="leading" constant="21" id="OWO-X2-CXx"/>
-                                        <constraint firstItem="FZc-Xx-zNC" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="Ycd-Kv-IiD"/>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="bdG-OE-d0i"/>
-                                        <constraint firstAttribute="height" constant="60" id="gmN-l0-J18"/>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerX" secondItem="8eq-DF-Tsf" secondAttribute="centerX" id="pWD-6O-Moj"/>
-                                        <constraint firstItem="BW4-nE-vDO" firstAttribute="centerY" secondItem="8eq-DF-Tsf" secondAttribute="centerY" id="vcb-HC-Qwp"/>
-                                        <constraint firstItem="DCy-30-4sO" firstAttribute="centerX" secondItem="8eq-DF-Tsf" secondAttribute="centerX" id="ze8-FL-ZZy"/>
-                                    </constraints>
-                                </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MpN-ZR-G6O" userLabel="UserView">
-                                    <rect key="frame" x="0.0" y="60" width="375" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgProfile" translatesAutoresizingMaskIntoConstraints="NO" id="xFs-Pm-aad">
                                             <rect key="frame" x="23" y="17" width="46" height="46"/>
@@ -97,7 +61,7 @@
                                     </constraints>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fbF-OI-fog" userLabel="Carrousels">
-                                    <rect key="frame" x="0.0" y="140" width="375" height="1425"/>
+                                    <rect key="frame" x="0.0" y="80" width="375" height="1470"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xiH-KK-Hrh" userLabel="titleMarket">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
@@ -127,10 +91,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fcH-eM-tzN" userLabel="carrouselMarket">
-                                            <rect key="frame" x="0.0" y="30" width="375" height="350"/>
+                                            <rect key="frame" x="0.0" y="30" width="375" height="400"/>
                                             <subviews>
                                                 <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="6fe-mQ-3qi">
-                                                    <rect key="frame" x="22" y="0.0" width="353" height="350"/>
+                                                    <rect key="frame" x="22" y="0.0" width="353" height="400"/>
                                                     <color key="backgroundColor" name="colorWhite"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ktI-rV-Y9n">
                                                         <size key="itemSize" width="128" height="128"/>
@@ -143,14 +107,14 @@
                                             <color key="backgroundColor" name="colorWhite"/>
                                             <constraints>
                                                 <constraint firstItem="6fe-mQ-3qi" firstAttribute="top" secondItem="fcH-eM-tzN" secondAttribute="top" id="DO7-Vb-8dK"/>
-                                                <constraint firstAttribute="height" constant="350" id="RHL-C0-Dgf"/>
+                                                <constraint firstAttribute="height" constant="400" id="RHL-C0-Dgf"/>
                                                 <constraint firstItem="6fe-mQ-3qi" firstAttribute="leading" secondItem="fcH-eM-tzN" secondAttribute="leading" constant="22" id="jw4-TJ-sw5"/>
                                                 <constraint firstAttribute="bottom" secondItem="6fe-mQ-3qi" secondAttribute="bottom" id="udR-3z-taP"/>
                                                 <constraint firstAttribute="trailing" secondItem="6fe-mQ-3qi" secondAttribute="trailing" id="xM0-UJ-Jml"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ao-JS-ej9" userLabel="titleArtistNear">
-                                            <rect key="frame" x="0.0" y="380" width="375" height="45"/>
+                                            <rect key="frame" x="0.0" y="430" width="375" height="45"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARTISTAS CERCA DE TI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkB-LV-P8q">
                                                     <rect key="frame" x="22" y="16.5" width="209.5" height="22"/>
@@ -177,10 +141,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VFh-37-K6b" userLabel="carrouselArtistNear">
-                                            <rect key="frame" x="0.0" y="425" width="375" height="200"/>
+                                            <rect key="frame" x="0.0" y="475" width="375" height="230"/>
                                             <subviews>
                                                 <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ImC-7y-Jzp">
-                                                    <rect key="frame" x="22" y="0.0" width="353" height="200"/>
+                                                    <rect key="frame" x="22" y="0.0" width="353" height="230"/>
                                                     <color key="backgroundColor" name="colorWhite"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Opu-2H-r5V">
                                                         <size key="itemSize" width="128" height="128"/>
@@ -194,13 +158,13 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="ImC-7y-Jzp" secondAttribute="trailing" id="7b1-Xh-9uE"/>
                                                 <constraint firstAttribute="bottom" secondItem="ImC-7y-Jzp" secondAttribute="bottom" id="T54-lQ-obC"/>
-                                                <constraint firstAttribute="height" constant="200" id="bR6-03-ttV"/>
+                                                <constraint firstAttribute="height" constant="230" id="bR6-03-ttV"/>
                                                 <constraint firstItem="ImC-7y-Jzp" firstAttribute="top" secondItem="VFh-37-K6b" secondAttribute="top" id="cXd-1I-ypM"/>
                                                 <constraint firstItem="ImC-7y-Jzp" firstAttribute="leading" secondItem="VFh-37-K6b" secondAttribute="leading" constant="22" id="jYl-94-TxI"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y0w-7v-w4H" userLabel="titleCoCreations">
-                                            <rect key="frame" x="0.0" y="625" width="375" height="40"/>
+                                            <rect key="frame" x="0.0" y="705" width="375" height="40"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CO-CREACION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCZ-9v-ccN">
                                                     <rect key="frame" x="22" y="19" width="134.5" height="22"/>
@@ -227,10 +191,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mW-t6-Q7C" userLabel="carrouselCoCreations">
-                                            <rect key="frame" x="0.0" y="665" width="375" height="500"/>
+                                            <rect key="frame" x="0.0" y="745" width="375" height="430"/>
                                             <subviews>
                                                 <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="wTk-N1-Glj">
-                                                    <rect key="frame" x="22" y="0.0" width="353" height="500"/>
+                                                    <rect key="frame" x="22" y="0.0" width="353" height="430"/>
                                                     <color key="backgroundColor" name="colorWhite"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="n2E-SK-vWU">
                                                         <size key="itemSize" width="128" height="128"/>
@@ -244,13 +208,13 @@
                                             <constraints>
                                                 <constraint firstItem="wTk-N1-Glj" firstAttribute="top" secondItem="7mW-t6-Q7C" secondAttribute="top" id="C4F-kF-qCQ"/>
                                                 <constraint firstAttribute="trailing" secondItem="wTk-N1-Glj" secondAttribute="trailing" id="HFH-K9-zf0"/>
-                                                <constraint firstAttribute="height" constant="500" id="ZlC-8p-J3m"/>
+                                                <constraint firstAttribute="height" constant="430" id="ZlC-8p-J3m"/>
                                                 <constraint firstAttribute="bottom" secondItem="wTk-N1-Glj" secondAttribute="bottom" id="u8Q-Tc-0Gt"/>
                                                 <constraint firstItem="wTk-N1-Glj" firstAttribute="leading" secondItem="7mW-t6-Q7C" secondAttribute="leading" constant="22" id="vQa-ec-k6Y"/>
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mN-AW-878" userLabel="titleArtNear">
-                                            <rect key="frame" x="0.0" y="1165" width="375" height="40"/>
+                                            <rect key="frame" x="0.0" y="1175" width="375" height="40"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARTE CERCA DE TÍ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOZ-R2-4qv">
                                                     <rect key="frame" x="22" y="19" width="170.5" height="22"/>
@@ -277,10 +241,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d31-xy-Hed" userLabel="carrouselCoCreations">
-                                            <rect key="frame" x="0.0" y="1205" width="375" height="220"/>
+                                            <rect key="frame" x="0.0" y="1215" width="375" height="255"/>
                                             <subviews>
                                                 <collectionView multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Z5Y-m2-qhF">
-                                                    <rect key="frame" x="22" y="0.0" width="353" height="220"/>
+                                                    <rect key="frame" x="22" y="0.0" width="353" height="255"/>
                                                     <color key="backgroundColor" name="colorWhite"/>
                                                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="D10-Po-Fpm">
                                                         <size key="itemSize" width="128" height="128"/>
@@ -294,7 +258,7 @@
                                             <constraints>
                                                 <constraint firstItem="Z5Y-m2-qhF" firstAttribute="top" secondItem="d31-xy-Hed" secondAttribute="top" id="0s5-Dt-2bL"/>
                                                 <constraint firstItem="Z5Y-m2-qhF" firstAttribute="leading" secondItem="d31-xy-Hed" secondAttribute="leading" constant="22" id="9uX-2t-aDo"/>
-                                                <constraint firstAttribute="height" constant="220" id="XSW-mm-GWU"/>
+                                                <constraint firstAttribute="height" constant="255" id="XSW-mm-GWU"/>
                                                 <constraint firstAttribute="bottom" secondItem="Z5Y-m2-qhF" secondAttribute="bottom" id="cpc-uP-Rmx"/>
                                                 <constraint firstAttribute="trailing" secondItem="Z5Y-m2-qhF" secondAttribute="trailing" id="pA3-QL-j3n"/>
                                             </constraints>
@@ -395,7 +359,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EIw-Fv-dd4" secondAttribute="trailing" id="fQ6-dv-i2k"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7sU-KK-gih" secondAttribute="trailing" id="kzD-TF-XtC"/>
             </constraints>
-            <point key="canvasLocation" x="-150" y="81"/>
+            <point key="canvasLocation" x="-151.19999999999999" y="80.50974512743629"/>
         </view>
     </objects>
     <resources>
@@ -403,9 +367,6 @@
         <image name="iconMarket" width="26" height="26"/>
         <image name="iconPorfolio" width="29" height="29"/>
         <image name="imgProfile" width="46" height="46"/>
-        <image name="line.horizontal.3" catalog="system" width="128" height="65"/>
-        <image name="logoHorizontal" width="220" height="56"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <namedColor name="AccentColor">
             <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

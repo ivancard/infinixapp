@@ -32,13 +32,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿QUÉ TE GUSTA?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3iw-nn-IBt">
-                    <rect key="frame" x="30" y="0.0" width="206" height="29.5"/>
+                    <rect key="frame" x="30" y="14" width="206" height="29.5"/>
                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="24"/>
                     <color key="textColor" name="colorWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona al menos 2 categorías para personalizar tu experiencia." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m2-em-GbP">
-                    <rect key="frame" x="30" y="37.5" width="249" height="29.5"/>
+                    <rect key="frame" x="30" y="51.5" width="249" height="29.5"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="249" id="frm-qo-Eu6"/>
                     </constraints>
@@ -46,141 +46,8 @@
                     <color key="textColor" name="colorWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="NAg-ma-LV4">
-                    <rect key="frame" x="30" y="132" width="87" height="371"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiW-By-bw6" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="87" id="W1I-hw-MSO"/>
-                                <constraint firstAttribute="height" constant="86" id="kHB-8B-GGB"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Pintura">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="AGU-IT-Sfv"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSc-ur-crf" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="86" id="mx4-pp-XQy"/>
-                                <constraint firstAttribute="width" constant="87" id="zmH-gy-ete"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Escritura">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="Kfv-Ns-qbe"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0Q-cw-PDF" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="86" id="MW1-ex-RAi"/>
-                                <constraint firstAttribute="width" constant="87" id="e7M-4d-mNW"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Dibujo">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="xCg-8Y-BXq"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOL-uh-ZG8" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="87" id="Inl-WY-nT4"/>
-                                <constraint firstAttribute="height" constant="86" id="Oel-7E-Cwf"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Escultura">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="Fin-6W-RgJ"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                </stackView>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Nc9-bu-ETM">
-                    <rect key="frame" x="258" y="132" width="87" height="371"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKU-Cm-JYY" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="86" id="DZJ-ju-X9W"/>
-                                <constraint firstAttribute="width" constant="87" id="dcz-by-b3R"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Música">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="tvC-IR-yR4"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIA-ZI-HxK" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="87" id="GBS-WG-3yB"/>
-                                <constraint firstAttribute="height" constant="86" id="QNz-8x-Uk7"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Cine">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="Dvf-9a-JWa"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ekl-TO-8O6" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="87" id="1BI-Dp-ZnI"/>
-                                <constraint firstAttribute="height" constant="86" id="Dlv-pA-igB"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Diseño">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="t0Q-WB-cew"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MgE-0d-1Im" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="86" id="6sq-Q8-sQ7"/>
-                                <constraint firstAttribute="width" constant="87" id="eMP-Ba-MR5"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Crafty">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="lGs-kk-Grq"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLY-Vh-sqF">
-                    <rect key="frame" x="87.5" y="630" width="200" height="27"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="200" id="hzv-iW-RAi"/>
-                    </constraints>
+                    <rect key="frame" x="97.5" y="630" width="180" height="27"/>
                     <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <state key="normal" title="¿No encuentras tu categoria?"/>
@@ -188,91 +55,11 @@
                         <action selector="actionNewCategory" destination="-1" eventType="touchUpInside" id="5pi-ko-Okd"/>
                     </connections>
                 </button>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="V7z-KF-IMc">
-                    <rect key="frame" x="144" y="87" width="87" height="466"/>
-                    <subviews>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOl-RE-nQh" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="86" id="Mpk-Qn-P8S"/>
-                                <constraint firstAttribute="width" constant="87" id="pdr-zc-FCg"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Teatro">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="9CX-Hj-6yN"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZT-Vp-ALU" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="95" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="87" id="RjV-Dy-5nP"/>
-                                <constraint firstAttribute="height" constant="86" id="vdn-fo-iGj"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Danza">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="nAx-50-FKa"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D5o-XA-mCJ" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="190" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="86" id="AlC-TP-XQd"/>
-                                <constraint firstAttribute="width" constant="87" id="crF-I8-v9m"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Tattoo">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="9fI-b3-7b4"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0B-bw-UQp" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="285" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="87" id="8HS-S9-DgU"/>
-                                <constraint firstAttribute="height" constant="86" id="FUl-28-EEo"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="MakeUp">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="6wz-CV-KZB"/>
-                            </connections>
-                        </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nh-gf-DtB" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="380" width="87" height="86"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="86" id="38h-FX-QpB"/>
-                                <constraint firstAttribute="width" constant="87" id="Ma9-CM-chp"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
-                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                            <state key="normal" title="Fotografía">
-                                <color key="titleColor" name="colorWhite"/>
-                            </state>
-                            <connections>
-                                <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="YrT-0l-dXS"/>
-                            </connections>
-                        </button>
-                    </subviews>
-                </stackView>
                 <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khL-aP-1XY" customClass="CustomButtonGradient" customModule="artppl" customModuleProvider="target">
-                    <rect key="frame" x="16" y="581" width="343" height="39"/>
+                    <rect key="frame" x="16" y="571" width="343" height="39"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="343" id="ANe-oG-0Dg"/>
-                        <constraint firstAttribute="height" constant="39" id="pyu-I4-4WR"/>
+                        <constraint firstAttribute="height" constant="39" id="Kix-J2-YHy"/>
+                        <constraint firstAttribute="width" constant="343" id="w5b-Xa-Qhe"/>
                     </constraints>
                     <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="12"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -283,24 +70,264 @@
                         <action selector="actionBtnComenzar:" destination="-1" eventType="touchUpInside" id="nLK-RZ-2Zg"/>
                     </connections>
                 </button>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TS9-zu-cN0">
+                    <rect key="frame" x="24" y="111" width="327" height="440"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="IsJ-ps-n5R">
+                            <rect key="frame" x="1" y="1" width="327" height="540"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1a-2w-FXs">
+                                    <rect key="frame" x="0.0" y="0.0" width="327" height="540"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Kxc-kg-Aa8">
+                                            <rect key="frame" x="10.5" y="60" width="86" height="371"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0Z-rh-2MZ" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="86" id="nCc-Zh-Fih"/>
+                                                        <constraint firstAttribute="height" constant="86" id="nrs-qJ-5rP"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Pintura">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="7jN-Q3-plU"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4y-WC-tPl" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="95" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="86" id="P7L-bz-OZL"/>
+                                                        <constraint firstAttribute="height" constant="86" id="aS9-gZ-Mei"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Escritura">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="sea-av-rLO"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZB-lM-YNf" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="190" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="86" id="IIu-PN-C7x"/>
+                                                        <constraint firstAttribute="width" constant="86" id="eFm-kM-WFS"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Dibujo">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="HpR-MP-QS3"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbN-hM-BZd" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="285" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="86" id="OoN-TI-XtY"/>
+                                                        <constraint firstAttribute="width" constant="86" id="jg1-QY-VIs"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Escultura">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="riK-pc-OTS"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="ldV-uW-sa8">
+                                            <rect key="frame" x="230.5" y="60" width="86" height="371"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Q5-BW-gE4" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="86" id="bkB-2f-V3x"/>
+                                                        <constraint firstAttribute="width" constant="86" id="nUS-Yi-X53"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Música">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="UUh-Y3-vej"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sf-CE-7zr" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="95" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="86" id="HRQ-VQ-FdG"/>
+                                                        <constraint firstAttribute="width" constant="86" id="cBl-F4-Z8O"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Cine">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="ByH-Y2-PWW"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7w-Bw-BzK" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="190" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="86" id="LfC-eX-hxu"/>
+                                                        <constraint firstAttribute="height" constant="86" id="lgH-NL-lwJ"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Diseño">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="XKP-Fo-adu"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1J-qH-asu" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="285" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="86" id="N0j-ch-RaI"/>
+                                                        <constraint firstAttribute="height" constant="86" id="grf-LX-vsf"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Crafty">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="xaP-0E-2Do"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Esr-Oc-Su4">
+                                            <rect key="frame" x="120.5" y="30" width="86" height="466"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gm-e5-XcY" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="86" id="Ka9-Uo-yZ0"/>
+                                                        <constraint firstAttribute="height" constant="86" id="h72-rP-rUc"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Teatro">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="Bau-ez-Syu"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74m-h6-KTD" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="95" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="86" id="DER-gI-KS1"/>
+                                                        <constraint firstAttribute="height" constant="86" id="W8e-Ik-OaO"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Danza">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="V1g-UE-zpN"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZg-Pi-eYz" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="190" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="86" id="cH6-5K-fe7"/>
+                                                        <constraint firstAttribute="width" constant="86" id="oaD-fO-u8y"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Tattoo">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="PaF-NW-hQh"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWK-a9-s7J" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="285" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="86" id="YOQ-bE-Fhp"/>
+                                                        <constraint firstAttribute="height" constant="86" id="jj3-K0-7hU"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="MakeUp">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="Uu6-RS-yux"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajn-oJ-UkX" customClass="GradientAnimationButton" customModule="artppl" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="380" width="86" height="86"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="86" id="JXt-WC-MVN"/>
+                                                        <constraint firstAttribute="width" constant="86" id="pgK-T2-j4K"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="Montserrat-Black" family="Montserrat" pointSize="12"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="Fotografía">
+                                                        <color key="titleColor" name="colorWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="actionBtn:" destination="-1" eventType="touchUpInside" id="UO3-GW-QQc"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Esr-Oc-Su4" firstAttribute="top" secondItem="B1a-2w-FXs" secondAttribute="top" constant="30" id="QV2-JK-rwc"/>
+                                        <constraint firstItem="ldV-uW-sa8" firstAttribute="top" secondItem="B1a-2w-FXs" secondAttribute="top" constant="60" id="Reg-LM-W8B"/>
+                                        <constraint firstItem="ldV-uW-sa8" firstAttribute="leading" secondItem="Esr-Oc-Su4" secondAttribute="trailing" constant="24" id="XxA-Sn-ZYc"/>
+                                        <constraint firstAttribute="height" constant="540" id="dmD-5Z-o7U"/>
+                                        <constraint firstItem="Kxc-kg-Aa8" firstAttribute="top" secondItem="B1a-2w-FXs" secondAttribute="top" constant="60" id="eHf-zF-Tch"/>
+                                        <constraint firstItem="Esr-Oc-Su4" firstAttribute="centerX" secondItem="B1a-2w-FXs" secondAttribute="centerX" id="rqp-7z-ATl"/>
+                                        <constraint firstItem="Esr-Oc-Su4" firstAttribute="leading" secondItem="Kxc-kg-Aa8" secondAttribute="trailing" constant="24" id="syW-Z0-UYm"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="IsJ-ps-n5R" firstAttribute="top" secondItem="TS9-zu-cN0" secondAttribute="top" constant="1" id="Ilt-Hq-XZ9"/>
+                        <constraint firstItem="IsJ-ps-n5R" firstAttribute="height" secondItem="TS9-zu-cN0" secondAttribute="height" priority="250" id="MDL-s9-s8Q"/>
+                        <constraint firstItem="IsJ-ps-n5R" firstAttribute="width" secondItem="TS9-zu-cN0" secondAttribute="width" id="Yh0-bO-eMw"/>
+                        <constraint firstAttribute="bottom" secondItem="IsJ-ps-n5R" secondAttribute="bottom" constant="1" id="fiD-9l-qHw"/>
+                        <constraint firstItem="IsJ-ps-n5R" firstAttribute="leading" secondItem="TS9-zu-cN0" secondAttribute="leading" constant="1" id="hvz-dB-RI9"/>
+                        <constraint firstAttribute="trailing" secondItem="IsJ-ps-n5R" secondAttribute="trailing" constant="1" id="lM4-AZ-HVS"/>
+                    </constraints>
+                </scrollView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="colorMain"/>
             <constraints>
-                <constraint firstItem="NAg-ma-LV4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" identifier="stackLeftMargin" id="56U-kT-gz4"/>
-                <constraint firstItem="MLY-Vh-sqF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9hh-Dp-842"/>
-                <constraint firstItem="khL-aP-1XY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="NTC-2D-IAA"/>
-                <constraint firstItem="V7z-KF-IMc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RvN-D9-ZQs"/>
-                <constraint firstItem="NAg-ma-LV4" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="65" id="WRc-X2-NbQ"/>
-                <constraint firstItem="MLY-Vh-sqF" firstAttribute="top" secondItem="khL-aP-1XY" secondAttribute="bottom" constant="10" id="WkA-5m-zPy"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MLY-Vh-sqF" secondAttribute="bottom" constant="10" id="YVG-bb-gY4"/>
+                <constraint firstItem="MLY-Vh-sqF" firstAttribute="top" secondItem="khL-aP-1XY" secondAttribute="bottom" constant="20" id="00o-1D-nXD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="TS9-zu-cN0" secondAttribute="trailing" constant="24" id="19x-ng-xhA"/>
+                <constraint firstItem="khL-aP-1XY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2fl-hL-bJS"/>
+                <constraint firstItem="TS9-zu-cN0" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="30" id="aBf-NF-UJz"/>
                 <constraint firstItem="3iw-nn-IBt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="abx-ex-cjh"/>
                 <constraint firstItem="2m2-em-GbP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="30" id="aqP-qL-7HU"/>
-                <constraint firstItem="Nc9-bu-ETM" firstAttribute="top" secondItem="NAg-ma-LV4" secondAttribute="top" id="hxk-Dk-fyc"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Nc9-bu-ETM" secondAttribute="trailing" constant="30" id="ieF-et-UtW"/>
-                <constraint firstItem="3iw-nn-IBt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kIr-zt-arj"/>
-                <constraint firstItem="V7z-KF-IMc" firstAttribute="top" secondItem="2m2-em-GbP" secondAttribute="bottom" constant="20" id="rCu-Qv-eaD"/>
+                <constraint firstItem="TS9-zu-cN0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="b2e-Qf-kP7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MLY-Vh-sqF" secondAttribute="bottom" constant="10" id="dTN-tY-N5l"/>
+                <constraint firstItem="MLY-Vh-sqF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hSJ-9g-2SQ"/>
+                <constraint firstItem="3iw-nn-IBt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="14" id="kIr-zt-arj"/>
                 <constraint firstItem="2m2-em-GbP" firstAttribute="top" secondItem="3iw-nn-IBt" secondAttribute="bottom" constant="8" id="tlW-US-340"/>
+                <constraint firstItem="khL-aP-1XY" firstAttribute="top" secondItem="TS9-zu-cN0" secondAttribute="bottom" constant="20" id="xMj-th-zNk"/>
             </constraints>
             <point key="canvasLocation" x="136.80000000000001" y="109.29535232383809"/>
         </view>

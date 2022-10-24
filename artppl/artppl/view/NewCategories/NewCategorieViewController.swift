@@ -9,7 +9,6 @@ import UIKit
 
 final class NewCategorieViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var frameTextView: UIView!
     @IBOutlet weak var newCategoryTxtField: UITextField!
     
     override func viewDidLoad() {
@@ -23,8 +22,9 @@ final class NewCategorieViewController: UIViewController, UITextFieldDelegate {
         self.newCategoryTxtField.delegate = self
         
         self.navigationController?.setNavigationBarHidden(false, animated: true)
-        
-        frameTextView.layer.borderColor = UIColor(named: "colorFrameGray")?.cgColor
+    }
+    @IBAction func actionClose(_ sender: Any) {
+        dismiss(animated: true)
     }
 }
 extension NewCategorieViewController{

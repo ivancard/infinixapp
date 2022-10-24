@@ -21,7 +21,7 @@ final class WelcomeSliderViewController: UIViewController, UIScrollViewDelegate 
             }
             pageControl.currentPage = page ?? 0
             
-            //Al llegar a la pagina 3 espera 2 segundos y direcciona a la vista de registro
+            //Al llegar a la pagina 3 espera 1 segundos y direcciona a la vista de registro
             if(page == lastPage){
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                 self.navigationController?.pushViewController(LoginViewController(), animated: true)
@@ -34,6 +34,9 @@ final class WelcomeSliderViewController: UIViewController, UIScrollViewDelegate 
         super.viewDidLoad()
         scrollView.delegate = self
         self.navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {

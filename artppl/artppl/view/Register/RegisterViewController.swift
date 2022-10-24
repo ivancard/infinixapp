@@ -10,7 +10,7 @@ import UIKit
 final class RegisterViewController: UIViewController, UITextFieldDelegate {
 
     
-    @IBOutlet weak var itsAButton: UIButton!
+    @IBOutlet weak var btnStart: UIButton!
     
     //TextFields
     @IBOutlet weak var textFieldFullName: UITextField!
@@ -20,16 +20,17 @@ final class RegisterViewController: UIViewController, UITextFieldDelegate {
         
         self.textFieldFullName.delegate = self
         
-        StyleFunctions.setGradientToAButton(button: itsAButton)
+        
+        StyleFunctions.setGradientToAButton(button: btnStart)
     }
-    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        self.navigationController?.navigationBar.tintColor = .white
+    }
     @IBAction func actionBtnComenzar(_ sender: Any) {
-        self.navigationController?.pushViewController(PersonalTastesViewController(), animated: true)
+        self.navigationController?.pushViewController(ProfileSelectorViewController(), animated: true)
     }
-}
-
-//Remueve el teclado en pantalla
-extension RegisterViewController{
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return textFieldFullName.resignFirstResponder()
@@ -38,3 +39,4 @@ extension RegisterViewController{
         self.view.endEditing(true)
     }
 }
+

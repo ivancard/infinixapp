@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,7 +20,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewCategorieViewController" customModule="artppl" customModuleProvider="target">
             <connections>
-                <outlet property="frameTextView" destination="G8s-oM-3Q7" id="Tyx-1i-zmO"/>
                 <outlet property="newCategoryTxtField" destination="4Z3-8C-121" id="dvN-6v-EjH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -30,13 +30,13 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nuevas categorías" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkZ-MM-tZr">
-                    <rect key="frame" x="16" y="30" width="165" height="22"/>
+                    <rect key="frame" x="22" y="30" width="165" height="22"/>
                     <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
                     <color key="textColor" name="colorMain"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Para poder personalizar más la experiencia te pedimos que nos detalles la o las categorias que sugieres agreguemos." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2b-Wg-V3Z">
-                    <rect key="frame" x="16" y="102" width="311" height="44"/>
+                    <rect key="frame" x="22" y="102" width="311" height="44"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="311" id="BJL-zh-T8s"/>
                     </constraints>
@@ -44,35 +44,6 @@
                     <color key="textColor" name="colorFontGray"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G8s-oM-3Q7" userLabel="Frame text View">
-                    <rect key="frame" x="22.5" y="176" width="330" height="228"/>
-                    <subviews>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" placeholder="Agrega aqui las categorías." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Z3-8C-121">
-                            <rect key="frame" x="10" y="10" width="310" height="208"/>
-                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
-                    </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="bottom" secondItem="4Z3-8C-121" secondAttribute="bottom" constant="10" id="8va-76-Pev"/>
-                        <constraint firstAttribute="width" constant="330" id="Jf7-t9-CIe"/>
-                        <constraint firstItem="4Z3-8C-121" firstAttribute="top" secondItem="G8s-oM-3Q7" secondAttribute="top" constant="10" id="ZBz-Ie-fxN"/>
-                        <constraint firstItem="4Z3-8C-121" firstAttribute="leading" secondItem="G8s-oM-3Q7" secondAttribute="leading" constant="10" id="bIC-ou-lCk"/>
-                        <constraint firstAttribute="height" constant="228" id="sf3-HA-m4F"/>
-                        <constraint firstAttribute="trailing" secondItem="4Z3-8C-121" secondAttribute="trailing" constant="10" id="v69-GT-zQE"/>
-                    </constraints>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="8"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                            <integer key="value" value="2"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
-                </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lq8-3y-ewO">
                     <rect key="frame" x="21.5" y="587" width="332" height="40"/>
                     <color key="backgroundColor" name="colorMain"/>
@@ -92,23 +63,48 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </button>
+                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cq-ge-ekO">
+                    <rect key="frame" x="341" y="32" width="18" height="18"/>
+                    <color key="tintColor" name="colorMain"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal">
+                        <color key="titleColor" name="colorMain"/>
+                        <imageReference key="image" image="xmark" catalog="system" symbolScale="default"/>
+                    </state>
+                    <connections>
+                        <action selector="actionClose:" destination="-1" eventType="touchUpInside" id="P1J-IS-s8Z"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" borderStyle="roundedRect" placeholder="Agrega aqui las categorías." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Z3-8C-121">
+                    <rect key="frame" x="22" y="168" width="331" height="228"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="228" id="Htf-ts-U6D"/>
+                    </constraints>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="colorWhite"/>
             <constraints>
-                <constraint firstItem="G8s-oM-3Q7" firstAttribute="top" secondItem="n2b-Wg-V3Z" secondAttribute="bottom" constant="30" id="5rF-5R-dOP"/>
-                <constraint firstItem="gkZ-MM-tZr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="7Z7-DH-vFD"/>
-                <constraint firstItem="G8s-oM-3Q7" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="dQX-u6-r7Q"/>
+                <constraint firstItem="gkZ-MM-tZr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="7Z7-DH-vFD"/>
+                <constraint firstItem="6cq-ge-ekO" firstAttribute="centerY" secondItem="gkZ-MM-tZr" secondAttribute="centerY" id="EBB-NV-OuR"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4Z3-8C-121" secondAttribute="trailing" constant="22" id="EjM-ir-fEs"/>
+                <constraint firstItem="4Z3-8C-121" firstAttribute="top" secondItem="n2b-Wg-V3Z" secondAttribute="bottom" constant="22" id="SYg-12-Kak"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6cq-ge-ekO" secondAttribute="trailing" constant="16" id="b2G-Oc-YCZ"/>
+                <constraint firstItem="4Z3-8C-121" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="cbY-Cy-IiL"/>
                 <constraint firstItem="Lq8-3y-ewO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fyH-V2-Id9"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Lq8-3y-ewO" secondAttribute="bottom" constant="40" id="nsb-Yj-fpO"/>
                 <constraint firstItem="gkZ-MM-tZr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="oMr-FN-Dza"/>
-                <constraint firstItem="n2b-Wg-V3Z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="pQU-O8-J2B"/>
+                <constraint firstItem="n2b-Wg-V3Z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="22" id="pQU-O8-J2B"/>
                 <constraint firstItem="n2b-Wg-V3Z" firstAttribute="top" secondItem="gkZ-MM-tZr" secondAttribute="bottom" constant="50" id="sAE-5G-dWb"/>
             </constraints>
             <point key="canvasLocation" x="45.600000000000001" y="95.802098950524751"/>
         </view>
     </objects>
     <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="colorFontGray">
             <color red="0.30980392156862746" green="0.30588235294117649" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
