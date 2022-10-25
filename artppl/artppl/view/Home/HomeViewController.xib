@@ -21,9 +21,15 @@
             <connections>
                 <outlet property="artNearCollectionView" destination="Z5Y-m2-qhF" id="8ki-8X-OEA"/>
                 <outlet property="artistCollectionView" destination="ImC-7y-Jzp" id="sKp-7W-Z98"/>
+                <outlet property="btnCocreation" destination="sgf-Kf-Ett" id="NIg-Jx-XRE"/>
+                <outlet property="btnMarket" destination="f2L-gC-cvQ" id="AQB-5i-EGr"/>
+                <outlet property="btnPortfolio" destination="RDa-Ts-EYB" id="e9n-KT-Sbz"/>
                 <outlet property="cocreationCollectionView" destination="wTk-N1-Glj" id="nge-Z5-Ipu"/>
                 <outlet property="marketCollectionView" destination="6fe-mQ-3qi" id="vjZ-Nb-hsG"/>
                 <outlet property="popUpView" destination="EIw-Fv-dd4" id="73h-rL-zM5"/>
+                <outlet property="titleCocreation" destination="mDG-5W-iRf" id="rOR-Ln-pEq"/>
+                <outlet property="titleMarket" destination="sAD-px-htF" id="ldZ-OM-NEH"/>
+                <outlet property="titlePortfolio" destination="rYa-Hl-vVu" id="iy4-Wg-ceN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -301,7 +307,7 @@
                             <color key="textColor" name="colorMain"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDa-Ts-EYB" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
+                        <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDa-Ts-EYB" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
                             <rect key="frame" x="162.5" y="85" width="50" height="50"/>
                             <color key="backgroundColor" name="colorWhite"/>
                             <constraints>

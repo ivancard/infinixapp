@@ -15,4 +15,5 @@ class CustomPopUpButton: UIButton {
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor(named: "colorMain")?.cgColor
     }
+
 }
