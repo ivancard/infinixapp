@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -112,16 +113,61 @@
                                                 <color key="titleColor" name="colorWhite"/>
                                             </state>
                                         </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNu-qc-8l7">
+                                            <rect key="frame" x="352" y="23.666666666666686" width="26" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="26" id="EDv-YE-B8e"/>
+                                                <constraint firstAttribute="height" constant="26" id="rUY-T3-DIW"/>
+                                            </constraints>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" image="iconShare"/>
+                                            <connections>
+                                                <action selector="btnShare:" destination="-1" eventType="touchUpInside" id="hnt-hH-P3y"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePa-l4-ziy">
+                                            <rect key="frame" x="302" y="24.333333333333314" width="28" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="28" id="y0o-Qt-7Io"/>
+                                                <constraint firstAttribute="height" constant="25" id="zsN-ha-j01"/>
+                                            </constraints>
+                                            <color key="tintColor" name="colorMain"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal">
+                                                <imageReference key="image" image="heart" catalog="system" symbolScale="large"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btnFavourite:" destination="-1" eventType="touchUpInside" id="Hgw-ip-9iz"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thp-Im-sBk">
+                                            <rect key="frame" x="255" y="24.333333333333314" width="25" height="25"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="25" id="ZhF-4n-CZf"/>
+                                                <constraint firstAttribute="height" constant="25" id="oqr-QD-e64"/>
+                                            </constraints>
+                                            <color key="tintColor" name="colorMain"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal">
+                                                <imageReference key="image" image="flag" catalog="system" symbolScale="large"/>
+                                            </state>
+                                        </button>
                                     </subviews>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="165" id="53f-Gj-g1l"/>
                                         <constraint firstAttribute="bottom" secondItem="oD6-qb-560" secondAttribute="bottom" constant="22" id="8UK-e9-d2U"/>
                                         <constraint firstItem="oD6-qb-560" firstAttribute="leading" secondItem="mQn-n6-g5i" secondAttribute="leading" constant="22" id="CZy-nk-bp0"/>
+                                        <constraint firstItem="Thp-Im-sBk" firstAttribute="centerY" secondItem="VAN-DC-OEy" secondAttribute="centerY" id="DmK-og-uyH"/>
+                                        <constraint firstAttribute="trailing" secondItem="fNu-qc-8l7" secondAttribute="trailing" constant="12" id="Qey-qb-ECI"/>
+                                        <constraint firstItem="ePa-l4-ziy" firstAttribute="leading" secondItem="Thp-Im-sBk" secondAttribute="trailing" constant="22" id="RQP-lG-LEt"/>
                                         <constraint firstItem="VAN-DC-OEy" firstAttribute="top" secondItem="mQn-n6-g5i" secondAttribute="top" constant="22" id="Zy3-4z-6th"/>
                                         <constraint firstItem="MWO-g8-HOn" firstAttribute="centerY" secondItem="oD6-qb-560" secondAttribute="centerY" id="c0r-Y1-aUQ"/>
                                         <constraint firstItem="VAN-DC-OEy" firstAttribute="leading" secondItem="mQn-n6-g5i" secondAttribute="leading" constant="22" id="cQa-7d-YtH"/>
+                                        <constraint firstItem="fNu-qc-8l7" firstAttribute="centerY" secondItem="VAN-DC-OEy" secondAttribute="centerY" id="dJA-rZ-pBN"/>
                                         <constraint firstItem="gfh-Ce-7fU" firstAttribute="top" secondItem="VAN-DC-OEy" secondAttribute="bottom" constant="11" id="oGd-PW-esk"/>
+                                        <constraint firstItem="fNu-qc-8l7" firstAttribute="leading" secondItem="ePa-l4-ziy" secondAttribute="trailing" constant="22" id="pQI-fK-Lcz"/>
                                         <constraint firstAttribute="trailing" secondItem="MWO-g8-HOn" secondAttribute="trailing" constant="22" id="pzj-Um-y3X"/>
+                                        <constraint firstItem="ePa-l4-ziy" firstAttribute="centerY" secondItem="VAN-DC-OEy" secondAttribute="centerY" id="qfE-WZ-Zj6"/>
                                         <constraint firstItem="gfh-Ce-7fU" firstAttribute="leading" secondItem="mQn-n6-g5i" secondAttribute="leading" constant="22" id="tX9-us-IBo"/>
                                     </constraints>
                                 </view>
@@ -165,6 +211,9 @@
         </view>
     </objects>
     <resources>
+        <image name="flag" catalog="system" width="128" height="121"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="iconShare" width="24" height="24"/>
         <image name="imgCarrouselMarket" width="346" height="236"/>
         <namedColor name="colorFontGray2">
             <color red="0.37647058823529411" green="0.36862745098039218" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

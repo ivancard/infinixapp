@@ -25,6 +25,7 @@ class MarketItemViewController: UIViewController, UITableViewDelegate, UITableVi
 
     let numberOfsections = 1
     let heightOfRow = CGFloat(50)
+    var isFavourite: Bool = false
     
     var ImagePage: Int? {
         didSet{
@@ -55,6 +56,22 @@ class MarketItemViewController: UIViewController, UITableViewDelegate, UITableVi
         imagesScrollView.delegate = self
     }
     
+    @IBAction func btnFavourite(_ sender: UIButton) {
+        toggleFavourite(btn: sender)
+    }
+    @IBAction func btnShare(_ sender: Any) {
+        //share product
+    }
+    
+    private func toggleFavourite(btn: UIButton){
+        isFavourite.toggle()
+        btn.setPreferredSymbolConfiguration(UIImage.SymbolConfiguration(scale: .large), forImageIn: .normal)
+        if isFavourite {
+            btn.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+        } else {
+            btn.setImage(UIImage(systemName: "heart"), for: .normal)
+        }
+    }
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
       let scrollViewWidth = scrollView.bounds.width
       self.ImagePage = Int(round(scrollView.contentOffset.x / scrollViewWidth))
