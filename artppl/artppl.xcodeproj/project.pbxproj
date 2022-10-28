@@ -19,6 +19,7 @@
 		FC03124728F9F8B200C254E0 /* MySellsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124528F9F8B200C254E0 /* MySellsViewController.xib */; };
 		FC03124B28F9F94900C254E0 /* SellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03124928F9F94800C254E0 /* SellTableViewCell.swift */; };
 		FC03124C28F9F94900C254E0 /* SellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */; };
+		FC04AC7629098BE0001F2164 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC04AC7529098BE0001F2164 /* GradientView.swift */; };
 		FC06771028F897BD0058144A /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */; };
 		FC06771128F897BD0058144A /* RequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */; };
 		FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */; };
@@ -147,6 +148,8 @@
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
 		FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */; };
+		FCF760172909ACA900936EC8 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF760152909ACA900936EC8 /* PopUpViewController.swift */; };
+		FCF760182909ACA900936EC8 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF760162909ACA900936EC8 /* PopUpViewController.xib */; };
 		FCF989B228F861CB003CD299 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */; };
 		FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */; };
 		FCF989B628F861F4003CD299 /* ToggleCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */; };
@@ -176,6 +179,7 @@
 		FC03124528F9F8B200C254E0 /* MySellsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySellsViewController.xib; sourceTree = "<group>"; };
 		FC03124928F9F94800C254E0 /* SellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellTableViewCell.swift; sourceTree = "<group>"; };
 		FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellTableViewCell.xib; sourceTree = "<group>"; };
+		FC04AC7529098BE0001F2164 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
 		FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestsTableViewCell.xib; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
@@ -306,6 +310,8 @@
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
 		FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewGradient.swift; sourceTree = "<group>"; };
+		FCF760152909ACA900936EC8 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		FCF760162909ACA900936EC8 /* PopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
 		FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
 		FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
 		FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleCommentsTableViewCell.swift; sourceTree = "<group>"; };
@@ -680,6 +686,7 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FCF760142909AC9800936EC8 /* PopUpButtons */,
 				FC226AD928DE137A00621699 /* AddNew */,
 				FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */,
 				FC12B83E28E6181400BF91D1 /* artisticWork */,
@@ -1024,8 +1031,18 @@
 				FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */,
 				FC39BDA828F5CCCF004779A8 /* CustomFilledButton.swift */,
 				FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */,
+				FC04AC7529098BE0001F2164 /* GradientView.swift */,
 			);
 			path = customComponents;
+			sourceTree = "<group>";
+		};
+		FCF760142909AC9800936EC8 /* PopUpButtons */ = {
+			isa = PBXGroup;
+			children = (
+				FCF760152909ACA900936EC8 /* PopUpViewController.swift */,
+				FCF760162909ACA900936EC8 /* PopUpViewController.xib */,
+			);
+			path = PopUpButtons;
 			sourceTree = "<group>";
 		};
 		FCF989AF28F861AE003CD299 /* CommentsCells */ = {
@@ -1160,6 +1177,7 @@
 				FC39BDA728F5C6CF004779A8 /* MarketItemViewController.xib in Resources */,
 				FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */,
 				FC2DD59529008BCC00C1B9F7 /* FilterSearchViewController.xib in Resources */,
+				FCF760182909ACA900936EC8 /* PopUpViewController.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
 				FC2DD59029007DE300C1B9F7 /* SearchViewController.xib in Resources */,
 				FCCE6337290047C30068F685 /* NewMarketViewController.xib in Resources */,
@@ -1293,6 +1311,7 @@
 				FCE3A81D28F7358B00E412B5 /* MyCocreationsTableViewCell.swift in Sources */,
 				FC808F1D28FDBED600C26858 /* EditProfileViewController.swift in Sources */,
 				FC2DD58A2900771300C1B9F7 /* NewCocreationViewController.swift in Sources */,
+				FC04AC7629098BE0001F2164 /* GradientView.swift in Sources */,
 				FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */,
 				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
 				FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */,
@@ -1320,6 +1339,7 @@
 				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
 				FCE929532901A8870034DEB8 /* CustomFilterOutlineButton.swift in Sources */,
 				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
+				FCF760172909ACA900936EC8 /* PopUpViewController.swift in Sources */,
 				FC4B1E4528FF2B3A0042AFE7 /* ConfigureWalletViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
 				FC7F8E9128FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift in Sources */,
@@ -1424,7 +1444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1478,7 +1498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1495,7 +1515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
@@ -1507,6 +1527,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1527,7 +1548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
@@ -1539,6 +1560,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

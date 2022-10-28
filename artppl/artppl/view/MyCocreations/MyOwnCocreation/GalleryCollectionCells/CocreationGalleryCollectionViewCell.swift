@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CocreationGalleryCollectionViewCell: UICollectionViewCell {
+final class CocreationGalleryCollectionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

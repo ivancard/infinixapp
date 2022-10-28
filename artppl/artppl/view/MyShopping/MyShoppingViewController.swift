@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MyShoppingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+final class MyShoppingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var shoppingTableView: UITableView!
     

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FavouriteArtistCollectionViewCell: UICollectionViewCell {
+final class FavouriteArtistCollectionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

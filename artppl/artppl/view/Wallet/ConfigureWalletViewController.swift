@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ConfigureWalletViewController: UIViewController {
+final class ConfigureWalletViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

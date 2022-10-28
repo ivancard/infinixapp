@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MyCocreationsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+final class MyCocreationsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var myCocreationTableView: UITableView!
     override func viewDidLoad() {

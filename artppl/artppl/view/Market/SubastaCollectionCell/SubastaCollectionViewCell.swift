@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SubastaCollectionViewCell: UICollectionViewCell {
+final class SubastaCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgCell: UIImageView!
     override func awakeFromNib() {

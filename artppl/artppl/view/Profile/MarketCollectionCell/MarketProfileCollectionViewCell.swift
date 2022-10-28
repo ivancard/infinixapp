@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MarketProfileCollectionViewCell: UICollectionViewCell {
+final class MarketProfileCollectionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

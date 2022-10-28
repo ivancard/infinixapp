@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FavouritesViewController: UIViewController {
+final class FavouritesViewController: UIViewController {
 
     @IBOutlet weak var favouriteArtContainer: UIView!
     @IBOutlet weak var favouriteArtistContainer: UIView!

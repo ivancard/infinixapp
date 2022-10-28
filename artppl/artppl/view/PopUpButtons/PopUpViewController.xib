@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUpViewController" customModule="artppl" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCocreation" destination="I2b-v4-YzA" id="rf3-UL-2ZF"/>
+                <outlet property="btnMarket" destination="CtM-UB-LAY" id="ZZd-OT-eOE"/>
+                <outlet property="btnPortfolio" destination="KYY-wg-rvD" id="iqu-bm-DMp"/>
+                <outlet property="titleCocreation" destination="F1k-Vk-zYw" id="2QY-IU-BZD"/>
+                <outlet property="titleMarket" destination="tAY-Pn-9ZU" id="l4I-OB-hfw"/>
+                <outlet property="titlePortfolio" destination="0ZS-59-s4E" id="aQt-5T-VOi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tdd-sq-2fR">
+                    <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIm-XH-7LS">
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="794"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <connections>
+                                <action selector="btnHide:" destination="-1" eventType="touchUpInside" id="3ZE-HA-P8H"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdN-M9-BtI" userLabel="PopupView">
+                            <rect key="frame" x="0.0" y="513" width="390" height="200"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtM-UB-LAY" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="90" y="105" width="50" height="50"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="CgK-BF-Mhf"/>
+                                        <constraint firstAttribute="height" constant="50" id="IjP-Rs-bR5"/>
+                                    </constraints>
+                                    <color key="tintColor" name="colorMain"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="iconMarket"/>
+                                    <connections>
+                                        <action selector="btnMarket:" destination="-1" eventType="touchUpInside" id="Frv-d7-V7d"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAY-Pn-9ZU">
+                                    <rect key="frame" x="93.666666666666671" y="157" width="43.000000000000014" height="15"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                                    <color key="textColor" name="colorMain"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYY-wg-rvD" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="170" y="75" width="50" height="50"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="1eJ-id-6xw"/>
+                                        <constraint firstAttribute="height" constant="50" id="uTx-RI-LCm"/>
+                                    </constraints>
+                                    <color key="tintColor" name="colorMain"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="iconPorfolio"/>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portfolio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZS-59-s4E">
+                                    <rect key="frame" x="168.66666666666666" y="127" width="52.666666666666657" height="15"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                                    <color key="textColor" name="colorMain"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2b-v4-YzA" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
+                                    <rect key="frame" x="250" y="105" width="50" height="50"/>
+                                    <color key="backgroundColor" name="colorWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="UgQ-nm-8wN"/>
+                                        <constraint firstAttribute="height" constant="50" id="sTn-m4-Uk7"/>
+                                    </constraints>
+                                    <color key="tintColor" name="colorMain"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="iconCocreation"/>
+                                    <connections>
+                                        <action selector="btnCocreation:" destination="-1" eventType="touchUpInside" id="qc4-Ks-pZH"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cocreación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1k-Vk-zYw">
+                                    <rect key="frame" x="241" y="157" width="68" height="15"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                                    <color key="textColor" name="colorMain"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="F1k-Vk-zYw" firstAttribute="centerX" secondItem="I2b-v4-YzA" secondAttribute="centerX" id="3hG-8C-Ndz"/>
+                                <constraint firstItem="KYY-wg-rvD" firstAttribute="centerX" secondItem="gdN-M9-BtI" secondAttribute="centerX" id="7bI-SQ-8TR"/>
+                                <constraint firstItem="0ZS-59-s4E" firstAttribute="centerX" secondItem="KYY-wg-rvD" secondAttribute="centerX" id="EDK-mS-cPu"/>
+                                <constraint firstItem="I2b-v4-YzA" firstAttribute="centerY" secondItem="gdN-M9-BtI" secondAttribute="centerY" constant="30" id="ERf-LK-dfh"/>
+                                <constraint firstAttribute="height" constant="200" id="Hp4-ea-pLp"/>
+                                <constraint firstItem="CtM-UB-LAY" firstAttribute="centerX" secondItem="gdN-M9-BtI" secondAttribute="centerX" constant="-80" id="MWW-c4-sDO"/>
+                                <constraint firstItem="0ZS-59-s4E" firstAttribute="top" secondItem="KYY-wg-rvD" secondAttribute="bottom" constant="2" id="RR3-S8-l9R"/>
+                                <constraint firstItem="CtM-UB-LAY" firstAttribute="centerY" secondItem="gdN-M9-BtI" secondAttribute="centerY" constant="30" id="Unp-2O-iRH"/>
+                                <constraint firstItem="F1k-Vk-zYw" firstAttribute="top" secondItem="I2b-v4-YzA" secondAttribute="bottom" constant="2" id="ZNm-7a-PyU"/>
+                                <constraint firstItem="tAY-Pn-9ZU" firstAttribute="centerX" secondItem="CtM-UB-LAY" secondAttribute="centerX" id="oAE-xK-uMn"/>
+                                <constraint firstItem="tAY-Pn-9ZU" firstAttribute="top" secondItem="CtM-UB-LAY" secondAttribute="bottom" constant="2" id="ulX-1O-GU4"/>
+                                <constraint firstItem="KYY-wg-rvD" firstAttribute="centerY" secondItem="gdN-M9-BtI" secondAttribute="centerY" id="xge-kL-DSA"/>
+                                <constraint firstItem="I2b-v4-YzA" firstAttribute="centerX" secondItem="gdN-M9-BtI" secondAttribute="centerX" constant="80" id="zAk-ne-vbd"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="sIm-XH-7LS" firstAttribute="leading" secondItem="Tdd-sq-2fR" secondAttribute="leading" id="5lN-UP-92K"/>
+                        <constraint firstAttribute="trailing" secondItem="sIm-XH-7LS" secondAttribute="trailing" id="69F-Tx-cTG"/>
+                        <constraint firstAttribute="bottom" secondItem="gdN-M9-BtI" secondAttribute="bottom" constant="50" id="AOG-HR-7Je"/>
+                        <constraint firstAttribute="trailing" secondItem="gdN-M9-BtI" secondAttribute="trailing" id="VnE-Am-hWi"/>
+                        <constraint firstItem="gdN-M9-BtI" firstAttribute="leading" secondItem="Tdd-sq-2fR" secondAttribute="leading" id="lfw-pI-N1P"/>
+                        <constraint firstAttribute="bottom" secondItem="sIm-XH-7LS" secondAttribute="bottom" constant="-31" id="uib-Xc-f0f"/>
+                        <constraint firstItem="sIm-XH-7LS" firstAttribute="top" secondItem="Tdd-sq-2fR" secondAttribute="top" id="wmn-D9-2WO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Tdd-sq-2fR" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="2OV-2y-I8K"/>
+                <constraint firstItem="Tdd-sq-2fR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="i1z-cV-Rrg"/>
+                <constraint firstItem="Tdd-sq-2fR" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ivf-Q5-Yyd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Tdd-sq-2fR" secondAttribute="bottom" id="rv5-wP-Miu"/>
+            </constraints>
+            <point key="canvasLocation" x="118.46153846153845" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iconCocreation" width="26" height="26"/>
+        <image name="iconMarket" width="26" height="26"/>
+        <image name="iconPorfolio" width="29" height="29"/>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

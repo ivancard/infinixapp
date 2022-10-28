@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ArtistFavouritesViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
+final class ArtistFavouritesViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
 
     @IBOutlet weak var favouriteArtistCollectionView: UICollectionView!
     

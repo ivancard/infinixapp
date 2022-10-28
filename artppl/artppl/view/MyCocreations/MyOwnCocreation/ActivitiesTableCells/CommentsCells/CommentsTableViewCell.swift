@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CommentsTableViewCell: UITableViewCell {
+final class CommentsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var commentLabel: UILabel!

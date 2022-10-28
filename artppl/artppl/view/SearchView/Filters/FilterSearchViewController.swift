@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FilterSearchViewController: UIViewController {
+final class FilterSearchViewController: UIViewController {
 
     @IBOutlet weak var minimumPopUpButton: UIButton!
     @IBOutlet weak var maximumPopUpButton: UIButton!
@@ -34,7 +34,7 @@ class FilterSearchViewController: UIViewController {
         minimumPopUpButton.menu = UIMenu(children: prices)
         
         minimumPopUpButton.showsMenuAsPrimaryAction = true
-        minimumPopUpButton.changesSelectionAsPrimaryAction = true
+//        minimumPopUpButton.changesSelectionAsPrimaryAction = true
     }
     
     func setPopUpMaximumButton(){
@@ -51,6 +51,6 @@ class FilterSearchViewController: UIViewController {
         maximumPopUpButton.menu = UIMenu(children: prices)
         
         maximumPopUpButton.showsMenuAsPrimaryAction = true
-        maximumPopUpButton.changesSelectionAsPrimaryAction = true
+//        maximumPopUpButton.changesSelectionAsPrimaryAction = true
     }
 }

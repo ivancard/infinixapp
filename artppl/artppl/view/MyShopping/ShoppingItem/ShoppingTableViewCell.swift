@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ShoppingTableViewCell: UITableViewCell {
+final class ShoppingTableViewCell: UITableViewCell {
 
     @IBOutlet weak var containerViewCell: UIView!
     override func awakeFromNib() {

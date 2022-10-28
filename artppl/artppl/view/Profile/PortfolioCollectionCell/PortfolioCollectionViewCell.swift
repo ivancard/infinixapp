@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PortfolioCollectionViewCell: UICollectionViewCell {
+final class PortfolioCollectionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RecycleCollectionViewCell: UICollectionViewCell {
+final class RecycleCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imgCell: UIImageView!
     
     override func awakeFromNib() {

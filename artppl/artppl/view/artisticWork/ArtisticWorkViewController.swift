@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ArtisticWorkViewController: UIViewController {
+final class ArtisticWorkViewController: UIViewController {
 
     var selectedButtons: Int8 = 0
     

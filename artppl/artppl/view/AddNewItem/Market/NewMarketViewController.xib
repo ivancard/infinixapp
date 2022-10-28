@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,7 +23,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewMarketViewController" customModule="artppl" customModuleProvider="target">
             <connections>
-                <outlet property="marketHeader" destination="Q0h-RI-4ER" id="frC-d5-Z6F"/>
                 <outlet property="uploadPhotoContainer" destination="nBo-iK-lWw" id="hZU-6V-1Ie"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -36,12 +36,34 @@
                     <rect key="frame" x="0.0" y="47" width="390" height="763"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MuL-Sl-ujn">
-                            <rect key="frame" x="0.0" y="0.0" width="390" height="800"/>
+                            <rect key="frame" x="0.0" y="0.0" width="390" height="830"/>
                             <subviews>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rq1-gc-jdP">
-                                    <rect key="frame" x="0.0" y="0.0" width="390" height="140"/>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbu-vc-vjF">
+                                    <rect key="frame" x="0.0" y="0.0" width="390" height="30"/>
                                     <subviews>
-                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-RI-4ER" userLabel="header">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDo-WF-Xky">
+                                            <rect key="frame" x="345.33333333333331" y="4" width="22.666666666666686" height="22"/>
+                                            <color key="tintColor" name="colorMain"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal">
+                                                <imageReference key="image" image="xmark" catalog="system" symbolScale="large"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="medium"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="btnClose:" destination="-1" eventType="touchUpInside" id="jZw-o1-gEE"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="yDo-WF-Xky" secondAttribute="trailing" constant="22" id="HGh-qg-sxg"/>
+                                        <constraint firstAttribute="height" constant="30" id="Pxm-cc-k8V"/>
+                                        <constraint firstItem="yDo-WF-Xky" firstAttribute="centerY" secondItem="fbu-vc-vjF" secondAttribute="centerY" id="ZTY-oD-TaB"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rq1-gc-jdP">
+                                    <rect key="frame" x="0.0" y="30" width="390" height="140"/>
+                                    <subviews>
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q0h-RI-4ER" userLabel="header" customClass="GradientView" customModule="artppl" customModuleProvider="target">
                                             <rect key="frame" x="22" y="22" width="346" height="96"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xP-az-vrd">
@@ -65,7 +87,6 @@
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
-                                            <color key="backgroundColor" name="colorGradientRight"/>
                                             <constraints>
                                                 <constraint firstItem="3xP-az-vrd" firstAttribute="top" secondItem="rvf-on-vP5" secondAttribute="top" id="0Aa-Sf-Ivd"/>
                                                 <constraint firstItem="lIJ-Rr-Md8" firstAttribute="top" secondItem="3xP-az-vrd" secondAttribute="bottom" constant="5" id="IrW-3e-PIH"/>
@@ -77,6 +98,18 @@
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                     <integer key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="leftColor">
+                                                    <color key="value" name="colorGradientLeft"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="rightColor">
+                                                    <color key="value" name="colorGradientRight"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="point" keyPath="startPoint">
+                                                    <point key="value" x="0.0" y="0.5"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                                    <point key="value" x="1" y="0.5"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </view>
@@ -90,7 +123,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q0w-Kb-Lbs" userLabel="field">
-                                    <rect key="frame" x="0.0" y="140" width="390" height="40"/>
+                                    <rect key="frame" x="0.0" y="170" width="390" height="40"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Título de la obra" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GT-0u-e0f">
                                             <rect key="frame" x="22" y="0.0" width="96" height="14.666666666666666"/>
@@ -115,7 +148,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="23e-FM-qCC" userLabel="Separator">
-                                    <rect key="frame" x="0.0" y="180" width="390" height="20"/>
+                                    <rect key="frame" x="0.0" y="210" width="390" height="20"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8C-7g-yNS">
                                             <rect key="frame" x="22" y="0.0" width="346" height="1"/>
@@ -133,7 +166,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pku-Nv-viE" userLabel="field">
-                                    <rect key="frame" x="0.0" y="200" width="390" height="120"/>
+                                    <rect key="frame" x="0.0" y="230" width="390" height="120"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descripción" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0N-Xo-ztG">
                                             <rect key="frame" x="22" y="0.0" width="71.666666666666671" height="14.666666666666666"/>
@@ -161,7 +194,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bP-3h-v5v" userLabel="Separator">
-                                    <rect key="frame" x="0.0" y="320" width="390" height="20"/>
+                                    <rect key="frame" x="0.0" y="350" width="390" height="20"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UT4-Gh-STR">
                                             <rect key="frame" x="22" y="0.0" width="346" height="1"/>
@@ -179,7 +212,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1Z-8y-ZbN" userLabel="field">
-                                    <rect key="frame" x="0.0" y="340" width="390" height="40"/>
+                                    <rect key="frame" x="0.0" y="370" width="390" height="40"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categoría de arte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ez0-6a-SuH">
                                             <rect key="frame" x="22" y="0.0" width="104" height="14.666666666666666"/>
@@ -204,7 +237,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iE-G2-lIh" userLabel="Separator">
-                                    <rect key="frame" x="0.0" y="380" width="390" height="20"/>
+                                    <rect key="frame" x="0.0" y="410" width="390" height="20"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGn-bu-vXw">
                                             <rect key="frame" x="22" y="0.0" width="346" height="1"/>
@@ -222,7 +255,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vCu-Sb-OEd" userLabel="field">
-                                    <rect key="frame" x="0.0" y="400" width="390" height="40"/>
+                                    <rect key="frame" x="0.0" y="430" width="390" height="40"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddN-zb-Wjx">
                                             <rect key="frame" x="21.999999999999996" y="0.0" width="37.666666666666657" height="14.666666666666666"/>
@@ -247,7 +280,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIY-ao-7HN" userLabel="Separator">
-                                    <rect key="frame" x="0.0" y="440" width="390" height="20"/>
+                                    <rect key="frame" x="0.0" y="470" width="390" height="20"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ob-iu-vbK">
                                             <rect key="frame" x="22" y="0.0" width="346" height="1"/>
@@ -265,7 +298,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rma-iP-hEQ">
-                                    <rect key="frame" x="0.0" y="460" width="390" height="340"/>
+                                    <rect key="frame" x="0.0" y="490" width="390" height="340"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sube la imagen de portada del evento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUT-kB-rd1">
                                             <rect key="frame" x="21.999999999999986" y="0.0" width="229.66666666666663" height="14.666666666666666"/>
@@ -285,8 +318,7 @@
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="459-1K-L73">
                                                     <rect key="frame" x="0.0" y="0.0" width="170" height="190"/>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -358,8 +390,12 @@
     <resources>
         <image name="iconMarketWhite" width="26" height="26"/>
         <image name="iconUpload" width="125" height="85"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="colorFontGray2">
             <color red="0.37647058823529411" green="0.36862745098039218" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorGradientLeft">
+            <color red="0.23137254901960785" green="0.066666666666666666" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="colorGradientRight">
             <color red="0.0" green="1" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

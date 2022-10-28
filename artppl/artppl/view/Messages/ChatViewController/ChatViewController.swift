@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Messagges {
+final class Messagges {
     let userIdentifier: String
     let isMine: Bool
     let messaggeContent: String
@@ -21,7 +21,7 @@ class Messagges {
     }
 }
 
-class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+final class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     private var messagges = [
         Messagges(userIdentifier: "Tomas Gonzales", isMine: false, messaggeContent: "Hola Sofia como andas me encanta tus obras!", time: "08:30"),

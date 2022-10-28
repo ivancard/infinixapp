@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MyLocationViewController: UIViewController {
+final class MyLocationViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
     

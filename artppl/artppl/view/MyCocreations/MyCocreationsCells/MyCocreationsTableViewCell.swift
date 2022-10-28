@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MyCocreationsTableViewCell: UITableViewCell {
+final class MyCocreationsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

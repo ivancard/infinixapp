@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class CocreationViewController: UIViewController, MKMapViewDelegate {
+final class CocreationViewController: UIViewController, MKMapViewDelegate {
     
     let locationManager = CLLocationManager()
     

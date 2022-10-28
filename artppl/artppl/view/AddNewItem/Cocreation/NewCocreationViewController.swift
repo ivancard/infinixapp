@@ -7,7 +7,7 @@
 
 import UIKit
 
-class NewCocreationViewController: UIViewController {
+final class NewCocreationViewController: UIViewController {
 
     @IBOutlet weak var uploadPhotoContainer: UIView!
     override func viewDidLoad() {
@@ -15,6 +15,9 @@ class NewCocreationViewController: UIViewController {
 
         title = "CREAR COCREACION"
         addDashedBorder(view: uploadPhotoContainer)
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
     }
     
     @IBAction func btnCrear(_ sender: Any) {
@@ -24,6 +27,9 @@ class NewCocreationViewController: UIViewController {
         navigationController?.pushViewController(successView, animated: true)
     }
     
+    @IBAction func btnClose(_ sender: Any) {
+        dismiss(animated: true)
+    }
     func addDashedBorder(view: UIView) {
         let color = UIColor(named: "colorMain")?.withAlphaComponent(0.4).cgColor
             

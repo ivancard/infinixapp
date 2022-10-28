@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SellDetailViewController: UIViewController {
+final class SellDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

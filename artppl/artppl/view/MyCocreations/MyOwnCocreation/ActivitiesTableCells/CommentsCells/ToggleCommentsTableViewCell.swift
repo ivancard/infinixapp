@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ToggleCommentsTableViewCell: UITableViewCell {
+final class ToggleCommentsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var sectionTitle: UILabel!
     override func awakeFromNib() {

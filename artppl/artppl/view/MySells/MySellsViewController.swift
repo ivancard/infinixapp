@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MySellsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+final class MySellsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var sellsTableView: UITableView!
     override func viewDidLoad() {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RequestsTableViewCell: UITableViewCell {
+final class RequestsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

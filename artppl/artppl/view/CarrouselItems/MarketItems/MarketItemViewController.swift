@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Section {
+final class Section {
     let tittle: String
     let titleSpec: [String]
     let valueSpec: [String]
@@ -21,7 +21,7 @@ class Section {
     }
 }
 
-class MarketItemViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate {
+final class MarketItemViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate {
 
     let numberOfsections = 1
     let heightOfRow = CGFloat(50)
@@ -96,6 +96,12 @@ class MarketItemViewController: UIViewController, UITableViewDelegate, UITableVi
         
         if indexPath.row == 0 {
             cell.sectionTitle.text = specsSection.tittle
+            if specsSection.isOpen {
+                cell.arrow.transform = CGAffineTransform(scaleX: 1, y: -1)
+            } else {
+                cell.arrow.transform = .identity
+            }
+            
         } else {
             guard let tableCell = specsTableView.dequeueReusableCell(withIdentifier: "SpecItemTableViewCell", for: indexPath) as? SpecItemTableViewCell else { return UITableViewCell()}
             

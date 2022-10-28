@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CocreationRequestViewController: UIViewController {
+final class CocreationRequestViewController: UIViewController {
 
     @IBOutlet weak var requestSuccessView: UIView!
     override func viewDidLoad() {

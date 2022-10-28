@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MyOwnCocreationViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
+final class MyOwnCocreationViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     
     enum CocreationTab {
         case activity

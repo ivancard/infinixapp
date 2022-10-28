@@ -59,7 +59,16 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         tabBar.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3).cgColor
         tabBar.layer.shadowOpacity = 0.34
         tabBar.layer.shadowOffset = CGSize(width: 0, height: -3)
-        tabBar.scrollEdgeAppearance = tabBar.standardAppearance
+        
+        if #available(iOS 13.0, *) {
+            let tabBarAppearance: UITabBarAppearance = UITabBarAppearance()
+            tabBarAppearance.configureWithDefaultBackground()
+            tabBarAppearance.backgroundColor = UIColor(named: "colorWhite")
+            UITabBar.appearance().standardAppearance = tabBarAppearance
+            if #available(iOS 15.0, *) {
+                UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
+            }
+        }
         
         let views = [v1, v2, v3, v4, v5]
         let icons = ["iconHome", "iconMarket", "iconAddNew" ,"iconChat", "iconProfile"]
@@ -98,7 +107,10 @@ final class MyTabViewController: UITabBarController, UITabBarControllerDelegate 
         let tabbarIndex = tabBarController.viewControllers!.firstIndex(of: viewController)!
         
         if  tabbarIndex == 2 {
-            v1.togglePopUp()
+            
+            let popUpButtons = PopUpViewController()
+            popUpButtons.show(on: self)
+            
             return false
         } else {
             return true

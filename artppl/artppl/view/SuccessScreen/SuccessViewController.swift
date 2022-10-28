@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SuccessViewController: UIViewController {
+final class SuccessViewController: UIViewController {
 
     @IBOutlet weak var titleSuccess: UILabel?
     @IBOutlet weak var subTitleSuccess: UILabel?

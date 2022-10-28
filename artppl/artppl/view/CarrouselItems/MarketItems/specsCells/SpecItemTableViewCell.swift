@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SpecItemTableViewCell: UITableViewCell {
+final class SpecItemTableViewCell: UITableViewCell {
 
     @IBOutlet weak var keyLabel: UILabel!
     @IBOutlet weak var valueLabel: UILabel!

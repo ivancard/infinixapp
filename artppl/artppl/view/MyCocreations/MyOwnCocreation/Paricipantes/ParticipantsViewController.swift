@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ParticipantsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+final class ParticipantsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     let heightOfRow = CGFloat(230)
     

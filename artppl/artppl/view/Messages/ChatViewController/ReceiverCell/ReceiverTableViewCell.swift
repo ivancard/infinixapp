@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ReceiverTableViewCell: UITableViewCell {
+final class ReceiverTableViewCell: UITableViewCell {
 
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!

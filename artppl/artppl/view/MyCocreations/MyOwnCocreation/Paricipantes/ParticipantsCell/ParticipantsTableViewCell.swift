@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ParticipantsTableViewCell: UITableViewCell {
+final class ParticipantsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

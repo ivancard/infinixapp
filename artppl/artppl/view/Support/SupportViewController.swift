@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SupportViewController: UIViewController {
+final class SupportViewController: UIViewController {
     
     
     @IBOutlet weak var supportSuccess: UIView!

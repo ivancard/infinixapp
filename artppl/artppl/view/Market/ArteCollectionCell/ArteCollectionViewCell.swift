@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ArteCollectionViewCell: UICollectionViewCell {
+final class ArteCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imgCell: UIImageView!
     override func awakeFromNib() {

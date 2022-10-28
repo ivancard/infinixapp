@@ -21,15 +21,8 @@
             <connections>
                 <outlet property="artNearCollectionView" destination="Z5Y-m2-qhF" id="8ki-8X-OEA"/>
                 <outlet property="artistCollectionView" destination="ImC-7y-Jzp" id="sKp-7W-Z98"/>
-                <outlet property="btnCocreation" destination="sgf-Kf-Ett" id="NIg-Jx-XRE"/>
-                <outlet property="btnMarket" destination="f2L-gC-cvQ" id="AQB-5i-EGr"/>
-                <outlet property="btnPortfolio" destination="RDa-Ts-EYB" id="e9n-KT-Sbz"/>
                 <outlet property="cocreationCollectionView" destination="wTk-N1-Glj" id="nge-Z5-Ipu"/>
                 <outlet property="marketCollectionView" destination="6fe-mQ-3qi" id="vjZ-Nb-hsG"/>
-                <outlet property="popUpView" destination="EIw-Fv-dd4" id="73h-rL-zM5"/>
-                <outlet property="titleCocreation" destination="mDG-5W-iRf" id="rOR-Ln-pEq"/>
-                <outlet property="titleMarket" destination="sAD-px-htF" id="ldZ-OM-NEH"/>
-                <outlet property="titlePortfolio" destination="rYa-Hl-vVu" id="iy4-Wg-ceN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -285,99 +278,19 @@
                         <constraint firstItem="jAz-j7-iO2" firstAttribute="height" secondItem="7sU-KK-gih" secondAttribute="height" priority="250" id="ecQ-E7-AhP"/>
                     </constraints>
                 </scrollView>
-                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIw-Fv-dd4" userLabel="PopupView" customClass="CustomGradientWhiteTransp" customModule="artppl" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="467" width="375" height="200"/>
-                    <subviews>
-                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2L-gC-cvQ" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="82.5" y="115" width="50" height="50"/>
-                            <color key="backgroundColor" name="colorWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="50" id="0Tv-4p-j3g"/>
-                                <constraint firstAttribute="width" constant="50" id="xSq-cu-hHq"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" image="iconMarket"/>
-                            <connections>
-                                <action selector="btnNewMarket:" destination="-1" eventType="touchUpInside" id="nZc-ka-y3f"/>
-                            </connections>
-                        </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Market" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAD-px-htF">
-                            <rect key="frame" x="86" y="167" width="43" height="15"/>
-                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
-                            <color key="textColor" name="colorMain"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDa-Ts-EYB" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="162.5" y="85" width="50" height="50"/>
-                            <color key="backgroundColor" name="colorWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="50" id="QrM-cz-j1i"/>
-                                <constraint firstAttribute="height" constant="50" id="rcT-KU-HH0"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" image="iconPorfolio"/>
-                        </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portfolio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYa-Hl-vVu">
-                            <rect key="frame" x="161.5" y="137" width="52.5" height="15"/>
-                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
-                            <color key="textColor" name="colorMain"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sgf-Kf-Ett" customClass="CustomPopUpButton" customModule="artppl" customModuleProvider="target">
-                            <rect key="frame" x="242.5" y="115" width="50" height="50"/>
-                            <color key="backgroundColor" name="colorWhite"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="50" id="BPo-ff-9yt"/>
-                                <constraint firstAttribute="height" constant="50" id="sU7-Gr-q5B"/>
-                            </constraints>
-                            <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="plain" image="iconCocreation"/>
-                            <connections>
-                                <action selector="btnNewCocreation:" destination="-1" eventType="touchUpInside" id="UFe-ER-iY1"/>
-                            </connections>
-                        </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cocreación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDG-5W-iRf">
-                            <rect key="frame" x="233.5" y="167" width="68" height="15"/>
-                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
-                            <color key="textColor" name="colorMain"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <constraints>
-                        <constraint firstItem="RDa-Ts-EYB" firstAttribute="centerX" secondItem="EIw-Fv-dd4" secondAttribute="centerX" id="0kd-Ol-nVi"/>
-                        <constraint firstItem="mDG-5W-iRf" firstAttribute="centerX" secondItem="sgf-Kf-Ett" secondAttribute="centerX" id="1SY-Xn-ZOA"/>
-                        <constraint firstItem="sAD-px-htF" firstAttribute="top" secondItem="f2L-gC-cvQ" secondAttribute="bottom" constant="2" id="1UO-nI-jir"/>
-                        <constraint firstItem="sgf-Kf-Ett" firstAttribute="centerY" secondItem="EIw-Fv-dd4" secondAttribute="centerY" constant="40" id="7Q0-AP-zZQ"/>
-                        <constraint firstItem="rYa-Hl-vVu" firstAttribute="top" secondItem="RDa-Ts-EYB" secondAttribute="bottom" constant="2" id="EO1-sL-ANG"/>
-                        <constraint firstItem="rYa-Hl-vVu" firstAttribute="centerX" secondItem="RDa-Ts-EYB" secondAttribute="centerX" id="Exl-aA-AW3"/>
-                        <constraint firstItem="f2L-gC-cvQ" firstAttribute="centerY" secondItem="EIw-Fv-dd4" secondAttribute="centerY" constant="40" id="Hk2-Hi-sAN"/>
-                        <constraint firstAttribute="height" constant="200" id="Q8h-gu-HGs"/>
-                        <constraint firstItem="sgf-Kf-Ett" firstAttribute="centerX" secondItem="EIw-Fv-dd4" secondAttribute="centerX" constant="80" id="QRS-vh-BHd"/>
-                        <constraint firstItem="f2L-gC-cvQ" firstAttribute="centerX" secondItem="EIw-Fv-dd4" secondAttribute="centerX" constant="-80" id="Ubc-M1-O6w"/>
-                        <constraint firstItem="sAD-px-htF" firstAttribute="centerX" secondItem="f2L-gC-cvQ" secondAttribute="centerX" id="eoa-Eh-iPj"/>
-                        <constraint firstItem="RDa-Ts-EYB" firstAttribute="centerY" secondItem="EIw-Fv-dd4" secondAttribute="centerY" constant="10" id="s8k-1w-y2Y"/>
-                        <constraint firstItem="mDG-5W-iRf" firstAttribute="top" secondItem="sgf-Kf-Ett" secondAttribute="bottom" constant="2" id="yJz-Gx-gki"/>
-                    </constraints>
-                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="colorWhite"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="EIw-Fv-dd4" secondAttribute="bottom" id="140-2c-tRI"/>
-                <constraint firstItem="EIw-Fv-dd4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="HQC-qM-Xe7"/>
                 <constraint firstItem="7sU-KK-gih" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Pg4-se-8VQ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="7sU-KK-gih" secondAttribute="bottom" id="PhK-pf-ege"/>
                 <constraint firstItem="7sU-KK-gih" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aLS-pQ-Mi3"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EIw-Fv-dd4" secondAttribute="trailing" id="fQ6-dv-i2k"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7sU-KK-gih" secondAttribute="trailing" id="kzD-TF-XtC"/>
             </constraints>
             <point key="canvasLocation" x="-151.19999999999999" y="80.50974512743629"/>
         </view>
     </objects>
     <resources>
-        <image name="iconCocreation" width="26" height="26"/>
-        <image name="iconMarket" width="26" height="26"/>
-        <image name="iconPorfolio" width="29" height="29"/>
         <image name="imgProfile" width="46" height="46"/>
         <namedColor name="colorMain">
             <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

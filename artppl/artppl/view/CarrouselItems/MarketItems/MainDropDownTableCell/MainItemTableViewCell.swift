@@ -7,9 +7,11 @@
 
 import UIKit
 
-class MainItemTableViewCell: UITableViewCell {
+final class MainItemTableViewCell: UITableViewCell {
 
     @IBOutlet weak var sectionTitle: UILabel!
+    @IBOutlet weak var arrow: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

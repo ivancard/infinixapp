@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SenderTableViewCell: UITableViewCell {
+final class SenderTableViewCell: UITableViewCell {
 
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var contentMessaggeLabel: UILabel!

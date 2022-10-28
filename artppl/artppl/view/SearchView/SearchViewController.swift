@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
+final class SearchViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
 
     @IBOutlet weak var searchCollectionView: UICollectionView!
     

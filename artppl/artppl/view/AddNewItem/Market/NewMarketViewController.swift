@@ -7,31 +7,18 @@
 
 import UIKit
 
-class NewMarketViewController: UIViewController {
+final class NewMarketViewController: UIViewController {
 
-    @IBOutlet weak var marketHeader: UIView!
     @IBOutlet weak var uploadPhotoContainer: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setGradient(view: marketHeader)
         addDashedBorder(view: uploadPhotoContainer)
-    }
-
-    private func setGradient(view: UIView){
-        let colorGradientRight: UIColor = UIColor(named: "colorGradientRight") ?? UIColor.systemMint
-        let colorGradientLeft: UIColor = UIColor(named: "colorGradientLeft") ?? UIColor.systemPurple
         
-        let gradient = CAGradientLayer()
-       
-        gradient.colors = [colorGradientLeft.cgColor, colorGradientRight.cgColor]
-        gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
-        gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
-        
-        gradient.frame = view.bounds
-        
-        view.layer.insertSublayer(gradient, at: 0 )
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
     }
     
     func addDashedBorder(view: UIView) {
@@ -56,5 +43,8 @@ class NewMarketViewController: UIViewController {
         let successScreen = SuccessViewController()
         successScreen.titleLabel = "Obra publicada con éxito"
         navigationController?.pushViewController(successScreen, animated: true)
+    }
+    @IBAction func btnClose(_ sender: Any) {
+        dismiss(animated: true)
     }
 }

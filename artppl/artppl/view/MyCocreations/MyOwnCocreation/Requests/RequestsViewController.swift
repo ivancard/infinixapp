@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RequestsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+final class RequestsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     
 

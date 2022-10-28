@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Comments {
+final class Comments {
     let user: String
     let comments: String
     
@@ -16,7 +16,7 @@ class Comments {
         self.comments = comments
     }
 }
-class CommentSection {
+final class CommentSection {
     let tittle: String
     let comments: [Comments]
     var isOpen = true
@@ -28,7 +28,7 @@ class CommentSection {
     }
 }
 
-class ActivitiesTableViewCell: UITableViewCell, UITableViewDelegate, UITableViewDataSource {
+final class ActivitiesTableViewCell: UITableViewCell, UITableViewDelegate, UITableViewDataSource {
     
     
     private var comments = CommentSection(tittle: "Ocultar respuestas", comments: [

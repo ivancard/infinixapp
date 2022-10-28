@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SellTableViewCell: UITableViewCell {
+final class SellTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
