@@ -7,13 +7,16 @@
 
 import UIKit
 
-class SupportViewController: UIViewController {
+final class SupportViewController: UIViewController {
     
     
     @IBOutlet weak var supportSuccess: UIView!
     @IBOutlet weak var supportRequestView: UIView!
     
     override func viewDidLoad() {
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
         super.viewDidLoad()
     }
     

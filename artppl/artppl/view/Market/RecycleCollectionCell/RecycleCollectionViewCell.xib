@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RecycleCollectionViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="159" height="249"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="159" height="249"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgMarketCell" translatesAutoresizingMaskIntoConstraints="NO" id="BoH-o9-AQW">
+                        <rect key="frame" x="0.0" y="0.0" width="159" height="159"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="159" id="OKb-nh-6kd"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atril de pintura" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blQ-MC-sBs">
+                        <rect key="frame" x="8" y="169" width="111" height="16.333333333333343"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MARTA CASTELUCCI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw9-gG-nlA">
+                        <rect key="frame" x="8" y="187.33333333333334" width="102.66666666666667" height="11.666666666666657"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20€" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJI-VH-P8s">
+                        <rect key="frame" x="8" y="214.33333333333334" width="33.666666666666664" height="19.666666666666657"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GvL-KR-Ref">
+                        <rect key="frame" x="104" y="211.66666666666666" width="47" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="47" id="75i-bS-MZ4"/>
+                            <constraint firstAttribute="height" constant="25" id="Cl6-wL-h9R"/>
+                        </constraints>
+                        <string key="text">ARTÍCULO
+RECYCLED</string>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="8"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" name="colorWhite"/>
+            <constraints>
+                <constraint firstItem="blQ-MC-sBs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="7qz-Mk-Odc"/>
+                <constraint firstItem="qJI-VH-P8s" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="9XW-MW-4s5"/>
+                <constraint firstAttribute="trailing" secondItem="BoH-o9-AQW" secondAttribute="trailing" id="HGI-r4-XxF"/>
+                <constraint firstItem="Iw9-gG-nlA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="Krw-a8-IKo"/>
+                <constraint firstAttribute="bottom" secondItem="qJI-VH-P8s" secondAttribute="bottom" constant="15" id="O2C-Jb-Jse"/>
+                <constraint firstItem="Iw9-gG-nlA" firstAttribute="top" secondItem="blQ-MC-sBs" secondAttribute="bottom" constant="2" id="VkS-Dk-0ht"/>
+                <constraint firstAttribute="trailing" secondItem="GvL-KR-Ref" secondAttribute="trailing" constant="8" id="b3P-lE-68Z"/>
+                <constraint firstItem="blQ-MC-sBs" firstAttribute="top" secondItem="BoH-o9-AQW" secondAttribute="bottom" constant="10" id="caK-r2-vJS"/>
+                <constraint firstItem="BoH-o9-AQW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fgB-O3-byi"/>
+                <constraint firstItem="BoH-o9-AQW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rdH-Jj-a84"/>
+                <constraint firstItem="GvL-KR-Ref" firstAttribute="centerY" secondItem="qJI-VH-P8s" secondAttribute="centerY" id="v2v-3z-Rta"/>
+            </constraints>
+            <size key="customSize" width="183" height="185"/>
+            <connections>
+                <outlet property="imgCell" destination="BoH-o9-AQW" id="KKt-QK-0Mw"/>
+            </connections>
+            <point key="canvasLocation" x="226.92307692307691" y="68.60189573459715"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="imgMarketCell" width="159" height="159"/>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

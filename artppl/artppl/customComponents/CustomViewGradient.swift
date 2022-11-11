@@ -22,6 +22,6 @@ class CustomViewGradient: UIView {
         setup()
     }
     func setup(){
-        StyleFunctions.setGradientPurpleToTransparent(view: self)
+        StyleFunctions.setGradientToAButton(view: self)
     }
 }

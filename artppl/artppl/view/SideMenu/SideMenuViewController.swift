@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SideMenuViewController: UIViewController {
+final class SideMenuViewController: UIViewController {
     
     @IBOutlet weak var imgProfile: UIImageView!
     
@@ -23,6 +23,9 @@ class SideMenuViewController: UIViewController {
         self.navigationController?.pushViewController(LoginViewController(), animated: true)
     }
     
+    @IBAction func btnMySells(_ sender: Any) {
+        navigationController?.pushViewController(MySellsViewController(), animated: true)
+    }
     @IBAction func btnMyShopping(_ sender: Any) {
         self.navigationController?.pushViewController(MyShoppingViewController(), animated: true)
     }
@@ -31,5 +34,8 @@ class SideMenuViewController: UIViewController {
         let supportView = SupportViewController()
         supportView.modalPresentationStyle = .overFullScreen
         present(supportView, animated: false)
+    }
+    @IBAction func btnFavourites(_ sender: Any) {
+        navigationController?.pushViewController(FavouritesViewController(), animated: true)
     }
 }

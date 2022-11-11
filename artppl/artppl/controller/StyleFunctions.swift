@@ -13,46 +13,21 @@ final class StyleFunctions {
     public static func setGradientTwo(view: UIView){
         let colorGradientRight: UIColor = UIColor(named: "colorGradient2Right") ?? UIColor.systemPink
         let colorGradientLeft: UIColor = UIColor(named: "colorGradient2Left") ?? UIColor.systemPurple
-        
-        let gradient = CAGradientLayer()
-       
-        gradient.colors = [colorGradientLeft.cgColor, colorGradientRight.cgColor]
-        gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
-        gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
-        
-        gradient.frame = view.bounds
-        
-        view.layer.insertSublayer(gradient, at: 0 )
+        view.addGradient(leftColor: colorGradientLeft, rightColor: colorGradientRight, startPoint: CGPoint(x: 0, y: 0.5), endPoint: CGPoint(x: 1, y: 0.5))
     }
     
     public static func setGradientToAButton(button: UIButton){
-        let colorGradientRight: UIColor = UIColor(named: "colorGradientRight") ?? UIColor.systemMint
+        let colorGradientRight: UIColor = UIColor(named: "colorGradientRight") ?? UIColor.green
         let colorGradientLeft: UIColor = UIColor(named: "colorGradientLeft") ?? UIColor.systemPurple
         
-        let gradient = CAGradientLayer()
-       
-        gradient.colors = [colorGradientLeft.cgColor, colorGradientRight.cgColor]
-        gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
-        gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
-        
-        gradient.frame = button.bounds
-        
-        button.layer.insertSublayer(gradient, at: 0 )
+        button.addGradient(leftColor: colorGradientLeft, rightColor: colorGradientRight, startPoint: CGPoint(x: 0, y: 0.5), endPoint: CGPoint(x: 1, y: 0.5))
     }
     
      public static func setGradientToAButton(view: UIView){
-        let colorGradientRight: UIColor = UIColor(named: "colorGradientRight") ?? UIColor.systemMint
+         
+        let colorGradientRight: UIColor = UIColor(named: "colorGradientRight") ?? UIColor.green
         let colorGradientLeft: UIColor = UIColor(named: "colorGradientLeft") ?? UIColor.systemPurple
-        
-        let gradient = CAGradientLayer()
-       
-        gradient.colors = [colorGradientLeft.cgColor, colorGradientRight.cgColor]
-        gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
-        gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
-        
-        gradient.frame = view.bounds
-        
-        view.layer.insertSublayer(gradient, at: 0 )
+        view.addGradient(leftColor: colorGradientLeft, rightColor: colorGradientRight, startPoint: CGPoint(x: 0, y: 0.5), endPoint: CGPoint(x: 1, y: 0.5))
     }
 
     public static func setBorder(button: UIButton){
@@ -69,8 +44,6 @@ final class StyleFunctions {
         let gradient = CAGradientLayer()
        
         gradient.colors = [ colorGradientRight.cgColor, colorGradientLeft.cgColor,]
-        //gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
-        //gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
         
         gradient.frame = view.bounds
         
@@ -84,8 +57,6 @@ final class StyleFunctions {
         let gradient = CAGradientLayer()
        
         gradient.colors = [ colorGradientRight.cgColor, colorGradientLeft.cgColor,]
-        //gradient.startPoint = CGPoint(x: 0.0, y: 0.5)
-        //gradient.endPoint = CGPoint(x: 1.0, y: 0.5)
         
         gradient.frame = view.bounds
         

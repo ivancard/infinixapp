@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="63" id="KGk-i7-Jjw" customClass="CommentsTableViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="243" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="243" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgCommentUser" translatesAutoresizingMaskIntoConstraints="NO" id="NMX-ir-gay">
+                        <rect key="frame" x="0.0" y="0.0" width="23" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="vYx-Wl-svV"/>
+                            <constraint firstAttribute="width" constant="23" id="z6S-NX-YwB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nicomartinez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0A4-M3-jqu">
+                        <rect key="frame" x="30" y="3" width="91" height="16"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="13"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMS-Cr-7HK">
+                        <rect key="frame" x="225" y="4" width="18" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="D2w-ry-6pV"/>
+                            <constraint firstAttribute="width" constant="18" id="Rbx-G7-3hv"/>
+                        </constraints>
+                        <color key="tintColor" red="0.37647058823529411" green="0.36862745098039218" blue="0.36862745098039218" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="heart" catalog="system"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sos un crack!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cb5-2c-fsI">
+                        <rect key="frame" x="30" y="21" width="203" height="16"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="13"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5h" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hW-dO-WTO">
+                        <rect key="frame" x="0.0" y="48.333333333333336" width="15.666666666666666" height="14.666666666666664"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="12"/>
+                        <color key="textColor" red="0.37647058823529411" green="0.36862745098039218" blue="0.36862745098039218" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xie-sr-f8h">
+                        <rect key="frame" x="30" y="42.333333333333336" width="69" height="27.000000000000007"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="12"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Responder">
+                            <color key="titleColor" red="0.37647058823529411" green="0.36862745098039218" blue="0.36862745098039218" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" name="colorWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="8hW-dO-WTO" secondAttribute="bottom" id="3m7-mW-BuE"/>
+                    <constraint firstItem="0A4-M3-jqu" firstAttribute="leading" secondItem="NMX-ir-gay" secondAttribute="trailing" constant="7" id="ArO-Qr-q1c"/>
+                    <constraint firstItem="NMX-ir-gay" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BI2-Ar-U8p"/>
+                    <constraint firstItem="8hW-dO-WTO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Beh-JN-46e"/>
+                    <constraint firstItem="xie-sr-f8h" firstAttribute="centerY" secondItem="8hW-dO-WTO" secondAttribute="centerY" id="Cuz-C9-NzE"/>
+                    <constraint firstItem="0A4-M3-jqu" firstAttribute="top" secondItem="NMX-ir-gay" secondAttribute="top" constant="3" id="cH2-ao-aoQ"/>
+                    <constraint firstItem="xie-sr-f8h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="gDH-ak-k0x"/>
+                    <constraint firstAttribute="trailing" secondItem="cb5-2c-fsI" secondAttribute="trailing" constant="10" id="i6V-Yw-0eB"/>
+                    <constraint firstItem="cb5-2c-fsI" firstAttribute="top" secondItem="0A4-M3-jqu" secondAttribute="bottom" constant="2" id="j9M-Ex-fLc"/>
+                    <constraint firstItem="fMS-Cr-7HK" firstAttribute="centerY" secondItem="NMX-ir-gay" secondAttribute="centerY" id="lbP-S8-M4l"/>
+                    <constraint firstItem="cb5-2c-fsI" firstAttribute="leading" secondItem="0A4-M3-jqu" secondAttribute="leading" id="oYX-WY-AUT"/>
+                    <constraint firstAttribute="trailing" secondItem="fMS-Cr-7HK" secondAttribute="trailing" id="rVT-cH-lOr"/>
+                    <constraint firstItem="NMX-ir-gay" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="s90-po-sK2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="commentLabel" destination="cb5-2c-fsI" id="aRd-9D-3E5"/>
+                <outlet property="userLabel" destination="cb5-2c-fsI" id="2JW-nH-hY6"/>
+            </connections>
+            <point key="canvasLocation" x="77.692307692307693" y="27.369668246445496"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="imgCommentUser" width="23" height="23"/>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

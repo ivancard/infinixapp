@@ -11,6 +11,8 @@ final class PersonalTastesViewController: UIViewController {
     
     var selectedButtons: Int8 = 0
     
+    let newCategory = NewCategorieViewController()
+    
     @IBAction func actionBtn(_ sender: GradientAnimationButton) {
         confirmTwoSelected(button: sender)
     }
@@ -22,9 +24,9 @@ final class PersonalTastesViewController: UIViewController {
         self.navigationController?.pushViewController(ArtisticWorkViewController(), animated: true)
     }
     @IBAction func actionNewCategory(){
-        let newCategory = NewCategorieViewController()
         newCategory.modalPresentationStyle = .fullScreen
-        present(newCategory, animated: true)
+        navigationController?.present(newCategory, animated: true)
+        btnComenzar.isHidden = false
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,4 +47,5 @@ final class PersonalTastesViewController: UIViewController {
             btnComenzar.isHidden = true
         }
     }
+    
 }

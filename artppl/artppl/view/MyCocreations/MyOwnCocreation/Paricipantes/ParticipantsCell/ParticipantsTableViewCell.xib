@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="251" id="KGk-i7-Jjw" customClass="ParticipantsTableViewCell" customModule="artppl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="251"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="251"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messageImage" translatesAutoresizingMaskIntoConstraints="NO" id="Hqt-m7-u6c">
+                        <rect key="frame" x="0.0" y="14" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="Fov-3G-kxG"/>
+                            <constraint firstAttribute="width" constant="36" id="eaz-5R-vhp"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marley Vetrovs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYD-YC-RQO">
+                        <rect key="frame" x="52" y="17" width="124" height="19.666666666666671"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actor y artista.Creando y proyect..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nue-Lh-S7w">
+                        <rect key="frame" x="52" y="42.666666666666664" width="349" height="17.333333333333336"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" name="colorMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="D66-1v-ZLP">
+                        <rect key="frame" x="52" y="70" width="110" height="20.333333333333329"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="NAh-b5-kpj">
+                                <rect key="frame" x="0.0" y="-0.33333333333333215" width="22" height="19.999999999999996"/>
+                                <color key="tintColor" name="colorGradientRight"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vMk-1T-Sua">
+                                <rect key="frame" x="22" y="-0.33333333333333215" width="22" height="19.999999999999996"/>
+                                <color key="tintColor" name="colorGradientRight"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Tdh-U6-ani">
+                                <rect key="frame" x="44" y="-0.33333333333333215" width="22" height="19.999999999999996"/>
+                                <color key="tintColor" name="colorGradientRight"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Dc1-k6-Gam">
+                                <rect key="frame" x="66" y="-0.33333333333333215" width="22" height="19.999999999999996"/>
+                                <color key="tintColor" name="colorGradientRight"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qqP-WT-q1m">
+                                <rect key="frame" x="88" y="-0.33333333333333215" width="22" height="19.999999999999996"/>
+                                <color key="tintColor" red="0.37647058823529411" green="0.36862745098039218" blue="0.36862745098039218" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13 Reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KAD-YX-w39">
+                        <rect key="frame" x="178" y="73" width="64.666666666666686" height="14.666666666666671"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                        <color key="textColor" red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me encanta todo lo que sea obra, es lo que mejor me sale" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ky-kb-9im">
+                        <rect key="frame" x="52" y="108.33333333333333" width="349" height="34.333333333333329"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" name="colorFontGray2"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTZ-R3-Nhg" customClass="CustomButtonBorderNegative" customModule="artppl" customModuleProvider="target">
+                        <rect key="frame" x="52" y="182" width="118" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="2no-Dm-sBc"/>
+                            <constraint firstAttribute="width" constant="118" id="THb-A1-NKw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Desvincular">
+                            <color key="titleColor" name="colorMain"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63e-nl-fKO">
+                        <rect key="frame" x="195" y="188" width="105" height="28"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="13"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Enviar mensaje">
+                            <color key="titleColor" name="colorMain"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0Ky-kb-9im" firstAttribute="top" secondItem="D66-1v-ZLP" secondAttribute="bottom" constant="18" id="80U-BR-Hj6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="VTZ-R3-Nhg" secondAttribute="bottom" constant="18" id="88C-5y-NYY"/>
+                    <constraint firstItem="nue-Lh-S7w" firstAttribute="leading" secondItem="dYD-YC-RQO" secondAttribute="leading" id="8Is-L2-LKO"/>
+                    <constraint firstItem="0Ky-kb-9im" firstAttribute="leading" secondItem="dYD-YC-RQO" secondAttribute="leading" id="Bd5-M4-xrl"/>
+                    <constraint firstItem="KAD-YX-w39" firstAttribute="leading" secondItem="D66-1v-ZLP" secondAttribute="trailing" constant="16" id="CQF-i6-YQt"/>
+                    <constraint firstItem="nue-Lh-S7w" firstAttribute="top" secondItem="dYD-YC-RQO" secondAttribute="bottom" constant="6" id="FeI-wR-UXI"/>
+                    <constraint firstItem="dYD-YC-RQO" firstAttribute="leading" secondItem="Hqt-m7-u6c" secondAttribute="trailing" constant="16" id="I8A-hh-I7Q"/>
+                    <constraint firstItem="D66-1v-ZLP" firstAttribute="leading" secondItem="dYD-YC-RQO" secondAttribute="leading" id="JxO-kb-Npp"/>
+                    <constraint firstItem="dYD-YC-RQO" firstAttribute="top" secondItem="Hqt-m7-u6c" secondAttribute="top" constant="3" id="Nsh-7j-8GK"/>
+                    <constraint firstItem="VTZ-R3-Nhg" firstAttribute="leading" secondItem="dYD-YC-RQO" secondAttribute="leading" id="Y0O-P0-g6e"/>
+                    <constraint firstItem="63e-nl-fKO" firstAttribute="leading" secondItem="VTZ-R3-Nhg" secondAttribute="trailing" constant="25" id="da4-cn-x00"/>
+                    <constraint firstItem="KAD-YX-w39" firstAttribute="centerY" secondItem="D66-1v-ZLP" secondAttribute="centerY" id="efy-8r-jL8"/>
+                    <constraint firstItem="Hqt-m7-u6c" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="f4X-jk-8rv"/>
+                    <constraint firstAttribute="trailing" secondItem="0Ky-kb-9im" secondAttribute="trailing" id="i8u-WL-Qfl"/>
+                    <constraint firstItem="D66-1v-ZLP" firstAttribute="top" secondItem="nue-Lh-S7w" secondAttribute="bottom" constant="10" id="kld-Ui-HWP"/>
+                    <constraint firstAttribute="trailing" secondItem="nue-Lh-S7w" secondAttribute="trailing" id="p1O-3Z-4Ge"/>
+                    <constraint firstItem="Hqt-m7-u6c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pur-Kk-m9B"/>
+                    <constraint firstItem="63e-nl-fKO" firstAttribute="centerY" secondItem="VTZ-R3-Nhg" secondAttribute="centerY" id="zOT-mc-8BU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="colorWhite"/>
+            <point key="canvasLocation" x="199.23076923076923" y="94.194312796208521"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="messageImage" width="60" height="60"/>
+        <image name="star" catalog="system" width="128" height="116"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <namedColor name="colorFontGray2">
+            <color red="0.37647058823529411" green="0.36862745098039218" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorGradientRight">
+            <color red="0.0" green="1" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorMain">
+            <color red="0.22745098039215686" green="0.066666666666666666" blue="0.3843137254901961" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

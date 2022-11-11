@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		E8562500D779A4C9A4171CBC /* Pods_artppl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */; };
 		FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */; };
+		FC03123628F9B5F000C254E0 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03123428F9B5F000C254E0 /* ChatViewController.swift */; };
+		FC03123728F9B5F000C254E0 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03123528F9B5F000C254E0 /* ChatViewController.xib */; };
+		FC03123D28F9E86300C254E0 /* ReceiverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03123B28F9E86300C254E0 /* ReceiverTableViewCell.swift */; };
+		FC03123E28F9E86300C254E0 /* ReceiverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */; };
+		FC03124128F9E88D00C254E0 /* SenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */; };
+		FC03124228F9E88D00C254E0 /* SenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */; };
+		FC03124628F9F8B200C254E0 /* MySellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03124428F9F8B200C254E0 /* MySellsViewController.swift */; };
+		FC03124728F9F8B200C254E0 /* MySellsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124528F9F8B200C254E0 /* MySellsViewController.xib */; };
+		FC03124B28F9F94900C254E0 /* SellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03124928F9F94800C254E0 /* SellTableViewCell.swift */; };
+		FC03124C28F9F94900C254E0 /* SellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */; };
+		FC04AC7629098BE0001F2164 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC04AC7529098BE0001F2164 /* GradientView.swift */; };
+		FC06771028F897BD0058144A /* RequestsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */; };
+		FC06771128F897BD0058144A /* RequestsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */; };
 		FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */; };
 		FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */; };
 		FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC12B83F28E6183200BF91D1 /* ArtisticWorkViewController.swift */; };
@@ -18,6 +31,19 @@
 		FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */; };
 		FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC226ADA28DE139800621699 /* AddNewViewController.swift */; };
 		FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC226ADB28DE139800621699 /* AddNewViewController.xib */; };
+		FC2DD58A2900771300C1B9F7 /* NewCocreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DD5882900771300C1B9F7 /* NewCocreationViewController.swift */; };
+		FC2DD58B2900771300C1B9F7 /* NewCocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD5892900771300C1B9F7 /* NewCocreationViewController.xib */; };
+		FC2DD58F29007DE300C1B9F7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DD58D29007DE300C1B9F7 /* SearchViewController.swift */; };
+		FC2DD59029007DE300C1B9F7 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD58E29007DE300C1B9F7 /* SearchViewController.xib */; };
+		FC2DD59429008BCC00C1B9F7 /* FilterSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DD59229008BCC00C1B9F7 /* FilterSearchViewController.swift */; };
+		FC2DD59529008BCC00C1B9F7 /* FilterSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2DD59329008BCC00C1B9F7 /* FilterSearchViewController.xib */; };
+		FC39BDA628F5C6CF004779A8 /* MarketItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39BDA428F5C6CF004779A8 /* MarketItemViewController.swift */; };
+		FC39BDA728F5C6CF004779A8 /* MarketItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC39BDA528F5C6CF004779A8 /* MarketItemViewController.xib */; };
+		FC39BDA928F5CCCF004779A8 /* CustomFilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39BDA828F5CCCF004779A8 /* CustomFilledButton.swift */; };
+		FC39BDB128F5E8C3004779A8 /* SpecItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39BDAF28F5E8C3004779A8 /* SpecItemTableViewCell.swift */; };
+		FC39BDB228F5E8C3004779A8 /* SpecItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC39BDB028F5E8C3004779A8 /* SpecItemTableViewCell.xib */; };
+		FC39BDB628F5EE42004779A8 /* MainItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC39BDB428F5EE42004779A8 /* MainItemTableViewCell.swift */; };
+		FC39BDB728F5EE42004779A8 /* MainItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC39BDB528F5EE42004779A8 /* MainItemTableViewCell.xib */; };
 		FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3A1C3028E4C34D00FA3056 /* SupportViewController.swift */; };
 		FC3A1C3328E4C34D00FA3056 /* SupportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3A1C3128E4C34D00FA3056 /* SupportViewController.xib */; };
 		FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */; };
@@ -34,6 +60,15 @@
 		FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */; };
 		FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4423B428D8E6D700803C9A /* ProfileViewController.swift */; };
 		FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4423B528D8E6D700803C9A /* ProfileViewController.xib */; };
+		FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74C428F70D43007F5970 /* CocreationViewController.swift */; };
+		FC4A74C728F70D43007F5970 /* CocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A74C528F70D43007F5970 /* CocreationViewController.xib */; };
+		FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */; };
+		FC4A74CD28F720C0007F5970 /* CocreationRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */; };
+		FC4A74CE28F720C0007F5970 /* CocreationRequestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */; };
+		FC4B1E4528FF2B3A0042AFE7 /* ConfigureWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B1E4328FF2B390042AFE7 /* ConfigureWalletViewController.swift */; };
+		FC4B1E4628FF2B3A0042AFE7 /* ConfigureWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B1E4428FF2B390042AFE7 /* ConfigureWalletViewController.xib */; };
+		FC4B1E4A28FF35260042AFE7 /* SetWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4B1E4828FF35260042AFE7 /* SetWalletViewController.swift */; };
+		FC4B1E4B28FF35260042AFE7 /* SetWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4B1E4928FF35260042AFE7 /* SetWalletViewController.xib */; };
 		FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */ = {isa = PBXBuildFile; fileRef = FC5313F728CBDC5700C7ACA6 /* animationButton.json */; };
 		FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */; };
 		FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */; };
@@ -57,21 +92,76 @@
 		FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */; };
 		FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */; };
 		FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */; };
+		FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */; };
+		FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */; };
+		FC7290A328EE130D00F47E08 /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7290A128EE130D00F47E08 /* PortfolioCollectionViewCell.swift */; };
+		FC7290A428EE130D00F47E08 /* PortfolioCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7290A228EE130D00F47E08 /* PortfolioCollectionViewCell.xib */; };
+		FC7290AC28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7290AA28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift */; };
+		FC7290AD28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7290AB28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib */; };
 		FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */; };
 		FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */; };
 		FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */; };
 		FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */; };
+		FC75139C28FB3577009ECB50 /* SellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */; };
+		FC75139D28FB3577009ECB50 /* SellDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */; };
 		FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */; };
+		FC7F8E8228FF06E50035ACF0 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8028FF06E50035ACF0 /* FavouritesViewController.swift */; };
+		FC7F8E8328FF06E50035ACF0 /* FavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E8128FF06E50035ACF0 /* FavouritesViewController.xib */; };
+		FC7F8E8828FF19B80035ACF0 /* ArtistFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8628FF19B80035ACF0 /* ArtistFavouritesViewController.swift */; };
+		FC7F8E8928FF19B80035ACF0 /* ArtistFavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E8728FF19B80035ACF0 /* ArtistFavouritesViewController.xib */; };
+		FC7F8E8C28FF19C70035ACF0 /* ArtFavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8A28FF19C70035ACF0 /* ArtFavouritesViewController.swift */; };
+		FC7F8E8D28FF19C70035ACF0 /* ArtFavouritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E8B28FF19C70035ACF0 /* ArtFavouritesViewController.xib */; };
+		FC7F8E9128FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E8F28FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift */; };
+		FC7F8E9228FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E9028FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib */; };
+		FC7F8E9628FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7F8E9428FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift */; };
+		FC7F8E9728FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC7F8E9528FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib */; };
+		FC808F1D28FDBED600C26858 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */; };
+		FC808F1E28FDBED600C26858 /* EditProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */; };
+		FC85EFD528FDD7E6002BB553 /* MyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */; };
+		FC85EFD628FDD7E6002BB553 /* MyLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC85EFD428FDD7E6002BB553 /* MyLocationViewController.xib */; };
 		FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */; };
+		FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */; };
+		FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */; };
+		FC9E719528EF5589008165DC /* SubastaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E719328EF5589008165DC /* SubastaCollectionViewCell.swift */; };
+		FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E719428EF5589008165DC /* SubastaCollectionViewCell.xib */; };
+		FC9E719A28EF55B4008165DC /* RecycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9E719828EF55B4008165DC /* RecycleCollectionViewCell.swift */; };
+		FC9E719B28EF55B4008165DC /* RecycleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC9E719928EF55B4008165DC /* RecycleCollectionViewCell.xib */; };
 		FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */; };
 		FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */; };
 		FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */; };
 		FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC03FC328E37BB60016CF57 /* SideMenuViewController.swift */; };
 		FCC03FC628E37BB60016CF57 /* SideMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC03FC428E37BB60016CF57 /* SideMenuViewController.xib */; };
+		FCCE6336290047C30068F685 /* NewMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCE6334290047C30068F685 /* NewMarketViewController.swift */; };
+		FCCE6337290047C30068F685 /* NewMarketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCCE6335290047C30068F685 /* NewMarketViewController.xib */; };
+		FCCE633B290068660068F685 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCE6339290068660068F685 /* SuccessViewController.swift */; };
+		FCCE633C290068660068F685 /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCCE633A290068660068F685 /* SuccessViewController.xib */; };
 		FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */; };
+		FCE3A81828F734E800E412B5 /* MyCocreationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */; };
+		FCE3A81928F734E800E412B5 /* MyCocreationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */; };
+		FCE3A81D28F7358B00E412B5 /* MyCocreationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A81B28F7358B00E412B5 /* MyCocreationsTableViewCell.swift */; };
+		FCE3A81E28F7358B00E412B5 /* MyCocreationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A81C28F7358B00E412B5 /* MyCocreationsTableViewCell.xib */; };
+		FCE3A82228F73BB800E412B5 /* MyOwnCocreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A82028F73BB800E412B5 /* MyOwnCocreationViewController.swift */; };
+		FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */; };
+		FCE3A82728F7453B00E412B5 /* ActivitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */; };
+		FCE3A82828F7453B00E412B5 /* ActivitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */; };
+		FCE929532901A8870034DEB8 /* CustomFilterOutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */; };
 		FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */; };
 		FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */; };
 		FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */; };
+		FCF760172909ACA900936EC8 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF760152909ACA900936EC8 /* PopUpViewController.swift */; };
+		FCF760182909ACA900936EC8 /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF760162909ACA900936EC8 /* PopUpViewController.xib */; };
+		FCF989B228F861CB003CD299 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */; };
+		FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */; };
+		FCF989B628F861F4003CD299 /* ToggleCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */; };
+		FCF989B728F861F4003CD299 /* ToggleCommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989B528F861F4003CD299 /* ToggleCommentsTableViewCell.xib */; };
+		FCF989BB28F87698003CD299 /* CocreationGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989B928F87698003CD299 /* CocreationGalleryCollectionViewCell.swift */; };
+		FCF989BC28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989BA28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib */; };
+		FCF989C128F883E2003CD299 /* ParticipantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989BF28F883E2003CD299 /* ParticipantsViewController.swift */; };
+		FCF989C228F883E2003CD299 /* ParticipantsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989C028F883E2003CD299 /* ParticipantsViewController.xib */; };
+		FCF989CA28F8866A003CD299 /* ParticipantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989C828F8866A003CD299 /* ParticipantsTableViewCell.swift */; };
+		FCF989CB28F8866B003CD299 /* ParticipantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989C928F8866A003CD299 /* ParticipantsTableViewCell.xib */; };
+		FCF989DB28F88CA4003CD299 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF989D928F88CA4003CD299 /* RequestsViewController.swift */; };
+		FCF989DC28F88CA4003CD299 /* RequestsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCF989DA28F88CA4003CD299 /* RequestsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,17 +169,40 @@
 		96F1CF4AB099FB21E5A2515A /* Pods_artppl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artppl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78B62642C57E15A5F63DA57 /* Pods-artppl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artppl.release.xcconfig"; path = "Target Support Files/Pods-artppl/Pods-artppl.release.xcconfig"; sourceTree = "<group>"; };
 		FC02361428D37CBD00D75E27 /* CustomButtonGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonGradient.swift; sourceTree = "<group>"; };
+		FC03123428F9B5F000C254E0 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		FC03123528F9B5F000C254E0 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		FC03123B28F9E86300C254E0 /* ReceiverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverTableViewCell.swift; sourceTree = "<group>"; };
+		FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverTableViewCell.xib; sourceTree = "<group>"; };
+		FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderTableViewCell.swift; sourceTree = "<group>"; };
+		FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderTableViewCell.xib; sourceTree = "<group>"; };
+		FC03124428F9F8B200C254E0 /* MySellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySellsViewController.swift; sourceTree = "<group>"; };
+		FC03124528F9F8B200C254E0 /* MySellsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySellsViewController.xib; sourceTree = "<group>"; };
+		FC03124928F9F94800C254E0 /* SellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellTableViewCell.swift; sourceTree = "<group>"; };
+		FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellTableViewCell.xib; sourceTree = "<group>"; };
+		FC04AC7529098BE0001F2164 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsTableViewCell.swift; sourceTree = "<group>"; };
+		FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestsTableViewCell.xib; sourceTree = "<group>"; };
 		FC11884628CA7FDC00D9972A /* PersonalTastesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTastesViewController.swift; sourceTree = "<group>"; };
 		FC11884A28CA81C500D9972A /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		FC12B83F28E6183200BF91D1 /* ArtisticWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisticWorkViewController.swift; sourceTree = "<group>"; };
 		FC12B84028E6183200BF91D1 /* ArtisticWorkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtisticWorkViewController.xib; sourceTree = "<group>"; };
-=======
->>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
 		FC133E5328DA2B5000216014 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC133E5428DA2B5000216014 /* MarketCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC226ADA28DE139800621699 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
 		FC226ADB28DE139800621699 /* AddNewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewViewController.xib; sourceTree = "<group>"; };
+		FC2DD5882900771300C1B9F7 /* NewCocreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCocreationViewController.swift; sourceTree = "<group>"; };
+		FC2DD5892900771300C1B9F7 /* NewCocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewCocreationViewController.xib; sourceTree = "<group>"; };
+		FC2DD58D29007DE300C1B9F7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FC2DD58E29007DE300C1B9F7 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		FC2DD59229008BCC00C1B9F7 /* FilterSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterSearchViewController.swift; sourceTree = "<group>"; };
+		FC2DD59329008BCC00C1B9F7 /* FilterSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterSearchViewController.xib; sourceTree = "<group>"; };
+		FC39BDA428F5C6CF004779A8 /* MarketItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketItemViewController.swift; sourceTree = "<group>"; };
+		FC39BDA528F5C6CF004779A8 /* MarketItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketItemViewController.xib; sourceTree = "<group>"; };
+		FC39BDA828F5CCCF004779A8 /* CustomFilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilledButton.swift; sourceTree = "<group>"; };
+		FC39BDAF28F5E8C3004779A8 /* SpecItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecItemTableViewCell.swift; sourceTree = "<group>"; };
+		FC39BDB028F5E8C3004779A8 /* SpecItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpecItemTableViewCell.xib; sourceTree = "<group>"; };
+		FC39BDB428F5EE42004779A8 /* MainItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemTableViewCell.swift; sourceTree = "<group>"; };
+		FC39BDB528F5EE42004779A8 /* MainItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainItemTableViewCell.xib; sourceTree = "<group>"; };
 		FC3A1C3028E4C34D00FA3056 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
 		FC3A1C3128E4C34D00FA3056 /* SupportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportViewController.xib; sourceTree = "<group>"; };
 		FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAnimationButton.swift; sourceTree = "<group>"; };
@@ -106,6 +219,15 @@
 		FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessaggesViewController.xib; sourceTree = "<group>"; };
 		FC4423B428D8E6D700803C9A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FC4423B528D8E6D700803C9A /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		FC4A74C428F70D43007F5970 /* CocreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationViewController.swift; sourceTree = "<group>"; };
+		FC4A74C528F70D43007F5970 /* CocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationViewController.xib; sourceTree = "<group>"; };
+		FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorderNegative.swift; sourceTree = "<group>"; };
+		FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationRequestViewController.swift; sourceTree = "<group>"; };
+		FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationRequestViewController.xib; sourceTree = "<group>"; };
+		FC4B1E4328FF2B390042AFE7 /* ConfigureWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureWalletViewController.swift; sourceTree = "<group>"; };
+		FC4B1E4428FF2B390042AFE7 /* ConfigureWalletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigureWalletViewController.xib; sourceTree = "<group>"; };
+		FC4B1E4828FF35260042AFE7 /* SetWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWalletViewController.swift; sourceTree = "<group>"; };
+		FC4B1E4928FF35260042AFE7 /* SetWalletViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetWalletViewController.xib; sourceTree = "<group>"; };
 		FC5313F728CBDC5700C7ACA6 /* animationButton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButton.json; sourceTree = "<group>"; };
 		FC58B06B28C8F5E100A66B78 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FC58B06C28C8F5E100A66B78 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -132,21 +254,76 @@
 		FC70D08228DCE0B800B9B65A /* CoCreationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoCreationCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC70D08628DCECB400B9B65A /* ArtNearCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtNearCollectionViewCell.swift; sourceTree = "<group>"; };
 		FC70D08728DCECB400B9B65A /* ArtNearCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtNearCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		FC7290A128EE130D00F47E08 /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7290A228EE130D00F47E08 /* PortfolioCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortfolioCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC7290AA28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7290AB28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 		FC74B60628E7497A00FC073F /* MyShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShoppingViewController.swift; sourceTree = "<group>"; };
 		FC74B60728E7497A00FC073F /* MyShoppingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyShoppingViewController.xib; sourceTree = "<group>"; };
 		FC74B60B28E74CCE00FC073F /* ShoppingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewCell.swift; sourceTree = "<group>"; };
 		FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShoppingTableViewCell.xib; sourceTree = "<group>"; };
+		FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellDetailViewController.swift; sourceTree = "<group>"; };
+		FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellDetailViewController.xib; sourceTree = "<group>"; };
 		FC75B37428ECAF5500E5AE74 /* DequeuableRegistrable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DequeuableRegistrable.swift; sourceTree = "<group>"; };
+		FC7F8E8028FF06E50035ACF0 /* FavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		FC7F8E8128FF06E50035ACF0 /* FavouritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouritesViewController.xib; sourceTree = "<group>"; };
+		FC7F8E8628FF19B80035ACF0 /* ArtistFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistFavouritesViewController.swift; sourceTree = "<group>"; };
+		FC7F8E8728FF19B80035ACF0 /* ArtistFavouritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistFavouritesViewController.xib; sourceTree = "<group>"; };
+		FC7F8E8A28FF19C70035ACF0 /* ArtFavouritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtFavouritesViewController.swift; sourceTree = "<group>"; };
+		FC7F8E8B28FF19C70035ACF0 /* ArtFavouritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtFavouritesViewController.xib; sourceTree = "<group>"; };
+		FC7F8E8F28FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteArtistCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7F8E9028FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteArtistCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC7F8E9428FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteArtCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC7F8E9528FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteArtCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileViewController.xib; sourceTree = "<group>"; };
+		FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
+		FC85EFD428FDD7E6002BB553 /* MyLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyLocationViewController.xib; sourceTree = "<group>"; };
 		FC8B39CB28CF98CD00A4750F /* animationButtonOff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animationButtonOff.json; sourceTree = "<group>"; };
+		FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArteCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArteCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC9E719328EF5589008165DC /* SubastaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubastaCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC9E719428EF5589008165DC /* SubastaCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubastaCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC9E719828EF55B4008165DC /* RecycleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC9E719928EF55B4008165DC /* RecycleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecycleCollectionViewCell.xib; sourceTree = "<group>"; };
 		FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopUpButton.swift; sourceTree = "<group>"; };
 		FCA2D1D928E22C4A00960950 /* MyTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabViewController.swift; sourceTree = "<group>"; };
 		FCA2D1DA28E22C4A00960950 /* MyTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTabViewController.xib; sourceTree = "<group>"; };
 		FCC03FC328E37BB60016CF57 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		FCC03FC428E37BB60016CF57 /* SideMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuViewController.xib; sourceTree = "<group>"; };
+		FCCE6334290047C30068F685 /* NewMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMarketViewController.swift; sourceTree = "<group>"; };
+		FCCE6335290047C30068F685 /* NewMarketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewMarketViewController.xib; sourceTree = "<group>"; };
+		FCCE6339290068660068F685 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		FCCE633A290068660068F685 /* SuccessViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
 		FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientWhiteTransp.swift; sourceTree = "<group>"; };
+		FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCocreationsViewController.swift; sourceTree = "<group>"; };
+		FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCocreationsViewController.xib; sourceTree = "<group>"; };
+		FCE3A81B28F7358B00E412B5 /* MyCocreationsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCocreationsTableViewCell.swift; sourceTree = "<group>"; };
+		FCE3A81C28F7358B00E412B5 /* MyCocreationsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCocreationsTableViewCell.xib; sourceTree = "<group>"; };
+		FCE3A82028F73BB800E412B5 /* MyOwnCocreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOwnCocreationViewController.swift; sourceTree = "<group>"; };
+		FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOwnCocreationViewController.xib; sourceTree = "<group>"; };
+		FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesTableViewCell.swift; sourceTree = "<group>"; };
+		FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesTableViewCell.xib; sourceTree = "<group>"; };
+		FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilterOutlineButton.swift; sourceTree = "<group>"; };
 		FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewAnimation.swift; sourceTree = "<group>"; };
 		FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonBorder.swift; sourceTree = "<group>"; };
 		FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewGradient.swift; sourceTree = "<group>"; };
+		FCF760152909ACA900936EC8 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		FCF760162909ACA900936EC8 /* PopUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpViewController.xib; sourceTree = "<group>"; };
+		FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleCommentsTableViewCell.swift; sourceTree = "<group>"; };
+		FCF989B528F861F4003CD299 /* ToggleCommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToggleCommentsTableViewCell.xib; sourceTree = "<group>"; };
+		FCF989B928F87698003CD299 /* CocreationGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocreationGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FCF989BA28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CocreationGalleryCollectionViewCell.xib; sourceTree = "<group>"; };
+		FCF989BF28F883E2003CD299 /* ParticipantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsViewController.swift; sourceTree = "<group>"; };
+		FCF989C028F883E2003CD299 /* ParticipantsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantsViewController.xib; sourceTree = "<group>"; };
+		FCF989C828F8866A003CD299 /* ParticipantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsTableViewCell.swift; sourceTree = "<group>"; };
+		FCF989C928F8866A003CD299 /* ParticipantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParticipantsTableViewCell.xib; sourceTree = "<group>"; };
+		FCF989D928F88CA4003CD299 /* RequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		FCF989DA28F88CA4003CD299 /* RequestsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RequestsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +355,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FC03123328F9B5BE00C254E0 /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC03123928F9E7DD00C254E0 /* ReceiverCell */,
+				FC03123828F9E7D300C254E0 /* SenderCell */,
+				FC03123428F9B5F000C254E0 /* ChatViewController.swift */,
+				FC03123528F9B5F000C254E0 /* ChatViewController.xib */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		FC03123828F9E7D300C254E0 /* SenderCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC03123F28F9E88D00C254E0 /* SenderTableViewCell.swift */,
+				FC03124028F9E88D00C254E0 /* SenderTableViewCell.xib */,
+			);
+			path = SenderCell;
+			sourceTree = "<group>";
+		};
+		FC03123928F9E7DD00C254E0 /* ReceiverCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC03123B28F9E86300C254E0 /* ReceiverTableViewCell.swift */,
+				FC03123C28F9E86300C254E0 /* ReceiverTableViewCell.xib */,
+			);
+			path = ReceiverCell;
+			sourceTree = "<group>";
+		};
+		FC03124328F9F87F00C254E0 /* MySells */ = {
+			isa = PBXGroup;
+			children = (
+				FC75139928FB355A009ECB50 /* SellDetail */,
+				FC03124828F9F92B00C254E0 /* SellsCell */,
+				FC03124428F9F8B200C254E0 /* MySellsViewController.swift */,
+				FC03124528F9F8B200C254E0 /* MySellsViewController.xib */,
+			);
+			path = MySells;
+			sourceTree = "<group>";
+		};
+		FC03124828F9F92B00C254E0 /* SellsCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC03124928F9F94800C254E0 /* SellTableViewCell.swift */,
+				FC03124A28F9F94800C254E0 /* SellTableViewCell.xib */,
+			);
+			path = SellsCell;
+			sourceTree = "<group>";
+		};
 		FC12B83E28E6181400BF91D1 /* artisticWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +429,72 @@
 				FC226ADB28DE139800621699 /* AddNewViewController.xib */,
 			);
 			path = AddNew;
+			sourceTree = "<group>";
+		};
+		FC2DD5872900770100C1B9F7 /* Cocreation */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DD5882900771300C1B9F7 /* NewCocreationViewController.swift */,
+				FC2DD5892900771300C1B9F7 /* NewCocreationViewController.xib */,
+			);
+			path = Cocreation;
+			sourceTree = "<group>";
+		};
+		FC2DD58C29007DC700C1B9F7 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DD59129008BB800C1B9F7 /* Filters */,
+				FC2DD58D29007DE300C1B9F7 /* SearchViewController.swift */,
+				FC2DD58E29007DE300C1B9F7 /* SearchViewController.xib */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		FC2DD59129008BB800C1B9F7 /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DD59229008BCC00C1B9F7 /* FilterSearchViewController.swift */,
+				FC2DD59329008BCC00C1B9F7 /* FilterSearchViewController.xib */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		FC39BDA228F5C68A004779A8 /* CarrouselItems */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A74C328F70D11007F5970 /* CocreationItems */,
+				FC39BDA328F5C698004779A8 /* MarketItems */,
+			);
+			path = CarrouselItems;
+			sourceTree = "<group>";
+		};
+		FC39BDA328F5C698004779A8 /* MarketItems */ = {
+			isa = PBXGroup;
+			children = (
+				FC39BDB328F5EE1C004779A8 /* MainDropDownTableCell */,
+				FC39BDAA28F5E555004779A8 /* specsCells */,
+				FC39BDA428F5C6CF004779A8 /* MarketItemViewController.swift */,
+				FC39BDA528F5C6CF004779A8 /* MarketItemViewController.xib */,
+			);
+			path = MarketItems;
+			sourceTree = "<group>";
+		};
+		FC39BDAA28F5E555004779A8 /* specsCells */ = {
+			isa = PBXGroup;
+			children = (
+				FC39BDAF28F5E8C3004779A8 /* SpecItemTableViewCell.swift */,
+				FC39BDB028F5E8C3004779A8 /* SpecItemTableViewCell.xib */,
+			);
+			path = specsCells;
+			sourceTree = "<group>";
+		};
+		FC39BDB328F5EE1C004779A8 /* MainDropDownTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC39BDB428F5EE42004779A8 /* MainItemTableViewCell.swift */,
+				FC39BDB528F5EE42004779A8 /* MainItemTableViewCell.xib */,
+			);
+			path = MainDropDownTableCell;
 			sourceTree = "<group>";
 		};
 		FC3A1C2F28E4C33100FA3056 /* Support */ = {
@@ -248,6 +540,9 @@
 		FC4423A928D8E66200803C9A /* Market */ = {
 			isa = PBXGroup;
 			children = (
+				FC9E719728EF55A0008165DC /* RecycleCollectionCell */,
+				FC9E719228EF556D008165DC /* SubastaCollectionCell */,
+				FC9E718D28EF54D3008165DC /* ArteCollectionCell */,
 				FC4423AA28D8E67500803C9A /* MarketViewController.swift */,
 				FC4423AB28D8E67500803C9A /* MarketViewController.xib */,
 			);
@@ -257,6 +552,8 @@
 		FC4423AE28D8E67D00803C9A /* Messages */ = {
 			isa = PBXGroup;
 			children = (
+				FC03123328F9B5BE00C254E0 /* ChatViewController */,
+				FC72909B28EDE52C00F47E08 /* MessagesTableCell */,
 				FC4423AF28D8E69C00803C9A /* MessaggesViewController.swift */,
 				FC4423B028D8E69C00803C9A /* MessaggesViewController.xib */,
 			);
@@ -266,10 +563,69 @@
 		FC4423B328D8E6C000803C9A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				FC808F1A28FDBEC200C26858 /* EditProfile */,
+				FC7290A528EE17D500F47E08 /* MarketCollectionCell */,
+				FC7290A028EE12E900F47E08 /* PortfolioCollectionCell */,
 				FC4423B428D8E6D700803C9A /* ProfileViewController.swift */,
 				FC4423B528D8E6D700803C9A /* ProfileViewController.xib */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC4A74C328F70D11007F5970 /* CocreationItems */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A74CA28F7209C007F5970 /* CocreationRequest */,
+				FC4A74C428F70D43007F5970 /* CocreationViewController.swift */,
+				FC4A74C528F70D43007F5970 /* CocreationViewController.xib */,
+			);
+			path = CocreationItems;
+			sourceTree = "<group>";
+		};
+		FC4A74CA28F7209C007F5970 /* CocreationRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A74CB28F720C0007F5970 /* CocreationRequestViewController.swift */,
+				FC4A74CC28F720C0007F5970 /* CocreationRequestViewController.xib */,
+			);
+			path = CocreationRequest;
+			sourceTree = "<group>";
+		};
+		FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */ = {
+			isa = PBXGroup;
+			children = (
+				FC2DD5872900770100C1B9F7 /* Cocreation */,
+				FC4B1E4128FF2AF70042AFE7 /* Market */,
+			);
+			path = AddNewItem;
+			sourceTree = "<group>";
+		};
+		FC4B1E4128FF2AF70042AFE7 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				FCCE6334290047C30068F685 /* NewMarketViewController.swift */,
+				FCCE6335290047C30068F685 /* NewMarketViewController.xib */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		FC4B1E4228FF2B120042AFE7 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				FC4B1E4728FF350E0042AFE7 /* SetWallet */,
+				FC4B1E4328FF2B390042AFE7 /* ConfigureWalletViewController.swift */,
+				FC4B1E4428FF2B390042AFE7 /* ConfigureWalletViewController.xib */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		FC4B1E4728FF350E0042AFE7 /* SetWallet */ = {
+			isa = PBXGroup;
+			children = (
+				FC4B1E4828FF35260042AFE7 /* SetWalletViewController.swift */,
+				FC4B1E4928FF35260042AFE7 /* SetWalletViewController.xib */,
+			);
+			path = SetWallet;
 			sourceTree = "<group>";
 		};
 		FC5313EE28CBC30100C7ACA6 /* animations */ = {
@@ -330,22 +686,31 @@
 		FC60704028C7E01300424A33 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FC74B60528E7495E00FC073F /* MyShopping */,
-				FC12B83E28E6181400BF91D1 /* artisticWork */,
-				FC3A1C2F28E4C33100FA3056 /* Support */,
-				FCC03FC228E37B930016CF57 /* SideMenu */,
-				FCA2D1D828E22C3700960950 /* TabBar */,
+				FCF760142909AC9800936EC8 /* PopUpButtons */,
 				FC226AD928DE137A00621699 /* AddNew */,
-				FC4423B328D8E6C000803C9A /* Profile */,
-				FC4423AE28D8E67D00803C9A /* Messages */,
-				FC4423A928D8E66200803C9A /* Market */,
+				FC4B1E4028FF2A9A0042AFE7 /* AddNewItem */,
+				FC12B83E28E6181400BF91D1 /* artisticWork */,
+				FC39BDA228F5C68A004779A8 /* CarrouselItems */,
+				FC7F8E7F28FF06CA0035ACF0 /* Favourites */,
 				FC4423A228D8BC9A00803C9A /* Home */,
+				FC99304D28D89EA0003E8223 /* Login */,
+				FC4423A928D8E66200803C9A /* Market */,
+				FC4423AE28D8E67D00803C9A /* Messages */,
+				FCE3A81528F734C400E412B5 /* MyCocreations */,
+				FC03124328F9F87F00C254E0 /* MySells */,
+				FC74B60528E7495E00FC073F /* MyShopping */,
 				FC4423A128D8A01E00803C9A /* NewCategories */,
+				FC99304C28D89E5E003E8223 /* OnBoarding */,
 				FC4423A028D8A00500803C9A /* PersonalTastes */,
+				FC4423B328D8E6C000803C9A /* Profile */,
 				FC99304F28D89EBC003E8223 /* Profile selector */,
 				FC99304E28D89EAF003E8223 /* Register */,
-				FC99304D28D89EA0003E8223 /* Login */,
-				FC99304C28D89E5E003E8223 /* OnBoarding */,
+				FC2DD58C29007DC700C1B9F7 /* SearchView */,
+				FCC03FC228E37B930016CF57 /* SideMenu */,
+				FCCE6338290068480068F685 /* SuccessScreen */,
+				FC3A1C2F28E4C33100FA3056 /* Support */,
+				FCA2D1D828E22C3700960950 /* TabBar */,
+				FC4B1E4228FF2B120042AFE7 /* Wallet */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -389,6 +754,33 @@
 			path = ArtNearCollectionCell;
 			sourceTree = "<group>";
 		};
+		FC72909B28EDE52C00F47E08 /* MessagesTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC72909C28EDE54700F47E08 /* MessageTableViewCell.swift */,
+				FC72909D28EDE54700F47E08 /* MessageTableViewCell.xib */,
+			);
+			path = MessagesTableCell;
+			sourceTree = "<group>";
+		};
+		FC7290A028EE12E900F47E08 /* PortfolioCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7290A128EE130D00F47E08 /* PortfolioCollectionViewCell.swift */,
+				FC7290A228EE130D00F47E08 /* PortfolioCollectionViewCell.xib */,
+			);
+			path = PortfolioCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC7290A528EE17D500F47E08 /* MarketCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7290AA28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift */,
+				FC7290AB28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib */,
+			);
+			path = MarketCollectionCell;
+			sourceTree = "<group>";
+		};
 		FC74B60528E7495E00FC073F /* MyShopping */ = {
 			isa = PBXGroup;
 			children = (
@@ -406,6 +798,83 @@
 				FC74B60C28E74CCE00FC073F /* ShoppingTableViewCell.xib */,
 			);
 			path = ShoppingItem;
+			sourceTree = "<group>";
+		};
+		FC75139928FB355A009ECB50 /* SellDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FC75139A28FB3577009ECB50 /* SellDetailViewController.swift */,
+				FC75139B28FB3577009ECB50 /* SellDetailViewController.xib */,
+			);
+			path = SellDetail;
+			sourceTree = "<group>";
+		};
+		FC7F8E7F28FF06CA0035ACF0 /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E8528FF19A10035ACF0 /* ArtistView */,
+				FC7F8E8428FF19960035ACF0 /* ArtView */,
+				FC7F8E8028FF06E50035ACF0 /* FavouritesViewController.swift */,
+				FC7F8E8128FF06E50035ACF0 /* FavouritesViewController.xib */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		FC7F8E8428FF19960035ACF0 /* ArtView */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E9328FF1C6E0035ACF0 /* FavArtCell */,
+				FC7F8E8A28FF19C70035ACF0 /* ArtFavouritesViewController.swift */,
+				FC7F8E8B28FF19C70035ACF0 /* ArtFavouritesViewController.xib */,
+			);
+			path = ArtView;
+			sourceTree = "<group>";
+		};
+		FC7F8E8528FF19A10035ACF0 /* ArtistView */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E8E28FF1B6C0035ACF0 /* FavArtistCell */,
+				FC7F8E8628FF19B80035ACF0 /* ArtistFavouritesViewController.swift */,
+				FC7F8E8728FF19B80035ACF0 /* ArtistFavouritesViewController.xib */,
+			);
+			path = ArtistView;
+			sourceTree = "<group>";
+		};
+		FC7F8E8E28FF1B6C0035ACF0 /* FavArtistCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E8F28FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift */,
+				FC7F8E9028FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib */,
+			);
+			path = FavArtistCell;
+			sourceTree = "<group>";
+		};
+		FC7F8E9328FF1C6E0035ACF0 /* FavArtCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC7F8E9428FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift */,
+				FC7F8E9528FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib */,
+			);
+			path = FavArtCell;
+			sourceTree = "<group>";
+		};
+		FC808F1A28FDBEC200C26858 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FC85EFD228FDD7C5002BB553 /* MyLocation */,
+				FC808F1B28FDBED600C26858 /* EditProfileViewController.swift */,
+				FC808F1C28FDBED600C26858 /* EditProfileViewController.xib */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		FC85EFD228FDD7C5002BB553 /* MyLocation */ = {
+			isa = PBXGroup;
+			children = (
+				FC85EFD328FDD7E6002BB553 /* MyLocationViewController.swift */,
+				FC85EFD428FDD7E6002BB553 /* MyLocationViewController.xib */,
+			);
+			path = MyLocation;
 			sourceTree = "<group>";
 		};
 		FC99304C28D89E5E003E8223 /* OnBoarding */ = {
@@ -444,6 +913,33 @@
 			path = "Profile selector";
 			sourceTree = "<group>";
 		};
+		FC9E718D28EF54D3008165DC /* ArteCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E718E28EF54F7008165DC /* ArteCollectionViewCell.swift */,
+				FC9E718F28EF54F7008165DC /* ArteCollectionViewCell.xib */,
+			);
+			path = ArteCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC9E719228EF556D008165DC /* SubastaCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E719328EF5589008165DC /* SubastaCollectionViewCell.swift */,
+				FC9E719428EF5589008165DC /* SubastaCollectionViewCell.xib */,
+			);
+			path = SubastaCollectionCell;
+			sourceTree = "<group>";
+		};
+		FC9E719728EF55A0008165DC /* RecycleCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC9E719828EF55B4008165DC /* RecycleCollectionViewCell.swift */,
+				FC9E719928EF55B4008165DC /* RecycleCollectionViewCell.xib */,
+			);
+			path = RecycleCollectionCell;
+			sourceTree = "<group>";
+		};
 		FCA2D1D828E22C3700960950 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,9 +958,70 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		FCCE6338290068480068F685 /* SuccessScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FCCE6339290068660068F685 /* SuccessViewController.swift */,
+				FCCE633A290068660068F685 /* SuccessViewController.xib */,
+			);
+			path = SuccessScreen;
+			sourceTree = "<group>";
+		};
+		FCE3A81528F734C400E412B5 /* MyCocreations */ = {
+			isa = PBXGroup;
+			children = (
+				FCE3A81F28F73B9800E412B5 /* MyOwnCocreation */,
+				FCE3A81A28F7356800E412B5 /* MyCocreationsCells */,
+				FCE3A81628F734E800E412B5 /* MyCocreationsViewController.swift */,
+				FCE3A81728F734E800E412B5 /* MyCocreationsViewController.xib */,
+			);
+			path = MyCocreations;
+			sourceTree = "<group>";
+		};
+		FCE3A81A28F7356800E412B5 /* MyCocreationsCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCE3A81B28F7358B00E412B5 /* MyCocreationsTableViewCell.swift */,
+				FCE3A81C28F7358B00E412B5 /* MyCocreationsTableViewCell.xib */,
+			);
+			path = MyCocreationsCells;
+			sourceTree = "<group>";
+		};
+		FCE3A81F28F73B9800E412B5 /* MyOwnCocreation */ = {
+			isa = PBXGroup;
+			children = (
+				FCE3A82028F73BB800E412B5 /* MyOwnCocreationViewController.swift */,
+				FCE3A82128F73BB800E412B5 /* MyOwnCocreationViewController.xib */,
+				FCE3A82428F7451300E412B5 /* ActivitiesTableCells */,
+				FCF989B828F87668003CD299 /* GalleryCollectionCells */,
+				FCF989BD28F8836C003CD299 /* Paricipantes */,
+				FCF989D228F88C39003CD299 /* Requests */,
+			);
+			path = MyOwnCocreation;
+			sourceTree = "<group>";
+		};
+		FCE3A82428F7451300E412B5 /* ActivitiesTableCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989AF28F861AE003CD299 /* CommentsCells */,
+				FCE3A82528F7453B00E412B5 /* ActivitiesTableViewCell.swift */,
+				FCE3A82628F7453B00E412B5 /* ActivitiesTableViewCell.xib */,
+			);
+			path = ActivitiesTableCells;
+			sourceTree = "<group>";
+		};
+		FCE9294F2901A6510034DEB8 /* SearchFilters */ = {
+			isa = PBXGroup;
+			children = (
+				FCE929522901A8870034DEB8 /* CustomFilterOutlineButton.swift */,
+			);
+			path = SearchFilters;
+			sourceTree = "<group>";
+		};
 		FCEE50C528D2373B00CF9B68 /* customComponents */ = {
 			isa = PBXGroup;
 			children = (
+				FCE9294F2901A6510034DEB8 /* SearchFilters */,
 				FCEE50CA28D2434300CF9B68 /* CustomViewAnimation.swift */,
 				FCEE50CC28D25CA400CF9B68 /* CustomButtonBorder.swift */,
 				FCEE50CE28D25F0700CF9B68 /* CustomViewGradient.swift */,
@@ -472,8 +1029,78 @@
 				FC44002628D4CA7600818FE8 /* GradientAnimationButton.swift */,
 				FCDC7EF628E20CB000F461DD /* CustomGradientWhiteTransp.swift */,
 				FCA2D1D328E21C9500960950 /* CustomPopUpButton.swift */,
+				FC39BDA828F5CCCF004779A8 /* CustomFilledButton.swift */,
+				FC4A74C828F71A21007F5970 /* CustomButtonBorderNegative.swift */,
+				FC04AC7529098BE0001F2164 /* GradientView.swift */,
 			);
 			path = customComponents;
+			sourceTree = "<group>";
+		};
+		FCF760142909AC9800936EC8 /* PopUpButtons */ = {
+			isa = PBXGroup;
+			children = (
+				FCF760152909ACA900936EC8 /* PopUpViewController.swift */,
+				FCF760162909ACA900936EC8 /* PopUpViewController.xib */,
+			);
+			path = PopUpButtons;
+			sourceTree = "<group>";
+		};
+		FCF989AF28F861AE003CD299 /* CommentsCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989B028F861CB003CD299 /* CommentsTableViewCell.swift */,
+				FCF989B128F861CB003CD299 /* CommentsTableViewCell.xib */,
+				FCF989B428F861F4003CD299 /* ToggleCommentsTableViewCell.swift */,
+				FCF989B528F861F4003CD299 /* ToggleCommentsTableViewCell.xib */,
+			);
+			path = CommentsCells;
+			sourceTree = "<group>";
+		};
+		FCF989B828F87668003CD299 /* GalleryCollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989B928F87698003CD299 /* CocreationGalleryCollectionViewCell.swift */,
+				FCF989BA28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib */,
+			);
+			path = GalleryCollectionCells;
+			sourceTree = "<group>";
+		};
+		FCF989BD28F8836C003CD299 /* Paricipantes */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989C728F88648003CD299 /* ParticipantsCell */,
+				FCF989BF28F883E2003CD299 /* ParticipantsViewController.swift */,
+				FCF989C028F883E2003CD299 /* ParticipantsViewController.xib */,
+			);
+			path = Paricipantes;
+			sourceTree = "<group>";
+		};
+		FCF989C728F88648003CD299 /* ParticipantsCell */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989C828F8866A003CD299 /* ParticipantsTableViewCell.swift */,
+				FCF989C928F8866A003CD299 /* ParticipantsTableViewCell.xib */,
+			);
+			path = ParticipantsCell;
+			sourceTree = "<group>";
+		};
+		FCF989D228F88C39003CD299 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				FCF989D328F88C41003CD299 /* RequestsCell */,
+				FCF989D928F88CA4003CD299 /* RequestsViewController.swift */,
+				FCF989DA28F88CA4003CD299 /* RequestsViewController.xib */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		FCF989D328F88C41003CD299 /* RequestsCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC06770E28F897BD0058144A /* RequestsTableViewCell.swift */,
+				FC06770F28F897BD0058144A /* RequestsTableViewCell.xib */,
+			);
+			path = RequestsCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,40 +1163,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC7F8E8328FF06E50035ACF0 /* FavouritesViewController.xib in Resources */,
+				FC2DD58B2900771300C1B9F7 /* NewCocreationViewController.xib in Resources */,
+				FC03123E28F9E86300C254E0 /* ReceiverTableViewCell.xib in Resources */,
 				FC4423B728D8E6D700803C9A /* ProfileViewController.xib in Resources */,
+				FC03124728F9F8B200C254E0 /* MySellsViewController.xib in Resources */,
+				FCE3A81928F734E800E412B5 /* MyCocreationsViewController.xib in Resources */,
+				FC03123728F9B5F000C254E0 /* ChatViewController.xib in Resources */,
+				FC03124C28F9F94900C254E0 /* SellTableViewCell.xib in Resources */,
+				FCF989DC28F88CA4003CD299 /* RequestsViewController.xib in Resources */,
 				FC12B84228E6183200BF91D1 /* ArtisticWorkViewController.xib in Resources */,
 				FC44002B28D4E44C00818FE8 /* NewCategorieViewController.xib in Resources */,
+				FC39BDA728F5C6CF004779A8 /* MarketItemViewController.xib in Resources */,
+				FCF989B328F861CB003CD299 /* CommentsTableViewCell.xib in Resources */,
+				FC2DD59529008BCC00C1B9F7 /* FilterSearchViewController.xib in Resources */,
+				FCF760182909ACA900936EC8 /* PopUpViewController.xib in Resources */,
 				FC58B07228C8FC4E00A66B78 /* Montserrat-Regular.ttf in Resources */,
+				FC2DD59029007DE300C1B9F7 /* SearchViewController.xib in Resources */,
+				FCCE6337290047C30068F685 /* NewMarketViewController.xib in Resources */,
+				FC9E719628EF5589008165DC /* SubastaCollectionViewCell.xib in Resources */,
+				FC9E719128EF54F7008165DC /* ArteCollectionViewCell.xib in Resources */,
+				FC06771128F897BD0058144A /* RequestsTableViewCell.xib in Resources */,
+				FC4A74CE28F720C0007F5970 /* CocreationRequestViewController.xib in Resources */,
 				FC58B07B28C91FF800A66B78 /* RegisterViewController.xib in Resources */,
 				FC4423AD28D8E67500803C9A /* MarketViewController.xib in Resources */,
 				FC70D07F28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.xib in Resources */,
 				FC44239D28D89FC900803C9A /* PersonalTastesViewController.xib in Resources */,
+				FCCE633C290068660068F685 /* SuccessViewController.xib in Resources */,
 				FC58B06E28C8F5E100A66B78 /* LoginViewController.xib in Resources */,
+				FCE3A82828F7453B00E412B5 /* ActivitiesTableViewCell.xib in Resources */,
 				FCC03FC628E37BB60016CF57 /* SideMenuViewController.xib in Resources */,
 				FC5313F828CBDC5700C7ACA6 /* animationButton.json in Resources */,
+				FC9E719B28EF55B4008165DC /* RecycleCollectionViewCell.xib in Resources */,
 				FC60704428C7E09200424A33 /* WelcomeSliderViewController.xib in Resources */,
+				FCF989C228F883E2003CD299 /* ParticipantsViewController.xib in Resources */,
 				FC8B39CC28CF98CD00A4750F /* animationButtonOff.json in Resources */,
+				FC39BDB728F5EE42004779A8 /* MainItemTableViewCell.xib in Resources */,
+				FC7F8E9728FF1C830035ACF0 /* FavouriteArtCollectionViewCell.xib in Resources */,
+				FC7F8E8D28FF19C70035ACF0 /* ArtFavouritesViewController.xib in Resources */,
 				FC44239F28D89FF200803C9A /* ProfileSelectorViewController.xib in Resources */,
 				FC226ADD28DE139800621699 /* AddNewViewController.xib in Resources */,
 				FC11884B28CA81C600D9972A /* Montserrat-Black.ttf in Resources */,
+				FC808F1E28FDBED600C26858 /* EditProfileViewController.xib in Resources */,
+				FC4B1E4B28FF35260042AFE7 /* SetWalletViewController.xib in Resources */,
 				FCA2D1DC28E22C4A00960950 /* MyTabViewController.xib in Resources */,
+				FC72909F28EDE54700F47E08 /* MessageTableViewCell.xib in Resources */,
+				FCE3A82328F73BB800E412B5 /* MyOwnCocreationViewController.xib in Resources */,
 				FC60703928C7D3F400424A33 /* LaunchScreen.storyboard in Resources */,
-<<<<<<< HEAD
 				FC74B60928E7497A00FC073F /* MyShoppingViewController.xib in Resources */,
-=======
->>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
+				FC39BDB228F5E8C3004779A8 /* SpecItemTableViewCell.xib in Resources */,
 				FC133E5628DA2B5000216014 /* MarketCollectionViewCell.xib in Resources */,
+				FC85EFD628FDD7E6002BB553 /* MyLocationViewController.xib in Resources */,
 				FC58B07028C8F96400A66B78 /* Montserrat-Medium.ttf in Resources */,
+				FC7F8E8928FF19B80035ACF0 /* ArtistFavouritesViewController.xib in Resources */,
+				FC4A74C728F70D43007F5970 /* CocreationViewController.xib in Resources */,
 				FC4423B228D8E69C00803C9A /* MessaggesViewController.xib in Resources */,
 				FC60704728C7E8BB00424A33 /* Roboto-Black.ttf in Resources */,
 				FC60703428C7D3F000424A33 /* Main.storyboard in Resources */,
+				FCE3A81E28F7358B00E412B5 /* MyCocreationsTableViewCell.xib in Resources */,
 				FC4423A828D8C36000803C9A /* Assets.xcassets in Resources */,
+				FC7290AD28EE181E00F47E08 /* MarketProfileCollectionViewCell.xib in Resources */,
+				FC7290A428EE130D00F47E08 /* PortfolioCollectionViewCell.xib in Resources */,
 				FC4423A628D8BCAD00803C9A /* HomeViewController.xib in Resources */,
+				FC7F8E9228FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.xib in Resources */,
 				FC70D08428DCE0B800B9B65A /* CoCreationCollectionViewCell.xib in Resources */,
+				FCF989B728F861F4003CD299 /* ToggleCommentsTableViewCell.xib in Resources */,
+				FC75139D28FB3577009ECB50 /* SellDetailViewController.xib in Resources */,
+				FC4B1E4628FF2B3A0042AFE7 /* ConfigureWalletViewController.xib in Resources */,
 				FC74B60E28E74CCE00FC073F /* ShoppingTableViewCell.xib in Resources */,
+				FCF989CB28F8866B003CD299 /* ParticipantsTableViewCell.xib in Resources */,
 				FC70D08928DCECB400B9B65A /* ArtNearCollectionViewCell.xib in Resources */,
+				FC03124228F9E88D00C254E0 /* SenderTableViewCell.xib in Resources */,
 				FC3A1C3328E4C34D00FA3056 /* SupportViewController.xib in Resources */,
 				FC133E5128DA06D300216014 /* Montserrat-Bold.ttf in Resources */,
+				FCF989BC28F87698003CD299 /* CocreationGalleryCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,41 +1290,85 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC133E5528DA2B5000216014 /* MarketCollectionViewCell.swift in Sources */,
-<<<<<<< HEAD
+				FC2DD59429008BCC00C1B9F7 /* FilterSearchViewController.swift in Sources */,
+				FCCE6336290047C30068F685 /* NewMarketViewController.swift in Sources */,
+				FCF989B628F861F4003CD299 /* ToggleCommentsTableViewCell.swift in Sources */,
 				FC74B60D28E74CCE00FC073F /* ShoppingTableViewCell.swift in Sources */,
-=======
->>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
+				FC9E719528EF5589008165DC /* SubastaCollectionViewCell.swift in Sources */,
 				FC4423B128D8E69C00803C9A /* MessaggesViewController.swift in Sources */,
+				FC72909E28EDE54700F47E08 /* MessageTableViewCell.swift in Sources */,
+				FC7290AC28EE181E00F47E08 /* MarketProfileCollectionViewCell.swift in Sources */,
 				FC60704328C7E09200424A33 /* WelcomeSliderViewController.swift in Sources */,
 				FC58B07E28C92F8C00A66B78 /* ProfileSelectorViewController.swift in Sources */,
 				FCC03FC528E37BB60016CF57 /* SideMenuViewController.swift in Sources */,
+				FC9E719028EF54F7008165DC /* ArteCollectionViewCell.swift in Sources */,
+				FCCE633B290068660068F685 /* SuccessViewController.swift in Sources */,
+				FC7F8E8828FF19B80035ACF0 /* ArtistFavouritesViewController.swift in Sources */,
+				FCF989B228F861CB003CD299 /* CommentsTableViewCell.swift in Sources */,
 				FC60703128C7D3F000424A33 /* ViewController.swift in Sources */,
 				FC226ADC28DE139800621699 /* AddNewViewController.swift in Sources */,
+				FCF989C128F883E2003CD299 /* ParticipantsViewController.swift in Sources */,
+				FCE3A81D28F7358B00E412B5 /* MyCocreationsTableViewCell.swift in Sources */,
+				FC808F1D28FDBED600C26858 /* EditProfileViewController.swift in Sources */,
+				FC2DD58A2900771300C1B9F7 /* NewCocreationViewController.swift in Sources */,
+				FC04AC7629098BE0001F2164 /* GradientView.swift in Sources */,
 				FC3A1C3228E4C34D00FA3056 /* SupportViewController.swift in Sources */,
 				FC4423AC28D8E67500803C9A /* MarketViewController.swift in Sources */,
+				FC4A74C928F71A21007F5970 /* CustomButtonBorderNegative.swift in Sources */,
 				FCEE50CF28D25F0800CF9B68 /* CustomViewGradient.swift in Sources */,
 				FC02361528D37CBD00D75E27 /* CustomButtonGradient.swift in Sources */,
 				FC58B06D28C8F5E100A66B78 /* LoginViewController.swift in Sources */,
+				FC7F8E9628FF1C830035ACF0 /* FavouriteArtCollectionViewCell.swift in Sources */,
+				FC85EFD528FDD7E6002BB553 /* MyLocationViewController.swift in Sources */,
 				FC12B84128E6183200BF91D1 /* ArtisticWorkViewController.swift in Sources */,
+				FCF989CA28F8866A003CD299 /* ParticipantsTableViewCell.swift in Sources */,
+				FC03124628F9F8B200C254E0 /* MySellsViewController.swift in Sources */,
+				FCF989BB28F87698003CD299 /* CocreationGalleryCollectionViewCell.swift in Sources */,
+				FC03123D28F9E86300C254E0 /* ReceiverTableViewCell.swift in Sources */,
+				FC75139C28FB3577009ECB50 /* SellDetailViewController.swift in Sources */,
+				FC03124B28F9F94900C254E0 /* SellTableViewCell.swift in Sources */,
 				FC70D07E28DCBF0C00B9B65A /* ArtistNearCollectionViewCell.swift in Sources */,
+				FC39BDA928F5CCCF004779A8 /* CustomFilledButton.swift in Sources */,
+				FC39BDA628F5C6CF004779A8 /* MarketItemViewController.swift in Sources */,
 				FC58B07728C91C1E00A66B78 /* StyleFunctions.swift in Sources */,
 				FC4423B628D8E6D700803C9A /* ProfileViewController.swift in Sources */,
+				FC7F8E8228FF06E50035ACF0 /* FavouritesViewController.swift in Sources */,
+				FC2DD58F29007DE300C1B9F7 /* SearchViewController.swift in Sources */,
 				FC60702D28C7D3F000424A33 /* AppDelegate.swift in Sources */,
 				FC44002728D4CA7600818FE8 /* GradientAnimationButton.swift in Sources */,
 				FCDC7EF728E20CB000F461DD /* CustomGradientWhiteTransp.swift in Sources */,
+				FCE929532901A8870034DEB8 /* CustomFilterOutlineButton.swift in Sources */,
 				FC74B60828E7497A00FC073F /* MyShoppingViewController.swift in Sources */,
+				FCF760172909ACA900936EC8 /* PopUpViewController.swift in Sources */,
+				FC4B1E4528FF2B3A0042AFE7 /* ConfigureWalletViewController.swift in Sources */,
 				FC44002A28D4E44C00818FE8 /* NewCategorieViewController.swift in Sources */,
+				FC7F8E9128FF1B920035ACF0 /* FavouriteArtistCollectionViewCell.swift in Sources */,
+				FCE3A81828F734E800E412B5 /* MyCocreationsViewController.swift in Sources */,
 				FC58B07A28C91FF800A66B78 /* RegisterViewController.swift in Sources */,
+				FC06771028F897BD0058144A /* RequestsTableViewCell.swift in Sources */,
+				FCE3A82228F73BB800E412B5 /* MyOwnCocreationViewController.swift in Sources */,
+				FC7290A328EE130D00F47E08 /* PortfolioCollectionViewCell.swift in Sources */,
 				FC75B37528ECAF5500E5AE74 /* DequeuableRegistrable.swift in Sources */,
 				FC4423A528D8BCAD00803C9A /* HomeViewController.swift in Sources */,
+				FC9E719A28EF55B4008165DC /* RecycleCollectionViewCell.swift in Sources */,
+				FCF989DB28F88CA4003CD299 /* RequestsViewController.swift in Sources */,
 				FCA2D1DB28E22C4A00960950 /* MyTabViewController.swift in Sources */,
 				FCEE50CD28D25CA400CF9B68 /* CustomButtonBorder.swift in Sources */,
+				FC39BDB128F5E8C3004779A8 /* SpecItemTableViewCell.swift in Sources */,
+				FC03124128F9E88D00C254E0 /* SenderTableViewCell.swift in Sources */,
 				FC60702F28C7D3F000424A33 /* SceneDelegate.swift in Sources */,
+				FC39BDB628F5EE42004779A8 /* MainItemTableViewCell.swift in Sources */,
+				FCE3A82728F7453B00E412B5 /* ActivitiesTableViewCell.swift in Sources */,
 				FC70D08828DCECB400B9B65A /* ArtNearCollectionViewCell.swift in Sources */,
 				FC70D08328DCE0B800B9B65A /* CoCreationCollectionViewCell.swift in Sources */,
 				FCA2D1D428E21C9500960950 /* CustomPopUpButton.swift in Sources */,
 				FCEE50CB28D2434300CF9B68 /* CustomViewAnimation.swift in Sources */,
 				FC11884828CA7FDC00D9972A /* PersonalTastesViewController.swift in Sources */,
+				FC4A74C628F70D43007F5970 /* CocreationViewController.swift in Sources */,
+				FC4B1E4A28FF35260042AFE7 /* SetWalletViewController.swift in Sources */,
+				FC03123628F9B5F000C254E0 /* ChatViewController.swift in Sources */,
+				FC7F8E8C28FF19C70035ACF0 /* ArtFavouritesViewController.swift in Sources */,
+				FC4A74CD28F720C0007F5970 /* CocreationRequestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,7 +1444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -787,7 +1498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -804,7 +1515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
@@ -816,6 +1527,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -836,7 +1548,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = EUARY92ECY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = artppl/Info.plist;
@@ -848,6 +1560,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

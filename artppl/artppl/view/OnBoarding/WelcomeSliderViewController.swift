@@ -33,7 +33,6 @@ final class WelcomeSliderViewController: UIViewController, UIScrollViewDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.delegate = self
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
     override func viewDidAppear(_ animated: Bool) {
         navigationController?.setNavigationBarHidden(true, animated: true)

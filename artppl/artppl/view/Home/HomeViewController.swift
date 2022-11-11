@@ -10,20 +10,13 @@ import SideMenu
 
 final class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
-    @IBOutlet weak var popUpView: UIView!
+    let isMarketConfigured = false
+    
     @IBOutlet weak var marketCollectionView: UICollectionView!
     @IBOutlet weak var artistCollectionView: UICollectionView!
     @IBOutlet weak var cocreationCollectionView: UICollectionView!
     @IBOutlet weak var artNearCollectionView: UICollectionView!
     
-<<<<<<< HEAD
-=======
-    let marketViewCellIdentifier = "MarketCollectionViewCell"
-    let artistViewCellIdentifier = "ArtistNearCollectionViewCell"
-    let cocreationCellIdentifier = "CoCreationCollectionViewCell"
-    let artNearCellIdentifier = "ArtNearCollectionViewCell"
-    
->>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,10 +37,6 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         cell.layer.shadowOffset = CGSize(width: 0, height: 3)
     }
     
-    func togglePopUp(){
-        popUpView.isHidden.toggle()
-    }
-    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
     }
@@ -57,11 +46,7 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         var cellItem = UICollectionViewCell()
         
         if collectionView == self.marketCollectionView {
-<<<<<<< HEAD
             cellItem = collectionView.dequeue(cellType: MarketCollectionViewCell.self, at: indexPath)
-=======
-            cellItem = collectionView.dequeueReusableCell(withReuseIdentifier: marketViewCellIdentifier, for: indexPath) as! MarketCollectionViewCell
->>>>>>> 2c4b74d2adf588b7b37f4c0b78e4e965fd9b61d8
         }
         
         if collectionView == self.artistCollectionView {
@@ -69,7 +54,10 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
         }
         
         if collectionView == self.cocreationCollectionView {
-            cellItem = collectionView.dequeue(cellType: CoCreationCollectionViewCell.self, at: indexPath)
+            let fcellItem = collectionView.dequeue(cellType: CoCreationCollectionViewCell.self, at: indexPath)
+            fcellItem.myNavigation = navigationController
+            setCellStyle(cell: fcellItem)
+            return fcellItem
         }
         
         if collectionView == self.artNearCollectionView {
@@ -108,5 +96,18 @@ final class HomeViewController: UIViewController, UICollectionViewDataSource, UI
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
        20
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if collectionView == self.marketCollectionView {
+            self.navigationController?.pushViewController(MarketItemViewController(), animated: true)
+        }
+        if collectionView == self.cocreationCollectionView {
+            self.navigationController?.pushViewController(CocreationViewController(), animated: true)
+        }
+        if collectionView == self.artistCollectionView {
+            let profileView = ProfileViewController()
+            profileView.isMyProfile = false
+            self.navigationController?.pushViewController(profileView, animated: true)
+        }
     }
 }
